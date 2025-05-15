@@ -6,9 +6,9 @@ classes: wide
 ---
 
 <div style="width: 80%; margin: 0 auto;">
-<h1 style="text-align: center;margin-top: 10px;">Présentation</h1>
+<h1 style="text-align: center;margin-top: 30px;">Présentation</h1>
 
-<p style="text-align: center; margin-bottom: 20px">Bienvenue sur mon portfolio ! Ici vous trouverez toutes les réalisations et les projets que j'ai mené à bien durant mes études et plus encore !</p>
+<p style="text-align: center; margin-bottom: 50px">Bienvenue sur mon portfolio ! Ici vous trouverez toutes les réalisations et les projets que j'ai mené à bien durant mes études et plus encore !</p>
 
 ---
 
@@ -20,7 +20,7 @@ C'est donc dans les domaines du développement web, de la gestion de base de don
 
 ---
 
-<p style="text-align: center; margin-top: 30px">Vous pouvez accéder à mon CV papier en cliquant sur le bouton ci-dessous :</p>
+<p style="text-align: center; margin-top: 50px">Vous pouvez accéder à mon CV papier en cliquant sur le bouton ci-dessous :</p>
 
 <div style="text-align: center; margin: 20px 0;">
   <a href="https://drive.google.com/file/d/16zprORJaqxq_jjnTv4QYIByI-LzX50jY/view?usp=sharing" class="btn" style="padding: 10px 20px; background-color: #007acc; color: white; text-decoration: none; border-radius: 5px;">
