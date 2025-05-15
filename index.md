@@ -1,12 +1,12 @@
 ---
 layout: home
-title: Accueil
+title: Présentation
 permalink: /
 ---
 
-# Ton Titre Principal
 
-Une petite description juste en dessous du titre.
+
+Bienvenue sur mon portfolio ! Ici vous trouverez toutes les réalisations et les projets que j'ai mené à bien durant mes études et plus encore !
 
 ---
 
@@ -17,8 +17,8 @@ Voici un grand paragraphe de présentation où tu peux développer qui tu es, ce
 <p style="text-align: center;">Vous pouvez accéder à mon CV papier en cliquant sur le bouton ci-dessous :</p>
 
 <div style="text-align: center; margin: 20px 0;">
-  <a href="https://tonlien.com" class="btn" style="padding: 10px 20px; background-color: #007acc; color: white; text-decoration: none; border-radius: 5px;">
-    Clique ici
+  <a href="https://drive.google.com/file/d/16zprORJaqxq_jjnTv4QYIByI-LzX50jY/view?usp=sharing" class="btn" style="padding: 10px 20px; background-color: #007acc; color: white; text-decoration: none; border-radius: 5px;">
+    Accéder au CV papier
   </a>
 </div>
 
