@@ -1,7 +1,8 @@
 ---
-layout: home
+layout: splash
 title: Présentation
 permalink: /
+classes: wide
 ---
 
 
