@@ -22,9 +22,9 @@ Voici un grand paragraphe de présentation où tu peux développer qui tu es, ce
   </a>
 </div>
 
-<p style="text-align: center;margin-top: 30px;">Et voici un CV vidéo réalisé dans le cadre de mes études :</p>
+<p style="text-align: center;margin-top: 50px;">Et voici un CV vidéo réalisé dans le cadre de mes études :</p>
 
 <div style="text-align: center; margin-top: 20px;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/ID_DE_LA_VIDEO" 
-    title="Vidéo de présentation" frameborder="0" allowfullscreen></iframe>
+  <iframe width="1536" height="824" src="https://www.youtube.com/embed/ID_DE_LA_VIDEO" 
+    title="CV Vidéo" frameborder="0" allowfullscreen></iframe>
 </div>
