@@ -10,7 +10,7 @@ classes: wide
 
 <p style="text-align: center;">Bienvenue sur mon portfolio ! Ici vous trouverez toutes les réalisations et les projets que j'ai mené à bien durant mes études et plus encore !</p>
 
-<hr style="border: none; border-top: 1px solid #ccc; margin: 80px 0;" />
+<hr style="border: none; border-top: 1px solid #ccc; margin: 80px 0; width:90%;" />
 
 
 Agé de 24 ans, je suis une personne passionnée au contact agréable. Je sais faire preuve de débrouillardise, mais aussi d'une certaine curiosité et appétence intellectuelle qui me pousse à constamment améliorer mes connaissances et ma maîtrise de l'outil informatique, et c'est pourquoi j'ai choisi de m'orienter vers un BUT Métiers du Multimédia et de l'Internet.
