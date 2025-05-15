@@ -1,11 +1,12 @@
 ---
 layout: splash
-title: Présentation
+title:
 permalink: /
 classes: wide
 ---
 
-
+<div style="width: 80%; margin: 0 auto;">
+<h1 style="text-align: center;">Présentation</h1>
 
 <p style="text-align: center;">Bienvenue sur mon portfolio ! Ici vous trouverez toutes les réalisations et les projets que j'ai mené à bien durant mes études et plus encore !</p>
 
@@ -30,4 +31,5 @@ C'est donc dans les domaines du développement web, de la gestion de base de don
 <div style="text-align: center; margin-top: 20px;">
   <iframe width="1536" height="824" src="https://www.youtube.com/embed/ID_DE_LA_VIDEO" 
     title="CV Vidéo" frameborder="0" allowfullscreen></iframe>
+</div>
 </div>
