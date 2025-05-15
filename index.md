@@ -5,10 +5,10 @@ permalink: /
 classes: wide
 ---
 
-<div style="width: 80%; margin: 0 auto;">
-<h1 style="text-align: center;">Présentation</h1>
+<div style="width: 80%; margin-top: 0 auto;">
+<h1 style="text-align: center;margin-top: 10px;">Présentation</h1>
 
-<p style="text-align: center;">Bienvenue sur mon portfolio ! Ici vous trouverez toutes les réalisations et les projets que j'ai mené à bien durant mes études et plus encore !</p>
+<p style="text-align: center; margin-bottom: 20px">Bienvenue sur mon portfolio ! Ici vous trouverez toutes les réalisations et les projets que j'ai mené à bien durant mes études et plus encore !</p>
 
 ---
 
