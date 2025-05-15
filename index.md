@@ -8,7 +8,7 @@ classes: wide
 <div style="width: 80%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;">Présentation</h1>
 
-<p style="text-align: center; margin-bottom: 50px">Bienvenue sur mon portfolio ! Ici vous trouverez toutes les réalisations et les projets que j'ai mené à bien durant mes études et plus encore !</p>
+<p style="text-align: center; margin-bottom: 60px">Bienvenue sur mon portfolio ! Ici vous trouverez toutes les réalisations et les projets que j'ai mené à bien durant mes études et plus encore !</p>
 
 ---
 
@@ -20,7 +20,7 @@ C'est donc dans les domaines du développement web, de la gestion de base de don
 
 ---
 
-<p style="text-align: center; margin-top: 50px">Vous pouvez accéder à mon CV papier en cliquant sur le bouton ci-dessous :</p>
+<p style="text-align: center; margin-top: 80px">Vous pouvez accéder à mon CV papier en cliquant sur le bouton ci-dessous :</p>
 
 <div style="text-align: center; margin: 20px 0;">
   <a href="https://drive.google.com/file/d/16zprORJaqxq_jjnTv4QYIByI-LzX50jY/view?usp=sharing" class="btn" style="padding: 10px 20px; background-color: #007acc; color: white; text-decoration: none; border-radius: 5px;">
@@ -28,7 +28,7 @@ C'est donc dans les domaines du développement web, de la gestion de base de don
   </a>
 </div>
 
-<p style="text-align: center;margin-top: 50px;">Et voici un CV vidéo réalisé dans le cadre de mes études :</p>
+<p style="text-align: center;margin-top: 60px;">Et voici un CV vidéo réalisé dans le cadre de mes études :</p>
 
 <div style="text-align: center; margin-top: 20px;">
   <iframe width="1536" height="824" src="https://www.youtube.com/embed/ID_DE_LA_VIDEO" 
