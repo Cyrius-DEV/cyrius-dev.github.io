@@ -39,7 +39,7 @@ classes: wide
 <div style="width: 80%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;">Apprentissage des langages informatiques</h1>
 
-<p style="text-align: center;">Ici vous trouverez quelques exercices/projets réalisés au cours de mon apprentissage des langages informatiques</p>
+<p style="text-align: center;">Voici quelques exercices/projets réalisés au cours de mon apprentissage des langages informatiques</p>
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
