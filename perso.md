@@ -70,7 +70,7 @@ classes: wide
 
   <!-- Carte 1 -->
   <a href="/unity/projet-1/" class="card-link">
-    <div class="card" style="background-image: url('/assets/images/takeyourtime.jpg');">
+    <div class="card" style="background-image: url('/assets/images/rof2.png');">
       <div class="card-content">
         <div class="card-text">
       <h3>Rise of Freedom 2</h3>
