@@ -5,8 +5,13 @@
 
 /* Couleur de fond pour la barre de navigation */
 .masthead {
-  background-color: #e6f0fa; /* bleu très clair */
+  background-color: #e6f0fa; /* couleur du fond de la barre */
 }
+
+.masthead__inner-wrap {
+  background-color: transparent; /* supprime le blanc qui masque le fond */
+}
+
 
 /* Pour la version sticky (fixée en haut) si utilisée */
 .masthead--fixed {
