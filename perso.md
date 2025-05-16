@@ -43,7 +43,6 @@ classes: wide
   }
 .card {
   aspect-ratio: 1 / 1;
-  background-image: url('/assets/images/takeyourtime.jpg'); /* à adapter */
   background-size: cover;
   background-position: center;
   border: 1px solid #ddd;
@@ -72,25 +71,37 @@ classes: wide
 
   <!-- Carte 1 -->
   <a href="/unity/projet-1/" class="card-link">
-    <div class="card">
+    <div class="card" style="background-image: url('/assets/images/takeyourtime.jpg');">
+      <div class="card-content">
+        <div class="card-text">
       <h3>Rise of Freedom 2</h3>
       <p>Le grand retour de mon premier jeu vidéo sur Unity, sauf que là tout change, on repart de 0 et on se laisse porter par notre créativité</p>
+    </div>
+      </div>
     </div>
   </a>
 
   <!-- Carte 2 -->
   <a href="/unity/projet-2/" class="card-link">
-    <div class="card">
+    <div class="card" style="background-image: url('/assets/images/tripleurs.png');">
+      <div class="card-content">
+        <div class="card-text">
       <h3>Les Tripleurs</h3>
       <p>Chaine Youtube fondée avec 2 amis, nous faisons nos premiers pas dans le domaine du doublage (très) amateur et diffusons de temps en temps nos fous rires et voix cassées sur les réseaux</p>
+    </div>
+      </div>
     </div>
   </a>
 
   <!-- Carte 3 -->
   <a href="/unity/projet-3/" class="card-link">
-    <div class="card">
+    <div class="card" style="background-image: url('/assets/images/owen.png');">
+      <div class="card-content">
+        <div class="card-text">
       <h3>Les Racines Fraternelles</h3>
       <p>Projet de SAE de camarades de classe, ceux-ci souhaitent tirer parti du potentiel du projet et le poursuivre, et ils m'ont invité à m'y investir à leur côté</p>
+    </div>
+      </div>
     </div>
   </a>
 
