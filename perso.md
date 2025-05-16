@@ -21,7 +21,8 @@ classes: wide
     aspect-ratio: 1 / 1; /* rend les cartes carrées */
     border: 1px solid #ddd;
     border-radius: 10px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background: white;
     box-shadow: 0 2px 6px rgba(0,0,0,0.05);
     transition: transform 0.2s, box-shadow 0.2s;
@@ -45,8 +46,8 @@ classes: wide
   }
   .card-content {
   background-color: rgba(232, 232, 232, 0.8); /* blanc à 80% opaque */
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 8px;
   text-align: center;
 }
