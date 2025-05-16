@@ -34,11 +34,10 @@ classes: wide
   }
   .card-content {
   background-color: rgba(232, 232, 232, 0.9); /* blanc à 80% opaque */
-  padding-top: 10px;
-  padding-bottom: 10px;
 }
   .card-text{
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
   }
 .card {
