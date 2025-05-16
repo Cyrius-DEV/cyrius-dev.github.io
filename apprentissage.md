@@ -73,34 +73,42 @@ classes: wide
 
   <!-- Carte 1 -->
   <a href="/unity/projet-1/" class="card-link">
-    <div class="card">
+    <div class="card" style="background-image: url('/assets/images/rof2.png');">
+      <div class="card-content">
+        <div class="card-text">
       <h3>Advergame Dévelopousse</h3>
       <p>Dans le cadre d'une SAE, j'ai été chargé de la création d'un jeu flash type advergame avec TypeScript et de son intégration à une boutique en ligne afin de mettre en avant la marque</p>
-    </div>
+    </div></div></div>
   </a>
 
   <!-- Carte 2 -->
   <a href="/unity/projet-2/" class="card-link">
-    <div class="card">
+    <div class="card" style="background-image: url('/assets/images/rof2.png');">
+      <div class="card-content">
+        <div class="card-text">
       <h3>Application Racoongram</h3>
       <p>Dans le cadre d'une SAE, j'ai été chargé de la création sur Android Studio d'une application mobile type Instagram connectée à un jeu vidéo au travers d'une API</p>
-    </div>
+    </div></div></div>
   </a>
 
   <!-- Carte 3 -->
   <a href="/unity/projet-3/" class="card-link">
-    <div class="card">
+    <div class="card" style="background-image: url('/assets/images/rof2.png');">
+      <div class="card-content">
+        <div class="card-text">
       <h3>Mini-jeux TypeScript</h3>
       <p>Présentation rapide de quelques exercices autour de TypeScript que j'ai mener en cours prenant la forme de mini-jeux très connus</p>
-    </div>
+    </div></div></div>
   </a>
 
   <!-- Carte 4 -->
     <a href="/unity/projet-4/" class="card-link">
-      <div class="card">
+      <div class="card" style="background-image: url('/assets/images/rof2.png');">
+      <div class="card-content">
+        <div class="card-text">
         <h3>Mini-exos Java</h3>
         <p>Présentation rapide de quelques exercices autour de Java que j'ai pu aborder en cours prenant la forme d'applications mobiles et autres</p>
-      </div>
+      </div></div></div>
     </a>
 </div>
 
