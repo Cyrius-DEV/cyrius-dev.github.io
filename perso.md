@@ -33,10 +33,9 @@ classes: wide
     font-weight: 700;
   }
   .card-content {
-  background-color: rgba(232, 232, 232, 0.8); /* blanc à 80% opaque */
+  background-color: rgba(232, 232, 232, 09); /* blanc à 80% opaque */
   padding-top: 10px;
   padding-bottom: 10px;
-  border-radius: 8px;
   text-align: center;
 }
 .card {
