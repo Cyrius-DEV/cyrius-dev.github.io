@@ -73,26 +73,32 @@ classes: wide
 
   <!-- Carte 1 -->
   <a href="/unity/projet-1/" class="card-link">
-    <div class="card">
+    <div class="card" style="background-image: url('/assets/images/rof2.png');">
+      <div class="card-content">
+        <div class="card-text">
       <h3>Rise of Freedom</h3>
       <p>Dans le cadre d'une SAE, j'ai pu participer à la conception d'un jeu platformer style pixel art en vue 2D où l'on incarne Martin Luther King en plein mouvement des droits civiques </p>
-    </div>
+    </div></div></div>
   </a>
 
   <!-- Carte 2 -->
   <a href="/unity/projet-2/" class="card-link">
-    <div class="card">
+    <div class="card" style="background-image: url('/assets/images/rof2.png');">
+      <div class="card-content">
+        <div class="card-text">
       <h3>Racoons ? Where ?</h3>
       <p>Dans le cadre d'une SAE, j'ai pu participer à la création d'un jeu d'infiltration en 3D low poly, où l'on incarne des ratons laveurs qui se faufilent à bord d'un bateau de luxe</p>
-    </div>
+    </div></div></div>
   </a>
 
   <!-- Carte 3 -->
   <a href="/unity/projet-3/" class="card-link">
-    <div class="card">
+    <div class="card" style="background-image: url('/assets/images/rof2.png');">
+      <div class="card-content">
+        <div class="card-text">
       <h3>Mini-jeux faits en cours</h3>
       <p>Présentation rapide de quelques projets et notions sur Unity que j'ai pu aborder en cours sous formes de petits jeux et simulations</p>
-    </div>
+    </div></div></div>
   </a>
 
 </div>
