@@ -43,10 +43,10 @@ classes: wide
     text-align: center;
     color: white;
   text-shadow:
-    -0.3px -0.3px 0 black,
-     0.3px -0.3px 0 black,
-    -0.3px  0.3px 0 black,
-     0.3px  0.3px 0 black;
+    -0.4px -0.4px 0 black,
+     0.4px -0.4px 0 black,
+    -0.4px  0.4px 0 black,
+     0.4px  0.4px 0 black;
   }
 .card {
   aspect-ratio: 1 / 1;
