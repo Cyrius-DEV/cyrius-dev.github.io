@@ -40,6 +40,8 @@ classes: wide
   .card h3{
     font-size: 0.9em;
     margin-bottom: 30px;
+    text-align: center;
+    font-weight: 700;
   }
 </style>
 
