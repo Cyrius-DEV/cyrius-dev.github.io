@@ -60,7 +60,7 @@ classes: wide
   <a href="/unity/projet-1/" class="card-link">
     <div class="card">
       <h3>Rise of Freedom</h3>
-      <p>Résumé rapide...</p>
+      <p>Dans le cadre d'une SAE, j'ai dû participer à la conception d'un jeu vidéo sur le thème de Martin Luther King. Il s'agit d'un platformer style pixel art en vue 2D</p>
     </div>
   </a>
 
@@ -68,7 +68,7 @@ classes: wide
   <a href="/unity/projet-2/" class="card-link">
     <div class="card">
       <h3>Racoons ? Where ?</h3>
-      <p>Résumé rapide...</p>
+      <p>Dans le cadre d'une SAE, j'ai dû participer à un projet de jeu vidéo pour créer un jeu d'infiltration en 3D low poly, ou l'on incarne des ratons laveurs qui se faufilent à bord d'un bateau de luxe</p>
     </div>
   </a>
 
@@ -76,7 +76,7 @@ classes: wide
   <a href="/unity/projet-3/" class="card-link">
     <div class="card">
       <h3>Mini-jeux faits en cours</h3>
-      <p>Résumé rapide...</p>
+      <p>Présentation rapide de quelques projets et notions sur Unity que j'ai pu aborder en cours sous formes de petits jeux et simulations</p>
     </div>
   </a>
 
