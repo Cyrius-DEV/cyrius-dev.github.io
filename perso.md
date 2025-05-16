@@ -34,6 +34,8 @@ classes: wide
   }
   .card-content {
    background-color: rgba(232, 232, 232, 0.8); /*blanc à 80% opaque */
+    padding-top:10px;
+    padding-bottom:10px;
 }
   .card-text{
     padding-left: 20px;
