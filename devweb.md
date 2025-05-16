@@ -64,8 +64,8 @@ classes: wide
   <!-- Carte 2 -->
   <a href="/unity/projet-2/" class="card-link">
     <div class="card">
-      <h3>K-SUP et WordPress LabCom</h3>
-      <p>Dans le cadre d'un stage, j'ai dû revisiter et poursuivre le site de l'IoTAE-Lab et concevoir un site WordPress dédié au partage des actualité et recherches du LabCom</p>
+      <h3>Sites IoTAE-Lab et LabCom</h3>
+      <p>Dans le cadre d'un stage, j'ai dû revisiter et poursuivre le site de l'IoTAE-Lab avec K-SUP et concevoir un site WordPress dédié au partage des actualité et recherches du LabCom</p>
     </div>
   </a>
 
