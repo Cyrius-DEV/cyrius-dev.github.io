@@ -86,6 +86,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
+sass:
+  style: compressed
+
 
 defaults:
   # _posts
@@ -99,6 +102,7 @@ defaults:
       comments: true
       share: true
       related: true
+      css: "main"
   # _pages
   - scope:
       path: "_pages"
