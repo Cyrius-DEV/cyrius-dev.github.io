@@ -25,12 +25,24 @@ classes: wide
   }
   .card p{
     font-size: 0.7em;
+    color: white;
+  text-shadow:
+    -0.8px -0.8px 0 black,
+     0.8px -0.8px 0 black,
+    -0.8px  0.8px 0 black,
+     0.8px  0.8px 0 black;
   }
   .card h3{
     font-size: 0.9em;
     margin-bottom: 30px;
     text-align: center;
     font-weight: 700;
+    color: white;
+  text-shadow:
+    -0.4px -0.4px 0 black,
+     0.4px -0.4px 0 black,
+    -0.4px  0.4px 0 black,
+     0.4px  0.4px 0 black;
   }
   .card-content {
    background-color: rgba(232, 232, 232, 0.8); /*blanc à 80% opaque */
@@ -41,12 +53,7 @@ classes: wide
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
-    color: white;
-  text-shadow:
-    -0.4px -0.4px 0 black,
-     0.4px -0.4px 0 black,
-    -0.4px  0.4px 0 black,
-     0.4px  0.4px 0 black;
+    
   }
 .card {
   aspect-ratio: 1 / 1;
