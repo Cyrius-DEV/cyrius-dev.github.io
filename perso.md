@@ -33,11 +33,14 @@ classes: wide
     font-weight: 700;
   }
   .card-content {
-  background-color: rgba(232, 232, 232, 09); /* blanc à 80% opaque */
+  background-color: rgba(232, 232, 232, 0.9); /* blanc à 80% opaque */
   padding-top: 10px;
   padding-bottom: 10px;
-  text-align: center;
 }
+  .card-text{
+    padding: 20px;
+    text-align: center;
+  }
 .card {
   aspect-ratio: 1 / 1;
   background-image: url('/assets/images/takeyourtime.jpg'); /* à adapter */
@@ -95,8 +98,10 @@ classes: wide
   <a href="/unity/projet-3/" class="card-link">
     <div class="card" style="background-image: url('/assets/images/takeyourtime.jpg');">
       <div class="card-content">
+        <div class="card-text">
       <h3>Mes passions</h3>
       <p>Présentation rapide des différents médias et passe-temps qui m'ont construit et accompagné au fur et à mesure des années</p>
+        </div>
       </div>
     </div>
   </a>
