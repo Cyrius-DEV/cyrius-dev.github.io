@@ -33,11 +33,14 @@ classes: wide
     font-weight: 700;
   }
   .card-content {
-  background-color: rgba(232, 232, 232, 0.9); /* blanc à 80% opaque */
+  /* background-color: rgba(232, 232, 232, 0.9); blanc à 80% opaque */
 }
   .card-text{
+    background-color: rgba(232, 232, 232, 0.9); /* blanc à 80% opaque */
     padding-left: 20px;
     padding-right: 20px;
+    padding-top:5px;
+    padding-bottom:5px;
     text-align: center;
   }
 .card {
