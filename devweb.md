@@ -50,24 +50,24 @@ classes: wide
   <!-- Carte 1 -->
   <a href="/unity/projet-1/" class="card-link">
     <div class="card">
-      <h3>Nom du Projet 1</h3>
-      <p>Résumé rapide...</p>
+      <h3>Catalogue Albert Londres</h3>
+      <p>Dans le cadre d'un stage, j'ai dû concevoir et mettre en ligne un outil de cataloguage afin de trier et consulter des archives</p>
     </div>
   </a>
 
   <!-- Carte 2 -->
   <a href="/unity/projet-2/" class="card-link">
     <div class="card">
-      <h3>Rise of Freedom</h3>
-      <p>Résumé rapide...</p>
+      <h3>K-SUP et WordPress LabCom</h3>
+      <p>Dans le cadre d'un stage, j'ai dû revisiter et poursuivre le site de l'IoTAE-Lab et concevoir un site WordPress dédié au partage des actualité et recherches du LabCom</p>
     </div>
   </a>
 
   <!-- Carte 3 -->
   <a href="/unity/projet-3/" class="card-link">
     <div class="card">
-      <h3>Racoons ? Where ?</h3>
-      <p>Résumé rapide...</p>
+      <h3>Exercices de cours</h3>
+      <p>Résumé des divers exercices et projets qui m'ont été demandé pendant mes études</p>
     </div>
   </a>
 
