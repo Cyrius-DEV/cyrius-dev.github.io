@@ -68,7 +68,7 @@ classes: wide
   <a href="/unity/projet-2/" class="card-link">
     <div class="card">
       <h3>Racoons ? Where ?</h3>
-      <p>Dans le cadre d'une SAE, j'ai pu participer à la création d'un jeu d'infiltration en 3D low poly, où l'on incarne des ratons laveurs qui se faufilent à bord d'un bateau de croisière</p>
+      <p>Dans le cadre d'une SAE, j'ai pu participer à la création d'un jeu d'infiltration en 3D low poly, où l'on incarne des ratons laveurs qui se faufilent à bord d'un bateau de luxe</p>
     </div>
   </a>
 
