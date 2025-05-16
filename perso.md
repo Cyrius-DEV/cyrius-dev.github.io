@@ -76,7 +76,7 @@ classes: wide
   <a href="/unity/projet-3/" class="card-link">
     <div class="card">
       <h3>Les Racines Fraternelles</h3>
-      <p>Projet de SAE de quelques uns de mes camarades, ceux-ci souhaitent tirer parti du potentiel du projet et le poursuivre, et ils m'ont invité à m'y investir à leur côté</p>
+      <p>Projet de SAE de camarades de classe, ceux-ci souhaitent tirer parti du potentiel du projet et le poursuivre, et ils m'ont invité à m'y investir à leur côté</p>
     </div>
   </a>
 
