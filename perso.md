@@ -93,7 +93,7 @@ classes: wide
 
   <!-- Carte 4 -->
   <a href="/unity/projet-3/" class="card-link">
-    <div class="card">
+    <div class="card" style="background-image: url('/assets/images/takeyourtime.jpg');">
       <div class="card-content">
       <h3>Mes passions</h3>
       <p>Présentation rapide des différents médias et passe-temps qui m'ont construit et accompagné au fur et à mesure des années</p>
