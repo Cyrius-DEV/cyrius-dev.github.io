@@ -1,0 +1,14 @@
+---
+---
+
+@import "minimal-mistakes"; // garde les styles du thème
+
+/* Couleur de fond pour la barre de navigation */
+.masthead {
+  background-color: #e6f0fa; /* bleu très clair */
+}
+
+/* Pour la version sticky (fixée en haut) si utilisée */
+.masthead--fixed {
+  background-color: #e6f0fa;
+}
