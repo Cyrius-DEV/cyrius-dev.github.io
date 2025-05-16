@@ -60,7 +60,7 @@ classes: wide
   <a href="/unity/projet-1/" class="card-link">
     <div class="card">
       <h3>Advergame Dévelopousse</h3>
-      <p>Résumé rapide...</p>
+      <p>Dans le cadre d'une SAE, j'ai été chargé de la création d'un jeu flash type advergame avec TypeScript et de son intégration à une boutique en ligne afin de mettre en avant la marque</p>
     </div>
   </a>
 
@@ -68,7 +68,7 @@ classes: wide
   <a href="/unity/projet-2/" class="card-link">
     <div class="card">
       <h3>Application Racoongram</h3>
-      <p>Résumé rapide...</p>
+      <p>Dans le cadre d'une SAE, j'ai été chargé de la création d'une application mobile type Instagram connecté à un jeu vidéo au travers d'une API</p>
     </div>
   </a>
 
@@ -76,7 +76,7 @@ classes: wide
   <a href="/unity/projet-3/" class="card-link">
     <div class="card">
       <h3>Mini-jeux TypeScript</h3>
-      <p>Résumé rapide...</p>
+      <p>Présentation rapide de quelques exercices autour de TypeScript que j'ai pu aborder en cours sous la</p>
     </div>
   </a>
 
@@ -84,7 +84,7 @@ classes: wide
     <a href="/unity/projet-4/" class="card-link">
       <div class="card">
         <h3>Mini-exos Java</h3>
-        <p>Résumé rapide...</p>
+        <p>Présentation rapide de quelques exercices autour de Java que j'ai pu aborder en cours sous la forme d'applications mobiles et autres</p>
       </div>
     </a>
 </div>
