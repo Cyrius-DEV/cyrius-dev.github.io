@@ -60,7 +60,7 @@ classes: wide
   <a href="/unity/projet-1/" class="card-link">
     <div class="card">
       <h3>Rise of Freedom</h3>
-      <p>Dans le cadre d'une SAE, j'ai dû participer à la conception d'un jeu vidéo sur le thème de Martin Luther King. Il s'agit d'un platformer style pixel art en vue 2D où l'on incarne le partisant en plein mouvement des droits civiques </p>
+      <p>Dans le cadre d'une SAE, j'ai dû participer à la conception d'un jeu platformer style pixel art en vue 2D où l'on incarne Martin Luther King en plein mouvement des droits civiques </p>
     </div>
   </a>
 
