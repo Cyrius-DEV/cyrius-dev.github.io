@@ -44,9 +44,9 @@ classes: wide
     font-weight: 700;
   }
   .card-content {
-  background-color: #D1D1D1; /* bleu très pâle */
-  padding: 15px;
-  border-radius: 8px;
+  background-color: #E8E8E8;
+  padding: 10px;
+  border-radius: 0px;
   text-align: center;
 }
 
