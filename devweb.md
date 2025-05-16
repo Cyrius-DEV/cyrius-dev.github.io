@@ -39,7 +39,7 @@ classes: wide
   }
   .card h3{
     font-size: 0.9em;
-    margin-bottom:10px;
+    margin-bottom: 30px;
   }
 </style>
 
