@@ -59,8 +59,8 @@ classes: wide
   <!-- Carte 1 -->
   <a href="/unity/projet-1/" class="card-link">
     <div class="card">
-      <h3>Catalogue Albert Londres</h3>
-      <p>Dans le cadre d'un stage, j'ai dû concevoir et mettre en ligne un outil de cataloguage afin de trier et consulter des archives</p>
+      <h3>Rise of Freedom 2</h3>
+      <p>Le grand retour de mon premier jeu vidéo sur Unity, sauf que là tout change, on repart de 0 et on se laisse porter par notre créativité</p>
     </div>
   </a>
 
@@ -75,16 +75,16 @@ classes: wide
   <!-- Carte 3 -->
   <a href="/unity/projet-3/" class="card-link">
     <div class="card">
-      <h3>Exercices de cours</h3>
-      <p>Résumé des divers exercices et projets qui m'ont été demandé pendant mes études</p>
+      <h3>Les Racines Fraternelles</h3>
+      <p>Projet de SAE de quelques uns de mes camarades, ceux-ci souhaitent tirer parti du potentiel du projet et le poursuivre, et ils m'ont invité à m'y investir à leur côté</p>
     </div>
   </a>
 
   <!-- Carte 4 -->
   <a href="/unity/projet-3/" class="card-link">
     <div class="card">
-      <h3>Exercices de cours</h3>
-      <p>Résumé des divers exercices et projets qui m'ont été demandé pendant mes études</p>
+      <h3>Mes passions</h3>
+      <p>Présentation rapide des différents médias et passe-temps qui m'ont construit et accompagné au fur et à mesure des années</p>
     </div>
   </a>
 
