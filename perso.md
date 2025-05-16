@@ -48,7 +48,7 @@ classes: wide
 <div style="width: 80%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;">Projets personnels</h1>
 
-<p style="text-align: center;">Voici quelques </p>
+<p style="text-align: center;">Voici quelques projets et passions qui, dans un cadre plus personnel, rythment mon quotidien</p>
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
@@ -67,12 +67,20 @@ classes: wide
   <!-- Carte 2 -->
   <a href="/unity/projet-2/" class="card-link">
     <div class="card">
-      <h3>Sites IoTAE-Lab et LabCom</h3>
-      <p>Dans le cadre d'un stage, j'ai dû revisiter et poursuivre le site de l'IoTAE-Lab avec K-SUP et concevoir un site WordPress dédié au partage des actualité et recherches du LabCom</p>
+      <h3>Les Tripleurs</h3>
+      <p>Chaine Youtube fondée avec 2 amis, nous faisons nos premiers pas dans le domaine du doublage (très) amateur et diffusons de temps en temps nos fous rires et voix cassées sur les réseaux</p>
     </div>
   </a>
 
   <!-- Carte 3 -->
+  <a href="/unity/projet-3/" class="card-link">
+    <div class="card">
+      <h3>Exercices de cours</h3>
+      <p>Résumé des divers exercices et projets qui m'ont été demandé pendant mes études</p>
+    </div>
+  </a>
+
+  <!-- Carte 4 -->
   <a href="/unity/projet-3/" class="card-link">
     <div class="card">
       <h3>Exercices de cours</h3>
