@@ -41,7 +41,7 @@ classes: wide
     font-size: 0.9em;
     margin-bottom: 30px;
     text-align: center;
-    font-weight: 550;
+    font-weight: 700;
   }
 </style>
 
