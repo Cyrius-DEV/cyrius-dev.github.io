@@ -41,7 +41,7 @@ classes: wide
 
 <p style="text-align: center;">Bienvenue sur mon portfolio ! Ici vous trouverez toutes les réalisations et les projets que j'ai mené à bien durant mes études et plus encore !</p>
 
-<hr style="border: none; border-top: 1px solid #ccc; margin: 80px auto; width: 90%;" />
+<hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
 
 
