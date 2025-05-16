@@ -39,7 +39,7 @@ classes: wide
 <div style="width: 80%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;">Unity</h1>
 
-<p style="text-align: center;">Ici vous trouverez le détail des réalisations et projets réalisés sur Unity au cours de mes études</p>
+<p style="text-align: center;">Voici quelques exercices/projets réalisés au cours de ma découverte d'Unity</p>
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
