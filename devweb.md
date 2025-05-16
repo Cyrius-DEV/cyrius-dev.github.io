@@ -40,6 +40,7 @@ classes: wide
   .card h3{
     font-size: 0.9em;
     margin-bottom: 30px;
+    text-align: center;
   }
 </style>
 
@@ -57,7 +58,7 @@ classes: wide
   <!-- Carte 1 -->
   <a href="/unity/projet-1/" class="card-link">
     <div class="card">
-      <h3>Catalogue Albert Londres</h3>
+      <h3><strong>Catalogue Albert Londres</strong></h3>
       <p>Dans le cadre d'un stage, j'ai dû concevoir et mettre en ligne un outil de cataloguage afin de trier et consulter des archives</p>
     </div>
   </a>
