@@ -34,6 +34,12 @@ classes: wide
     transform: translateY(-5px) scale(1.03);
     box-shadow: 0 6px 12px rgba(0,0,0,0.1);
   }
+  .card p{
+    font-size: 0.6em;
+  }
+  .card h3{
+    font-size: 0.8em;
+  }
 </style>
 
 <div style="width: 80%; margin: 0 auto;">
