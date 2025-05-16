@@ -40,7 +40,7 @@ classes: wide
   .card-text{
     padding-left: 20px;
     padding-right: 20px;
-    text-align: center;
+    
     
   }
 .card {
