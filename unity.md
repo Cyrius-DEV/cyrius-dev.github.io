@@ -39,7 +39,7 @@ classes: wide
 <div style="width: 80%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;">Unity</h1>
 
-<p style="text-align: center;">Bienvenue sur mon portfolio ! Ici vous trouverez toutes les réalisations et les projets que j'ai mené à bien durant mes études et plus encore !</p>
+<p style="text-align: center;">Ici vous trouverez le détail des réalisations et projets réalisés sur Unity au cours de mes études</p>
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
