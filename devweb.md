@@ -35,10 +35,10 @@ classes: wide
     box-shadow: 0 6px 12px rgba(0,0,0,0.1);
   }
   .card p{
-    font-size: 0.6em;
+    font-size: 0.7em;
   }
   .card h3{
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 </style>
 
