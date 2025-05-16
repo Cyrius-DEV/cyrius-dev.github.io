@@ -44,11 +44,13 @@ classes: wide
     font-weight: 700;
   }
   .card-content {
-  background-color: #E8E8E8;
-  padding: 10px;
-  border-radius: 0px;
+  background-color: rgba(232, 232, 232, 0.8); /* blanc à 80% opaque */
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 8px;
   text-align: center;
 }
+
 
 </style>
 
