@@ -43,6 +43,13 @@ classes: wide
     text-align: center;
     font-weight: 700;
   }
+  .card-content {
+  background-color: #D1D1D1; /* bleu très pâle */
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
 </style>
 
 <div style="width: 80%; margin: 0 auto;">
@@ -83,8 +90,10 @@ classes: wide
   <!-- Carte 4 -->
   <a href="/unity/projet-3/" class="card-link">
     <div class="card">
+      <div class="card-content">
       <h3>Mes passions</h3>
       <p>Présentation rapide des différents médias et passe-temps qui m'ont construit et accompagné au fur et à mesure des années</p>
+      </div>
     </div>
   </a>
 
