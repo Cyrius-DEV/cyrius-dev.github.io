@@ -60,7 +60,7 @@ classes: wide
   <a href="/unity/projet-1/" class="card-link">
     <div class="card">
       <h3>Rise of Freedom</h3>
-      <p>Dans le cadre d'une SAE, j'ai dû participer à la conception d'un jeu vidéo sur le thème de Martin Luther King. Il s'agit d'un platformer style pixel art en vue 2D</p>
+      <p>Dans le cadre d'une SAE, j'ai dû participer à la conception d'un jeu vidéo sur le thème de Martin Luther King. Il s'agit d'un platformer style pixel art en vue 2D où l'on incarne le partisant en plein mouvement des droits civiques </p>
     </div>
   </a>
 
@@ -68,7 +68,7 @@ classes: wide
   <a href="/unity/projet-2/" class="card-link">
     <div class="card">
       <h3>Racoons ? Where ?</h3>
-      <p>Dans le cadre d'une SAE, j'ai dû participer à un projet en trio pour créer un jeu d'infiltration en 3D low poly, ou l'on incarne des ratons laveurs qui se faufilent à bord d'un bateau de luxe</p>
+      <p>Dans le cadre d'une SAE, j'ai dû participer à un projet en trio pour créer un jeu d'infiltration en 3D low poly, où l'on incarne des ratons laveurs qui se faufilent à bord d'un bateau de luxe</p>
     </div>
   </a>
 
