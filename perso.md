@@ -39,6 +39,12 @@ classes: wide
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
+    color: white;
+  text-shadow:
+    -1px -1px 0 black,
+     1px -1px 0 black,
+    -1px  1px 0 black,
+     1px  1px 0 black;
   }
 .card {
   aspect-ratio: 1 / 1;
