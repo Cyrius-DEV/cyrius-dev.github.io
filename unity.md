@@ -58,7 +58,7 @@ classes: wide
   <!-- Carte 2 -->
   <a href="/unity/projet-2/" class="card-link">
     <div class="card">
-      <h3>Nom du Projet 2</h3>
+      <h3>Rise of Freedom</h3>
       <p>Résumé rapide...</p>
     </div>
   </a>
@@ -66,7 +66,7 @@ classes: wide
   <!-- Carte 3 -->
   <a href="/unity/projet-3/" class="card-link">
     <div class="card">
-      <h3>Nom du Projet 3</h3>
+      <h3>Racoons ? Where ?</h3>
       <p>Résumé rapide...</p>
     </div>
   </a>
