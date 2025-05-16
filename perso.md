@@ -17,19 +17,7 @@ classes: wide
     color: inherit;
   }
 
-  .card {
-    aspect-ratio: 1 / 1; /* rend les cartes carrées */
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background: white;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
-    transition: transform 0.2s, box-shadow 0.2s;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
+  
 
   .card:hover {
     transform: translateY(-5px) scale(1.03);
@@ -51,6 +39,20 @@ classes: wide
   border-radius: 8px;
   text-align: center;
 }
+.card {
+  aspect-ratio: 1 / 1;
+  background-image: url('/assets/images/takeyourtime.jpg'); /* à adapter */
+  background-size: cover;
+  background-position: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
 
 
 </style>
