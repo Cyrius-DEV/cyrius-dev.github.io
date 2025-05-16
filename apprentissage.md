@@ -50,7 +50,7 @@ classes: wide
   <!-- Carte 1 -->
   <a href="/unity/projet-1/" class="card-link">
     <div class="card">
-      <h3>Nom du Projet 1</h3>
+      <h3>Advergame Dévelopousse</h3>
       <p>Résumé rapide...</p>
     </div>
   </a>
@@ -58,7 +58,7 @@ classes: wide
   <!-- Carte 2 -->
   <a href="/unity/projet-2/" class="card-link">
     <div class="card">
-      <h3>Rise of Freedom</h3>
+      <h3>Application Racoongram</h3>
       <p>Résumé rapide...</p>
     </div>
   </a>
@@ -66,11 +66,18 @@ classes: wide
   <!-- Carte 3 -->
   <a href="/unity/projet-3/" class="card-link">
     <div class="card">
-      <h3>Racoons ? Where ?</h3>
+      <h3>Mini-jeux TypeScript</h3>
       <p>Résumé rapide...</p>
     </div>
   </a>
 
+  <!-- Carte 4 -->
+    <a href="/unity/projet-4/" class="card-link">
+      <div class="card">
+        <h3>Mini-exos Java</h3>
+        <p>Résumé rapide...</p>
+      </div>
+    </a>
 </div>
 
 </div>
