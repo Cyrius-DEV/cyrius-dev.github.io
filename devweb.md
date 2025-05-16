@@ -39,7 +39,7 @@ classes: wide
 <div style="width: 80%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;">Développement web</h1>
 
-<p style="text-align: center;">Ici vous trouverez quelques exercices/projets réalisés au cours de ma découverte du développement web</p>
+<p style="text-align: center;">Voici quelques exercices/projets réalisés au cours de ma découverte du développement web</p>
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
