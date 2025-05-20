@@ -22,13 +22,15 @@
   background-color: #e6f0fa;
 }
 
-
 body {
-  background: linear-gradient(-45deg, #CFE4FA, #E0F7FA, #EAF4FC, #ffffff);
+  background: linear-gradient(-45deg, #fff8f0, #fde3cb, #fff, #fce8d5);
   background-size: 400% 400%;
-  animation: gradientMove 15s ease infinite;
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  animation: gradientSunset 15s ease infinite;
+}
+
+@keyframes gradientSunset {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
