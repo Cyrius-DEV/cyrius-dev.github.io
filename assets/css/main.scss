@@ -22,6 +22,7 @@
   background-color: #e6f0fa;
 }
 
+/*
 body {
   background: linear-gradient(-45deg, #fff8f0, #fde3cb, #fff, #fce8d5);
   background-size: 400% 400%;
@@ -32,5 +33,33 @@ body {
   0% { background-position: 0% 50%; }
   50% { background-position: 100% 50%; }
   100% { background-position: 0% 50%; }
+}*/
+
+body {
+  animation: skyCycle 60s ease-in-out infinite;
+  background: linear-gradient(to bottom, #CFE4FA, #ffffff);
+  background-size: 100% 100%;
+  transition: background 1s ease;
 }
+
+@keyframes skyCycle {
+  0% {
+    background: linear-gradient(to bottom, #CFE4FA, #ffffff); /* Matin */
+  }
+  25% {
+    background: linear-gradient(to bottom, #A7D3F5, #ffffff); /* Midi */
+  }
+  50% {
+    background: linear-gradient(to bottom, #FDE3CB, #FFF5E1); /* Soir */
+  }
+  75% {
+    background: linear-gradient(to bottom, #2C3E50, #34495E); /* Nuit */
+  }
+  100% {
+    background: linear-gradient(to bottom, #CFE4FA, #ffffff); /* Retour Matin */
+  }
+}
+
+
+
 
