@@ -107,7 +107,7 @@ classes: wide
       <div class="card-content">
         <div class="card-text">
         <h3>Mini-exos Java</h3>
-        <p>Présentation rapide de quelques exercices autour de Java que j'ai pu aborder en cours prenant la forme d'application mobiles et autres</p>
+        <p>Présentation rapide de quelques exercices autour de Java que j'ai pu aborder en cours prenant la forme d'applications mobile et autres</p>
       </div></div></div>
     </a>
 </div>
