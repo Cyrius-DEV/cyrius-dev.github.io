@@ -3,6 +3,11 @@
 
 @import "minimal-mistakes"; // garde les styles du thème
 
+a:visited {
+  color: inherit;
+}
+
+
 /* Couleur de fond pour la barre de navigation */
 .masthead {
   background-color: #CFE4FA; /* couleur du fond de la barre */
