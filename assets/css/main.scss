@@ -32,7 +32,7 @@ body {
 
 .masthead {
   background-color: #cfe4fa;
-  animation: colorCycle 120s ease-in-out;
+  animation: colorCycle 120s linear infinite;
 }
 
 @keyframes colorCycle {
