@@ -6,31 +6,39 @@ classes: wide
 ---
 
 <style>
-  :root {
-    --body-gradient: linear-gradient(to bottom, #ffeeda, #fad6b0);
-    --navbar-gradient: linear-gradient(to right, #fad6b0, #ffeeda);
-  }
-
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    z-index: -1;
-    background-image: var(--body-gradient);
-    transition: background-image 7s ease-in-out;
-  }
-
-  .masthead {
-    background-image: var(--navbar-gradient);
-    transition: background-image 7s ease-in-out;
-  }
-
   body {
+    margin: 0;
     color: #000;
     position: relative;
     z-index: 0;
   }
+
+  body::before,
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    transition: opacity 6s ease-in-out;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  body::before {
+    opacity: 1;
+  }
+
+  body::after {
+    opacity: 0;
+  }
+
+  .masthead {
+    background: linear-gradient(to right, #fad6b0, #ffeeda);
+    transition: background 6s ease-in-out;
+  }
 </style>
+
 
 <script>
   const phases = [
@@ -84,8 +92,9 @@ classes: wide
     }
   ];
 
-  const cycleDuration = 120000;
+  const cycleDuration = 120000; // 2 min
   let currentPhaseText = null;
+  let isBeforeActive = true;
 
   function updateTheme() {
     const now = Date.now();
@@ -94,13 +103,37 @@ classes: wide
 
     for (const phase of phases) {
       if (second >= phase.start && second <= phase.end) {
-        document.documentElement.style.setProperty('--body-gradient', phase.body);
-        document.documentElement.style.setProperty('--navbar-gradient', phase.navbar);
+        const before = document.body.querySelector('::before');
+        const after = document.body.querySelector('::after');
+
+        const b = document.body;
+        const styleBefore = b.style.getPropertyValue('--current-before');
+        const styleAfter = b.style.getPropertyValue('--current-after');
+
+        const nextLayer = isBeforeActive ? b::after : b::before;
+        nextLayer.style.backgroundImage = phase.body;
+
+        document.querySelector('.masthead').style.background = phase.navbar;
+
+        if (isBeforeActive) {
+          b.style.setProperty('--current-before', phase.body);
+          document.body.style.setProperty('--current-before', phase.body);
+          document.body.style.setProperty('--current-after', styleBefore);
+        } else {
+          b.style.setProperty('--current-after', phase.body);
+          document.body.style.setProperty('--current-after', phase.body);
+          document.body.style.setProperty('--current-before', styleAfter);
+        }
+
+        b.querySelector('body::before').style.opacity = isBeforeActive ? 0 : 1;
+        b.querySelector('body::after').style.opacity = isBeforeActive ? 1 : 0;
+        isBeforeActive = !isBeforeActive;
 
         if (phase.text !== currentPhaseText) {
           console.log(phase.text);
           currentPhaseText = phase.text;
         }
+
         break;
       }
     }
@@ -110,6 +143,7 @@ classes: wide
 
   updateTheme();
 </script>
+
 
 
 
