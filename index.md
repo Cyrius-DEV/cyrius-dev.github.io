@@ -8,7 +8,56 @@ classes: wide
 
 
 
-<link rel="stylesheet" href="style.css">
+<style>
+  body {
+  background-color: #FAF7E5;
+  animation: colorCycle 120s ease-in-out;
+}
+
+.masthead {
+  background-color: #cfe4fa;
+  animation: colorCycle 120s ease-in-out;
+}
+
+@keyframes colorCycle {
+  0%     { background-color: #cfe4fa; }   /* Couleur 1 */
+  16.66% { background-color: #cfe4fa; }   /* 20s */
+
+  25%    { background-color: #a7d3f5; }   /* Transition → Couleur 2 */
+
+  41.66% { background-color: #a7d3f5; }   /* 20s */
+
+  50%    { background-color: #fbcbb5; }   /* Transition → Couleur 3 */
+
+  66.66% { background-color: #fbcbb5; }   /* 20s */
+
+  75%    { background-color: #bfc6e0; }   /* Transition → Couleur 4 */
+
+  91.66% { background-color: #bfc6e0; }   /* 20s */
+
+  100%   { background-color: #cfe4fa; }   /* Transition → Couleur 1 */
+}
+
+
+@keyframes bodyCycle {
+  0%     { background-color: #FAF7E5; }   /* Couleur 1 */
+  16.66% { background-color: #FAF7E5; }   /* 20s */
+
+  25%    { background-color: #FAFAFA; }   /* Transition → Couleur 2 */
+
+  41.66% { background-color: #FAFAFA; }   /* 20s */
+
+  50%    { background-color: #FBEFDA; }   /* Transition → Couleur 3 */
+
+  66.66% { background-color: #FBEFDA; }   /* 20s */
+
+  75%    { background-color: #D5D6E0; }   /* Transition → Couleur 4 */
+
+  91.66% { background-color: #D5D6E0; }   /* 20s */
+
+  100%   { background-color: #FAF7E5; }   /* Transition → Couleur 1 */
+}
+</style>
 
 <script>
   const messages = [
