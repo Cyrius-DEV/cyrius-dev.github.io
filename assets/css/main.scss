@@ -31,6 +31,12 @@ body {
 */
 
 .masthead {
+   height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-family: sans-serif;
+  color: #333;
   background-color: #cfe4fa;
   animation: colorCycle 120s linear infinite;
 }
@@ -47,9 +53,9 @@ body {
 
   66.66% { background-color: #fbcbb5; }   /* 20s */
 
-  75%    { background-color: #bfc6e0; }   /* Transition → Couleur 4 */
+  75%    { background-color: #fad6b0; }   /* Transition → Couleur 4 */
 
-  91.66% { background-color: #bfc6e0; }   /* 20s */
+  91.66% { background-color: #fad6b0; }   /* 20s */
 
   100%   { background-color: #cfe4fa; }   /* Transition → Couleur 1 */
 }
