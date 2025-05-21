@@ -8,10 +8,6 @@ a:visited {
 }
 
 
-/* Couleur de fond pour la barre de navigation */
-.masthead {
-  background-color: #CFE4FA; /* couleur du fond de la barre */
-}
 
 .masthead__inner-wrap {
   background-color: transparent; /* supprime le blanc qui masque le fond */
@@ -41,30 +37,36 @@ body {
 }*/
 
 body {
-  background: linear-gradient(-45deg, #e0f2f1, #cfe4fa, #fde3cb, #e8eaf6);
+  background: linear-gradient(-45deg, #e0f2f1, #ffffff, #fff0e1, #f5f6fa);
   background-size: 400% 400%;
-  animation: skyCycleSoft 120s ease-in-out infinite;
+  animation: bodyCycle 120s ease-in-out infinite;
   color: #000;
   transition: background 1s ease-in-out;
 }
 
-@keyframes skyCycleSoft {
-  0% {
-    background-position: 0% 50%; /* Matin */
-  }
-  25% {
-    background-position: 33% 50%; /* Midi */
-  }
-  50% {
-    background-position: 66% 50%; /* Soir */
-  }
-  75% {
-    background-position: 100% 50%; /* Nuit */
-  }
-  100% {
-    background-position: 0% 50%; /* Retour matin */
-  }
+.masthead {
+  background: linear-gradient(-45deg, #cfe4fa, #a7d3f5, #fbcbb5, #bfc6e0);
+  background-size: 400% 400%;
+  animation: mastheadCycle 120s ease-in-out infinite;
+  transition: background 1s ease-in-out;
 }
+
+@keyframes bodyCycle {
+  0%   { background-position: 0% 50%; }
+  25%  { background-position: 33% 50%; }
+  50%  { background-position: 66% 50%; }
+  75%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes mastheadCycle {
+  0%   { background-position: 0% 50%; }
+  25%  { background-position: 33% 50%; }
+  50%  { background-position: 66% 50%; }
+  75%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
 
 
 
