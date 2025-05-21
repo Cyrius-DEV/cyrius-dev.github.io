@@ -34,17 +34,57 @@ classes: wide
 
 <script>
   const phases = [
-    { start: 0, end: 19, body: '#ffeeda', navbar: '#fad6b0', text: 'Matin (fixe)' },
-    { start: 20, end: 29, body: '#f3f9ff', navbar: '#d0e8ff', text: 'Transition vers midi' },
-    { start: 30, end: 49, body: '#f3f9ff', navbar: '#a7d3f5', text: 'Midi (fixe)' },
-    { start: 50, end: 59, body: '#fde3cb', navbar: '#ffe1cc', text: 'Transition vers soir' },
-    { start: 60, end: 79, body: '#fde3cb', navbar: '#fbcbb5', text: 'Soir (fixe)' },
-    { start: 80, end: 89, body: '#e8eaf6', navbar: '#e1e6f4', text: 'Transition vers nuit' },
-    { start: 90, end: 109, body: '#e8eaf6', navbar: '#bfc6e0', text: 'Nuit (fixe)' },
-    { start: 110, end: 119, body: '#ffeeda', navbar: '#fad6b0', text: 'Transition vers matin' }
+    {
+      start: 0, end: 19,
+      body: 'linear-gradient(to bottom, #ffeeda, #fad6b0)',
+      navbar: 'linear-gradient(to right, #fad6b0, #ffeeda)',
+      text: 'Matin (fixe)'
+    },
+    {
+      start: 20, end: 29,
+      body: 'linear-gradient(to bottom, #f3f9ff, #d0e8ff)',
+      navbar: 'linear-gradient(to right, #d0e8ff, #f3f9ff)',
+      text: 'Transition vers midi'
+    },
+    {
+      start: 30, end: 49,
+      body: 'linear-gradient(to bottom, #f3f9ff, #a7d3f5)',
+      navbar: 'linear-gradient(to right, #a7d3f5, #f3f9ff)',
+      text: 'Midi (fixe)'
+    },
+    {
+      start: 50, end: 59,
+      body: 'linear-gradient(to bottom, #fde3cb, #ffe1cc)',
+      navbar: 'linear-gradient(to right, #ffe1cc, #fde3cb)',
+      text: 'Transition vers soir'
+    },
+    {
+      start: 60, end: 79,
+      body: 'linear-gradient(to bottom, #fde3cb, #fbcbb5)',
+      navbar: 'linear-gradient(to right, #fbcbb5, #fde3cb)',
+      text: 'Soir (fixe)'
+    },
+    {
+      start: 80, end: 89,
+      body: 'linear-gradient(to bottom, #e8eaf6, #e1e6f4)',
+      navbar: 'linear-gradient(to right, #e1e6f4, #e8eaf6)',
+      text: 'Transition vers nuit'
+    },
+    {
+      start: 90, end: 109,
+      body: 'linear-gradient(to bottom, #e8eaf6, #bfc6e0)',
+      navbar: 'linear-gradient(to right, #bfc6e0, #e8eaf6)',
+      text: 'Nuit (fixe)'
+    },
+    {
+      start: 110, end: 119,
+      body: 'linear-gradient(to bottom, #ffeeda, #fad6b0)',
+      navbar: 'linear-gradient(to right, #fad6b0, #ffeeda)',
+      text: 'Transition vers matin'
+    }
   ];
 
-  const cycleDuration = 120000; // 2 minutes
+  const cycleDuration = 120000;
   let currentPhaseText = null;
 
   function updateTheme() {
@@ -54,8 +94,8 @@ classes: wide
 
     for (const phase of phases) {
       if (second >= phase.start && second <= phase.end) {
-        document.documentElement.style.setProperty('--body-bg', phase.body);
-        document.documentElement.style.setProperty('--navbar-bg', phase.navbar);
+        document.documentElement.style.setProperty('--body-gradient', phase.body);
+        document.documentElement.style.setProperty('--navbar-gradient', phase.navbar);
 
         if (phase.text !== currentPhaseText) {
           console.log(phase.text);
@@ -65,11 +105,12 @@ classes: wide
       }
     }
 
-    setTimeout(updateTheme, 10000); // change toutes les 10s pour assurer transition fluide
+    setTimeout(updateTheme, 10000);
   }
 
   updateTheme();
 </script>
+
 
 
 <div style="width: 80%; margin: 0 auto;">
