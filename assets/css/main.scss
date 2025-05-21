@@ -1,4 +1,4 @@
----
+e---
 ---
 
 @import "minimal-mistakes"; // garde les styles du thème
@@ -28,14 +28,8 @@ body {
 }
 
 .masthead {
-  height: 60px;
-  display: flex;
-  align-items: center;
-  padding: 0 20px;
-  font-family: sans-serif;
-  color: #333;
   background-color: #cfe4fa;
-  animation: colorCycle 120s linear infinite;
+  animation: colorCycle 120s ease-in-out;
 }
 
 @keyframes colorCycle {
