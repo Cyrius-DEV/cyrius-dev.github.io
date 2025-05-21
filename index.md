@@ -32,7 +32,7 @@ a:visited {
 }
 
 body {
-  background-color: #FAF7E5;
+  background-color: #FBF4ED;
   animation: bodyCycle 120s ease-in-out;
 }
 
@@ -62,8 +62,8 @@ body {
 
 
 @keyframes bodyCycle {
-  0%     { background-color: #FAF7E5; }   /* Couleur 1 */
-  16.66% { background-color: #FAF7E5; }   /* 20s */
+  0%     { background-color: #FBF4ED; }   /* Couleur 1 */
+  16.66% { background-color: #FBF4ED; }   /* 20s */
 
   25%    { background-color: #FAFAFA; }   /* Transition → Couleur 2 */
 
@@ -77,7 +77,7 @@ body {
 
   91.66% { background-color: #D5D6E0; }   /* 20s */
 
-  100%   { background-color: #FAF7E5; }   /* Transition → Couleur 1 */
+  100%   { background-color: #FBF4ED; }   /* Transition → Couleur 1 */
 }
 </style>
 
