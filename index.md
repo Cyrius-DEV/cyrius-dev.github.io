@@ -25,42 +25,43 @@ classes: wide
 
 <script>
   const phases = [
-    { time: 0, body: '#ffeeda', navbar: '#fad6b0', text: 'Matin (fixe)' },
-    { time: 20, body: '#f3f9ff', navbar: '#d0e8ff', text: 'Transition vers midi' },
-    { time: 30, body: '#f3f9ff', navbar: '#a7d3f5', text: 'Midi (fixe)' },
-    { time: 50, body: '#fde3cb', navbar: '#ffe1cc', text: 'Transition vers soir' },
-    { time: 60, body: '#fde3cb', navbar: '#fbcbb5', text: 'Soir (fixe)' },
-    { time: 80, body: '#e8eaf6', navbar: '#e1e6f4', text: 'Transition vers nuit' },
-    { time: 90, body: '#e8eaf6', navbar: '#bfc6e0', text: 'Nuit (fixe)' },
-    { time: 110, body: '#ffeeda', navbar: '#fad6b0', text: 'Transition vers matin' }
+    { start: 0, end: 19, body: '#ffeeda', navbar: '#fad6b0', text: 'Matin (fixe)' },
+    { start: 20, end: 29, body: '#f3f9ff', navbar: '#d0e8ff', text: 'Transition vers midi' },
+    { start: 30, end: 49, body: '#f3f9ff', navbar: '#a7d3f5', text: 'Midi (fixe)' },
+    { start: 50, end: 59, body: '#fde3cb', navbar: '#ffe1cc', text: 'Transition vers soir' },
+    { start: 60, end: 79, body: '#fde3cb', navbar: '#fbcbb5', text: 'Soir (fixe)' },
+    { start: 80, end: 89, body: '#e8eaf6', navbar: '#e1e6f4', text: 'Transition vers nuit' },
+    { start: 90, end: 109, body: '#e8eaf6', navbar: '#bfc6e0', text: 'Nuit (fixe)' },
+    { start: 110, end: 119, body: '#ffeeda', navbar: '#fad6b0', text: 'Transition vers matin' }
   ];
 
   const cycleDuration = 120000; // 2 minutes
-  let cycleStart = Date.now();
+  let currentPhaseText = null;
 
-  function updateColors() {
+  function updateTheme() {
     const now = Date.now();
-    const elapsed = (now - cycleStart) % cycleDuration;
-    const currentSecond = Math.floor(elapsed / 1000);
+    const elapsed = (now % cycleDuration) / 1000;
+    const second = Math.floor(elapsed);
 
-    for (let i = phases.length - 1; i >= 0; i--) {
-      if (currentSecond >= phases[i].time) {
-        if (console.lastMessage !== phases[i].text) {
-          console.log(phases[i].text);
-          console.lastMessage = phases[i].text;
+    for (const phase of phases) {
+      if (second >= phase.start && second <= phase.end) {
+        document.documentElement.style.setProperty('--body-bg', phase.body);
+        document.documentElement.style.setProperty('--navbar-bg', phase.navbar);
+
+        if (phase.text !== currentPhaseText) {
+          console.log(phase.text);
+          currentPhaseText = phase.text;
         }
-        document.documentElement.style.setProperty('--body-bg', phases[i].body);
-        document.documentElement.style.setProperty('--navbar-bg', phases[i].navbar);
         break;
       }
     }
 
-    requestAnimationFrame(updateColors);
+    setTimeout(updateTheme, 10000); // change toutes les 10s pour assurer transition fluide
   }
 
-  console.lastMessage = null;
-  requestAnimationFrame(updateColors);
+  updateTheme();
 </script>
+
 
 <div style="width: 80%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;">Présentation</h1>
