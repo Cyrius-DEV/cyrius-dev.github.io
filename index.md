@@ -33,12 +33,12 @@ a:visited {
 
 body {
   background-color: #FCFEFE;
-  animation: bodyCycle 120s ease-in-out;
+  animation: bodyCycle 120s ease-in-out infinite;
 }
 
 .masthead {
   background-color: #cfe4fa;
-  animation: colorCycle 120s ease-in-out;
+  animation: colorCycle 120s ease-in-out infinite;
 }
 
 @keyframes colorCycle {
