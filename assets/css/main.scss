@@ -24,57 +24,55 @@ a:visited {
 }
 
 body {
-  animation: skyCycle 120s ease-in-out infinite;
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  transition: background 3s ease-in-out;
+  background: linear-gradient(-45deg, #ffeeda, #e0f2f1);
+  background-size: 400% 400%;
+  animation: bodyCycle 120s ease-in-out infinite;
+  color: #000;
+  transition: background 1s ease-in-out;
 }
 
 .masthead {
-  animation: skyCycleNavbar 120s ease-in-out infinite;
-  background-size: 100% 100%;
-  transition: background 3s ease-in-out;
+  background: linear-gradient(-45deg, #fad6b0, #cfe4fa);
+  background-size: 400% 400%;
+  animation: mastheadCycle 120s ease-in-out infinite;
+  transition: background 1s ease-in-out;
 }
 
-@keyframes skyCycle {
+@keyframes bodyCycle {
   0%, 16.6% {
-    background: linear-gradient(to bottom, #ffeeda, #fad6b0); /* Matin */
+    background: linear-gradient(-45deg, #ffeeda, #e0f2f1); /* Matin */
   }
   25%, 41.6% {
-    background: linear-gradient(to bottom, #f3f9ff, #a7d3f5); /* Midi */
+    background: linear-gradient(-45deg, #ffffff, #ffffff); /* Midi */
   }
   50%, 66.6% {
-    background: linear-gradient(to bottom, #fde3cb, #fbcbb5); /* Soir */
+    background: linear-gradient(-45deg, #fff0e1, #fde3cb); /* Soir */
   }
   75%, 91.6% {
-    background: linear-gradient(to bottom, #e8eaf6, #bfc6e0); /* Nuit */
+    background: linear-gradient(-45deg, #f5f6fa, #e8eaf6); /* Nuit */
   }
   100% {
-    background: linear-gradient(to bottom, #ffeeda, #fad6b0); /* Retour Matin */
+    background: linear-gradient(-45deg, #ffeeda, #e0f2f1); /* Retour matin */
   }
 }
 
-@keyframes skyCycleNavbar {
+@keyframes mastheadCycle {
   0%, 16.6% {
-    background: linear-gradient(to right, #fad6b0, #ffeeda); /* Matin */
+    background: linear-gradient(-45deg, #fad6b0, #cfe4fa); /* Matin */
   }
   25%, 41.6% {
-    background: linear-gradient(to right, #a7d3f5, #f3f9ff); /* Midi */
+    background: linear-gradient(-45deg, #a7d3f5, #a7d3f5); /* Midi */
   }
   50%, 66.6% {
-    background: linear-gradient(to right, #fbcbb5, #fde3cb); /* Soir */
+    background: linear-gradient(-45deg, #fbcbb5, #fbcbb5); /* Soir */
   }
   75%, 91.6% {
-    background: linear-gradient(to right, #bfc6e0, #e8eaf6); /* Nuit */
+    background: linear-gradient(-45deg, #bfc6e0, #bfc6e0); /* Nuit */
   }
   100% {
-    background: linear-gradient(to right, #fad6b0, #ffeeda); /* Retour Matin */
+    background: linear-gradient(-45deg, #fad6b0, #cfe4fa); /* Retour matin */
   }
 }
 
-
-.masthead {
-  transition: background 6s ease-in-out;
-}
 
 
