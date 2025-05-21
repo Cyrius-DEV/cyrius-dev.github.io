@@ -23,6 +23,35 @@ a:visited {
   background-color: #e6f0fa;
 }
 
+body {
+  position: relative;
+  z-index: 0;
 
+  &::before,
+  &::after {
+    content: '';
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: opacity 6s ease-in-out;
+  }
+
+  &::before {
+    opacity: 1;
+  }
+
+  &::after {
+    opacity: 0;
+  }
+}
+
+.masthead {
+  transition: background 6s ease-in-out;
+}
 
 
