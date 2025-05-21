@@ -61,13 +61,13 @@ body {
     background: linear-gradient(-45deg, #fad6b0, #cfe4fa); /* Matin */
   }
   25%, 41.6% {
-    background: linear-gradient(-45deg, #a7d3f5, #a7d3f5); /* Midi */
+    background: linear-gradient(-45deg, #cfe4fa, #a7d3f5); /* Midi */
   }
   50%, 66.6% {
-    background: linear-gradient(-45deg, #fbcbb5, #fbcbb5); /* Soir */
+    background: linear-gradient(-45deg, #a7d3f5, #fbcbb5); /* Soir */
   }
   75%, 91.6% {
-    background: linear-gradient(-45deg, #bfc6e0, #bfc6e0); /* Nuit */
+    background: linear-gradient(-45deg, #fbcbb5, ##fad6b0); /* Nuit */
   }
   100% {
     background: linear-gradient(-45deg, #fad6b0, #cfe4fa); /* Retour matin */
