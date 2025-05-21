@@ -83,7 +83,7 @@ classes: wide
 
   <!-- Carte 2 -->
   <a href="/unity/projet-2/" class="card-link">
-    <div class="card" style="background-image: url('/assets/images/rof2.png');">
+    <div class="card" style="background-image: url('/assets/images/icone_app.png');">
       <div class="card-content">
         <div class="card-text">
       <h3>Application Racoongram</h3>
@@ -93,7 +93,7 @@ classes: wide
 
   <!-- Carte 3 -->
   <a href="/unity/projet-3/" class="card-link">
-    <div class="card" style="background-image: url('/assets/images/rof2.png');">
+    <div class="card" style="background-image: url('/assets/images/typescript.png');">
       <div class="card-content">
         <div class="card-text">
       <h3>Mini-jeux TypeScript</h3>
