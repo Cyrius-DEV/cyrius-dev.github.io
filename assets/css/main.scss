@@ -41,29 +41,31 @@ body {
 }*/
 
 body {
-  background: linear-gradient(-45deg, #f9f9ff, #eaf4fb, #fef8f1, #f5f6fa);
+  background: linear-gradient(-45deg, #e0f2f1, #cfe4fa, #fde3cb, #e8eaf6);
   background-size: 400% 400%;
-  animation: skyCycleSoft 60s ease-in-out infinite;
+  animation: skyCycleSoft 120s ease-in-out infinite;
+  color: #000;
   transition: background 1s ease-in-out;
 }
 
 @keyframes skyCycleSoft {
   0% {
-    background-position: 0% 50%;
+    background-position: 0% 50%; /* Matin */
   }
   25% {
-    background-position: 50% 50%;
+    background-position: 33% 50%; /* Midi */
   }
   50% {
-    background-position: 100% 50%;
+    background-position: 66% 50%; /* Soir */
   }
   75% {
-    background-position: 50% 50%;
+    background-position: 100% 50%; /* Nuit */
   }
   100% {
-    background-position: 0% 50%;
+    background-position: 0% 50%; /* Retour matin */
   }
 }
+
 
 
 
