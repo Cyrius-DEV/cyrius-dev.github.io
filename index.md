@@ -14,12 +14,12 @@ classes: wide
   body {
     background-color: var(--body-bg);
     color: #000;
-    transition: background-color 10s ease-in-out;
+    transition: background-color 5s ease-in-out;
   }
 
   .masthead {
     background-color: var(--navbar-bg);
-    transition: background-color 10s ease-in-out;
+    transition: background-color 5s ease-in-out;
   }
 </style>
 
