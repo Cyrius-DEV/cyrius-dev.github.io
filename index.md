@@ -7,19 +7,28 @@ classes: wide
 
 <style>
   :root {
-    --body-bg: #ffeeda;
-    --navbar-bg: #fad6b0;
+    --body-gradient: linear-gradient(to bottom, #ffeeda, #fad6b0);
+    --navbar-gradient: linear-gradient(to right, #fad6b0, #ffeeda);
   }
 
-  body {
-    background-color: var(--body-bg);
-    color: #000;
-    transition: background-color 5s ease-in-out;
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background-image: var(--body-gradient);
+    transition: background-image 7s ease-in-out;
   }
 
   .masthead {
-    background-color: var(--navbar-bg);
-    transition: background-color 5s ease-in-out;
+    background-image: var(--navbar-gradient);
+    transition: background-image 7s ease-in-out;
+  }
+
+  body {
+    color: #000;
+    position: relative;
+    z-index: 0;
   }
 </style>
 
