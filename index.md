@@ -9,7 +9,29 @@ classes: wide
 
 
 <style>
-  body {
+  @import "minimal-mistakes"; // garde les styles du thème
+
+a:visited {
+  color: inherit;
+}
+
+
+
+.masthead__inner-wrap {
+  background-color: transparent; /* supprime le blanc qui masque le fond */
+}
+
+#site-nav{
+  background-color: transparent;
+}
+
+
+/* Pour la version sticky (fixée en haut) si utilisée */
+.masthead--fixed {
+  background-color: #e6f0fa;
+}
+
+body {
   background-color: #FAF7E5;
   animation: colorCycle 120s ease-in-out;
 }
