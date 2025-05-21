@@ -5,10 +5,42 @@ permalink: /
 classes: wide
 ---
 
+<script>
+  const messages = [
+    { time: 0, text: 'Matin (fixe)' },
+    { time: 20, text: 'Transition vers midi' },
+    { time: 30, text: 'Midi (fixe)' },
+    { time: 50, text: 'Transition vers soir' },
+    { time: 60, text: 'Soir (fixe)' },
+    { time: 80, text: 'Transition vers nuit' },
+    { time: 90, text: 'Nuit (fixe)' },
+    { time: 110, text: 'Transition vers matin' }
+  ];
 
+  const cycleDuration = 120000; // en millisecondes
+  let cycleStart = Date.now();
 
+  function checkCycle() {
+    const now = Date.now();
+    const elapsed = (now - cycleStart) % cycleDuration;
+    const currentSecond = Math.floor(elapsed / 1000);
 
+    for (let i = messages.length - 1; i >= 0; i--) {
+      if (currentSecond >= messages[i].time) {
+        if (console.lastMessage !== messages[i].text) {
+          console.log(messages[i].text);
+          console.lastMessage = messages[i].text;
+        }
+        break;
+      }
+    }
 
+    requestAnimationFrame(checkCycle);
+  }
+
+  console.lastMessage = null;
+  requestAnimationFrame(checkCycle);
+</script>
 
 <div style="width: 80%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;">Présentation</h1>
@@ -17,6 +49,8 @@ classes: wide
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 80px auto; width: 90%;" />
 
+
+
 Agé de 24 ans, je suis une personne passionnée au contact agréable. Je sais faire preuve de débrouillardise, mais aussi d'une certaine curiosité et appétence intellectuelle qui me pousse à constamment améliorer mes connaissances et ma maîtrise de l'outil informatique, et c'est pourquoi j'ai choisi de m'orienter vers un BUT Métiers du Multimédia et de l'Internet.
 <br><br>
 En tant que grand fan de jeux vidéos et me sentant à l'aise avec l'outil informatique, j'ai tout de suite résonné avec le domaine du dev web / jeu vidéo, où les exercices et projets de mes cours m'ont permis de tirer au mieux parti de ma créativité afin imaginer des solutions toujours plus inventives, tout en m'inculquant une certaine rigueur d'organisation nécessaire durant les projets les plus longs.
@@ -24,6 +58,7 @@ En tant que grand fan de jeux vidéos et me sentant à l'aise avec l'outil infor
 C'est donc dans les domaines du développement web, de la gestion de base de données et du game developpement que je souhaite évoluer professionnellement prochainement.
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 80px 0;" />
+
 
 <p style="text-align: center;">Vous pouvez accéder à mon CV papier en cliquant sur le bouton ci-dessous :</p>
 
