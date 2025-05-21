@@ -103,7 +103,7 @@ classes: wide
 
   <!-- Carte 4 -->
     <a href="/unity/projet-4/" class="card-link">
-      <div class="card" style="background-image: url('/assets/images/rof2.png');">
+      <div class="card" style="background-image: url('/assets/images/java.png');">
       <div class="card-content">
         <div class="card-text">
         <h3>Mini-exos Java</h3>
