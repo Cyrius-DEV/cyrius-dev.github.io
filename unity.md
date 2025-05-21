@@ -73,7 +73,7 @@ classes: wide
 
   <!-- Carte 1 -->
   <a href="/unity/projet-1/" class="card-link">
-    <div class="card" style="background-image: url('/assets/images/rof2.png');">
+    <div class="card" style="background-image: url('/assets/images/rof.png');">
       <div class="card-content">
         <div class="card-text">
       <h3>Rise of Freedom</h3>
@@ -83,7 +83,7 @@ classes: wide
 
   <!-- Carte 2 -->
   <a href="/unity/projet-2/" class="card-link">
-    <div class="card" style="background-image: url('/assets/images/rof2.png');">
+    <div class="card" style="background-image: url('/assets/images/racoonwhere.png');">
       <div class="card-content">
         <div class="card-text">
       <h3>Racoons ? Where ?</h3>
@@ -93,7 +93,7 @@ classes: wide
 
   <!-- Carte 3 -->
   <a href="/unity/projet-3/" class="card-link">
-    <div class="card" style="background-image: url('/assets/images/rof2.png');">
+    <div class="card" style="background-image: url('/assets/images/clermont.png');">
       <div class="card-content">
         <div class="card-text">
       <h3>Mini-jeux faits en cours</h3>
