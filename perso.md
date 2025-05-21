@@ -63,8 +63,9 @@ classes: wide
 <script>
 	document.addEventListener("DOMContentLoaded", function (){
 
-      const randomNumber = Math.floor(Math.random() * 3) + 1;
+      let randomNumber = Math.floor(Math.random() * 3) + 1;
       document.getElementById("tripleurs").style.backgroundImage = "url('/assets/images/tripleurs'"+randomNumber+"'.png')";
+		console.log("tripleur choisi = "+randomNumber);
     });
   </script>
 
