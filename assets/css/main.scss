@@ -37,7 +37,7 @@ body {
 }*/
 
 body {
-  background: linear-gradient(-45deg, #e0f2f1, #ffffff, #fff0e1, #f5f6fa);
+  background: linear-gradient(-45deg, #e0f2f1, #ffffff);
   background-size: 400% 400%;
   animation: bodyCycle 120s ease-in-out infinite;
   color: #000;
@@ -45,27 +45,50 @@ body {
 }
 
 .masthead {
-  background: linear-gradient(-45deg, #cfe4fa, #a7d3f5, #fbcbb5, #bfc6e0);
+  background: linear-gradient(-45deg, #cfe4fa, #a7d3f5);
   background-size: 400% 400%;
   animation: mastheadCycle 120s ease-in-out infinite;
   transition: background 1s ease-in-out;
 }
 
+/* Keyframes pour le body (couleurs secondaires) */
 @keyframes bodyCycle {
-  0%   { background-position: 0% 50%; }
-  25%  { background-position: 33% 50%; }
-  50%  { background-position: 66% 50%; }
-  75%  { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0%, 16.6% {
+    background: linear-gradient(-45deg, #e0f2f1, #ffffff); /* Matin */
+  }
+  25%, 41.6% {
+    background: linear-gradient(-45deg, #ffffff, #ffffff); /* Midi */
+  }
+  50%, 66.6% {
+    background: linear-gradient(-45deg, #fff0e1, #fde3cb); /* Soir */
+  }
+  75%, 91.6% {
+    background: linear-gradient(-45deg, #f5f6fa, #e8eaf6); /* Nuit */
+  }
+  100% {
+    background: linear-gradient(-45deg, #e0f2f1, #ffffff); /* Retour matin */
+  }
 }
 
+/* Keyframes pour la navbar (couleurs primaires) */
 @keyframes mastheadCycle {
-  0%   { background-position: 0% 50%; }
-  25%  { background-position: 33% 50%; }
-  50%  { background-position: 66% 50%; }
-  75%  { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+  0%, 16.6% {
+    background: linear-gradient(-45deg, #cfe4fa, #cfe4fa); /* Matin */
+  }
+  25%, 41.6% {
+    background: linear-gradient(-45deg, #a7d3f5, #a7d3f5); /* Midi */
+  }
+  50%, 66.6% {
+    background: linear-gradient(-45deg, #fbcbb5, #fbcbb5); /* Soir */
+  }
+  75%, 91.6% {
+    background: linear-gradient(-45deg, #bfc6e0, #bfc6e0); /* Nuit */
+  }
+  100% {
+    background: linear-gradient(-45deg, #cfe4fa, #cfe4fa); /* Retour matin */
+  }
 }
+
 
 
 
