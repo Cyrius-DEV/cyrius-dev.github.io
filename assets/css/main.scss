@@ -24,31 +24,54 @@ a:visited {
 }
 
 body {
-  position: relative;
-  z-index: 0;
+  animation: skyCycle 120s ease-in-out infinite;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  transition: background 3s ease-in-out;
+}
 
-  &::before,
-  &::after {
-    content: '';
-    position: fixed;
-    top: 0; left: 0;
-    width: 100vw;
-    height: 100vh;
-    z-index: -1;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    transition: opacity 6s ease-in-out;
+.masthead {
+  animation: skyCycleNavbar 120s ease-in-out infinite;
+  background-size: 100% 100%;
+  transition: background 3s ease-in-out;
+}
+
+@keyframes skyCycle {
+  0%, 16.6% {
+    background: linear-gradient(to bottom, #ffeeda, #fad6b0); /* Matin */
   }
-
-  &::before {
-    opacity: 1;
+  25%, 41.6% {
+    background: linear-gradient(to bottom, #f3f9ff, #a7d3f5); /* Midi */
   }
-
-  &::after {
-    opacity: 0;
+  50%, 66.6% {
+    background: linear-gradient(to bottom, #fde3cb, #fbcbb5); /* Soir */
+  }
+  75%, 91.6% {
+    background: linear-gradient(to bottom, #e8eaf6, #bfc6e0); /* Nuit */
+  }
+  100% {
+    background: linear-gradient(to bottom, #ffeeda, #fad6b0); /* Retour Matin */
   }
 }
+
+@keyframes skyCycleNavbar {
+  0%, 16.6% {
+    background: linear-gradient(to right, #fad6b0, #ffeeda); /* Matin */
+  }
+  25%, 41.6% {
+    background: linear-gradient(to right, #a7d3f5, #f3f9ff); /* Midi */
+  }
+  50%, 66.6% {
+    background: linear-gradient(to right, #fbcbb5, #fde3cb); /* Soir */
+  }
+  75%, 91.6% {
+    background: linear-gradient(to right, #bfc6e0, #e8eaf6); /* Nuit */
+  }
+  100% {
+    background: linear-gradient(to right, #fad6b0, #ffeeda); /* Retour Matin */
+  }
+}
+
 
 .masthead {
   transition: background 6s ease-in-out;
