@@ -41,29 +41,30 @@ body {
 }*/
 
 body {
-  animation: skyCycle 60s ease-in-out infinite;
-  background: linear-gradient(to bottom, #CFE4FA, #ffffff);
-  background-size: 100% 100%;
-  transition: background 5s ease;
+  background: linear-gradient(-45deg, #f9f9ff, #eaf4fb, #fef8f1, #f5f6fa);
+  background-size: 400% 400%;
+  animation: skyCycleSoft 60s ease-in-out infinite;
+  transition: background 1s ease-in-out;
 }
 
-@keyframes skyCycle {
+@keyframes skyCycleSoft {
   0% {
-    background: linear-gradient(to bottom, #CFE4FA, #ffffff); /* Matin */
+    background-position: 0% 50%;
   }
   25% {
-    background: linear-gradient(to bottom, #A7D3F5, #ffffff); /* Midi */
+    background-position: 50% 50%;
   }
   50% {
-    background: linear-gradient(to bottom, #FDE3CB, #FFF5E1); /* Soir */
+    background-position: 100% 50%;
   }
   75% {
-    background: linear-gradient(to bottom, #2C3E50, #34495E); /* Nuit */
+    background-position: 50% 50%;
   }
   100% {
-    background: linear-gradient(to bottom, #CFE4FA, #ffffff); /* Retour Matin */
+    background-position: 0% 50%;
   }
 }
+
 
 
 
