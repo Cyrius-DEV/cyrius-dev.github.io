@@ -93,7 +93,7 @@ classes: wide
 
   <!-- Carte 3 -->
   <a href="/unity/projet-3/" class="card-link">
-    <div class="card" style="background-image: url('/assets/images/rof2.png');">
+    <div class="card" style="background-image: url('/assets/images/Memory_Leak_screenshot.png');">
       <div class="card-content">
         <div class="card-text">
       <h3>Exercices de cours</h3>
