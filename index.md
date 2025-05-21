@@ -8,6 +8,7 @@ classes: wide
 
 
 
+<link rel="stylesheet" href="style.css">
 
 <script>
   const messages = [
