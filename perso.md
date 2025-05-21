@@ -60,6 +60,14 @@ classes: wide
 
 </style>
 
+<script>
+	document.addEventListener("DOMContentLoaded", function (){
+
+      const randomNumber = Math.floor(Math.random() * 3) + 1;
+      document.getElementById("tripleurs").style.backgroundImage = "url('/assets/images/tripleurs'"+randomNumber+"'.png')";
+    });
+  </script>
+
 <div style="width: 80%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;">Projets personnels</h1>
 
