@@ -25,7 +25,7 @@ a:visited {
 
 
 body {
-  background: linear-gradient(-45deg, #ffeeda, #e0f2f1);
+  background: linear-gradient(-45deg, #e0f2f1, #ffffff);
   background-size: 400% 400%;
   animation: bodyCycle 120s ease-in-out infinite;
   color: #000;
@@ -33,15 +33,16 @@ body {
 }
 
 .masthead {
-  background: linear-gradient(-45deg, #fad6b0, #cfe4fa);
+  background: linear-gradient(-45deg, #cfe4fa, #a7d3f5);
   background-size: 400% 400%;
   animation: mastheadCycle 120s ease-in-out infinite;
   transition: background 1s ease-in-out;
 }
 
+/* Keyframes pour le body (couleurs secondaires) */
 @keyframes bodyCycle {
   0%, 16.6% {
-    background: linear-gradient(-45deg, #ffeeda, #e0f2f1); /* Matin */
+    background: linear-gradient(-45deg, #e0f2f1, #ffffff); /* Matin */
   }
   25%, 41.6% {
     background: linear-gradient(-45deg, #ffffff, #ffffff); /* Midi */
@@ -53,13 +54,14 @@ body {
     background: linear-gradient(-45deg, #f5f6fa, #e8eaf6); /* Nuit */
   }
   100% {
-    background: linear-gradient(-45deg, #ffeeda, #e0f2f1); /* Retour matin */
+    background: linear-gradient(-45deg, #e0f2f1, #ffffff); /* Retour matin */
   }
 }
 
+/* Keyframes pour la navbar (couleurs primaires) */
 @keyframes mastheadCycle {
   0%, 16.6% {
-    background: linear-gradient(-45deg, #fad6b0, #cfe4fa); /* Matin */
+    background: linear-gradient(-45deg, #cfe4fa, #cfe4fa); /* Matin */
   }
   25%, 41.6% {
     background: linear-gradient(-45deg, #a7d3f5, #a7d3f5); /* Midi */
@@ -71,7 +73,8 @@ body {
     background: linear-gradient(-45deg, #bfc6e0, #bfc6e0); /* Nuit */
   }
   100% {
-    background: linear-gradient(-45deg, #fad6b0, #cfe4fa); /* Retour matin */
+    background: linear-gradient(-45deg, #cfe4fa, #cfe4fa); /* Retour matin */
   }
 }
+
 
