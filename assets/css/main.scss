@@ -24,7 +24,8 @@ a:visited {
 }
 
 body {
-  margin: 0;
+  background-color: #FAF7E5;
+  animation: bodyCycle 120s ease-in-out;
 }
 
 .masthead {
@@ -44,9 +45,31 @@ body {
 
   66.66% { background-color: #fbcbb5; }   /* 20s */
 
-  75%    { background-color: #fad6b0; }   /* Transition → Couleur 4 */
+  75%    { background-color: #bfc6e0; }   /* Transition → Couleur 4 */
 
-  91.66% { background-color: #fad6b0; }   /* 20s */
+  91.66% { background-color: #bfc6e0; }   /* 20s */
 
   100%   { background-color: #cfe4fa; }   /* Transition → Couleur 1 */
 }
+
+
+@keyframes bodyCycle {
+  0%     { background-color: #FAF7E5; }   /* Couleur 1 */
+  16.66% { background-color: #FAF7E5; }   /* 20s */
+
+  25%    { background-color: #FAFAFA; }   /* Transition → Couleur 2 */
+
+  41.66% { background-color: #FAFAFA; }   /* 20s */
+
+  50%    { background-color: #FBEFDA; }   /* Transition → Couleur 3 */
+
+  66.66% { background-color: #FBEFDA; }   /* 20s */
+
+  75%    { background-color: #D5D6E0; }   /* Transition → Couleur 4 */
+
+  91.66% { background-color: #D5D6E0; }   /* 20s */
+
+  100%   { background-color: #FAF7E5; }   /* Transition → Couleur 1 */
+}
+
+
