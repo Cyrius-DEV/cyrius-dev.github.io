@@ -28,32 +28,31 @@ body {
 }
 
 .masthead {
-
-
-  background: linear-gradient(
-    to right,
-    #cfe4fa,
-    #a7d3f5,
-    #fbcbb5,
-    #fad6b0
-  );
-  background-size: 300% 100%;
-  animation: gradientShift 10s ease-in-out infinite;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  font-family: sans-serif;
+  color: #333;
+  background-color: #cfe4fa;
+  animation: colorCycle 120s linear infinite;
 }
 
-/* Animation du fond */
-@keyframes gradientShift {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+@keyframes colorCycle {
+  0%     { background-color: #cfe4fa; }   /* Couleur 1 */
+  16.66% { background-color: #cfe4fa; }   /* 20s */
+
+  25%    { background-color: #a7d3f5; }   /* Transition → Couleur 2 */
+
+  41.66% { background-color: #a7d3f5; }   /* 20s */
+
+  50%    { background-color: #fbcbb5; }   /* Transition → Couleur 3 */
+
+  66.66% { background-color: #fbcbb5; }   /* 20s */
+
+  75%    { background-color: #fad6b0; }   /* Transition → Couleur 4 */
+
+  91.66% { background-color: #fad6b0; }   /* 20s */
+
+  100%   { background-color: #cfe4fa; }   /* Transition → Couleur 1 */
 }
-
-
-
-
