@@ -83,7 +83,7 @@ classes: wide
 
   <!-- Carte 2 -->
   <a href="/unity/projet-2/" class="card-link">
-    <div class="card" style="background-image: url('/assets/images/rof2.png');">
+    <div class="card" style="background-image: url('/assets/images/iotae.png');">
       <div class="card-content">
         <div class="card-text">
       <h3>Sites IoTAE-Lab et LabCom</h3>
