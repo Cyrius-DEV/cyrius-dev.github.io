@@ -99,16 +99,18 @@ body {
   height: 2px;
   background: white;
   box-shadow:
-    5vw 10vh white,
-    15vw 25vh white,
-    30vw 5vh white,
-    45vw 15vh white,
-    60vw 20vh white,
-    75vw 10vh white,
-    85vw 30vh white,
-    95vw 5vh white;
+    5vw 10vh white, 15vw 5vh white, 25vw 15vh white, 35vw 20vh white, 45vw 7vh white,
+    55vw 12vh white, 65vw 3vh white, 75vw 18vh white, 85vw 6vh white, 95vw 10vh white,
+    2vw 22vh white, 12vw 30vh white, 22vw 28vh white, 32vw 24vh white, 42vw 26vh white,
+    52vw 29vh white, 62vw 31vh white, 72vw 23vh white, 82vw 27vh white, 92vw 25vh white,
+    10vw 12vh white, 20vw 5vh white, 30vw 10vh white, 40vw 6vh white, 50vw 15vh white,
+    60vw 4vh white, 70vw 11vh white, 80vw 2vh white, 90vw 9vh white, 98vw 3vh white,
+    8vw 18vh white, 18vw 14vh white, 28vw 17vh white, 38vw 13vh white, 48vw 19vh white,
+    58vw 16vh white, 68vw 20vh white, 78vw 21vh white, 88vw 22vh white, 96vw 12vh white,
+    4vw 8vh white, 14vw 9vh white, 24vw 7vh white, 34vw 6vh white, 44vw 5vh white,
+    54vw 4vh white, 64vw 3vh white, 74vw 2vh white, 84vw 1vh white, 94vw 0vh white;
   animation: twinkle 3s infinite ease-in-out alternate;
-  opacity: 0.8;
+  opacity: 0;
 }
 
 
@@ -172,35 +174,26 @@ body {
   }
   91.66% {
     transform: translateX(-20px) translateY(20px);
-    opacity: 1;
-  }
-  92% {
-    transform: translateX(-20px) translateY(20px);
-    opacity: 0;
-  }
-  99% {
-    transform: translateX(0%) translateY(0px);
-    opacity: 0;
   }
   100% {
     transform: translateX(0%) translateY(0px);
-    opacity: 1;
   }
 }
 
 
 @keyframes twinkle {
-  0% { opacity: 0.2; }
-  50% { opacity: 0.9; }
-  100% { opacity: 0.3; }
+  0%   { opacity: 0.3; }
+  50%  { opacity: 1; }
+  100% { opacity: 0.5; }
 }
+
 
 @keyframes starsFade {
   0%, 74.99% {
     opacity: 0;
   }
   75% {
-    opacity: 0.3;
+    opacity: 0.6;
   }
   91.66% {
     opacity: 0.8;
