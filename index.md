@@ -138,12 +138,16 @@ body {
     transform: translateX(0%) translateY(0px);
     opacity: 1;
   }
-   
-  25% {
+  16.66% {   /* 20s */
+    transform: translateX(17vw) translateY(-20px);
+  }
+  41.66% {
     transform: translateX(50vw) translateY(-60px);
   }
 
-
+  66.66% {
+    transform: translateX(83vw) translateY(-20px);
+  }
   80% {
     transform: translateX(100vw) translateY(20px);
   }
