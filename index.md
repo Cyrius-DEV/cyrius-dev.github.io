@@ -73,19 +73,24 @@ for (let i = 0; i < cloudCount; i++) {
   clouds.push({ el: cloud, duration });
 }
 
-// ⏱ Redémarrage des nuages toutes les 2min (début de couleur 1)
 setInterval(() => {
   clouds.forEach(({ el, duration }) => {
-    // Redémarre seulement si hors de l'écran à droite (pas visible)
     const currentLeft = el.getBoundingClientRect().left;
+
+    // Redémarre seulement s'il est hors écran à droite
     if (currentLeft > window.innerWidth) {
-      el.style.animation = 'none'; // réinitialise
-      void el.offsetWidth; // force le repaint (important)
-      el.style.left = `-150px`; // position de départ
-      el.style.animation = `floatCloud ${duration}s linear infinite`;
+      const delay = Math.random() * 10000; // jusqu'à 10s de décalage
+
+      setTimeout(() => {
+        el.style.animation = 'none';
+        void el.offsetWidth; // force le repaint
+        el.style.left = `-200px`;
+        el.style.animation = `floatCloudRight ${duration}s linear infinite`;
+      }, delay);
     }
   });
-}, 120000); // toutes les 2 minutes
+}, 120000); // tous les 120s
+
 
 
   
