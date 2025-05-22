@@ -278,8 +278,8 @@ body {
     0px 0px 0px 0px #fff,
     15px -10px 0px 0px #fff,
     30px 0px 0px 0px #fff;
-  width: 60px;
-  height: 30px;
+  width: 40px;
+  height: 20px;
   animation: floatCloud 60s linear infinite;
 }
 
