@@ -135,7 +135,7 @@ body {
 
 @keyframes sunPath {
   0% {
-    transform: translateX(0%) translateY(0);
+    transform: translateX(0%) translateY(20px);
     opacity: 1;
   }
   16.66% {
@@ -154,14 +154,14 @@ body {
     transform: translateX(90vw) translateY(-10px);
   }
   75% {
-    transform: translateX(100vw) translateY(0);
+    transform: translateX(100vw) translateY(10px);
   }
   91.66% {
-    transform: translateX(110vw) translateY(10px);
+    transform: translateX(110vw) translateY(20px);
     opacity: 0;
   }
   100% {
-    transform: translateX(0%) translateY(0);
+    transform: translateX(0%) translateY(20px);
     opacity: 0;
   }
 }
