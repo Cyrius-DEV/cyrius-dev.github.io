@@ -135,27 +135,25 @@ body {
 
 @keyframes sunPath {
   0% {   /* Couleur 1 */
-    transform: translateX(0%) translateY(20px);
+    transform: translateX(0%) translateY(0px);
     opacity: 1;
   }
-   16.66% { 
-    transform: translateX(10vw) translateY(-20px);
-  }
-  45,83% {
+   
+  37,5% {
     transform: translateX(50vw) translateY(-60px);
   }
 
 
   75% {
-    transform: translateX(100vw) translateY(-20px);
+    transform: translateX(100vw) translateY(20px);
   }
   91.66% {
     transform: translateX(110vw) translateY(20px);
     opacity: 0;
   }
   100% {
-    transform: translateX(0%) translateY(20px);
-    opacity: 0;
+    transform: translateX(0%) translateY(0px);
+    opacity: 1;
   }
 }
 
