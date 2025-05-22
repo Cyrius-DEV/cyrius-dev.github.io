@@ -228,7 +228,7 @@ body {
     transform: translateX(100vw) translateY(20px);
   }
   91.66% {
-    transform: translateX(-20px) translateY(20px);
+    transform: translateX(-40px) translateY(20px);
   }
   100% {
     transform: translateX(0%) translateY(0px);
