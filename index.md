@@ -67,7 +67,7 @@ body {
 
 .sun {
   position: absolute;
-  border: 2px solid red;
+  border: 2px solid orange;
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -134,13 +134,13 @@ body {
 
 @keyframes sunPath {
   0%   { transform: translate(0, 0); opacity: 1; }              /* Lever (visible moitié) */
-  16%  { transform: translate(10%, -20px); }                    /* Toujours bas */
-  25%  { transform: translate(40%, -50px); }                    /* En montée */
-  41%  { transform: translate(50%, -60px); }                    /* Zénith */
-  50%  { transform: translate(60%, -50px); }                    /* Descente */
-  66%  { transform: translate(90%, -20px); }                    /* Presque couché */
-  75%  { transform: translate(100%, 0); opacity: 1; }           /* Couché */
-  91%  { transform: translate(120%, 40px); opacity: 0; }        /* Disparu */
+  16.66%  { transform: translate(10%, 10%); }                    /* Toujours bas */
+  25%  { transform: translate(40%, 40%); }                    /* En montée */
+  41.66%  { transform: translate(50%, 50%); }                    /* Zénith */
+  50%  { transform: translate(60%, 60%); }                    /* Descente */
+  66.66%  { transform: translate(90%, 90%); }                    /* Presque couché */
+  75%  { transform: translate(100%, 100%); opacity: 1; }           /* Couché */
+  91.66%  { transform: translate(120%, 40px); opacity: 0; }        /* Disparu */
   100% { transform: translate(0, 0); opacity: 0; }              /* Réinitialisation */
 }
 
