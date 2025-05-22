@@ -61,11 +61,13 @@ body {
   background-color: #cfe4fa;
   animation: colorCycle 120s ease-in-out;
   overflow: hidden;
+  position:relative;
 }
 
 
 .sun {
   position: absolute;
+  border: 2px solid red;
   width: 40px;
   height: 40px;
   border-radius: 50%;
