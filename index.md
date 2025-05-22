@@ -10,26 +10,18 @@ classes: wide
 document.addEventListener("DOMContentLoaded", function () {
   const masthead = document.querySelector(".masthead");
   if (!masthead) return;
-
+/*
   // ☁️ Conteneur des nuages
   const cloudsContainer = document.createElement("div");
   cloudsContainer.className = "clouds-container";
 
 
-/*
-
-for (let i = 0; i < 10; i++) {
-    const cloud = document.createElement("div");
-    cloud.className = "cloud";
-    cloud.style.top = `${Math.random() * 50 + 10}%`; // entre 10% et 60% de la hauteur
-    cloud.style.left = `-150px`; // départ hors écran
-    cloud.style.animationDuration = `${40 + Math.random() * 30}s`; // entre 40 et 70s
-    cloud.style.animationDelay = `${Math.random() * 60}s`; // échelonné dans la minute
-    cloudsContainer.appendChild(cloud);
-  }
 
 
-*/
+
+
+
+
   
   const cloudTypes = ['cloud-1', 'cloud-2', 'cloud-3', 'cloud-4', 'cloud-5'];
 
@@ -50,7 +42,53 @@ cloud.style.opacity = `${0.6 + Math.random() * 0.4}`;
 
 
   masthead.appendChild(cloudsContainer);
+*/
 
+
+
+
+  const cloudTypes = ['cloud-1', 'cloud-2', 'cloud-3', 'cloud-4', 'cloud-5'];
+const cloudContainer = document.createElement('div');
+cloudContainer.id = 'cloud-container';
+document.querySelector('.masthead').appendChild(cloudContainer);
+
+// Créer les nuages
+const cloudCount = 15;
+const clouds = [];
+
+for (let i = 0; i < cloudCount; i++) {
+  const cloud = document.createElement('div');
+  const type = cloudTypes[Math.floor(Math.random() * cloudTypes.length)];
+  cloud.classList.add('cloud', type);
+
+  cloud.style.top = `${Math.random() * 50 + 10}%`;
+  cloud.style.left = `-200px`;
+  cloud.style.opacity = `${0.6 + Math.random() * 0.4}`;
+  cloud.style.transform = `scale(${0.8 + Math.random() * 0.6})`;
+
+  const duration = 40 + Math.random() * 30;
+  cloud.style.animation = `floatCloudRight ${duration}s linear infinite`;
+
+  cloudContainer.appendChild(cloud);
+  clouds.push({ el: cloud, duration });
+}
+
+// ⏱ Redémarrage des nuages toutes les 2min (début de couleur 1)
+setInterval(() => {
+  clouds.forEach(({ el, duration }) => {
+    // Redémarre seulement si hors de l'écran à droite (pas visible)
+    const currentLeft = el.getBoundingClientRect().left;
+    if (currentLeft > window.innerWidth) {
+      el.style.animation = 'none'; // réinitialise
+      void el.offsetWidth; // force le repaint (important)
+      el.style.left = `-200px`; // position de départ
+      el.style.animation = `floatCloudRight ${duration}s linear infinite`;
+    }
+  });
+}, 120000); // toutes les 2 minutes
+
+
+  
 
   
   // Crée le conteneur des étoiles
@@ -417,7 +455,7 @@ body {
 
 /* Apparition progressive pendant le jour uniquement */
 @keyframes cloudFade {
-  0%, 66.65% { opacity: 1; }
+  0%, 50% { opacity: 1; }
   75%, 100% { opacity: 0; }
 }
 
