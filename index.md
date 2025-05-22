@@ -286,7 +286,6 @@ body {
 
 /* Nuages visibles uniquement pendant la journée */
 .clouds-container {
-  position: absolute;
   width: 100%;
   height: 100%;
   pointer-events: none;
