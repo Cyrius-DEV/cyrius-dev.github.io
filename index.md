@@ -62,7 +62,7 @@ for (let i = 0; i < cloudCount; i++) {
   cloud.classList.add('cloud', type);
 
   cloud.style.top = `${Math.random() * 50 + 10}%`;
-  cloud.style.left = `-200px`;
+  cloud.style.left = `-150px`;
   cloud.style.opacity = `${0.6 + Math.random() * 0.4}`;
   cloud.style.transform = `scale(${0.8 + Math.random() * 0.6})`;
 
@@ -81,7 +81,7 @@ setInterval(() => {
     if (currentLeft > window.innerWidth) {
       el.style.animation = 'none'; // réinitialise
       void el.offsetWidth; // force le repaint (important)
-      el.style.left = `-200px`; // position de départ
+      el.style.left = `-150px`; // position de départ
       el.style.animation = `floatCloudRight ${duration}s linear infinite`;
     }
   });
