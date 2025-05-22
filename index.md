@@ -67,7 +67,7 @@ for (let i = 0; i < cloudCount; i++) {
   cloud.style.transform = `scale(${0.8 + Math.random() * 0.6})`;
 
   const duration = 40 + Math.random() * 30;
-  cloud.style.animation = `floatCloudRight ${duration}s linear infinite`;
+  cloud.style.animation = `floatCloud ${duration}s linear infinite`;
 
   cloudsContainer.appendChild(cloud);
   clouds.push({ el: cloud, duration });
@@ -82,7 +82,7 @@ setInterval(() => {
       el.style.animation = 'none'; // réinitialise
       void el.offsetWidth; // force le repaint (important)
       el.style.left = `-150px`; // position de départ
-      el.style.animation = `floatCloudRight ${duration}s linear infinite`;
+      el.style.animation = `floatCloud ${duration}s linear infinite`;
     }
   });
 }, 120000); // toutes les 2 minutes
