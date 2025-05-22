@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 <style>
-  @import "minimal-mistakes"; // garde les styles du thème
+@import "minimal-mistakes"; // garde les styles du thème
 
 a:visited {
   color: inherit;
@@ -53,13 +53,41 @@ a:visited {
 }
 
 body {
-  background-color: #FCFEFE;
-  animation: bodyCycle 120s ease-in-out infinite;
+  background-color: #FAF7E5;
+  animation: bodyCycle 120s ease-in-out;
 }
 
 .masthead {
   background-color: #cfe4fa;
-  animation: colorCycle 120s ease-in-out infinite;
+  animation: colorCycle 120s ease-in-out;
+  overflow: hidden;
+}
+
+
+.sun {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #FFD700, #FFA500);
+  bottom: -20px;
+  left: -20px;
+  animation: sunPath 120s ease-in-out infinite;
+  z-index: 2;
+}
+
+/* Étoiles */
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: transparent url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Stars.svg/1024px-Stars.svg.png') repeat;
+  opacity: 0;
+  animation: starsFade 120s ease-in-out infinite;
+  pointer-events: none;
+  z-index: 1;
 }
 
 @keyframes colorCycle {
@@ -83,8 +111,8 @@ body {
 
 
 @keyframes bodyCycle {
-  0%     { background-color: #FCFEFE; }   /* Couleur 1 */
-  16.66% { background-color: #FCFEFE; }   /* 20s */
+  0%     { background-color: #FAF7E5; }   /* Couleur 1 */
+  16.66% { background-color: #FAF7E5; }   /* 20s */
 
   25%    { background-color: #FAFAFA; }   /* Transition → Couleur 2 */
 
@@ -94,13 +122,38 @@ body {
 
   66.66% { background-color: #FBEFDA; }   /* 20s */
 
-  75%    { background-color: #E9EBF6; }   /* Transition → Couleur 4 */
+  75%    { background-color: #D5D6E0; }   /* Transition → Couleur 4 */
 
-  91.66% { background-color: #E9EBF6; }   /* 20s */
+  91.66% { background-color: #D5D6E0; }   /* 20s */
 
-  100%   { background-color: #FCFEFE; }   /* Transition → Couleur 1 */
+  100%   { background-color: #FAF7E5; }   /* Transition → Couleur 1 */
 }
-</style>
+
+
+@keyframes sunPath {
+  0%   { transform: translate(0, 0); opacity: 1; }              /* Lever (visible moitié) */
+  16%  { transform: translate(10%, -20px); }                    /* Toujours bas */
+  25%  { transform: translate(40%, -50px); }                    /* En montée */
+  41%  { transform: translate(50%, -60px); }                    /* Zénith */
+  50%  { transform: translate(60%, -50px); }                    /* Descente */
+  66%  { transform: translate(90%, -20px); }                    /* Presque couché */
+  75%  { transform: translate(100%, 0); opacity: 1; }           /* Couché */
+  91%  { transform: translate(120%, 40px); opacity: 0; }        /* Disparu */
+  100% { transform: translate(0, 0); opacity: 0; }              /* Réinitialisation */
+}
+
+@keyframes starsFade {
+  0%, 25%, 50%, 66% {
+    opacity: 0; /* Pas visible pendant jour */
+  }
+  75% {
+    opacity: 0.3; /* Apparaît pendant couleur 4 */
+  }
+  91%, 100% {
+    opacity: 0; /* Disparaît à la fin */
+  }
+}
+  </style>
 
 <script>
   const messages = [
