@@ -268,7 +268,7 @@ body {
 
 
 .cloud {
-  position: absolute;
+  position: relative;
   background: #fff;
   border-radius: 50%;
   opacity: 0.8;
