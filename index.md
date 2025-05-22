@@ -11,6 +11,30 @@ document.addEventListener("DOMContentLoaded", function () {
   const masthead = document.querySelector(".masthead");
   if (!masthead) return;
 
+  // ☁️ Conteneur des nuages
+  const cloudsContainer = document.createElement("div");
+  cloudsContainer.className = "clouds-container";
+
+  // Crée 5 nuages à différentes hauteurs et vitesses
+  for (let i = 0; i < 5; i++) {
+    const cloud = document.createElement("div");
+    cloud.className = "cloud";
+
+    const top = 5 + Math.random() * 40; // entre 5% et 45%
+    const duration = 40 + Math.random() * 40; // 40s à 80s
+    const delay = Math.random() * 60;
+
+    cloud.style.top = `${top}%`;
+    cloud.style.animationDuration = `${duration}s`;
+    cloud.style.animationDelay = `${delay}s`;
+
+    cloudsContainer.appendChild(cloud);
+  }
+
+  masthead.appendChild(cloudsContainer);
+
+
+  
   // Crée le conteneur des étoiles
   const starsContainer = document.createElement("div");
   starsContainer.className = "stars-container";
@@ -243,6 +267,49 @@ body {
 
 
 
+.cloud {
+  position: absolute;
+  background: #fff;
+  border-radius: 50%;
+  opacity: 0.8;
+  box-shadow:
+    -30px 0px 0px 0px #fff,
+    -15px -10px 0px 0px #fff,
+    0px 0px 0px 0px #fff,
+    15px -10px 0px 0px #fff,
+    30px 0px 0px 0px #fff;
+  width: 60px;
+  height: 30px;
+  z-index: 1;
+  animation: floatCloud 60s linear infinite;
+}
+
+/* Nuages visibles uniquement pendant la journée */
+.clouds-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 1;
+  animation: cloudFade 120s ease-in-out infinite;
+}
+
+/* Animation des nuages */
+@keyframes floatCloud {
+  0% {
+    transform: translateX(-100vw);
+  }
+  100% {
+    transform: translateX(100vw);
+  }
+}
+
+/* Apparition progressive pendant le jour uniquement */
+@keyframes cloudFade {
+  0%, 66.65% { opacity: 1; }
+  75%, 100% { opacity: 0; }
+}
 
 
   </style>
