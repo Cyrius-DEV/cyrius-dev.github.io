@@ -146,7 +146,7 @@ body {
   }
 
   50% {
-    transform: translateX(83vw) translateY(-20px);
+    transform: translateX(83vw) translateY(-10px);
   }
   80% {
     transform: translateX(100vw) translateY(20px);
