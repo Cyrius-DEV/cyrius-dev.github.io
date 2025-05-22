@@ -77,17 +77,16 @@ setInterval(() => {
   clouds.forEach(({ el, duration }) => {
     const currentLeft = el.getBoundingClientRect().left;
 
-    // Redémarre seulement s'il est hors écran à droite
-    if (currentLeft > window.innerWidth) {
+
       const delay = Math.random() * 10000; // jusqu'à 10s de décalage
 
       setTimeout(() => {
         el.style.animation = 'none';
         void el.offsetWidth; // force le repaint
-        el.style.left = `-200px`;
+        el.style.left = `-150px`;
         el.style.animation = `floatCloudRight ${duration}s linear infinite`;
       }, delay);
-    }
+    
   });
 }, 120000); // tous les 120s
 
@@ -461,7 +460,17 @@ body {
 /* Apparition progressive pendant le jour uniquement */
 @keyframes cloudFade {
   0%, 50% { opacity: 1; }
-  75%, 100% { opacity: 0; }
+  
+  0%{
+    opacity:0.7;
+  }
+  50%{
+    opacity:1;
+  }
+  75%{
+    opacity:0.3;
+  }
+  100% { opacity: 0; }
 }
 
 
