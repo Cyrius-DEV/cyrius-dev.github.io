@@ -15,6 +15,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const starsContainer = document.createElement("div");
   starsContainer.className = "stars-container";
 
+  const sun = document.createElement("div");
+  sun.className = "sun";
+
   // Crée 75 étoiles avec styles aléatoires
   for (let i = 0; i < 75; i++) {
     const star = document.createElement("div");
@@ -43,6 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   masthead.appendChild(starsContainer);
+  masthead.appendChild(sun);
 });
 </script>
 
@@ -164,36 +168,6 @@ body {
 }
 
 
-/*
-.stars::before {
-  content: "";
-  position: absolute;
-  width: 2px;
-  height: 2px;
-  background: white;
-  box-shadow:
-    5vw 10vh white, 12vw 5vh white, 18vw 30vh white, 25vw 15vh white, 32vw 9vh white,
-    38vw 17vh white, 45vw 6vh white, 52vw 20vh white, 60vw 10vh white, 67vw 14vh white,
-    72vw 22vh white, 78vw 18vh white, 84vw 8vh white, 90vw 11vh white, 96vw 5vh white,
-    3vw 12vh white, 10vw 25vh white, 15vw 8vh white, 22vw 13vh white, 28vw 3vh white,
-    35vw 28vh white, 40vw 19vh white, 46vw 12vh white, 53vw 4vh white, 59vw 27vh white,
-    65vw 16vh white, 70vw 21vh white, 76vw 2vh white, 82vw 30vh white, 88vw 26vh white,
-    94vw 9vh white, 6vw 6vh white, 13vw 11vh white, 19vw 20vh white, 26vw 7vh white,
-    33vw 23vh white, 39vw 13vh white, 44vw 30vh white, 50vw 18vh white, 56vw 9vh white,
-    61vw 6vh white, 68vw 29vh white, 73vw 12vh white, 80vw 5vh white, 86vw 16vh white,
-    91vw 19vh white, 97vw 3vh white, 2vw 28vh white, 9vw 1vh white, 16vw 14vh white,
-    21vw 26vh white, 27vw 12vh white, 34vw 8vh white, 41vw 24vh white, 47vw 10vh white,
-    54vw 5vh white, 58vw 17vh white, 63vw 11vh white, 69vw 4vh white, 75vw 15vh white,
-    81vw 9vh white, 87vw 13vh white, 93vw 6vh white, 99vw 2vh white, 7vw 19vh white,
-    14vw 22vh white, 20vw 27vh white, 31vw 1vh white, 36vw 16vh white, 43vw 3vh white,
-    48vw 21vh white, 55vw 30vh white, 62vw 23vh white, 66vw 13vh white;
-  animation:
-    starsFade 120s ease-in-out infinite,
-    twinkle 3s ease-in-out infinite alternate,
-    floatStars 10s ease-in-out infinite alternate;
-  opacity: 0;
-}
-*/
 
 @keyframes colorCycle {
   0%     { background-color: #cfe4fa; }   /* Couleur 1 */
