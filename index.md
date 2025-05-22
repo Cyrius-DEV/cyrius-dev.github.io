@@ -39,7 +39,7 @@ for (let i = 0; i < 10; i++) {
   cloud.style.top = `${Math.random() * 50 + 10}%`;
   cloud.style.animationDuration = `${40 + Math.random() * 30}s`;
   cloud.style.animationDelay = `${Math.random() * 60}s`;
-  cloudContainer.appendChild(cloud);
+  cloudsContainer.appendChild(cloud);
 }
 
 
