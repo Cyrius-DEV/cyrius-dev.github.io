@@ -48,9 +48,9 @@ cloud.style.opacity = `${0.6 + Math.random() * 0.4}`;
 
 
   const cloudTypes = ['cloud-1', 'cloud-2', 'cloud-3', 'cloud-4', 'cloud-5'];
-const cloudContainer = document.createElement('div');
-cloudContainer.id = 'cloud-container';
-document.querySelector('.masthead').appendChild(cloudContainer);
+const cloudsContainer = document.createElement('div');
+cloudsContainer.id = 'clouds-container';
+document.querySelector('.masthead').appendChild(cloudsContainer);
 
 // Créer les nuages
 const cloudCount = 15;
@@ -69,7 +69,7 @@ for (let i = 0; i < cloudCount; i++) {
   const duration = 40 + Math.random() * 30;
   cloud.style.animation = `floatCloudRight ${duration}s linear infinite`;
 
-  cloudContainer.appendChild(cloud);
+  cloudsContainer.appendChild(cloud);
   clouds.push({ el: cloud, duration });
 }
 
