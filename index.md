@@ -141,18 +141,18 @@ body {
   16.66% {   /* 20s */
     transform: translateX(17vw) translateY(-20px);
   }
-  41.66% {
+  33.33% {
     transform: translateX(50vw) translateY(-60px);
   }
 
-  66.66% {
+  50% {
     transform: translateX(83vw) translateY(-20px);
   }
   80% {
     transform: translateX(100vw) translateY(20px);
   }
   91.66% {
-    transform: translateX(0%) translateY(20px);
+    transform: translateX(-20%) translateY(20px);
     opacity: 0;
   }
   100% {
@@ -161,6 +161,7 @@ body {
   }
 }
 
+  
 @keyframes starsFade {
   0%, 25%, 50%, 66% {
     opacity: 0; /* Pas visible pendant jour */
