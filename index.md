@@ -459,16 +459,19 @@ body {
 
 /* Apparition progressive pendant le jour uniquement */
 @keyframes cloudFade {
-  0%, 50% { opacity: 1; }
+
   
   0%{
     opacity:0.7;
   }
-  50%{
+  16.66%{
     opacity:1;
   }
-  75%{
+  50%{
     opacity:0.3;
+  }
+  75%{
+    opacity:0;
   }
   100% { opacity: 0; }
 }
