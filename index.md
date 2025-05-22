@@ -134,21 +134,21 @@ body {
 
 
 @keyframes sunPath {
-  0% {
-    transform: translateX(0%) translateY(-10px);
+  0% {   /* Couleur 1 */
+    transform: translateX(0%) translateY(0px);
     opacity: 1;
   }
-  16.66% {
-    transform: translateX(17vw) translateY(-10px);
+  16.66% {   /* 20s */
+    transform: translateX(17vw) translateY(-20px);
   }
-  25% {
+  25% { /* Transition → Couleur 2 */
     transform: translateX(25vw) translateY(-30px);
   }
   41.66% {
     transform: translateX(50vw) translateY(-60px);
   }
   50% {
-    transform: translateX(75vw) translateY(-30px);
+    transform: translateX(75vw) translateY(-20px);
   }
   66.66% {
     transform: translateX(90vw) translateY(-10px);
