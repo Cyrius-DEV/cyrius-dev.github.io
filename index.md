@@ -127,10 +127,10 @@ body {
 
 /* Apparition pendant la nuit */
 @keyframes starsFade {
-  0%, 49.99% {
+  0%, 66% {
     opacity: 0;
   }
-  50% {
+  66.66% {
     opacity: 0.3;
   }
   75%, 91.66% {
