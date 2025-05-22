@@ -15,23 +15,17 @@ document.addEventListener("DOMContentLoaded", function () {
   const cloudsContainer = document.createElement("div");
   cloudsContainer.className = "clouds-container";
 
-  // Crée 5 nuages à différentes hauteurs et vitesses
-  for (let i = 0; i < 5; i++) {
-    const cloud = document.createElement("div");
-    cloud.className = "cloud";
+  const cloudTypes = ['cloud-1', 'cloud-2', 'cloud-3'];
 
-    const top = 5 + Math.random() * 40; // entre 5% et 45%
-    const duration = 40 + Math.random() * 40; // 40s à 80s
-    const delay = Math.random() * 60;
+for (let i = 0; i < 10; i++) {
+  const cloud = document.createElement('div');
+  cloud.classList.add('cloud', cloudTypes[Math.floor(Math.random() * cloudTypes.length)]);
+  cloud.style.top = `${Math.random() * 50 + 10}%`;
+  cloud.style.animationDuration = `${40 + Math.random() * 30}s`;
+  cloud.style.animationDelay = `${Math.random() * 60}s`;
+  cloudContainer.appendChild(cloud);
+}
 
-    cloud.style.top = `${Math.random() * 50 + 10}%`; // entre 10% et 60% de la hauteur
-cloud.style.left = `-150px`; // départ hors écran
-cloud.style.animationDuration = `${40 + Math.random() * 30}s`; // entre 40 et 70s
-cloud.style.animationDelay = `${Math.random() * 60}s`; // échelonné dans la minute
-
-
-    cloudsContainer.appendChild(cloud);
-  }
 
   masthead.appendChild(cloudsContainer);
 
@@ -271,7 +265,7 @@ body {
 
 
 
-
+/*
 .cloud {
   position: absolute;
   background: #fff;
@@ -289,7 +283,62 @@ body {
   height: 20px;
   animation: floatCloud 60s linear infinite;
 }
+*/
 
+
+  /* Nuage compact et large */
+.cloud-1 {
+  width: 60px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow:
+    15px 0px 0px 5px #fff,
+    30px 0px 0px 5px #fff,
+    10px -8px 0px 4px #fff,
+    25px -6px 0px 4px #fff,
+    20px 6px 0px 3px #fff;
+}
+
+/* Nuage plus petit et haut */
+.cloud-2 {
+  width: 50px;
+  height: 25px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow:
+    12px -4px 0px 4px #fff,
+    22px 0px 0px 5px #fff,
+    35px -5px 0px 4px #fff,
+    20px 4px 0px 3px #fff;
+}
+
+/* Nuage légèrement allongé et irrégulier */
+.cloud-3 {
+  width: 70px;
+  height: 18px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow:
+    12px -2px 0px 4px #fff,
+    25px 2px 0px 5px #fff,
+    40px -3px 0px 4px #fff,
+    55px 0px 0px 3px #fff;
+}
+
+/* Animation commune */
+.cloud {
+  position: absolute;
+  opacity: 0;
+  animation-name: floatCloud;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  top: 0;
+  left: -150px;
+}
+
+
+  
 /* Nuages visibles uniquement pendant la journée */
 .clouds-container {
   position: absolute;
