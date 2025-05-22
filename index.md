@@ -148,11 +148,11 @@ body {
   50% {
     transform: translateX(83vw) translateY(-10px);
   }
-  80% {
+  75% {
     transform: translateX(100vw) translateY(20px);
   }
   91.66% {
-    transform: translateX(-20%) translateY(20px);
+    transform: translateX(-20px) translateY(20px);
     opacity: 0;
   }
   100% {
