@@ -145,10 +145,10 @@ body {
 
 
   75% {
-    transform: translateX(100vw) translateY(0px);
+    transform: translateX(100vw) translateY(20px);
   }
   91.66% {
-    transform: translateX(110vw) translateY(20px);
+    transform: translateX(0%) translateY(20px);
     opacity: 0;
   }
   100% {
