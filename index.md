@@ -6,27 +6,46 @@ classes: wide
 ---
 
 
-<script defer>
+<script>
 document.addEventListener("DOMContentLoaded", function () {
-  const navbar = document.querySelector('.masthead');
-  if (!navbar){
-    console.log("oopsie");
-    return;
+  const masthead = document.querySelector(".masthead");
+  if (!masthead) return;
+
+  // Crée le conteneur des étoiles
+  const starsContainer = document.createElement("div");
+  starsContainer.className = "stars-container";
+
+  // Crée 75 étoiles avec styles aléatoires
+  for (let i = 0; i < 75; i++) {
+    const star = document.createElement("div");
+    star.className = "star";
+
+    // Position aléatoire (en % pour responsivité)
+    const top = Math.random() * 100;
+    const left = Math.random() * 100;
+
+    // Durée et délai d'animation aléatoires
+    const floatDuration = 5 + Math.random() * 5; // 5s à 10s
+    const delay = Math.random() * 5;
+
+    // Choisir une animation parmi 3
+    const floatAnimation = `float${(i % 3) + 1}`;
+
+    // Applique styles en ligne
+    star.style.top = `${top}%`;
+    star.style.left = `${left}%`;
+    star.style.animation = `
+      twinkle ${3 + Math.random() * 2}s ease-in-out ${delay}s infinite alternate,
+      ${floatAnimation} ${floatDuration}s ease-in-out ${delay}s infinite
+    `;
+
+    starsContainer.appendChild(star);
   }
 
-  // Créer le soleil
-  const sun = document.createElement('div');
-  sun.className = 'sun';
-
-  // Créer les étoiles
-  const stars = document.createElement('div');
-  stars.className = 'stars';
-
-  // Ajouter les éléments dans la navbar
-  navbar.appendChild(sun);
-  navbar.appendChild(stars);
+  masthead.appendChild(starsContainer);
 });
 </script>
+
 
 
 <style>
@@ -80,7 +99,7 @@ body {
 }
 
 /* Étoiles */
-.stars {
+.stars-container {
   position: absolute;
   top: 0;
   left: 0;
@@ -90,8 +109,62 @@ body {
   z-index: 1;
   opacity: 0;
   animation: starsFade 120s ease-in-out infinite;
+  overflow: hidden;
 }
 
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+/* Apparition pendant la nuit */
+@keyframes starsFade {
+  0%, 74.99% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0.3;
+  }
+  91.66% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Scintillement */
+@keyframes twinkle {
+  0%   { opacity: 0.3; }
+  50%  { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+/* Flottement doux aléatoire */
+@keyframes float1 {
+  0%   { transform: translate(0px, 0px); }
+  50%  { transform: translate(2px, -1px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+@keyframes float2 {
+  0%   { transform: translate(0px, 0px); }
+  50%  { transform: translate(-1px, 2px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+@keyframes float3 {
+  0%   { transform: translate(0px, 0px); }
+  50%  { transform: translate(1px, 1px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+
+/*
 .stars::before {
   content: "";
   position: absolute;
@@ -120,7 +193,7 @@ body {
     floatStars 10s ease-in-out infinite alternate;
   opacity: 0;
 }
-
+*/
 
 @keyframes colorCycle {
   0%     { background-color: #cfe4fa; }   /* Couleur 1 */
@@ -188,36 +261,15 @@ body {
   }
 }
 
-@keyframes floatStars {
-  0%   { transform: translate(0px, 0px); }
-  25%  { transform: translate(1px, -1px); }
-  50%  { transform: translate(0px, 1px); }
-  75%  { transform: translate(-1px, 0px); }
-  100% { transform: translate(0px, 0px); }
-}
-
-  
-@keyframes twinkle {
-  0%   { opacity: 0.3; }
-  50%  { opacity: 1; }
-  100% { opacity: 0.5; }
-}
 
 
-@keyframes starsFade {
-  0%, 74.99% {
-    opacity: 0;
-  }
-  75% {
-    opacity: 0.8;
-  }
-  91.66% {
-    opacity: 0.9;
-  }
-  100% {
-    opacity: 0;
-  }
-}
+
+
+
+
+
+
+
 
   </style>
 
