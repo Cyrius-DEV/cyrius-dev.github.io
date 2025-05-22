@@ -24,9 +24,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const duration = 40 + Math.random() * 40; // 40s à 80s
     const delay = Math.random() * 60;
 
-    cloud.style.top = `${top}%`;
-    cloud.style.animationDuration = `${duration}s`;
-    cloud.style.animationDelay = `${delay}s`;
+    cloud.style.top = `${Math.random() * 50 + 10}%`; // entre 10% et 60% de la hauteur
+cloud.style.left = `-150px`; // départ hors écran
+cloud.style.animationDuration = `${40 + Math.random() * 30}s`; // entre 40 et 70s
+cloud.style.animationDelay = `${Math.random() * 60}s`; // échelonné dans la minute
+
 
     cloudsContainer.appendChild(cloud);
   }
@@ -274,6 +276,8 @@ body {
   position: absolute;
   background: #fff;
   border-radius: 50%;
+  top: 0;
+  left: -150px; 
   opacity: 0.8;
   box-shadow:
     -30px 0px 0px 0px #fff,
@@ -302,10 +306,18 @@ body {
 /* Animation des nuages */
 @keyframes floatCloud {
   0% {
-    transform: translateX(-100vw);
+    transform: translateX(0);
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  95% {
+    opacity: 1;
   }
   100% {
-    transform: translateX(100vw);
+    transform: translateX(150vw); /* Traverse tout l’écran */
+    opacity: 0;
   }
 }
 
