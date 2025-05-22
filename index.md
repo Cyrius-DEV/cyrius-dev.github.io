@@ -87,7 +87,10 @@ a:visited {
 
 .masthead__inner-wrap {
   background-color: transparent; /* supprime le blanc qui masque le fond */
+  position: relative;
+  z-index: 5;
 }
+  
 
 #site-nav{
   background-color: transparent;
@@ -278,7 +281,7 @@ body {
     0px 0px 0px 0px #fff,
     15px -10px 0px 0px #fff,
     30px 0px 0px 0px #fff;
-  width: 40px;
+  width: 30px;
   height: 20px;
   animation: floatCloud 60s linear infinite;
 }
