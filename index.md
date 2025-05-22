@@ -49,7 +49,7 @@ cloud.style.opacity = `${0.6 + Math.random() * 0.4}`;
 
   const cloudTypes = ['cloud-1', 'cloud-2', 'cloud-3', 'cloud-4', 'cloud-5'];
 const cloudsContainer = document.createElement('div');
-cloudsContainer.id = 'clouds-container';
+cloudsContainer.className = "clouds-container";
 document.querySelector('.masthead').appendChild(cloudsContainer);
 
 // Créer les nuages
