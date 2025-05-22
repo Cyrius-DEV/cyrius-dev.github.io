@@ -172,6 +172,14 @@ body {
   }
   91.66% {
     transform: translateX(-20px) translateY(20px);
+    opacity: 1;
+  }
+  92% {
+    transform: translateX(-20px) translateY(20px);
+    opacity: 0;
+  }
+  99% {
+    transform: translateX(0%) translateY(0px);
     opacity: 0;
   }
   100% {
