@@ -15,6 +15,22 @@ document.addEventListener("DOMContentLoaded", function () {
   const cloudsContainer = document.createElement("div");
   cloudsContainer.className = "clouds-container";
 
+
+/*
+
+for (let i = 0; i < 10; i++) {
+    const cloud = document.createElement("div");
+    cloud.className = "cloud";
+    cloud.style.top = `${Math.random() * 50 + 10}%`; // entre 10% et 60% de la hauteur
+    cloud.style.left = `-150px`; // départ hors écran
+    cloud.style.animationDuration = `${40 + Math.random() * 30}s`; // entre 40 et 70s
+    cloud.style.animationDelay = `${Math.random() * 60}s`; // échelonné dans la minute
+    cloudsContainer.appendChild(cloud);
+  }
+
+
+*/
+  
   const cloudTypes = ['cloud-1', 'cloud-2', 'cloud-3'];
 
 for (let i = 0; i < 10; i++) {
