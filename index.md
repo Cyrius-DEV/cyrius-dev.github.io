@@ -278,13 +278,13 @@ body {
   border-radius: 50%;
   top: 0;
   left: -150px; 
-  opacity: 0.8;
+  opacity: 0.6;
   box-shadow:
-    -30px 0px 0px 0px #fff,
-    -15px -10px 0px 0px #fff,
-    0px 0px 0px 0px #fff,
-    15px -10px 0px 0px #fff,
-    30px 0px 0px 0px #fff;
+    15px 0px 0px 5px #fff,
+    30px 0px 0px 5px #fff,
+    10px -8px 0px 4px #fff,
+    25px -6px 0px 4px #fff,
+    20px 6px 0px 3px #fff;
   width: 30px;
   height: 20px;
   animation: floatCloud 60s linear infinite;
