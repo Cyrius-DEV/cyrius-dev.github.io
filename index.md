@@ -31,14 +31,20 @@ for (let i = 0; i < 10; i++) {
 
 */
   
-  const cloudTypes = ['cloud-1', 'cloud-2', 'cloud-3'];
+  const cloudTypes = ['cloud-1', 'cloud-2', 'cloud-3', 'cloud-4', 'cloud-5'];
+
 
 for (let i = 0; i < 10; i++) {
   const cloud = document.createElement('div');
-  cloud.classList.add('cloud', cloudTypes[Math.floor(Math.random() * cloudTypes.length)]);
+  const type = cloudTypes[Math.floor(Math.random() * cloudTypes.length)];
+cloud.classList.add('cloud', type);
+
   cloud.style.top = `${Math.random() * 50 + 10}%`;
   cloud.style.animationDuration = `${40 + Math.random() * 30}s`;
   cloud.style.animationDelay = `${Math.random() * 60}s`;
+  cloud.style.transform = `scale(${0.8 + Math.random() * 0.6})`;
+cloud.style.opacity = `${0.6 + Math.random() * 0.4}`;
+
   cloudsContainer.appendChild(cloud);
 }
 
@@ -302,45 +308,68 @@ body {
 */
 
 
-  /* Nuage compact et large */
+  /* 🌥️ Nuage 1 — compact, équilibré */
 .cloud-1 {
-  width: 60px;
+  width: 50px;
   height: 20px;
   background: #fff;
   border-radius: 50%;
   box-shadow:
-    15px 0px 0px 5px #fff,
-    30px 0px 0px 5px #fff,
-    10px -8px 0px 4px #fff,
-    25px -6px 0px 4px #fff,
-    20px 6px 0px 3px #fff;
+    12px -4px 0 4px #fff,
+    22px 0px 0 5px #fff,
+    35px -3px 0 4px #fff,
+    20px 4px 0 3px #fff;
 }
 
-/* Nuage plus petit et haut */
+/* 🌤️ Nuage 2 — plus petit et arrondi */
 .cloud-2 {
-  width: 50px;
-  height: 25px;
-  background: #fff;
-  border-radius: 50%;
-  box-shadow:
-    12px -4px 0px 4px #fff,
-    22px 0px 0px 5px #fff,
-    35px -5px 0px 4px #fff,
-    20px 4px 0px 3px #fff;
-}
-
-/* Nuage légèrement allongé et irrégulier */
-.cloud-3 {
-  width: 70px;
+  width: 40px;
   height: 18px;
   background: #fff;
   border-radius: 50%;
   box-shadow:
-    12px -2px 0px 4px #fff,
-    25px 2px 0px 5px #fff,
-    40px -3px 0px 4px #fff,
-    55px 0px 0px 3px #fff;
+    10px -3px 0 4px #fff,
+    18px 1px 0 3px #fff,
+    24px -2px 0 3px #fff;
 }
+
+/* 🌩️ Nuage 3 — plus étalé horizontalement */
+.cloud-3 {
+  width: 60px;
+  height: 18px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow:
+    15px -2px 0 4px #fff,
+    30px 2px 0 5px #fff,
+    45px -3px 0 4px #fff;
+}
+
+/* 🌫️ Nuage 4 — bas et long */
+.cloud-4 {
+  width: 55px;
+  height: 14px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow:
+    10px 0px 0 3px #fff,
+    20px -2px 0 3px #fff,
+    30px 1px 0 3px #fff,
+    40px 0px 0 2px #fff;
+}
+
+/* 🌧️ Nuage 5 — rond, dense et peu large */
+.cloud-5 {
+  width: 35px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow:
+    8px -2px 0 3px #fff,
+    16px 0px 0 3px #fff,
+    12px 3px 0 2px #fff;
+}
+
 
 /* Animation commune */
 .cloud {
