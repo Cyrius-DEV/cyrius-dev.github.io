@@ -268,7 +268,7 @@ body {
 
 
 .cloud {
-  position: relative;
+  position: absolute;
   background: #fff;
   border-radius: 50%;
   opacity: 0.8;
@@ -286,6 +286,7 @@ body {
 
 /* Nuages visibles uniquement pendant la journée */
 .clouds-container {
+  position: absolute;
   width: 100%;
   height: 100%;
   pointer-events: none;
