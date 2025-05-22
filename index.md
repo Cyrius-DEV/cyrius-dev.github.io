@@ -54,12 +54,12 @@ a:visited {
 
 body {
   background-color: #FAF7E5;
-  animation: bodyCycle 120s ease-in-out;
+  animation: bodyCycle 120s ease-in-out infinite;
 }
 
 .masthead {
   background-color: #cfe4fa;
-  animation: colorCycle 120s ease-in-out;
+  animation: colorCycle 120s ease-in-out infinite;
   overflow: hidden;
   position:relative;
 }
