@@ -99,17 +99,25 @@ body {
   height: 2px;
   background: white;
   box-shadow:
-    5vw 10vh white, 15vw 5vh white, 25vw 15vh white, 35vw 20vh white, 45vw 7vh white,
-    55vw 12vh white, 65vw 3vh white, 75vw 18vh white, 85vw 6vh white, 95vw 10vh white,
-    2vw 22vh white, 12vw 30vh white, 22vw 28vh white, 32vw 24vh white, 42vw 26vh white,
-    52vw 29vh white, 62vw 31vh white, 72vw 23vh white, 82vw 27vh white, 92vw 25vh white,
-    10vw 12vh white, 20vw 5vh white, 30vw 10vh white, 40vw 6vh white, 50vw 15vh white,
-    60vw 4vh white, 70vw 11vh white, 80vw 2vh white, 90vw 9vh white, 98vw 3vh white,
-    8vw 18vh white, 18vw 14vh white, 28vw 17vh white, 38vw 13vh white, 48vw 19vh white,
-    58vw 16vh white, 68vw 20vh white, 78vw 21vh white, 88vw 22vh white, 96vw 12vh white,
-    4vw 8vh white, 14vw 9vh white, 24vw 7vh white, 34vw 6vh white, 44vw 5vh white,
-    54vw 4vh white, 64vw 3vh white, 74vw 2vh white, 84vw 1vh white, 94vw 0vh white;
-  animation: twinkle 3s infinite ease-in-out alternate;
+    5vw 10vh white, 12vw 5vh white, 18vw 30vh white, 25vw 15vh white, 32vw 9vh white,
+    38vw 17vh white, 45vw 6vh white, 52vw 20vh white, 60vw 10vh white, 67vw 14vh white,
+    72vw 22vh white, 78vw 18vh white, 84vw 8vh white, 90vw 11vh white, 96vw 5vh white,
+    3vw 12vh white, 10vw 25vh white, 15vw 8vh white, 22vw 13vh white, 28vw 3vh white,
+    35vw 28vh white, 40vw 19vh white, 46vw 12vh white, 53vw 4vh white, 59vw 27vh white,
+    65vw 16vh white, 70vw 21vh white, 76vw 2vh white, 82vw 30vh white, 88vw 26vh white,
+    94vw 9vh white, 6vw 6vh white, 13vw 11vh white, 19vw 20vh white, 26vw 7vh white,
+    33vw 23vh white, 39vw 13vh white, 44vw 30vh white, 50vw 18vh white, 56vw 9vh white,
+    61vw 6vh white, 68vw 29vh white, 73vw 12vh white, 80vw 5vh white, 86vw 16vh white,
+    91vw 19vh white, 97vw 3vh white, 2vw 28vh white, 9vw 1vh white, 16vw 14vh white,
+    21vw 26vh white, 27vw 12vh white, 34vw 8vh white, 41vw 24vh white, 47vw 10vh white,
+    54vw 5vh white, 58vw 17vh white, 63vw 11vh white, 69vw 4vh white, 75vw 15vh white,
+    81vw 9vh white, 87vw 13vh white, 93vw 6vh white, 99vw 2vh white, 7vw 19vh white,
+    14vw 22vh white, 20vw 27vh white, 31vw 1vh white, 36vw 16vh white, 43vw 3vh white,
+    48vw 21vh white, 55vw 30vh white, 62vw 23vh white, 66vw 13vh white;
+  animation:
+    starsFade 120s ease-in-out infinite,
+    twinkle 3s ease-in-out infinite alternate,
+    floatStars 10s ease-in-out infinite alternate;
   opacity: 0;
 }
 
@@ -180,7 +188,15 @@ body {
   }
 }
 
+@keyframes floatStars {
+  0%   { transform: translate(0px, 0px); }
+  25%  { transform: translate(1px, -1px); }
+  50%  { transform: translate(0px, 1px); }
+  75%  { transform: translate(-1px, 0px); }
+  100% { transform: translate(0px, 0px); }
+}
 
+  
 @keyframes twinkle {
   0%   { opacity: 0.3; }
   50%  { opacity: 1; }
@@ -193,10 +209,10 @@ body {
     opacity: 0;
   }
   75% {
-    opacity: 0.6;
+    opacity: 0.8;
   }
   91.66% {
-    opacity: 0.8;
+    opacity: 0.9;
   }
   100% {
     opacity: 0;
