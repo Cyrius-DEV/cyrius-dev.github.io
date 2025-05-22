@@ -121,7 +121,7 @@ body {
   background: radial-gradient(circle, #FFD700, #FFA500);
   bottom: -20px;
   left: 0;
-  z-index: 2;
+  z-index: 3;
   animation: sunPath 120s ease-in-out infinite;
 
 }
@@ -280,7 +280,6 @@ body {
     30px 0px 0px 0px #fff;
   width: 60px;
   height: 30px;
-  z-index: 1;
   animation: floatCloud 60s linear infinite;
 }
 
@@ -290,7 +289,7 @@ body {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  z-index: 1;
+  z-index: 2;
   opacity: 1;
   animation: cloudFade 120s ease-in-out infinite;
 }
