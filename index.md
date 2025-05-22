@@ -139,12 +139,12 @@ body {
     opacity: 1;
   }
    
-  37.5% {
+  25% {
     transform: translateX(50vw) translateY(-60px);
   }
 
 
-  75% {
+  80% {
     transform: translateX(100vw) translateY(20px);
   }
   91.66% {
