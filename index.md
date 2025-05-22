@@ -73,9 +73,10 @@ body {
   border-radius: 50%;
   background: radial-gradient(circle, #FFD700, #FFA500);
   bottom: -20px;
-  left: -20px;
-  animation: sunPath 120s ease-in-out infinite;
+  left: 0;
   z-index: 2;
+  animation: sunPath 120s ease-in-out infinite;
+
 }
 
 /* Étoiles */
@@ -133,15 +134,36 @@ body {
 
 
 @keyframes sunPath {
-  0%   { transform: translate(0, 0); opacity: 1; }              /* Lever (visible moitié) */
-  16.66%  { transform: translate(10%, 10%); }                    /* Toujours bas */
-  25%  { transform: translate(40%, 40%); }                    /* En montée */
-  41.66%  { transform: translate(50%, 50%); }                    /* Zénith */
-  50%  { transform: translate(60%, 60%); }                    /* Descente */
-  66.66%  { transform: translate(90%, 90%); }                    /* Presque couché */
-  75%  { transform: translate(100%, 100%); opacity: 1; }           /* Couché */
-  91.66%  { transform: translate(120%, 40px); opacity: 0; }        /* Disparu */
-  100% { transform: translate(0, 0); opacity: 0; }              /* Réinitialisation */
+  0% {
+    transform: translate(0%, 0%);
+    opacity: 1;
+  }
+  16.66% {
+    transform: translate(10%, -10px);
+  }
+  25% {
+    transform: translate(25%, -25px);
+  }
+  41.66% {
+    transform: translate(50%, -50px);
+  }
+  50% {
+    transform: translate(75%, -25px);
+  }
+  66.66% {
+    transform: translate(90%, -10px);
+  }
+  75% {
+    transform: translate(100%, 0%);
+  }
+  91.66% {
+    transform: translate(110%, 20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0%, 0%);
+    opacity: 0;
+  }
 }
 
 @keyframes starsFade {
