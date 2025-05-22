@@ -80,12 +80,11 @@ setInterval(() => {
 
       const delay = Math.random() * 10000; // jusqu'à 10s de décalage
 
-      setTimeout(() => {
+
         el.style.animation = 'none';
         void el.offsetWidth; // force le repaint
         el.style.left = `-150px`;
         el.style.animation = `floatCloudRight ${duration}s linear infinite`;
-      }, delay);
     
   });
 }, 120000); // tous les 120s
@@ -467,6 +466,7 @@ body {
   16.66%{
     opacity:1;
   }
+  
   50%{
     opacity:0.3;
   }
@@ -474,6 +474,28 @@ body {
     opacity:0;
   }
   100% { opacity: 0; }
+  0% { 
+    opacity:0.7;
+  }
+  16.66% {
+    opacity:1;
+  }
+  33.33% {
+    opacity:1;
+  }
+
+  50% {
+    opacity:0.3;
+  }
+  75% {
+    opacity:0;
+  }
+  91.66% {
+    opacity:0;
+  }
+  100% {
+    opacity:0;
+  }
 }
 
 
