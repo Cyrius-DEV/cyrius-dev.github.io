@@ -6,6 +6,27 @@ classes: wide
 ---
 
 
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  const navbar = document.querySelector('.masthead');
+  if (!navbar){
+    console.log("oopsie");
+    return;
+  }
+
+  // Créer le soleil
+  const sun = document.createElement('div');
+  sun.className = 'sun';
+
+  // Créer les étoiles
+  const stars = document.createElement('div');
+  stars.className = 'stars';
+
+  // Ajouter les éléments dans la navbar
+  navbar.appendChild(sun);
+  navbar.appendChild(stars);
+});
+</script>
 
 
 <style>
