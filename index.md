@@ -84,14 +84,33 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
   width: 100%;
-  background: transparent url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Stars.svg/1024px-Stars.svg.png') repeat;
-  opacity: 0;
-  animation: starsFade 120s ease-in-out infinite;
+  height: 100%;
   pointer-events: none;
   z-index: 1;
+  opacity: 0;
+  animation: starsFade 120s ease-in-out infinite;
 }
+
+.stars::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  box-shadow:
+    5vw 10vh white,
+    15vw 25vh white,
+    30vw 5vh white,
+    45vw 15vh white,
+    60vw 20vh white,
+    75vw 10vh white,
+    85vw 30vh white,
+    95vw 5vh white;
+  animation: twinkle 3s infinite ease-in-out alternate;
+  opacity: 0.8;
+}
+
 
 @keyframes colorCycle {
   0%     { background-color: #cfe4fa; }   /* Couleur 1 */
@@ -161,18 +180,28 @@ body {
   }
 }
 
-  
+
+@keyframes twinkle {
+  0% { opacity: 0.2; }
+  50% { opacity: 0.9; }
+  100% { opacity: 0.3; }
+}
+
 @keyframes starsFade {
-  0%, 25%, 50%, 66% {
-    opacity: 0; /* Pas visible pendant jour */
+  0%, 74.99% {
+    opacity: 0;
   }
   75% {
-    opacity: 0.3; /* Apparaît pendant couleur 4 */
+    opacity: 0.3;
   }
-  91%, 100% {
-    opacity: 0; /* Disparaît à la fin */
+  91.66% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 0;
   }
 }
+
   </style>
 
 <script>
