@@ -72,12 +72,14 @@ function animateCloud(cloudObj) {
   el.style.opacity = opacity;
   el.style.transform = `scale(${scale})`;
   el.style.animation = `floatCloud ${duration}s linear forwards`;
-
+  
+if(currentLeft > window.innerWidth){
   // Supprimer l’ancien écouteur s’il existe pour éviter les doublons
   el.onanimationend = () => {
     const delay = Math.random() * 3000;
     setTimeout(() => animateCloud(cloudObj), delay);
   };
+}
 }
 
 // Création et lancement des nuages
