@@ -47,47 +47,53 @@ cloud.style.opacity = `${0.6 + Math.random() * 0.4}`;
 
 
 
-  const cloudTypes = ['cloud-1', 'cloud-2', 'cloud-3', 'cloud-4', 'cloud-5'];
-const cloudsContainer = document.createElement('div');
-cloudsContainer.className = "clouds-container";
-document.querySelector('.masthead').appendChild(cloudsContainer);
+const cloudTypes = ['cloud-1', 'cloud-2', 'cloud-3', 'cloud-4', 'cloud-5'];
+const cloudContainer = document.createElement('div');
+  cloudsContainer.className = "clouds-container";
+document.querySelector('.masthead').appendChild(cloudContainer);
 
-// Créer les nuages
 const cloudCount = 15;
 const clouds = [];
 
-for (let i = 0; i < cloudCount; i++) {
-  const cloud = document.createElement('div');
-  const type = cloudTypes[Math.floor(Math.random() * cloudTypes.length)];
-  cloud.classList.add('cloud', type);
-
-  cloud.style.top = `${Math.random() * 50 + 10}%`;
-  cloud.style.left = `-150px`;
-  cloud.style.opacity = `${0.6 + Math.random() * 0.4}`;
-  cloud.style.transform = `scale(${0.8 + Math.random() * 0.6})`;
+function animateCloud(cloudObj) {
+  const { el } = cloudObj;
 
   const duration = 40 + Math.random() * 30;
-  cloud.style.animation = `floatCloud ${duration}s linear infinite`;
+  const scale = 0.8 + Math.random() * 0.6;
+  const opacity = 0.6 + Math.random() * 0.4;
+  const top = Math.random() * 50 + 10;
 
-  cloudsContainer.appendChild(cloud);
-  clouds.push({ el: cloud, duration });
+  el.style.animation = 'none';
+  void el.offsetWidth;
+
+  el.style.left = `-150px`;
+  el.style.top = `${top}%`;
+  el.style.opacity = opacity;
+  el.style.transform = `scale(${scale})`;
+  el.style.animation = `floatCloudRight ${duration}s linear forwards`;
 }
 
-setInterval(() => {
-  clouds.forEach(({ el, duration }) => {
-    const currentLeft = el.getBoundingClientRect().left;
+// Création initiale des nuages
+for (let i = 0; i < cloudCount; i++) {
+  const el = document.createElement('div');
+  el.classList.add('cloud');
+  const type = cloudTypes[Math.floor(Math.random() * cloudTypes.length)];
+  el.classList.add(type);
+  cloudContainer.appendChild(el);
 
+  const cloudObj = { el };
+  clouds.push(cloudObj);
 
-      const delay = Math.random() * 10000; // jusqu'à 10s de décalage
+  // Lancement initial avec délai aléatoire
+  setTimeout(() => animateCloud(cloudObj), Math.random() * 8000);
 
-
-        el.style.animation = 'none';
-        void el.offsetWidth; // force le repaint
-        el.style.left = `-150px`;
-        el.style.animation = `floatCloudRight ${duration}s linear infinite`;
-    
+  // Redémarrage individuel à la fin de l’animation avec un délai aléatoire
+  el.addEventListener('animationend', () => {
+    const delay = 5000 + Math.random() * 10000; // délai entre les passages
+    setTimeout(() => animateCloud(cloudObj), delay);
   });
-}, 120000); // tous les 120s
+}
+
 
 
 
