@@ -95,7 +95,7 @@ setInterval(() => {
   setInterval(() => {
   // Phase "préparation fin de cycle" à 115s
   setTimeout(() => {
-    clouds.forEach((cloudObj) => {
+    clouds.forEach((cloudObj, index) => {
       const { el } = cloudObj;
       el.style.animation = 'none';
       el.offsetHeight;
@@ -108,7 +108,7 @@ setInterval(() => {
 
   // Phase "redémarrage" à 120s
   setTimeout(() => {
-    clouds.forEach((cloudObj) => {
+    clouds.forEach((cloudObj, index) => {
       const { el } = cloudObj;
       el.style.opacity = 0;
       el.style.animation = 'none';
