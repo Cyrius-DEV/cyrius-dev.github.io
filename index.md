@@ -124,7 +124,7 @@ function scheduleCloudCycle() {
 }
 
 // Lancer le premier cycle après 120s
-setTimeout(scheduleCloudCycle, 120000);
+scheduleCloudCycle();
 
 
 
