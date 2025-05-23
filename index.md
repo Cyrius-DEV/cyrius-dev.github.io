@@ -443,7 +443,7 @@ body {
 /* Animation commune */
 .cloud {
   position: absolute;
-  opacity: 0;
+  opacity: 0.7;
   animation-name: floatCloud;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
