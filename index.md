@@ -102,6 +102,7 @@ setInterval(() => {
       el.style.transition = 'opacity 1s ease-out';
       el.style.opacity = 0;
       el.style.left = '-150px';
+      console.log("disparu");
     });
   }, 115000); // 115s après le démarrage de ce cycle
 
@@ -114,6 +115,7 @@ setInterval(() => {
       el.style.left = '-150px';
       el.offsetHeight;
       setTimeout(() => animateCloud(cloudObj), Math.random() * 50000);
+      console.log("animation redémarre");
     });
   }, 120000); // 120s après le démarrage de ce cycle
 }, 120000); // relancer le bloc toutes les 2 minutes
