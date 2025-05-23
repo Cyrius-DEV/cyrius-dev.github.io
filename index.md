@@ -204,7 +204,7 @@ body {
   animation: colorCycle 120s ease-in-out infinite;
   overflow: hidden;
   /*position:relative;*/
-  position: sticky;
+  position: fixed;
 }
 
 
