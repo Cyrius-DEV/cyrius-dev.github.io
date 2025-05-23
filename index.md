@@ -71,6 +71,8 @@ function animateCloud(cloudObj) {
   el.style.opacity = opacity;
   el.style.transform = `scale(${scale})`;
   el.style.animation = `floatCloud ${duration}s linear forwards`;
+
+  
 }
 
 // Création initiale des nuages
@@ -85,7 +87,7 @@ for (let i = 0; i < cloudCount; i++) {
   clouds.push(cloudObj);
 
   // Lancement initial avec délai aléatoire
-  setTimeout(() => animateCloud(cloudObj), Math.random() * 8000);
+  setTimeout(() => animateCloud(cloudObj), Math.random() * 12000);
 
   // Redémarrage individuel à la fin de l’animation avec un délai aléatoire
   el.addEventListener('animationend', () => {
