@@ -63,19 +63,24 @@ function animateCloud(cloudObj) {
   const opacity = 0.6 + Math.random() * 0.4;
   const top = Math.random() * 50 + 10;
 
+  // Réinitialisation propre de l'animation
   el.style.animation = 'none';
-  void el.offsetWidth;
+  el.offsetHeight; // forcer un reflow
 
   el.style.left = `-150px`;
   el.style.top = `${top}%`;
   el.style.opacity = opacity;
   el.style.transform = `scale(${scale})`;
-  el.style.animation = `floatCloud ${duration}s linear forwards`;
+  el.style.animation = `floatCloudRight ${duration}s linear forwards`;
 
-  
+  // Supprimer l’ancien écouteur s’il existe pour éviter les doublons
+  el.onanimationend = () => {
+    const delay = 3000 + Math.random() * 10000;
+    setTimeout(() => animateCloud(cloudObj), delay);
+  };
 }
 
-// Création initiale des nuages
+// Création et lancement des nuages
 for (let i = 0; i < cloudCount; i++) {
   const el = document.createElement('div');
   el.classList.add('cloud');
@@ -86,14 +91,8 @@ for (let i = 0; i < cloudCount; i++) {
   const cloudObj = { el };
   clouds.push(cloudObj);
 
-  // Lancement initial avec délai aléatoire
+  // Démarrage initial différé
   setTimeout(() => animateCloud(cloudObj), Math.random() * 12000);
-
-  // Redémarrage individuel à la fin de l’animation avec un délai aléatoire
-  el.addEventListener('animationend', () => {
-    const delay = 5000 + Math.random() * 10000; // délai entre les passages
-    setTimeout(() => animateCloud(cloudObj), delay);
-  });
 }
 
 
