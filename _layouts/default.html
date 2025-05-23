@@ -12,9 +12,11 @@
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
+<main id="swup" class="transition-fade">
+  {{ content }}
+
 
     <div class="initial-content">
-      {{ content }}
       {% include after-content.html %}
     </div>
 
@@ -23,7 +25,7 @@
         {% include_cached search/search_form.html %}
       </div>
     {% endif %}
-
+</main>
     <div id="footer" class="page__footer">
       <footer>
         {% include footer/custom.html %}
