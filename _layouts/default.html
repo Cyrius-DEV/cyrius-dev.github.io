@@ -85,6 +85,11 @@
 
   window.addEventListener('load', adjustContentOffset);
   window.addEventListener('resize', adjustContentOffset);
+
+  // Exécuter après chaque transition Swup
+  document.addEventListener('swup:contentReplaced', () => {
+    adjustContentOffset();
+  });
 </script>
     
 <script src="https://unpkg.com/swup@4"></script>
