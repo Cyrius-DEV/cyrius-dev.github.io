@@ -72,6 +72,9 @@ function animateCloud(cloudObj) {
   el.style.opacity = opacity;
   el.style.transform = `scale(${scale})`;
   el.style.animation = `floatCloud ${duration}s linear forwards`;
+
+
+  const currentLeft = el.getBoundingClientRect().left;
   console.log("currentLeft= "+currentLeft+"  window.innerWidth = "+window.innerWidth);
 if(currentLeft > window.innerWidth){
   // Supprimer l’ancien écouteur s’il existe pour éviter les doublons
