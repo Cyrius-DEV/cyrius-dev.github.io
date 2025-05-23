@@ -10,39 +10,6 @@ classes: wide
 document.addEventListener("DOMContentLoaded", function () {
   const masthead = document.querySelector(".masthead");
   if (!masthead) return;
-/*
-  // ☁️ Conteneur des nuages
-  const cloudsContainer = document.createElement("div");
-  cloudsContainer.className = "clouds-container";
-
-
-
-
-
-
-
-
-  
-  const cloudTypes = ['cloud-1', 'cloud-2', 'cloud-3', 'cloud-4', 'cloud-5'];
-
-
-for (let i = 0; i < 10; i++) {
-  const cloud = document.createElement('div');
-  const type = cloudTypes[Math.floor(Math.random() * cloudTypes.length)];
-cloud.classList.add('cloud', type);
-
-  cloud.style.top = `${Math.random() * 50 + 10}%`;
-  cloud.style.animationDuration = `${40 + Math.random() * 30}s`;
-  cloud.style.animationDelay = `${Math.random() * 60}s`;
-  cloud.style.transform = `scale(${0.8 + Math.random() * 0.6})`;
-cloud.style.opacity = `${0.6 + Math.random() * 0.4}`;
-
-  cloudsContainer.appendChild(cloud);
-}
-
-
-  masthead.appendChild(cloudsContainer);
-*/
 
 
 
@@ -62,6 +29,16 @@ function animateCloud(cloudObj) {
   const scale = 0.8 + Math.random() * 0.6;
   const top = Math.random() * 50 + 10;
 
+  // Supprimer l’ancien écouteur s’il existe pour éviter les doublons
+  el.onanimationend = () => {
+    const currentLeft = el.getBoundingClientRect().left;
+    console.log("currentLeft= "+currentLeft+"  window.innerWidth = "+window.innerWidth);
+      if(currentLeft > window.innerWidth){
+          const delay = Math.random() * 3000;
+          setTimeout(() => animateCloud(cloudObj), delay);
+      }
+  };
+
   // Réinitialisation propre de l'animation
   el.style.animation = 'none';
   el.offsetHeight; // forcer un reflow
@@ -72,15 +49,7 @@ function animateCloud(cloudObj) {
   el.style.animation = `floatCloud ${duration}s linear forwards`;
 
   
-  // Supprimer l’ancien écouteur s’il existe pour éviter les doublons
-  el.onanimationend = () => {
-    const currentLeft = el.getBoundingClientRect().left;
-    console.log("currentLeft= "+currentLeft+"  window.innerWidth = "+window.innerWidth);
-if(currentLeft > window.innerWidth){
-    const delay = Math.random() * 3000;
-    setTimeout(() => animateCloud(cloudObj), delay);
-}
-  };
+  
 
 }
 
@@ -356,26 +325,6 @@ body {
 
 
 
-/*
-.cloud {
-  position: absolute;
-  background: #fff;
-  border-radius: 50%;
-  top: 0;
-  left: -150px; 
-  opacity: 0.6;
-  box-shadow:
-    15px 0px 0px 5px #fff,
-    30px 0px 0px 5px #fff,
-    10px -8px 0px 4px #fff,
-    25px -6px 0px 4px #fff,
-    20px 6px 0px 3px #fff;
-  width: 30px;
-  height: 20px;
-  animation: floatCloud 60s linear infinite;
-}
-*/
-
 
   /* 🌥️ Nuage 1 — compact, équilibré */
 .cloud-1 {
@@ -514,6 +463,26 @@ body {
 
 
   </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 <script>
   const messages = [
