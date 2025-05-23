@@ -439,7 +439,7 @@ body {
     opacity:0.7;
   }
   16.66% {
-    opacity:1;
+    opacity:0.7;
   }
   33.33% {
     opacity:1;
