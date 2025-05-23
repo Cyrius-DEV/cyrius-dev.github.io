@@ -35,7 +35,7 @@ function animateCloud(cloudObj) {
     console.log("currentLeft= "+currentLeft+"  window.innerWidth = "+window.innerWidth);
       if(currentLeft > window.innerWidth){
           const delay = Math.random() * 3000;
-          //setTimeout(() => animateCloud(cloudObj), delay);
+          setTimeout(() => animateCloud(cloudObj), delay);
       }
   };
 
@@ -69,7 +69,10 @@ for (let i = 0; i < cloudCount; i++) {
 
   
   
-  // Redémarrage complet toutes les 120s (couleur 1)
+  
+
+}
+// Redémarrage complet toutes les 120s (couleur 1)
 setInterval(() => {
   clouds.forEach((cloudObj, index) => {
     const { el } = cloudObj;
@@ -82,9 +85,6 @@ setInterval(() => {
     setTimeout(() => animateCloud(cloudObj), Math.random() * 50000);
   });
 }, 120000); // 120s = 2 minutes
-
-}
-
 
 
 
