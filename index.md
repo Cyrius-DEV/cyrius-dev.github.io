@@ -42,7 +42,7 @@ function animateCloud(cloudObj) {
   // Réinitialisation propre de l'animation
   el.style.animation = 'none';
   el.offsetHeight; // forcer un reflow
-
+  el.style.opacity=1;
   el.style.left = `-150px`;
   el.style.top = `${top}%`;
   el.style.transform = `scale(${scale})`;
@@ -76,6 +76,7 @@ for (let i = 0; i < cloudCount; i++) {
 setInterval(() => {
   clouds.forEach((cloudObj, index) => {
     const { el } = cloudObj;
+    el.style.opacity=0;
     // Stop animation immédiatement
     el.style.animation = 'none';
     el.style.left='-150px';
@@ -445,7 +446,7 @@ body {
   }
 
   50% {
-    opacity:1;
+    opacity:0.3;
   }
   66.66% {
     opacity:0.3;
