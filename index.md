@@ -92,7 +92,7 @@ for (let i = 0; i < cloudCount; i++) {
   clouds.push(cloudObj);
 
   // Démarrage initial différé
-  setTimeout(() => animateCloud(cloudObj), Math.random() * 20000);
+  setTimeout(() => animateCloud(cloudObj), Math.random() * 50000);
 }
 
 
