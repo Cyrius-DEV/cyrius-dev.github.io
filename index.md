@@ -49,8 +49,8 @@ cloud.style.opacity = `${0.6 + Math.random() * 0.4}`;
 
 const cloudTypes = ['cloud-1', 'cloud-2', 'cloud-3', 'cloud-4', 'cloud-5'];
 const cloudContainer = document.createElement('div');
-  cloudsContainer.className = "clouds-container";
-document.querySelector('.masthead').appendChild(cloudContainer);
+  cloudContainer.className = "clouds-container";
+masthead.appendChild(cloudContainer);
 
 const cloudCount = 15;
 const clouds = [];
