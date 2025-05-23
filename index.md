@@ -193,10 +193,6 @@ a:visited {
 }
 
 
-/* Pour la version sticky (fixée en haut) si utilisée */
-.masthead--fixed {
-  background-color: #e6f0fa;
-}
 
 body {
   background-color: #FAF7E5;
@@ -207,7 +203,8 @@ body {
   background-color: #cfe4fa;
   animation: colorCycle 120s ease-in-out infinite;
   overflow: hidden;
-  position:relative;
+  /*position:relative;*/
+  position: sticky;
 }
 
 
