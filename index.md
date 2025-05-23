@@ -194,59 +194,7 @@ scheduleCloudCycle();
 
   
 
-<script>
-  const messages = [
-    { time: 0, text: 'Matin (fixe)' },
-    { time: 20, text: 'Transition vers midi' },
-    { time: 30, text: 'Midi (fixe)' },
-    { time: 50, text: 'Transition vers soir' },
-    { time: 60, text: 'Soir (fixe)' },
-    { time: 80, text: 'Transition vers nuit' },
-    { time: 90, text: 'Nuit (fixe)' },
-    { time: 110, text: 'Transition vers matin' }
-  ];
 
-  const cycleDuration = 120000; // en millisecondes
-  let cycleStart = Date.now();
-
-  function checkCycle() {
-    const now = Date.now();
-    const elapsed = (now - cycleStart) % cycleDuration;
-    const currentSecond = Math.floor(elapsed / 1000);
-
-    for (let i = messages.length - 1; i >= 0; i--) {
-      if (currentSecond >= messages[i].time) {
-        if (console.lastMessage !== messages[i].text) {
-          console.log(messages[i].text);
-          console.lastMessage = messages[i].text;
-        }
-        break;
-      }
-    }
-
-    requestAnimationFrame(checkCycle);
-  }
-
-  console.lastMessage = null;
-  requestAnimationFrame(checkCycle);
-</script>
-
-
-
-<script>
-  function adjustContentOffset() {
-    const masthead = document.querySelector('.masthead');
-    const initialContent = document.querySelector('.initial-content');
-
-    if (masthead && initialContent) {
-      const mastheadHeight = masthead.offsetHeight;
-      initialContent.style.marginTop = mastheadHeight + 'px';
-    }
-  }
-
-  window.addEventListener('load', adjustContentOffset);
-  window.addEventListener('resize', adjustContentOffset);
-</script>
 
 
 
