@@ -52,7 +52,7 @@ const cloudContainer = document.createElement('div');
 cloudContainer.className = "clouds-container";
 masthead.appendChild(cloudContainer);
 
-const cloudCount = 15;
+const cloudCount = 1;
 const clouds = [];
 
 function animateCloud(cloudObj) {
@@ -72,7 +72,7 @@ function animateCloud(cloudObj) {
   el.style.opacity = opacity;
   el.style.transform = `scale(${scale})`;
   el.style.animation = `floatCloud ${duration}s linear forwards`;
-  
+  console.log("currentLeft= "+currentLeft+"  window.innerWidth = "+window.innerWidth);
 if(currentLeft > window.innerWidth){
   // Supprimer l’ancien écouteur s’il existe pour éviter les doublons
   el.onanimationend = () => {
@@ -486,20 +486,7 @@ body {
 @keyframes cloudFade {
 
   
-  0%{
-    opacity:0.7;
-  }
-  16.66%{
-    opacity:1;
-  }
   
-  50%{
-    opacity:0.3;
-  }
-  75%{
-    opacity:0;
-  }
-  100% { opacity: 0; }
   0% { 
     opacity:0.7;
   }
@@ -511,6 +498,9 @@ body {
   }
 
   50% {
+    opacity:0.3;
+  }
+  66.66% {
     opacity:0.3;
   }
   75% {
