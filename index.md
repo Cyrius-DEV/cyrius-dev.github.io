@@ -102,6 +102,7 @@ setInterval(() => {
     const { el } = cloudObj;
     // Stop animation immédiatement
     el.style.animation = 'none';
+    el.style.left='-150px';
     el.offsetHeight; // force reflow
 
     // Redémarre comme au début avec un délai aléatoire
