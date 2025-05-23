@@ -35,7 +35,7 @@ function animateCloud(cloudObj) {
     console.log("currentLeft= "+currentLeft+"  window.innerWidth = "+window.innerWidth);
       if(currentLeft > window.innerWidth){
           const delay = Math.random() * 3000;
-          setTimeout(() => animateCloud(cloudObj), delay);
+          //setTimeout(() => animateCloud(cloudObj), delay);
       }
   };
 
