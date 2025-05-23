@@ -72,6 +72,8 @@ for (let i = 0; i < cloudCount; i++) {
   
 
 }
+
+  /*
 // Redémarrage complet toutes les 120s (couleur 1)
 setInterval(() => {
   clouds.forEach((cloudObj, index) => {
@@ -87,6 +89,34 @@ setInterval(() => {
   });
 }, 120000); // 120s = 2 minutes
 
+*/
+
+
+  setInterval(() => {
+  // Phase "préparation fin de cycle" à 115s
+  setTimeout(() => {
+    clouds.forEach((cloudObj) => {
+      const { el } = cloudObj;
+      el.style.animation = 'none';
+      el.offsetHeight;
+      el.style.transition = 'opacity 1s ease-out';
+      el.style.opacity = 0;
+      el.style.left = '-150px';
+    });
+  }, 115000); // 115s après le démarrage de ce cycle
+
+  // Phase "redémarrage" à 120s
+  setTimeout(() => {
+    clouds.forEach((cloudObj) => {
+      const { el } = cloudObj;
+      el.style.opacity = 0;
+      el.style.animation = 'none';
+      el.style.left = '-150px';
+      el.offsetHeight;
+      setTimeout(() => animateCloud(cloudObj), Math.random() * 50000);
+    });
+  }, 120000); // 120s après le démarrage de ce cycle
+}, 120000); // relancer le bloc toutes les 2 minutes
 
 
   
