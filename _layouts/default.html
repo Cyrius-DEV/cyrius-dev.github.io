@@ -86,9 +86,14 @@
   window.addEventListener('load', adjustContentOffset);
   window.addEventListener('resize', adjustContentOffset);
 
-  // Exécuter après chaque transition Swup
+  // Lors du remplacement de contenu Swup
   document.addEventListener('swup:contentReplaced', () => {
-    adjustContentOffset();
+    // Attendre que le DOM soit prêt pour le calcul
+    requestAnimationFrame(() => {
+      setTimeout(() => {
+        adjustContentOffset();
+      }, 50); // ou essaie avec 0 si 50 est trop perceptible
+    });
   });
 </script>
     
