@@ -92,33 +92,40 @@ setInterval(() => {
 */
 
 
-  setInterval(() => {
-  // Phase "préparation fin de cycle" à 115s
+function scheduleCloudCycle() {
+  // Étape 1 : préparation à 115s
   setTimeout(() => {
-    clouds.forEach((cloudObj, index) => {
+    clouds.forEach((cloudObj) => {
       const { el } = cloudObj;
       el.style.animation = 'none';
       el.offsetHeight;
       el.style.transition = 'opacity 1s ease-out';
       el.style.opacity = 0;
       el.style.left = '-150px';
-      console.log("disparu");
+      console.log("nuage masqué à 115s");
     });
-  }, 115000); // 115s après le démarrage de ce cycle
+  }, 115000);
 
-  // Phase "redémarrage" à 120s
+  // Étape 2 : redémarrage à 120s
   setTimeout(() => {
-    clouds.forEach((cloudObj, index) => {
+    clouds.forEach((cloudObj) => {
       const { el } = cloudObj;
       el.style.opacity = 0;
       el.style.animation = 'none';
       el.style.left = '-150px';
       el.offsetHeight;
       setTimeout(() => animateCloud(cloudObj), Math.random() * 50000);
-      console.log("animation redémarre");
+      console.log("nuage relancé à 120s");
     });
-  }, 120000); // 120s après le démarrage de ce cycle
-}, 120000); // relancer le bloc toutes les 2 minutes
+
+    // 🔁 Relancer le cycle complet
+    scheduleCloudCycle(); // boucle récursive
+  }, 120000);
+}
+
+// Lancer le premier cycle après 120s
+setTimeout(scheduleCloudCycle, 120000);
+
 
 
   
