@@ -75,7 +75,7 @@ function animateCloud(cloudObj) {
 
   // Supprimer l’ancien écouteur s’il existe pour éviter les doublons
   el.onanimationend = () => {
-    const delay = 3000 + Math.random() * 10000;
+    const delay = Math.random() * 3000;
     setTimeout(() => animateCloud(cloudObj), delay);
   };
 }
