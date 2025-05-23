@@ -49,7 +49,7 @@ cloud.style.opacity = `${0.6 + Math.random() * 0.4}`;
 
 const cloudTypes = ['cloud-1', 'cloud-2', 'cloud-3', 'cloud-4', 'cloud-5'];
 const cloudContainer = document.createElement('div');
-  cloudContainer.className = "clouds-container";
+cloudContainer.className = "clouds-container";
 masthead.appendChild(cloudContainer);
 
 const cloudCount = 15;
@@ -70,7 +70,7 @@ function animateCloud(cloudObj) {
   el.style.top = `${top}%`;
   el.style.opacity = opacity;
   el.style.transform = `scale(${scale})`;
-  el.style.animation = `floatCloudRight ${duration}s linear forwards`;
+  el.style.animation = `floatCloud ${duration}s linear forwards`;
 }
 
 // Création initiale des nuages
