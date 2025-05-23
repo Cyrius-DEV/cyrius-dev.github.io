@@ -205,6 +205,7 @@ body {
   overflow: hidden;
   /*position:relative;*/
   position: fixed;
+  width:100%;
 }
 
 
