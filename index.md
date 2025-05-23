@@ -71,7 +71,7 @@ function animateCloud(cloudObj) {
   el.style.top = `${top}%`;
   el.style.opacity = opacity;
   el.style.transform = `scale(${scale})`;
-  el.style.animation = `floatCloudRight ${duration}s linear forwards`;
+  el.style.animation = `floatCloud ${duration}s linear forwards`;
 
   // Supprimer l’ancien écouteur s’il existe pour éviter les doublons
   el.onanimationend = () => {
