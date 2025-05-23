@@ -445,7 +445,7 @@ body {
   }
 
   50% {
-    opacity:0.3;
+    opacity:1;
   }
   66.66% {
     opacity:0.3;
