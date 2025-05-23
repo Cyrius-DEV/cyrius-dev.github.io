@@ -562,20 +562,20 @@ body {
 
 
 <script>
-  function adjustBodyMargin() {
+  function adjustContentOffset() {
     const masthead = document.querySelector('.masthead');
-    if (masthead) {
-      const height = masthead.offsetHeight;
-      document.body.style.marginTop = height + 'px';
+    const initialContent = document.querySelector('.initial-content');
+
+    if (masthead && initialContent) {
+      const mastheadHeight = masthead.offsetHeight;
+      initialContent.style.marginTop = mastheadHeight + 'px';
     }
   }
 
-  // Appel initial
-  window.addEventListener('load', adjustBodyMargin);
-
-  // Réajuster si la fenêtre est redimensionnée
-  window.addEventListener('resize', adjustBodyMargin);
+  window.addEventListener('load', adjustContentOffset);
+  window.addEventListener('resize', adjustContentOffset);
 </script>
+
 
 
 
