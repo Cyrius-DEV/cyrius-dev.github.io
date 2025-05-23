@@ -52,7 +52,7 @@ const cloudContainer = document.createElement('div');
 cloudContainer.className = "clouds-container";
 masthead.appendChild(cloudContainer);
 
-const cloudCount = 1;
+const cloudCount = 15;
 const clouds = [];
 
 function animateCloud(cloudObj) {
@@ -60,7 +60,6 @@ function animateCloud(cloudObj) {
 
   const duration = 40 + Math.random() * 30;
   const scale = 0.8 + Math.random() * 0.6;
-  const opacity = 0.6 + Math.random() * 0.4;
   const top = Math.random() * 50 + 10;
 
   // Réinitialisation propre de l'animation
@@ -69,7 +68,6 @@ function animateCloud(cloudObj) {
 
   el.style.left = `-150px`;
   el.style.top = `${top}%`;
-  el.style.opacity = opacity;
   el.style.transform = `scale(${scale})`;
   el.style.animation = `floatCloud ${duration}s linear forwards`;
 
@@ -472,17 +470,13 @@ body {
 @keyframes floatCloud {
   0% {
     transform: translateX(0);
-    opacity: 0;
   }
   5% {
-    opacity: 1;
   }
   95% {
-    opacity: 1;
   }
   100% {
     transform: translateX(150vw); /* Traverse tout l’écran */
-    opacity: 0;
   }
 }
 
