@@ -73,29 +73,48 @@
 
 
 <script>
-  function adjustContentOffset() {
-    const masthead = document.querySelector('.masthead');
-    const initialContent = document.querySelector('.transition-fade');
+  function waitForMastheadHeight(callback, retries = 20, delay = 50) {
+    let lastHeight = 0;
 
+    function check() {
+      const masthead = document.querySelector('.masthead');
+      if (!masthead) return;
+
+      const currentHeight = masthead.offsetHeight;
+      if (currentHeight > 0 && currentHeight !== lastHeight) {
+        lastHeight = currentHeight;
+        retries--;
+        setTimeout(check, delay);
+      } else {
+        callback(currentHeight);
+      }
+    }
+
+    check();
+  }
+
+  function adjustContentOffset() {
+    const initialContent = document.querySelector('.transition-fade');
+    const masthead = document.querySelector('.masthead');
     if (masthead && initialContent) {
       const mastheadHeight = masthead.offsetHeight;
       initialContent.style.marginTop = mastheadHeight + 'px';
     }
   }
 
-  window.addEventListener('load', adjustContentOffset);
+  // Chargement initial
+  window.addEventListener('load', () => {
+    waitForMastheadHeight(() => adjustContentOffset());
+  });
+
   window.addEventListener('resize', adjustContentOffset);
 
-  // Lors du remplacement de contenu Swup
+  // Sur changement de page avec Swup
   document.addEventListener('swup:contentReplaced', () => {
-    // Attendre que le DOM soit prêt pour le calcul
-    requestAnimationFrame(() => {
-      setTimeout(() => {
-        adjustContentOffset();
-      }, 50); // ou essaie avec 0 si 50 est trop perceptible
-    });
+    waitForMastheadHeight(() => adjustContentOffset());
   });
 </script>
+
     
 <script src="https://unpkg.com/swup@4"></script>
 <script>
