@@ -559,6 +559,29 @@ body {
   requestAnimationFrame(checkCycle);
 </script>
 
+
+
+<script>
+  function adjustBodyMargin() {
+    const masthead = document.querySelector('.masthead');
+    if (masthead) {
+      const height = masthead.offsetHeight;
+      document.body.style.marginTop = height + 'px';
+    }
+  }
+
+  // Appel initial
+  window.addEventListener('load', adjustBodyMargin);
+
+  // Réajuster si la fenêtre est redimensionnée
+  window.addEventListener('resize', adjustBodyMargin);
+</script>
+
+
+
+
+
+
 <div style="width: 80%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;">Présentation</h1>
 
