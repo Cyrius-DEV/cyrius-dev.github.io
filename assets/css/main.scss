@@ -11,55 +11,112 @@ a:visited {
 
 .masthead__inner-wrap {
   background-color: transparent; /* supprime le blanc qui masque le fond */
+  position: relative;
+  z-index: 5;
 }
+  
 
 #site-nav{
   background-color: transparent;
 }
 
 
-/* Pour la version sticky (fixée en haut) si utilisée */
-.masthead--fixed {
-  background-color: #e6f0fa;
-}
 
 body {
   background-color: #FAF7E5;
-  animation: bodyCycle 120s ease-in-out;
+  animation: bodyCycle 120s ease-in-out infinite;
 }
 
 .masthead {
   background-color: #cfe4fa;
-  animation: colorCycle 120s ease-in-out;
+  animation: colorCycle 120s ease-in-out infinite;
   overflow: hidden;
+  /*position:relative;*/
+  position: fixed;
+  width:100%;
 }
 
 
 .sun {
   position: absolute;
+  border: 2px solid orange;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background: radial-gradient(circle, #FFD700, #FFA500);
   bottom: -20px;
-  left: -20px;
+  left: 0;
+  z-index: 3;
   animation: sunPath 120s ease-in-out infinite;
-  z-index: 2;
+
 }
 
 /* Étoiles */
-.stars {
+.stars-container {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
   width: 100%;
-  background: transparent url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Stars.svg/1024px-Stars.svg.png') repeat;
-  opacity: 0;
-  animation: starsFade 120s ease-in-out infinite;
+  height: 100%;
   pointer-events: none;
   z-index: 1;
+  opacity: 0;
+  animation: starsFade 120s ease-in-out infinite;
+  overflow: hidden;
 }
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+/* Apparition pendant la nuit */
+@keyframes starsFade {
+  0%, 66% {
+    opacity: 0;
+  }
+  66.66% {
+    opacity: 0.3;
+  }
+  75%, 91.66% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Scintillement */
+@keyframes twinkle {
+  0%   { opacity: 0.3; }
+  50%  { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+/* Flottement doux aléatoire */
+@keyframes float1 {
+  0%   { transform: translate(0px, 0px); }
+  50%  { transform: translate(2px, -1px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+@keyframes float2 {
+  0%   { transform: translate(0px, 0px); }
+  50%  { transform: translate(-1px, 2px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+@keyframes float3 {
+  0%   { transform: translate(0px, 0px); }
+  50%  { transform: translate(1px, 1px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+
 
 @keyframes colorCycle {
   0%     { background-color: #cfe4fa; }   /* Couleur 1 */
@@ -102,26 +159,171 @@ body {
 
 
 @keyframes sunPath {
-  0%   { transform: translate(0, 0); opacity: 1; }              /* Lever (visible moitié) */
-  16%  { transform: translate(10%, -20px); }                    /* Toujours bas */
-  25%  { transform: translate(40%, -50px); }                    /* En montée */
-  41%  { transform: translate(50%, -60px); }                    /* Zénith */
-  50%  { transform: translate(60%, -50px); }                    /* Descente */
-  66%  { transform: translate(90%, -20px); }                    /* Presque couché */
-  75%  { transform: translate(100%, 0); opacity: 1; }           /* Couché */
-  91%  { transform: translate(120%, 40px); opacity: 0; }        /* Disparu */
-  100% { transform: translate(0, 0); opacity: 0; }              /* Réinitialisation */
-}
+  0% {   /* Couleur 1 */
+    transform: translateX(0%) translateY(0px);
+    opacity: 1;
+  }
+  16.66% {   /* 20s */
+    transform: translateX(17vw) translateY(-20px);
+  }
+  33.33% {
+    transform: translateX(50vw) translateY(-60px);
+  }
 
-@keyframes starsFade {
-  0%, 25%, 50%, 66% {
-    opacity: 0; /* Pas visible pendant jour */
+  50% {
+    transform: translateX(83vw) translateY(-10px);
   }
   75% {
-    opacity: 0.3; /* Apparaît pendant couleur 4 */
+    transform: translateX(100vw) translateY(20px);
   }
-  91%, 100% {
-    opacity: 0; /* Disparaît à la fin */
+  91.66% {
+    transform: translateX(-40px) translateY(20px);
+  }
+  100% {
+    transform: translateX(0%) translateY(0px);
+  }
+}
+
+
+
+
+
+
+
+
+
+  /* 🌥️ Nuage 1 — compact, équilibré */
+.cloud-1 {
+  width: 50px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow:
+    12px -4px 0 4px #fff,
+    22px 0px 0 5px #fff,
+    35px -3px 0 4px #fff,
+    20px 4px 0 3px #fff;
+}
+
+/* 🌤️ Nuage 2 — plus petit et arrondi */
+.cloud-2 {
+  width: 40px;
+  height: 18px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow:
+    10px -3px 0 4px #fff,
+    18px 1px 0 3px #fff,
+    24px -2px 0 3px #fff;
+}
+
+/* 🌩️ Nuage 3 — plus étalé horizontalement */
+.cloud-3 {
+  width: 60px;
+  height: 18px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow:
+    15px -2px 0 4px #fff,
+    30px 2px 0 5px #fff,
+    45px -3px 0 4px #fff;
+}
+
+/* 🌫️ Nuage 4 — bas et long */
+.cloud-4 {
+  width: 55px;
+  height: 14px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow:
+    10px 0px 0 3px #fff,
+    20px -2px 0 3px #fff,
+    30px 1px 0 3px #fff,
+    40px 0px 0 2px #fff;
+}
+
+/* 🌧️ Nuage 5 — rond, dense et peu large */
+.cloud-5 {
+  width: 35px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow:
+    8px -2px 0 3px #fff,
+    16px 0px 0 3px #fff,
+    12px 3px 0 2px #fff;
+}
+
+
+/* Animation commune */
+.cloud {
+  position: absolute;
+  opacity: 1;
+  animation-name: floatCloud;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  top: 0;
+  left: -150px;
+}
+
+
+  
+/* Nuages visibles uniquement pendant la journée */
+.clouds-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 2;
+  opacity: 1;
+  animation: cloudFade 120s ease-in-out infinite;
+}
+
+/* Animation des nuages */
+@keyframes floatCloud {
+  0% {
+    transform: translateX(0);
+  }
+  5% {
+  }
+  95% {
+  }
+  100% {
+    transform: translateX(150vw); /* Traverse tout l’écran */
+  }
+}
+
+/* Apparition progressive pendant le jour uniquement */
+@keyframes cloudFade {
+
+  
+  
+  0% { 
+    opacity:0.7;
+  }
+  16.66% {
+    opacity:0.7;
+  }
+  33.33% {
+    opacity:1;
+  }
+
+  50% {
+    opacity:0.3;
+  }
+  66.66% {
+    opacity:0.3;
+  }
+  75% {
+    opacity:0;
+  }
+  91.66% {
+    opacity:0;
+  }
+  100% {
+    opacity:0;
   }
 }
 
