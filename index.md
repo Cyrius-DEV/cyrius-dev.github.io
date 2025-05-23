@@ -93,6 +93,22 @@ for (let i = 0; i < cloudCount; i++) {
 
   // Démarrage initial différé
   setTimeout(() => animateCloud(cloudObj), Math.random() * 50000);
+
+  
+  
+  // Redémarrage complet toutes les 120s (couleur 1)
+setInterval(() => {
+  clouds.forEach((cloudObj, index) => {
+    const { el } = cloudObj;
+    // Stop animation immédiatement
+    el.style.animation = 'none';
+    el.offsetHeight; // force reflow
+
+    // Redémarre comme au début avec un délai aléatoire
+    setTimeout(() => animateCloud(cloudObj), Math.random() * 50000);
+  });
+}, 120000); // 120s = 2 minutes
+
 }
 
 
