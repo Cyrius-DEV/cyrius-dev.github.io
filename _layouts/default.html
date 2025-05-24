@@ -188,23 +188,6 @@ for (let i = 0; i < cloudCount; i++) {
 
 }
 
-  /*
-// Redémarrage complet toutes les 120s (couleur 1)
-setInterval(() => {
-  clouds.forEach((cloudObj, index) => {
-    const { el } = cloudObj;
-    el.style.opacity=0;
-    // Stop animation immédiatement
-    el.style.animation = 'none';
-    el.style.left='-150px';
-    el.offsetHeight; // force reflow
-
-    // Redémarre comme au début avec un délai aléatoire
-    setTimeout(() => animateCloud(cloudObj), Math.random() * 50000);
-  });
-}, 120000); // 120s = 2 minutes
-
-*/
 
 
 function scheduleCloudCycle() {
@@ -352,6 +335,8 @@ scheduleCloudCycle();
       const mastheadHeight = masthead.offsetHeight;
       initialContent.style.marginTop = mastheadHeight + 'px';
     }
+    const button = document.getElementById("toggle-sound");
+    button.style.marginTop=mastheadHeight+10+"px";
   }
 
   // Chargement initial
