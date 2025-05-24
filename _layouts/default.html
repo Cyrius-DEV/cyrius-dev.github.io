@@ -14,20 +14,21 @@
     {% include_cached masthead.html %}
 <main id="swup" class="transition-fade" style="margin-top:88px">
   {{ content }}
-
-<button id="toggle-sound" aria-label="Activer le son"
-        style="
-          position: fixed;
-          top: 1rem;
-          right: 1rem;
-          background: none;
-          border: none;
-          cursor: pointer;
-          font-size: 1.6rem;
-          z-index: 1000;
-        ">
-  🔇
-</button>
+<div id="buttonmute">
+  <button id="toggle-sound" aria-label="Activer le son"
+          style="
+            position: fixed;
+            top: 1rem;
+            right: 1rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.6rem;
+            z-index: 1000;
+          ">
+    🔇
+  </button>
+</div>
 
     <div class="initial-content">
       {% include after-content.html %}
