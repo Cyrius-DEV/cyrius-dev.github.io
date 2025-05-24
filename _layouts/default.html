@@ -26,6 +26,12 @@
       </div>
     {% endif %}
 </main>
+
+<audio id="audio1" src="assets/audio/son1.mp3"></audio>
+<audio id="audio2" src="assets/audio/son2.mp3"></audio>
+<audio id="audio3" src="assets/audio/son3.mp3"></audio>
+<audio id="audio4" src="assets/audio/son4.mp3"></audio>
+
     <div id="footer" class="page__footer">
       <footer>
         {% include footer/custom.html %}
@@ -33,6 +39,67 @@
       </footer>
     </div>
 
+<script>
+const sounds = [
+  document.getElementById('audio1'),
+  document.getElementById('audio2'),
+  document.getElementById('audio3'),
+  document.getElementById('audio4'),
+];
+
+let current = 0;
+const playDuration = 20000; // 20s
+const crossfadeDuration = 10000; // 10s
+
+function fadeIn(audio, duration) {
+  audio.volume = 0;
+  audio.play();
+  let step = 0.05;
+  let interval = setInterval(() => {
+    if (audio.volume < 1) {
+      audio.volume = Math.min(1, audio.volume + step);
+    } else {
+      clearInterval(interval);
+    }
+  }, duration * step);
+}
+
+function fadeOut(audio, duration) {
+  let step = 0.05;
+  let interval = setInterval(() => {
+    if (audio.volume > 0) {
+      audio.volume = Math.max(0, audio.volume - step);
+    } else {
+      clearInterval(interval);
+      audio.pause();
+    }
+  }, duration * step);
+}
+
+function playNext() {
+  let currentSound = sounds[current];
+  let nextIndex = (current + 1) % sounds.length;
+  let nextSound = sounds[nextIndex];
+
+  currentSound.volume = 1;
+  currentSound.play();
+
+  setTimeout(() => {
+    fadeOut(currentSound, crossfadeDuration);
+    fadeIn(nextSound, crossfadeDuration);
+    current = nextIndex;
+
+    setTimeout(playNext, playDuration); // restart cycle
+  }, playDuration);
+}
+
+// Démarrage après interaction utilisateur (autoplay restrictions)
+document.addEventListener('click', () => {
+  if (sounds.every(s => s.paused)) {
+    playNext();
+  }
+});
+</script>
 
 
 <script>
