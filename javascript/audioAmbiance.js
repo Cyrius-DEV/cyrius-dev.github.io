@@ -47,16 +47,17 @@ function cycle() {
   }, PLAY);
 }
 
-/* --- Gestion du bouton Mute / Unmute --- */
 const btn = document.getElementById('toggle-sound');
+
 btn.addEventListener('click', () => {
   globalMute = !globalMute;
-  btn.textContent = globalMute ? '🔇' : '🔊';
+  btn.textContent = globalMute ? '🔇' : '🔈';
   tracks.forEach(a => {
-    a.muted = false;           // on enlève l’attribut muted (sinon volume ignoré)
+    a.muted = false;  // on enlève muted pour autoriser contrôle du volume
     setVol(a, globalMute ? 0 : 1);
   });
 });
+
 
 /* --- Lancement automatique au chargement de la page --- */
 window.addEventListener('load', () => {
