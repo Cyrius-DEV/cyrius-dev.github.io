@@ -27,10 +27,8 @@
     {% endif %}
 </main>
 
-<audio id="audio1" src="/assets/audio/son1.mp3"></audio>
-<audio id="audio2" src="/assets/audio/son2.mp3"></audio>
-<audio id="audio3" src="/assets/audio/son3.mp3"></audio>
-<audio id="audio4" src="/assets/audio/son4.mp3"></audio>
+
+
 
     <div id="footer" class="page__footer">
       <footer>
@@ -38,6 +36,14 @@
         {% include_cached footer.html %}
       </footer>
     </div>
+
+<!-- Lecteurs audio invisibles -->
+<audio id="audio1" src="/assets/audio/son1.mp3" autoplay muted></audio>
+<audio id="audio2" src="/assets/audio/son2.mp3" muted></audio>
+<audio id="audio3" src="/assets/audio/son3.mp3" muted></audio>
+<audio id="audio4" src="/assets/audio/son4.mp3" muted></audio>
+
+<script src="audioAmbiance.js"></script>
 
 <script>
 const sounds = [
