@@ -1,81 +1,75 @@
-/* === Paramètres === */
-const PLAY       = 20_000;   // durée “plein volume” (20 s)
-const CROSSFADE  = 10_000;   // durée du fondu (10 s)
-const STEP_MS    = 250;      // intervalle de variation du volume
-const STEP_VOL   = STEP_MS / CROSSFADE;  // incrément (ou décrément) du volume
+const PLAY       = 20_000;
+const CROSSFADE  = 10_000;
+const STEP_MS    = 250;
+const STEP_VOL   = STEP_MS / CROSSFADE;
 
-/* === Initialisation === */
 const tracks = [
   document.getElementById('audio1'),
   document.getElementById('audio2'),
   document.getElementById('audio3'),
   document.getElementById('audio4')
 ];
-let index      = 0;        // piste en cours
-let globalMute = true;     // l’utilisateur a-t-il coupé le son ?
-let fadeTimer;             // ID de l’intervalle en cours
+let index = 0;
+let globalMute = true;
 
-/* --- Fonctions auxiliaires --- */
-function setVol(audio, v)    { audio.volume = Math.max(0, Math.min(1, v)); }
+/* Volume sécurisé */
+function setVol(audio, v) {
+  audio.volume = Math.max(0, Math.min(1, globalMute ? 0 : v));
+}
+
+/* Fade intelligent */
 function fade(audio, dir) {
   clearInterval(audio._fader);
-
   audio._fader = setInterval(() => {
-    if (globalMute && dir > 0) {
-      clearInterval(audio._fader); // ne pas faire de fade-in si mute
-      setVol(audio, 0);
-      audio.pause();
-      return;
-    }
+    let target = globalMute ? 0 : (dir > 0 ? 1 : 0);
+    let next = audio.volume + dir * STEP_VOL;
+    if (dir > 0 && globalMute) next = 0; // empêche le fade-in si mute
 
-    const next = audio.volume + dir * STEP_VOL;
     setVol(audio, next);
 
-    if ((dir > 0 && next >= 1) || (dir < 0 && next <= 0)) {
+    if ((dir > 0 && next >= target) || (dir < 0 && next <= 0)) {
       clearInterval(audio._fader);
       if (dir < 0) audio.pause();
     }
   }, STEP_MS);
 }
 
-
+/* Boucle audio */
 function cycle() {
   const cur = tracks[index];
   const nxt = tracks[(index + 1) % tracks.length];
 
-  /* Démarre la piste courante si nécessaire */
   if (cur.paused) cur.play().catch(()=>{});
 
-  /* Planifie le cross-fade */
   setTimeout(() => {
-    fade(cur, -1);          // fondu sortant
+    fade(cur, -1);
     nxt.currentTime = 0;
     nxt.play().catch(()=>{});
-    fade(nxt, +1);          // fondu entrant
+    fade(nxt, +1);
     index = (index + 1) % tracks.length;
-    cycle();                // boucle récursive
+    cycle();
   }, PLAY);
 }
 
-window.addEventListener('DOMContentLoaded', () => {
-  const btn = document.getElementById('toggle-sound');
+/* Bouton mute/unmute */
+const btn = document.getElementById('toggle-sound');
 
-  btn.addEventListener('click', () => {
-    globalMute = !globalMute;
-    btn.textContent = globalMute ? '🔇' : '🔈';
-    tracks.forEach(a => {
-      a.muted = false;
-      a.play().catch(() => {});
-      setVol(a, globalMute ? 0 : 1);
-    });
-  });
+btn.addEventListener('click', () => {
+  globalMute = !globalMute;
+  btn.textContent = globalMute ? '🔇' : '🔈';
 
-  // Démarrage initial muet
+  // mise à jour immédiate du volume
   tracks.forEach(a => {
-    a.muted = true;
+    setVol(a, a.volume);
+  });
+});
+
+/* Démarrage initial */
+window.addEventListener('DOMContentLoaded', () => {
+  tracks.forEach(a => {
+    a.muted = false;
     setVol(a, 0);
-    a.play().catch(() => {});
+    a.play().catch(()=>{});
   });
   cycle();
 });
-
