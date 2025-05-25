@@ -17,17 +17,27 @@ let fadeTimer;             // ID de l’intervalle en cours
 
 /* --- Fonctions auxiliaires --- */
 function setVol(audio, v)    { audio.volume = Math.max(0, Math.min(1, v)); }
-function fade(audio, dir) {   // dir = +1 → fade-in, dir = –1 → fade-out
+function fade(audio, dir) {
   clearInterval(audio._fader);
+
   audio._fader = setInterval(() => {
+    if (globalMute && dir > 0) {
+      clearInterval(audio._fader); // ne pas faire de fade-in si mute
+      setVol(audio, 0);
+      audio.pause();
+      return;
+    }
+
     const next = audio.volume + dir * STEP_VOL;
     setVol(audio, next);
+
     if ((dir > 0 && next >= 1) || (dir < 0 && next <= 0)) {
       clearInterval(audio._fader);
       if (dir < 0) audio.pause();
     }
   }, STEP_MS);
 }
+
 
 function cycle() {
   const cur = tracks[index];
