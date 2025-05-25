@@ -53,9 +53,11 @@ btn.addEventListener('click', () => {
   globalMute = !globalMute;
   btn.textContent = globalMute ? '🔇' : '🔈';
   tracks.forEach(a => {
-    a.muted = false;  // on enlève muted pour autoriser contrôle du volume
+    a.muted = false;
+    a.play().catch(() => {});
     setVol(a, globalMute ? 0 : 1);
   });
+
 });
 
 
