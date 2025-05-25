@@ -47,23 +47,25 @@ function cycle() {
   }, PLAY);
 }
 
-const btn = document.getElementById('toggle-sound');
+window.addEventListener('DOMContentLoaded', () => {
+  const btn = document.getElementById('toggle-sound');
 
-btn.addEventListener('click', () => {
-  globalMute = !globalMute;
-  btn.textContent = globalMute ? '🔇' : '🔈';
-  tracks.forEach(a => {
-    a.muted = false;
-    a.play().catch(() => {});
-    setVol(a, globalMute ? 0 : 1);
+  btn.addEventListener('click', () => {
+    globalMute = !globalMute;
+    btn.textContent = globalMute ? '🔇' : '🔈';
+    tracks.forEach(a => {
+      a.muted = false;
+      a.play().catch(() => {});
+      setVol(a, globalMute ? 0 : 1);
+    });
   });
 
+  // Démarrage initial muet
+  tracks.forEach(a => {
+    a.muted = true;
+    setVol(a, 0);
+    a.play().catch(() => {});
+  });
+  cycle();
 });
 
-
-/* --- Lancement automatique au chargement de la page --- */
-window.addEventListener('load', () => {
-  /* Tous les éléments démarrent à volume 0 (muted) */
-  tracks.forEach(a => { setVol(a, 0); a.play().catch(()=>{}); });
-  cycle();   // déclenche la première boucle
-});
