@@ -77,8 +77,16 @@ btn.addEventListener('click', () => {
   globalMute = !globalMute;
   btn.textContent = globalMute ? '🔇' : '🔈';
 
+  // Met à jour les volumes (applique silence si mute)
   tracks.forEach(a => setVol(a, a.volume));
+
+  // Si on vient de démute, déclenche un fade-in immédiat sur la piste en cours
+  if (!globalMute) {
+    const cur = tracks[index];
+    fade(cur, +1);
+  }
 });
+
 
 /* Lancement initial */
 window.addEventListener('DOMContentLoaded', () => {
