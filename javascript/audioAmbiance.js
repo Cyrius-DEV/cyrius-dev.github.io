@@ -77,15 +77,23 @@ btn.addEventListener('click', () => {
   globalMute = !globalMute;
   btn.textContent = globalMute ? '🔇' : '🔈';
 
-  // Met à jour les volumes (applique silence si mute)
+  // MàJ volume de tous les tracks
   tracks.forEach(a => setVol(a, a.volume));
 
-  // Si on vient de démute, déclenche un fade-in immédiat sur la piste en cours
+  // Si on vient de démute, relance immédiatement la lecture + fade-in
   if (!globalMute) {
     const cur = tracks[index];
-    fade(cur, +1);
+
+    // Si la piste est terminée ou en pause, relancer depuis le début
+    if (cur.paused || cur.ended) {
+      cur.currentTime = 0;
+      cur.play().catch(() => {});
+    }
+
+    fade(cur, +1); // Fade-in immédiat
   }
 });
+
 
 
 /* Lancement initial */
