@@ -14,25 +14,30 @@ let globalMute = true;
 
 /* Volume sécurisé */
 function setVol(audio, v) {
-  audio.volume = Math.max(0, Math.min(1, globalMute ? 0 : v));
+  audio.volume = globalMute ? 0 : Math.max(0, Math.min(1, v));
 }
+
 
 /* Fade intelligent */
 function fade(audio, dir) {
   clearInterval(audio._fader);
   audio._fader = setInterval(() => {
-    let target = globalMute ? 0 : (dir > 0 ? 1 : 0);
-    let next = audio.volume + dir * STEP_VOL;
-    if (dir > 0 && globalMute) next = 0; // empêche le fade-in si mute
+    const targetVol = globalMute ? 0 : (dir > 0 ? 1 : 0);
+    const delta = dir * STEP_VOL;
+    const nextVol = audio.volume + delta;
 
-    setVol(audio, next);
+    setVol(audio, nextVol);
 
-    if ((dir > 0 && next >= target) || (dir < 0 && next <= 0)) {
+    const done = (dir > 0 && nextVol >= targetVol) || (dir < 0 && nextVol <= targetVol);
+
+    if (done) {
       clearInterval(audio._fader);
+      setVol(audio, targetVol);
       if (dir < 0) audio.pause();
     }
   }, STEP_MS);
 }
+
 
 /* Boucle audio */
 function cycle() {
