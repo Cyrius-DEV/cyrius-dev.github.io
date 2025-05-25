@@ -12,34 +12,48 @@ const tracks = [
 let index = 0;
 let globalMute = true;
 
-/* Volume sécurisé */
+// Pour éviter interférences : stocker le fade actuel par audio
+const fadeStates = new Map();
+
+/* Volume contrôlé */
 function setVol(audio, v) {
-  audio.volume = globalMute ? 0 : Math.max(0, Math.min(1, v));
+  const vol = globalMute ? 0 : Math.max(0, Math.min(1, v));
+  audio.volume = vol;
 }
 
+/* Sécurité totale anti-volume qui revient tout seul */
+function forceMuteLoop() {
+  setInterval(() => {
+    if (!globalMute) return;
+    tracks.forEach(a => {
+      if (a.volume > 0) setVol(a, 0); // assure silence total
+    });
+  }, 1000); // toutes les 1s, on force le silence si mute
+}
 
-/* Fade intelligent */
+/* Fade sécurisé */
 function fade(audio, dir) {
-  clearInterval(audio._fader);
-  audio._fader = setInterval(() => {
+  clearInterval(fadeStates.get(audio));
+
+  const id = setInterval(() => {
     const targetVol = globalMute ? 0 : (dir > 0 ? 1 : 0);
-    const delta = dir * STEP_VOL;
-    const nextVol = audio.volume + delta;
+    let next = audio.volume + dir * STEP_VOL;
+    if (globalMute) next = 0;
 
-    setVol(audio, nextVol);
+    setVol(audio, next);
 
-    const done = (dir > 0 && nextVol >= targetVol) || (dir < 0 && nextVol <= targetVol);
-
+    const done = (dir > 0 && next >= targetVol) || (dir < 0 && next <= targetVol);
     if (done) {
-      clearInterval(audio._fader);
+      clearInterval(id);
       setVol(audio, targetVol);
       if (dir < 0) audio.pause();
     }
   }, STEP_MS);
+
+  fadeStates.set(audio, id);
 }
 
-
-/* Boucle audio */
+/* Lecture cyclique */
 function cycle() {
   const cur = tracks[index];
   const nxt = tracks[(index + 1) % tracks.length];
@@ -56,25 +70,24 @@ function cycle() {
   }, PLAY);
 }
 
-/* Bouton mute/unmute */
+/* Bouton toggle */
 const btn = document.getElementById('toggle-sound');
 
 btn.addEventListener('click', () => {
   globalMute = !globalMute;
   btn.textContent = globalMute ? '🔇' : '🔈';
 
-  // mise à jour immédiate du volume
-  tracks.forEach(a => {
-    setVol(a, a.volume);
-  });
+  tracks.forEach(a => setVol(a, a.volume));
 });
 
-/* Démarrage initial */
+/* Lancement initial */
 window.addEventListener('DOMContentLoaded', () => {
   tracks.forEach(a => {
     a.muted = false;
+    a.loop = false;
     setVol(a, 0);
-    a.play().catch(()=>{});
+    a.play().catch(() => {});
   });
   cycle();
+  forceMuteLoop(); // active la sécurité silencieuse
 });
