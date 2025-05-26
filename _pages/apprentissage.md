@@ -102,7 +102,7 @@ classes: wide
   </a>
 
   <!-- Carte 4 -->
-    <a href="/unity/projet-4/" class="card-link">
+    <a href="/apprentissage/java/" class="card-link">
       <div class="card" style="background-image: url('/assets/images/java.png');">
       <div class="card-content">
         <div class="card-text">
