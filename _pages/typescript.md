@@ -1,7 +1,7 @@
 ---
 layout: splash
 title:
-permalink: /unity/typescript/
+permalink: /apprentissage/typescript/
 classes: wide
 ---
 
