@@ -93,7 +93,7 @@ classes: wide
 
   <!-- Carte 3 -->
   <a href="/apprentissage/typescript/" class="card-link">
-    <div class="card" style="background-image: url('/assets/images/typescript.png');">
+    <div class="card" style="background-image: url('/assets/images/java.png');">
       <div class="card-content">
         <div class="card-text">
       <h3>Mini-jeux TypeScript</h3>
