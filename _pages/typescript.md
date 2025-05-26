@@ -89,9 +89,9 @@ classes: wide
 <div class="carousel-container">
   <button class="carousel-button prev" onclick="moveSlide(-1)">‹</button>
   <div class="carousel-slide" id="carousel-slide">
-    <img src="/assets/images/casse-briques/screen1.png" alt="Écran 1">
-    <img src="/assets/images/casse-briques/screen2.png" alt="Écran 2">
-    <img src="/assets/images/casse-briques/screen3.png" alt="Écran 3">
+    <img src="/assets/images/labyrinthe1.png" alt="Écran 1">
+    <img src="/assets/images/labyrinthe2.png" alt="Écran 2">
+    <img src="/assets/images/labyrinthe3.png" alt="Écran 3">
   </div>
   <button class="carousel-button next" onclick="moveSlide(1)">›</button>
 </div>
