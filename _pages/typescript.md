@@ -93,6 +93,9 @@ classes: wide
   </div>
 </div>
 
+<hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
+
+<h3 style="text-align: center;margin-top: 30px;">Labyrinthe</h3>
 
 <div class="carousel-container">
   <button class="carousel-button prev" onclick="moveSlide(-1)">‹</button>
