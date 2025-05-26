@@ -72,7 +72,7 @@ classes: wide
 <div class="card-grid">
 
   <!-- Carte 1 -->
-  <a href="/unity/projet-1/" class="card-link">
+  <a href="/apprentissage/developousse/" class="card-link">
     <div class="card" style="background-image: url('/assets/images/developousse.png');">
       <div class="card-content">
         <div class="card-text">
@@ -82,7 +82,7 @@ classes: wide
   </a>
 
   <!-- Carte 2 -->
-  <a href="/unity/projet-2/" class="card-link">
+  <a href="/apprentissage/racoongram/" class="card-link">
     <div class="card" style="background-image: url('/assets/images/racoongram.png');">
       <div class="card-content">
         <div class="card-text">
@@ -97,7 +97,7 @@ classes: wide
       <div class="card-content">
         <div class="card-text">
       <h3>Mini-jeux TypeScript</h3>
-      <p>Présentation rapide de quelques exercices autour de TypeScript que j'ai mener en cours prenant la forme de mini-jeux très connus</p>
+      <p>Présentation rapide de quelques exercices autour de TypeScript que j'ai menés en cours prenant la forme de mini-jeux très connus</p>
     </div></div></div>
   </a>
 
@@ -107,7 +107,7 @@ classes: wide
       <div class="card-content">
         <div class="card-text">
         <h3>Mini-exos Java</h3>
-        <p>Présentation rapide de quelques exercices autour de Java que j'ai pu aborder en cours prenant la forme d'applications mobile et autres</p>
+        <p>Présentation rapide de quelques exercices autour de Java que j'ai pu abordés en cours prenant la forme d'applications mobile et autres</p>
       </div></div></div>
     </a>
 </div>
