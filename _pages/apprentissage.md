@@ -92,7 +92,7 @@ classes: wide
   </a>
 
   <!-- Carte 3 -->
-  <a href="/unity/projet-3/" class="card-link">
+  <a href="/apprentissage/typescript/" class="card-link">
     <div class="card" style="background-image: url('/assets/images/typescript.png');">
       <div class="card-content">
         <div class="card-text">
