@@ -33,7 +33,7 @@ paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
-- themes/minimal-mistakes
+  - themes/minimal-mistakes
   - _pages
 
 # Exclude from processing.
