@@ -3,7 +3,7 @@ class Balle extends Anime {
     constructor(element, scene) {
         super(element);
         this.setImage("Balle.png", 25, 25);
-        this.initVitesse(2);
+        this.initVitesse(5);
         this.scène_ = scene;
         this.vmax_ = 3;
         this.colle_ = true;
