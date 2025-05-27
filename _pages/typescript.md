@@ -78,11 +78,20 @@ classes: wide
 <h1 style="text-align: center;margin-top: 30px;font-size:2em;">Mini-jeux Typescript</h1>
 
 <p style="text-align: center;">Présentation rapide de quelques exercices en langage TypeScript que j'ai menés en cours prenant la forme de mini-jeux très connus</p>
+<div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
+  <a href="#casse-briques" style="text-decoration: none;">
+    <button style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">⬇ Casse-Briques</button>
+  </a>
+  <a href="#labyrinthe" style="text-decoration: none;">
+    <button style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">⬇ Labyrinthe</button>
+  </a>
+</div>
+
 
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
-<h1 style="text-align: center;margin-top: 30px; text-decoration:underline;">Casse Briques</h1>
+<h1 id="casse-briques" style="text-align: center;margin-top: 30px; text-decoration:underline;">Casse Briques</h1>
 
 <div class="project-section">
   <div class="project-text">
@@ -120,7 +129,7 @@ classes: wide
 
 
 
-<h1 style="text-align: center;margin-top: 30px; text-decoration:underline;">Labyrinthe</h1>
+<h1 id="labyrinthe" style="text-align: center;margin-top: 30px; text-decoration:underline;">Labyrinthe</h1>
 <div class="project-section">
   <div class="project-text">
 <p>Recréation du célèbre jeu Pac-Man, ce mini-jeu prend place dans un labyrinthe dans lequel le joueur doit récolter les pastilles puis filer vers la sortie en prenant soin d'esquiver les fantômes qui y rôdent.</p>
