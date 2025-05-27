@@ -124,9 +124,9 @@ classes: wide
 <div class="carousel-container">
   <button class="carousel-button prev" onclick="moveSlide(-1)">‹</button>
   <div class="carousel-slide" id="carousel-slide">
-    <img src="/assets/images/labyrinthe1.png" alt="Écran 1">
-    <img src="/assets/images/labyrinthe2.png" alt="Écran 2">
-    <img src="/assets/images/labyrinthe3.png" alt="Écran 3">
+    <img src="/assets/images/newlabyrinthe1.png" alt="Écran 1">
+    <img src="/assets/images/newlabyrinthe2.png" alt="Écran 2">
+    <img src="/assets/images/newlabyrinthe3.png" alt="Écran 3">
   </div>
   <button class="carousel-button next" onclick="moveSlide(1)">›</button>
 </div>
@@ -140,33 +140,4 @@ classes: wide
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script>
-  let currentIndex = 0;
-  const slide = document.getElementById("carousel-slide");
-  const images = slide.querySelectorAll("img");
-
-  function moveSlide(direction) {
-    currentIndex += direction;
-    if (currentIndex < 0) currentIndex = images.length - 1;
-    if (currentIndex >= images.length) currentIndex = 0;
-    slide.style.transform = `translateX(-${currentIndex * 100}%)`;
-  }
-</script>
-
-<p>Ce mini-jeu fut une étape clé dans mon apprentissage de TypeScript. J’ai pu expérimenter des concepts essentiels de la programmation orientée objet, tout en m’amusant à créer une expérience utilisateur simple mais interactive.</p>
+<script src="/javascript/carouselButtons.js"></script>
