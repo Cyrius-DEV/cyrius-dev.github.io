@@ -15,7 +15,7 @@ classes: wide
     <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Casse-Briques  ▼</button>
   </a>
   <a href="#labyrinthe" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">⬇ Labyrinthe</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Labyrinthe  ▼</button>
   </a>
 </div>
 
