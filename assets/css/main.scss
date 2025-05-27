@@ -9,6 +9,9 @@ a:visited {
 :focus:not(:focus-visible) {
   outline: none;
 }
+.scroll-target {
+  scroll-margin-top: 88px; /* adapte à la hauteur de ta barre */
+}
 
 
 .masthead__inner-wrap {
