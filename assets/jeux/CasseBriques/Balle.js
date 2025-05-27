@@ -48,7 +48,7 @@ class Balle extends Anime {
             this.futurx_ = this.getX() + this.vx_;
             this.futury_ = this.getY() + this.vy_;
             this.setXY(this.futurx_, this.futury_);
-            this.accelerer(1.2);
+            this.accelerer(1.5);
         }
     }
     rebondirBrique() {
