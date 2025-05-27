@@ -14,6 +14,26 @@ a:visited {
 }
 
 
+.scrolling-button {
+  padding: 12px 24px;
+  margin: 0 10px;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  background-color: #007acc;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.scrolling-button:hover {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+}
+
+
 .masthead__inner-wrap {
   background-color: transparent; /* supprime le blanc qui masque le fond */
   position: relative;
