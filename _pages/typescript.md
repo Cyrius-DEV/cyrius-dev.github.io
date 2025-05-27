@@ -86,7 +86,7 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <h3>Description du jeu</h3>
-    <p>Le jeu "Casse Briques" est une adaptation du classique où le joueur contrôle une raquette pour faire rebondir une balle et casser des briques. Ce projet m’a permis d’explorer la gestion des collisions, les événements clavier et la logique de mise à jour du canvas en TypeScript.</p>
+    <p>Ce casse-briques est la première vraie application du langage Typescript que j'ai eu l'occasion de faire ; il s'agit d'une recréation du vieux jeu d'arcade, on contrôle ici la barre du bas avec la souris afin de projeter et faire rebondir la balle sur chacune des briques pour les détruire.</p>
   </div>
   <div class="project-image">
     <img src="/assets/images/typescript.png" alt="Capture d'écran du jeu Casse Briques">
