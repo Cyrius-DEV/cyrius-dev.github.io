@@ -95,13 +95,13 @@ classes: wide
 
 
 <div class="carousel-container">
-  <button class="carousel-button prev" onclick="moveSlide(-1)">‹</button>
-  <div class="carousel-slide" id="carousel-slide">
+  <button class="carousel-button prev">‹</button>
+  <div class="carousel-slide">
     <img src="/assets/images/cassebriques1.png" alt="Écran 1">
     <img src="/assets/images/cassebriques2.png" alt="Écran 2">
     <img src="/assets/images/cassebriques3.png" alt="Écran 3">
   </div>
-  <button class="carousel-button next" onclick="moveSlide(1)">›</button>
+  <button class="carousel-button next">›</button>
 </div>
 
 
@@ -122,13 +122,13 @@ classes: wide
 
 
 <div class="carousel-container">
-  <button class="carousel-button prev" onclick="moveSlide(-1)">‹</button>
-  <div class="carousel-slide" id="carousel-slide">
+  <button class="carousel-button prev">‹</button>
+  <div class="carousel-slide">
     <img src="/assets/images/newlabyrinthe1.png" alt="Écran 1">
     <img src="/assets/images/newlabyrinthe2.png" alt="Écran 2">
     <img src="/assets/images/newlabyrinthe3.png" alt="Écran 3">
   </div>
-  <button class="carousel-button next" onclick="moveSlide(1)">›</button>
+  <button class="carousel-button next">›</button>
 </div>
 
 
