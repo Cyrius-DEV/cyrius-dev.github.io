@@ -115,7 +115,7 @@ classes: wide
 <h1 style="text-align: center;margin-top: 30px; text-decoration:underline;">Labyrinthe</h1>
 <div class="project-section">
   <div class="project-text">
-<p>Recréation du célèbre jeu Pac-Man en version miniature, ce mini-jeu prend place dans un labyrinthe dans lequel le joueur doit récolter les pastilles puis filer vers la sortie en prenant soin d'esquiver les fantômes qui y rôdent. Le labyrinthe y est construit automatiquement à partir de données chiffrées, ce qui laisse ouverte la possibilité d'un lien avec une base de données pour proposer différents niveaux de difficultés par exemple.</p>
+<p>Recréation du célèbre jeu Pac-Man, ce mini-jeu prend place dans un labyrinthe dans lequel le joueur doit récolter les pastilles puis filer vers la sortie en prenant soin d'esquiver les fantômes qui y rôdent. Le labyrinthe y est construit automatiquement à partir de données chiffrées, ce qui peut permettre un lien avec une base de données pour proposer différents niveaux de difficultés par exemple.</p>
   </div>
   <div class="project-image">
     <img src="/assets/images/typescript.png" alt="Capture d'écran du jeu Casse Briques">
