@@ -8,7 +8,7 @@ class Pacman extends Perso {
     }
     deplacer(evt) {
         if (this.estArrive() != true) {
-            if (evt.key == "ArrowLeft") {
+            if (evt.key == "Q") {
                 this.px_ -= 1;
                 if (this.estArrive() == true && this.scene_.compteur == 0) {
                     this.scene_.gagner();
@@ -20,7 +20,7 @@ class Pacman extends Perso {
                 this.setRotation(180);
                 this.gauche();
             }
-            else if (evt.key == "ArrowRight") {
+            else if (evt.key == "D") {
                 this.px_ += 1;
                 if (this.estArrive() == true && this.scene_.compteur == 0) {
                     this.scene_.gagner();
@@ -32,7 +32,7 @@ class Pacman extends Perso {
                 this.setRotation(0);
                 this.droite();
             }
-            else if (evt.key == "ArrowUp") {
+            else if (evt.key == "Z") {
                 this.py_ -= 1;
                 if (this.estArrive() == true && this.scene_.compteur == 0) {
                     this.scene_.gagner();
@@ -44,7 +44,7 @@ class Pacman extends Perso {
                 this.setRotation(270);
                 this.haut();
             }
-            else if (evt.key == "ArrowDown") {
+            else if (evt.key == "S") {
                 this.py_ += 1;
                 if (this.estArrive() == true && this.scene_.compteur == 0) {
                     this.scene_.gagner();
