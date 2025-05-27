@@ -3,9 +3,9 @@ class Balle extends Anime {
     constructor(element, scene) {
         super(element);
         this.setImage("Balle.png", 25, 25);
-        this.initVitesse(4);
+        this.initVitesse(5);
         this.scène_ = scene;
-        this.vmax_ = 6;
+        this.vmax_ = 8;
         this.colle_ = true;
         this.ecouteurDecoller = (evt) => { this.colle_ = false; console.log(this.colle_); };
     }
