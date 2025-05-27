@@ -138,6 +138,28 @@ classes: wide
 
 
 
+<script>
+document.querySelectorAll('.carousel-container').forEach(container => {
+  const slide = container.querySelector('.carousel-slide');
+  const images = slide.querySelectorAll('img');
+  const prevBtn = container.querySelector('.prev');
+  const nextBtn = container.querySelector('.next');
+  let currentIndex = 0;
 
+  function updateSlide() {
+    slide.style.transform = `translateX(-${currentIndex * 100}%)`;
+  }
 
-<script src="/javascript/carouselButtons.js"></script>
+  prevBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    updateSlide();
+  });
+
+  nextBtn.addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % images.length;
+    updateSlide();
+  });
+});
+</script>
+
+//<script src="/javascript/carouselButtons.js"></script>
