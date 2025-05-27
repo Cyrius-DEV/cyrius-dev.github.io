@@ -81,7 +81,7 @@ classes: wide
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
-<h3 style="text-align: center;margin-top: 30px;">Casse Briques</h3>
+<h2 style="text-align: center;margin-top: 30px;">Casse Briques</h2>
 
 <div class="project-section">
   <div class="project-text">
@@ -91,7 +91,7 @@ classes: wide
     <img src="/assets/images/typescript.png" alt="Capture d'écran du jeu Casse Briques">
   </div>
 </div>
-
+<br>
 
 <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
@@ -105,11 +105,10 @@ classes: wide
 
 
 <p>Au cours de la réalisation de ce mini-jeu, j'ai pu découvrir le fonctionnement et l'organisation d'un projet en Typescript : comment créer une scène, où assigner les différents paramètres souhaités pour chacun des éléments du jeu, etc... <br><br>J'ai notamment passer pas mal de temps sur le comportement de la balle, en s'assurant d'un calcul des rebonds contre brique, mur et barre du bas aussi réalistes que possible, mais j'ai également pris l'initiative d'ajouter de quoi gérer le déroulement d'une partie, par exemple un compteur de briques détruites constamment mis à jour et un simple message de victoire/défaite permettant de redémarrer une partie.</p>
-
+<br>
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
-<h3 style="text-align: center;margin-top: 30px;">Labyrinthe</h3>
-
+<h2 style="text-align: center;margin-top: 30px;">Labyrinthe</h2>
 <div class="project-section">
   <div class="project-text">
 <p>Le jeu "Casse Briques" est une adaptation du classique où le joueur contrôle une raquette pour faire rebondir une balle et casser des briques. Ce projet m’a permis d’explorer la gestion des collisions, les événements clavier et la logique de mise à jour du canvas en TypeScript.</p>
@@ -118,7 +117,7 @@ classes: wide
     <img src="/assets/images/typescript.png" alt="Capture d'écran du jeu Casse Briques">
   </div>
 </div>
-
+<br>
 
 <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
