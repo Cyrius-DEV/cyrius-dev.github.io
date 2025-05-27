@@ -6,7 +6,9 @@
 a:visited {
   color: inherit;
 }
-
+:focus:not(:focus-visible) {
+  outline: none;
+}
 
 
 .masthead__inner-wrap {
