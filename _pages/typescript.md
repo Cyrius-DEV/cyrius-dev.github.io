@@ -85,7 +85,6 @@ classes: wide
 
 <div class="project-section">
   <div class="project-text">
-    <h3>Description du jeu</h3>
     <p>Ce casse-briques est la première vraie application du langage Typescript que j'ai eu l'occasion de faire ; il s'agit d'une recréation du vieux jeu d'arcade, on contrôle ici la barre du bas avec la souris afin de projeter et faire rebondir la balle sur chacune des briques pour les détruire.</p>
   </div>
   <div class="project-image">
@@ -105,7 +104,7 @@ classes: wide
 </div>
 
 
-<p>Présentation rapide de quelques exercices en langage TypeScript que j'ai menés en cours prenant la forme de mini-jeux très connus</p>
+<p>Au cours de la réalisation de ce mini-jeu, j'ai pu découvrir le fonctionnement et l'organisation d'un projet en Typescript : comment créer une scène, où assigner les différents paramètres souhaités pour chacun des éléments du jeu, etc... J'ai notamment passer pas mal de temps sur le comportement de la balle, en s'assurant d'un calcul des rebonds contre brique, mur et barre du bas aussi réalistes que possible, mais j'ai également pris l'initiative d'ajouter de quoi gérer le déroulement d'une partie, par exemple un compteur de briques détruites constamment mis à jour et un simple message de victoire/défaite permettant de redémarrer une partie.</p>
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
