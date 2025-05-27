@@ -98,14 +98,14 @@ class Jeu extends Scene {
             for (let j = 0; j < 10; j++) {
                 if (this.carte_[i][j] == 1) {
                     let brique = new Sprite(document.createElement("img"));
-                    brique.setImage("Mur.jpg", this.pas_, this.pas_);
+                    brique.setImage("mur.jpg", this.pas_, this.pas_);
                     this.appendChild(brique);
                     brique.setXY(this.pas_ * (j) + this.x0_, this.pas_ * (i) + this.y0_);
                     console.log("brique");
                 }
                 if (this.carte_[i][j] == 2) {
                     let pastille = new Sprite(document.createElement("img"));
-                    pastille.setImage("Pastille.png", this.pas_ - 15, this.pas_ - 15);
+                    pastille.setImage("pastille.png", this.pas_ - 15, this.pas_ - 15);
                     this.appendChild(pastille);
                     let X = (this.pas_ * (j + 1) + this.x0_) + ((-this.pas_ - pastille.getWidth()) / 2);
                     let Y = (this.pas_ * (i + 1) + this.y0_) + ((-this.pas_ - pastille.getWidth()) / 2);
