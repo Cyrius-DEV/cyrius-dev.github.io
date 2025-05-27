@@ -115,7 +115,7 @@ classes: wide
 <h1 style="text-align: center;margin-top: 30px; text-decoration:underline;">Labyrinthe</h1>
 <div class="project-section">
   <div class="project-text">
-<p>Le jeu "Casse Briques" est une adaptation du classique où le joueur contrôle une raquette pour faire rebondir une balle et casser des briques. Ce projet m’a permis d’explorer la gestion des collisions, les événements clavier et la logique de mise à jour du canvas en TypeScript.</p>
+<p>Recréation du célèbre jeu Pac-Man en version miniature, ce mini-jeu prend place dans un labyrinthe dans lequel le joueur doit récolter les pastilles puis filer vers la sortie en prenant soin d'esquiver les fantômes qui y rôdent. Le labyrinthe y est construit automatiquement à partir de données chiffrées, ce qui laisse ouverte la possibilité d'un lien avec une base de données pour proposer différents niveaux de difficultés par exemple.</p>
   </div>
   <div class="project-image">
     <img src="/assets/images/typescript.png" alt="Capture d'écran du jeu Casse Briques">
@@ -134,7 +134,7 @@ classes: wide
 </div>
 
 
-<p>Présentation rapide de quelques exercices en langage TypeScript que j'ai menés en cours prenant la forme de mini-jeux très connus</p>
+<p>Dans le code, le labyrinthe prend en réalité la forme d'une matrice en 10x10 de chiffres qui sera mise à jour au cours de la partie (1=mur, 2=pastille, 8=joueur, 9=arrivée, 10=fantôme), et qui servira de modèle à la construction du labyrinthe au début de chaque partie. Une autre matrice contenant cette fois les informations des pastilles présentes sera ensuite créée, elle permettra de savoir au cours de la partie lesquelles sont déjà mangées ou non.<br><br>Après avoir mis en place la construction du labyrinthe, il m'a fallu m'occuper de la gestion du comportement des fantômes ainsi que leurs déplacements et ceux du joueur ; les fantômes ont un comportement à la fois prévisible mais parfois surprenant, ceux-ci peuvent décider de se déplacer en direction du joueur ou dans une direction aléatoire. Une fois la direction du fantôme choisie, il suffit de vérifier le chiffre de la case correspondante pour autoriser ou non le déplacement, et c'est le même principe pour le joueur. Celui-ci peut se déplacer sur une case libre et manger la pastille qui peut s'y trouver mais meurt s'il touche une case occupée par un fantôme et reste immobile s'il se essaie de traverser un mur.<br><br>Si le joueur entre en collision avec un fantôme ou atteins la fin sans toutes les pastilles, c'est perdu ! S'il parvient à toutes les récupérer et foncer à l'arrivée, c'est gagner ! J'ai réutilisé le fonctionnement de gestion de partie du projet précédent pour annoncer le résultat et recommencer une partie facilement.</p>
 
 
 
