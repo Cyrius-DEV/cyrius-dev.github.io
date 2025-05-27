@@ -6,84 +6,16 @@ classes: wide
 ---
 
 
-<style>
-  .project-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    align-items: center;
-    margin-left: 90px;
-    margin-right: 60px;
-    max-width: 1000px;
-  }
-
-  .project-text {
-    font-size: 1.1em;
-    line-height: 1.6;
-  }
-
-  .project-image img {
-    width: 100%;
-    border-radius: 10px;
-  }
-
-  .carousel-container {
-    position: relative;
-    width: 90%;
-    max-width: 800px;
-    margin: 60px auto;
-    overflow: hidden;
-  }
-
-  .carousel-slide {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-  }
-
-  .carousel-slide img {
-    width: 100%;
-    flex-shrink: 0;
-    border-radius: 10px;
-  }
-
-  .carousel-button {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: #ffffffcc;
-    border: none;
-    font-size: 2rem;
-    padding: 0 15px;
-    cursor: pointer;
-    z-index: 2;
-    transition: background 0.3s;
-  }
-
-  .carousel-button:hover {
-    background: #ffffff;
-  }
-
-  .prev {
-    left: 10px;
-  }
-
-  .next {
-    right: 10px;
-  }
-</style>
-
-
-
 <div style="width: 100%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;font-size:2em;">Mini-jeux Typescript</h1>
 
 <p style="text-align: center;">Présentation rapide de quelques exercices en langage TypeScript que j'ai menés en cours prenant la forme de mini-jeux très connus</p>
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#casse-briques" style="text-decoration: none;">
-    <button style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">⬇ Casse-Briques</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">⬇ Casse-Briques</button>
   </a>
   <a href="#labyrinthe" style="text-decoration: none;">
-    <button style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">⬇ Labyrinthe</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">⬇ Labyrinthe</button>
   </a>
 </div>
 
