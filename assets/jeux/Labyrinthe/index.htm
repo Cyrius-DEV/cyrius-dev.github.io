@@ -1,34 +1,47 @@
 <!DOCTYPE html>
-<html>
- <head>
-  <title>Template Jeu</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="jeu.css"/>
-  <script src="Sprite.js"></script>
-  <script src="Scene.js"></script>
-  <script src="Jeu.js"></script>
-  <script src="Perso.js"></script>
-  <script src="Pacman.js"></script>
-  <script src="Fantome.js"></script>
-  <!-- Inclure ici les fichiers JavaScript necessaires a la scene. -->
-  <script>
-   let scene;
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Pacman - TypeScript</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="jeu.css">
 
-   function load() {
-    scene = new Jeu(document.getElementById("scene"));
-    scene.start();
-    scene.resize();
-   }
+  <!-- Scripts du jeu -->
+  <script src="Sprite.js" defer></script>
+  <script src="Scene.js" defer></script>
+  <script src="Jeu.js" defer></script>
+  <script src="Perso.js" defer></script>
+  <script src="Pacman.js" defer></script>
+  <script src="Fantome.js" defer></script>
+
+  <!-- Script de démarrage -->
+  <script defer>
+    document.addEventListener("DOMContentLoaded", () => {
+      const sceneDiv = document.getElementById("scene");
+      const jeu = new Jeu(sceneDiv);
+      jeu.start();
+      jeu.resize();
+
+      window.addEventListener("resize", () => {
+        jeu.resize();
+      });
+
+      // Optionnel : bouton plein écran
+      const btn = document.getElementById("fullscreen");
+      if (btn) {
+        btn.addEventListener("click", (e) => {
+          jeu.toggleFullscreen(e);
+        });
+      }
+    });
   </script>
- </head>
- <body onload="load()" onresize="scene.resize()">
+</head>
+<body>
   <div id="scene">
     <div id="compteur"></div>
     <div id="messagefin"></div>
-   <!-- Definir ici les elements HTML qui seront manipules dans la scene. -->
-
-   <!-- Le code ci-dessous permet affiche un bouton pour le plein ecran -->
-   <!-- <div id="fullscreen" onmousedown="scene.toggleFullscreen(event);">F</div> -->
+    <!-- Décommenter si tu veux afficher un bouton plein écran -->
+    <!-- <div id="fullscreen">F</div> -->
   </div>
- </body>
+</body>
 </html>
