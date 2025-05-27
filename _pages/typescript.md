@@ -97,9 +97,9 @@ classes: wide
 <div class="carousel-container">
   <button class="carousel-button prev" onclick="moveSlide(-1)">‹</button>
   <div class="carousel-slide" id="carousel-slide">
-    <img src="/assets/images/labyrinthe1.png" alt="Écran 1">
-    <img src="/assets/images/labyrinthe2.png" alt="Écran 2">
-    <img src="/assets/images/labyrinthe3.png" alt="Écran 3">
+    <img src="/assets/images/cassebriques1.png" alt="Écran 1">
+    <img src="/assets/images/cassebriques2.png" alt="Écran 2">
+    <img src="/assets/images/cassebriques3.png" alt="Écran 3">
   </div>
   <button class="carousel-button next" onclick="moveSlide(1)">›</button>
 </div>
@@ -111,6 +111,8 @@ classes: wide
 
 <h3 style="text-align: center;margin-top: 30px;">Labyrinthe</h3>
 
+<div class="project-section">
+  <div class="project-text">
 <p>Le jeu "Casse Briques" est une adaptation du classique où le joueur contrôle une raquette pour faire rebondir une balle et casser des briques. Ce projet m’a permis d’explorer la gestion des collisions, les événements clavier et la logique de mise à jour du canvas en TypeScript.</p>
   </div>
   <div class="project-image">
