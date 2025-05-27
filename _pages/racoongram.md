@@ -1,7 +1,7 @@
 ---
 layout: splash
 title:
-permalink: /apprentissage/typescript/
+permalink: /apprentissage/racoongram/
 classes: wide
 ---
 
