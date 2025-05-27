@@ -12,7 +12,7 @@ classes: wide
 <p style="text-align: center;">Présentation rapide de quelques exercices en langage TypeScript que j'ai menés en cours prenant la forme de mini-jeux très connus</p>
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#casse-briques" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">V Casse-Briques</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Casse-Briques  ▼</button>
   </a>
   <a href="#labyrinthe" style="text-decoration: none;">
     <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">⬇ Labyrinthe</button>
@@ -23,7 +23,7 @@ classes: wide
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
-<h1 id="casse-briques" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Casse Briques</h1>
+<h1 id="casse-briques" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Casse-Briques</h1>
 
 <div class="project-section">
   <div class="project-text">
