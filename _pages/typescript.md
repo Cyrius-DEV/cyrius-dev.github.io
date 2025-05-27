@@ -87,11 +87,6 @@ classes: wide
   <div class="project-text">
     <p>Ce casse-briques est la première vraie application du langage Typescript que j'ai eu l'occasion de faire ; il s'agit d'une recréation du vieux jeu d'arcade, on contrôle ici la barre du bas avec la souris afin de projeter et faire rebondir la balle sur chacune des briques pour les détruire.</p>
   </div>
-  <!-- 
-  <div class="project-image">
-    <img src="/assets/images/typescript.png" alt="Capture d'écran du jeu Casse Briques">
-  </div>
-  -->
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
@@ -103,17 +98,7 @@ classes: wide
 </div>
 </div>
 <br>
-<!-- 
-<div class="carousel-container">
-  <button class="carousel-button prev">‹</button>
-  <div class="carousel-slide">
-    <img src="/assets/images/cassebriques1.png" alt="Écran 1">
-    <img src="/assets/images/cassebriques2.png" alt="Écran 2">
-    <img src="/assets/images/cassebriques3.png" alt="Écran 3">
-  </div>
-  <button class="carousel-button next">›</button>
-</div>
--->
+
 <div style="display: flex; justify-content: center; margin: 40px 0;">
   <iframe 
     src="/projects/casse-briques/index.html"
@@ -139,13 +124,7 @@ classes: wide
   <div class="project-text">
 <p>Recréation du célèbre jeu Pac-Man, ce mini-jeu prend place dans un labyrinthe dans lequel le joueur doit récolter les pastilles puis filer vers la sortie en prenant soin d'esquiver les fantômes qui y rôdent.</p>
   </div>
-  <div class="project-image">
-    <img src="/assets/images/typescript.png" alt="Capture d'écran du jeu Casse Briques">
-  </div>
-</div>
-<br>
-
-<div class="carousel-container">
+  <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
     <img src="/assets/images/newlabyrinthe1.png" alt="Écran 1">
@@ -154,7 +133,20 @@ classes: wide
   </div>
   <button class="carousel-button next">›</button>
 </div>
+</div>
+<br>
 
+
+<div style="display: flex; justify-content: center; margin: 40px 0;">
+  <iframe 
+    src="/projects/casse-briques/index.html"
+    width="700"
+    height="500"
+    style="border: 1px solid #ccc; border-radius: 10px;"
+    title="Jeu Labyrinthe"
+    allowfullscreen>
+  </iframe>
+</div>
 
 <p>Dans le code, le labyrinthe prend en réalité la forme d'une matrice en 10x10 de chiffres qui sera mise à jour au cours de la partie (1=mur, 2=pastille, 8=joueur, 9=arrivée, 10=fantôme), et qui servira de modèle à la construction du labyrinthe au début de chaque partie. Ce fonctionnement pourrait permettre un lien avec une base de données pour proposer différents niveaux de difficultés par exemple.<br><br>Les fantômes ont un comportement à la fois prévisible mais parfois surprenant, ceux-ci peuvent décider de se déplacer en direction du joueur ou dans une direction aléatoire. Le joueur lui peut se déplacer sur une case libre et manger la pastille qui peut s'y trouver mais meurt s'il touche une case occupée par un fantôme et reste immobile s'il se essaie de traverser un mur.<br><br>Si le joueur entre en collision avec un fantôme ou atteins la fin sans toutes les pastilles, c'est perdu ! S'il parvient à toutes les récupérer et foncer à l'arrivée, c'est gagner ! J'ai réutilisé le fonctionnement de gestion de partie du projet précédent pour annoncer le résultat et recommencer une partie facilement.</p>
 
