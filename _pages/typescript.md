@@ -12,7 +12,8 @@ classes: wide
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     align-items: center;
-    margin: 60px auto;
+    margin-left: 60px auto;
+    margin-right: 60px auto;
     max-width: 1000px;
   }
 
