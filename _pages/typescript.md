@@ -91,7 +91,7 @@ classes: wide
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
-<h1 id="casse-briques" style="text-align: center;margin-top: 30px; text-decoration:underline;">Casse Briques</h1>
+<h1 id="casse-briques" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Casse Briques</h1>
 
 <div class="project-section">
   <div class="project-text">
@@ -129,7 +129,7 @@ classes: wide
 
 
 
-<h1 id="labyrinthe" style="text-align: center;margin-top: 30px; text-decoration:underline;">Labyrinthe</h1>
+<h1 id="labyrinthe" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Labyrinthe</h1>
 <div class="project-section">
   <div class="project-text">
 <p>Recréation du célèbre jeu Pac-Man, ce mini-jeu prend place dans un labyrinthe dans lequel le joueur doit récolter les pastilles puis filer vers la sortie en prenant soin d'esquiver les fantômes qui y rôdent.</p>
