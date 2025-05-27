@@ -115,7 +115,7 @@ classes: wide
 <h1 style="text-align: center;margin-top: 30px; text-decoration:underline;">Labyrinthe</h1>
 <div class="project-section">
   <div class="project-text">
-<p>Recréation du célèbre jeu Pac-Man, ce mini-jeu prend place dans un labyrinthe dans lequel le joueur doit récolter les pastilles puis filer vers la sortie en prenant soin d'esquiver les fantômes qui y rôdent. Le labyrinthe y est construit automatiquement à partir de données chiffrées, ce qui peut permettre un lien avec une base de données pour proposer différents niveaux de difficultés par exemple.</p>
+<p>Recréation du célèbre jeu Pac-Man, ce mini-jeu prend place dans un labyrinthe dans lequel le joueur doit récolter les pastilles puis filer vers la sortie en prenant soin d'esquiver les fantômes qui y rôdent.</p>
   </div>
   <div class="project-image">
     <img src="/assets/images/typescript.png" alt="Capture d'écran du jeu Casse Briques">
@@ -134,7 +134,7 @@ classes: wide
 </div>
 
 
-<p>Dans le code, le labyrinthe prend en réalité la forme d'une matrice en 10x10 de chiffres qui sera mise à jour au cours de la partie (1=mur, 2=pastille, 8=joueur, 9=arrivée, 10=fantôme), et qui servira de modèle à la construction du labyrinthe au début de chaque partie. Une autre matrice contenant les informations des pastilles sera ensuite créée, pour suivre leur présence sur la carte au cours de la partie .<br><br>Les fantômes ont un comportement à la fois prévisible mais parfois surprenant, ceux-ci peuvent décider de se déplacer en direction du joueur ou dans une direction aléatoire. Le joueur lui peut se déplacer sur une case libre et manger la pastille qui peut s'y trouver mais meurt s'il touche une case occupée par un fantôme et reste immobile s'il se essaie de traverser un mur.<br><br>Si le joueur entre en collision avec un fantôme ou atteins la fin sans toutes les pastilles, c'est perdu ! S'il parvient à toutes les récupérer et foncer à l'arrivée, c'est gagner ! J'ai réutilisé le fonctionnement de gestion de partie du projet précédent pour annoncer le résultat et recommencer une partie facilement.</p>
+<p>Dans le code, le labyrinthe prend en réalité la forme d'une matrice en 10x10 de chiffres qui sera mise à jour au cours de la partie (1=mur, 2=pastille, 8=joueur, 9=arrivée, 10=fantôme), et qui servira de modèle à la construction du labyrinthe au début de chaque partie. Ce fonctionnement pourrait permettre un lien avec une base de données pour proposer différents niveaux de difficultés par exemple.<br><br>Les fantômes ont un comportement à la fois prévisible mais parfois surprenant, ceux-ci peuvent décider de se déplacer en direction du joueur ou dans une direction aléatoire. Le joueur lui peut se déplacer sur une case libre et manger la pastille qui peut s'y trouver mais meurt s'il touche une case occupée par un fantôme et reste immobile s'il se essaie de traverser un mur.<br><br>Si le joueur entre en collision avec un fantôme ou atteins la fin sans toutes les pastilles, c'est perdu ! S'il parvient à toutes les récupérer et foncer à l'arrivée, c'est gagner ! J'ai réutilisé le fonctionnement de gestion de partie du projet précédent pour annoncer le résultat et recommencer une partie facilement.</p>
 
 
 
