@@ -2,7 +2,7 @@
 class Pacman extends Perso {
     constructor(element, scene, px, py) {
         super(element, scene, px, py);
-        this.setImage("assets/jeux/Labyrinthe/Pacman.png", this.scene_.pas_, this.scene_.pas_);
+        this.setImage("pacman.png", this.scene_.pas_, this.scene_.pas_);
         this.ecouteurDeplacer = (evt) => { this.deplacer(evt); };
         this.setXY(this.px_, this.py_);
     }
