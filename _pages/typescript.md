@@ -93,9 +93,6 @@ classes: wide
   </div>
 </div>
 
-<hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
-
-<h3 style="text-align: center;margin-top: 30px;">Labyrinthe</h3>
 
 <div class="carousel-container">
   <button class="carousel-button prev" onclick="moveSlide(-1)">‹</button>
@@ -106,6 +103,37 @@ classes: wide
   </div>
   <button class="carousel-button next" onclick="moveSlide(1)">›</button>
 </div>
+
+
+<p>Présentation rapide de quelques exercices en langage TypeScript que j'ai menés en cours prenant la forme de mini-jeux très connus</p>
+
+<hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
+
+<h3 style="text-align: center;margin-top: 30px;">Labyrinthe</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <script>
   let currentIndex = 0;
