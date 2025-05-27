@@ -4,7 +4,7 @@ class Fantome extends Perso {
         super(element, scene, px, py);
         this.px_ = px;
         this.py_ = py;
-        this.setImage("Fantome.png", this.scene_.pas_, this.scene_.pas_);
+        this.setImage("assets/jeux/Labyrinthe/Fantome.png", this.scene_.pas_, this.scene_.pas_);
         this.setXY(this.px_, this.py_);
     }
     deplacer() {
