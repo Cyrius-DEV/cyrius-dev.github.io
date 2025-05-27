@@ -81,7 +81,7 @@ classes: wide
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
-<h1 style="text-align: center;margin-top: 30px;">Casse Briques</h1>
+<h1 style="text-align: center;margin-top: 30px; text-decoration:underline;">Casse Briques</h1>
 
 <div class="project-section">
   <div class="project-text">
@@ -112,7 +112,7 @@ classes: wide
 
 
 
-<h1 style="text-align: center;margin-top: 30px;">Labyrinthe</h1>
+<h1 style="text-align: center;margin-top: 30px; text-decoration:underline;">Labyrinthe</h1>
 <div class="project-section">
   <div class="project-text">
 <p>Le jeu "Casse Briques" est une adaptation du classique où le joueur contrôle une raquette pour faire rebondir une balle et casser des briques. Ce projet m’a permis d’explorer la gestion des collisions, les événements clavier et la logique de mise à jour du canvas en TypeScript.</p>
