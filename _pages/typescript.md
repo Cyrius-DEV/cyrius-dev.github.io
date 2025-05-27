@@ -87,11 +87,11 @@ classes: wide
   <div class="project-text">
     <p>Ce casse-briques est la première vraie application du langage Typescript que j'ai eu l'occasion de faire ; il s'agit d'une recréation du vieux jeu d'arcade, on contrôle ici la barre du bas avec la souris afin de projeter et faire rebondir la balle sur chacune des briques pour les détruire.</p>
   </div>
-  /*
+  <!-- 
   <div class="project-image">
     <img src="/assets/images/typescript.png" alt="Capture d'écran du jeu Casse Briques">
   </div>
-  */
+  -->
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
@@ -103,7 +103,7 @@ classes: wide
 </div>
 </div>
 <br>
-/*
+<!-- 
 <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
@@ -113,7 +113,7 @@ classes: wide
   </div>
   <button class="carousel-button next">›</button>
 </div>
-*/
+-->
 <div style="display: flex; justify-content: center; margin: 40px 0;">
   <iframe 
     src="/projects/casse-briques/index.html"
