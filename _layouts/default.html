@@ -69,15 +69,7 @@ swup.hooks.on('visit:start', () => {
 
 swup.hooks.on('page:view', () => {
   console.log("📄 Swup: page:view");
-  const randomNumber = Math.floor(Math.random() * 3) + 1;
-  const url = `url('/assets/images/tripleurs${randomNumber}.png')`;
-  const el = document.getElementById("tripleurs");
-  if (el) {
-    el.style.backgroundImage = url;
-    console.log("✅ Image mise à jour :", url);
-  } else {
-    console.warn("⚠️ Élément #tripleurs introuvable");
-  }
+  
 });
 
   console.log("✅ Swup initialisé :", swup);
