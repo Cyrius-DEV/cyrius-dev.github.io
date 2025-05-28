@@ -1,6 +1,3 @@
-alert("📢 randomImage.js chargé !");
-
-
 function setRandomImage() {
   const randomNumber = Math.floor(Math.random() * 3) + 1;
   const url = `url('/assets/images/tripleurs${randomNumber}.png')`;
@@ -21,7 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // 2. Swup navigation events
 document.addEventListener("swup:contentReplaced", () => {
-  alert("🔁 swup:contentReplaced détecté !");
   setRandomImage();
 });
 
