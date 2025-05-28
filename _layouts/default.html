@@ -59,32 +59,22 @@
 <script src="https://unpkg.com/swup@4"></script>
   <script>
 
-function adjustPageHeight() {
-  const body = document.body;
-  const html = document.documentElement;
+function adjustMainHeight() {
+  const header = document.querySelector('.masthead');
+  const main = document.getElementById('swup');
+  const footer = document.getElementById('footer');
 
-  // Hauteur totale visible
+  if (!main) return;
+
+  const headerHeight = header ? header.offsetHeight : 0;
+  const footerHeight = footer ? footer.offsetHeight : 0;
   const viewportHeight = window.innerHeight;
 
-  // Hauteur réelle du contenu
-  const contentHeight = Math.max(
-    body.scrollHeight, body.offsetHeight,
-    html.clientHeight, html.scrollHeight, html.offsetHeight
-  );
+  // Calcule la min-height nécessaire pour que tout fasse au moins 100vh
+  const minMainHeight = viewportHeight - headerHeight - footerHeight;
 
-  // Si le contenu est plus petit que le viewport
-  if (contentHeight < viewportHeight) {
-    // Ajoute un padding ou min-height au contenu principal
-    const main = document.querySelector("main") || document.querySelector("#swup") || document.body;
-
-    if (main) {
-      const footer = document.querySelector("footer");
-      const footerHeight = footer ? footer.offsetHeight : 0;
-      const neededSpace = viewportHeight - contentHeight;
-
-      main.style.minHeight = `calc(100vh - ${footerHeight}px)`;
-    }
-  }
+  main.style.minHeight = `${minMainHeight}px`;
+  console.log(`[↕️] #swup min-height ajustée à ${minMainHeight}px`);
 }
 
 function tripleursShuffle(){
