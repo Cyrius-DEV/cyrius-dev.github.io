@@ -14,12 +14,21 @@ classes: wide
 
 
 <section style="max-width: 400px; margin: auto;">
-  <h2>🎮 Démo Android interactive</h2>
-  <img src="/assets/images/apercu-app.png" alt="Aperçu de l'app" style="width: 100%; border-radius: 12px;" />
+  <h2>Démo interactive de l'application</h2>
+ <div class="carousel-container">
+  <button class="carousel-button prev">‹</button>
+  <div class="carousel-slide">
+    <img src="/assets/images/cassebriques1.png" alt="Écran 1">
+    <img src="/assets/images/cassebriques2.png" alt="Écran 2">
+    <img src="/assets/images/cassebriques3.png" alt="Écran 3">
+  </div>
+  <button class="carousel-button next">›</button>
+</div>
+</div>
   <p style="text-align: center; margin-top: 1em;">
     <a href="https://appetize.io/app/b_omk4fpnh3uh4og4vv5frkmyroi" target="_blank" 
        style="padding: 0.75em 1.5em; background: #4CAF50; color: white; text-decoration: none; border-radius: 8px;">
-       🚀 Lancer la démo Android
+       Lancer la démo Android
     </a>
   </p>
 </section>
