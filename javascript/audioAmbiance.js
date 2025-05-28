@@ -1,4 +1,4 @@
-const PLAY       = 20_000;
+/*const PLAY       = 20_000;
 const CROSSFADE  = 10_000;
 const STEP_MS    = 250;
 const STEP_VOL   = STEP_MS / CROSSFADE;
@@ -15,13 +15,12 @@ let globalMute = true;
 // Pour éviter interférences : stocker le fade actuel par audio
 const fadeStates = new Map();
 
-/* Volume contrôlé */
 function setVol(audio, v) {
   const vol = globalMute ? 0 : Math.max(0, Math.min(1, v));
   audio.volume = vol;
 }
 
-/* Sécurité totale anti-volume qui revient tout seul */
+
 function forceMuteLoop() {
   setInterval(() => {
     if (!globalMute) return;
@@ -31,7 +30,6 @@ function forceMuteLoop() {
   }, 1000); // toutes les 1s, on force le silence si mute
 }
 
-/* Fade sécurisé */
 function fade(audio, dir) {
   clearInterval(fadeStates.get(audio));
 
@@ -53,7 +51,7 @@ function fade(audio, dir) {
   fadeStates.set(audio, id);
 }
 
-/* Lecture cyclique */
+
 function cycle() {
   const cur = tracks[index];
   const nxt = tracks[(index + 1) % tracks.length];
@@ -70,7 +68,6 @@ function cycle() {
   }, PLAY);
 }
 
-/* Bouton toggle */
 const btn = document.getElementById('toggle-sound');
 
 btn.addEventListener('click', () => {
@@ -96,7 +93,7 @@ btn.addEventListener('click', () => {
 
 
 
-/* Lancement initial */
+
 window.addEventListener('DOMContentLoaded', () => {
   tracks.forEach(a => {
     a.muted = false;
@@ -107,3 +104,26 @@ window.addEventListener('DOMContentLoaded', () => {
   cycle();
   forceMuteLoop(); // active la sécurité silencieuse
 });
+
+*/
+
+
+const btn = document.getElementById('toggle-sound');
+    const audio = document.getElementById('ambiance');
+    
+    // Lancer la lecture silencieuse au chargement
+    window.addEventListener('load', () => {
+      audio.volume = 0;
+      audio.play().catch(() => {
+        // Certains navigateurs peuvent bloquer sans interaction
+        console.warn("Lecture bloquée tant qu’aucune interaction n’a lieu");
+      });
+    });
+
+    let isMuted = true;
+
+    btn.addEventListener('click', () => {
+      isMuted = !isMuted;
+      btn.textContent = isMuted ? '🔇' : '🔈';
+      audio.volume = isMuted ? 0 : 1;
+    });
