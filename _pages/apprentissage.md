@@ -100,7 +100,6 @@ classes: wide
       <p>Présentation rapide de quelques exercices autour de TypeScript que j'ai menés en cours prenant la forme de mini-jeux très connus</p>
     </div></div></div>
   </a>
-
   <!-- Carte 4 -->
     <a href="/apprentissage/java/" class="card-link">
       <div class="card" style="background-image: url('/assets/images/java.png');">
@@ -110,6 +109,8 @@ classes: wide
         <p>Présentation rapide de quelques exercices autour de Java que j'ai pu abordés en cours prenant la forme d'applications mobile et autres</p>
       </div></div></div>
     </a>
+
+  
 </div>
 
 </div>
