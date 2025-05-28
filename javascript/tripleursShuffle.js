@@ -18,6 +18,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // 2. Swup navigation events
 document.addEventListener("swup:pageView", () => {
-  console.log("📄 swup:pageView");
-  setRandomImage();
+  console.log("✅ swup:pageView event DETECTED");
+    setRandomImage();
 });
+
+document.addEventListener("swup:contentReplaced", () => {
+  console.log("🔁 swup:contentReplaced detected");
+    setRandomImage();
+});
+
