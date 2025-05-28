@@ -60,8 +60,6 @@ classes: wide
 
 </style>
 
-<script src="/javascript/tripleursShuffle.js"></script>
-
 <div style="width: 80%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;">Projets personnels</h1>
 
