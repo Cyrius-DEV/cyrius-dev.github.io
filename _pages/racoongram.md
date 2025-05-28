@@ -13,7 +13,7 @@ classes: wide
 
 
 
-<section style="max-width: 400px; margin: auto;">
+<section>
   <h2>Démo interactive de l'application</h2>
  <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
@@ -30,6 +30,6 @@ classes: wide
        Lancer la démo Android
     </a>
   </p><br>
-  <p>Identifiant : test</p><br>
-  <p>Mot de passe : 123456789</p>
+  <p style="text-align: center;">Identifiant : test</p>
+  <p style="text-align: center;">Mot de passe : 123456789</p>
 </section>
