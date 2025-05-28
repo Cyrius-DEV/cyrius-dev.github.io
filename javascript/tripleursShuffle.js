@@ -1,4 +1,3 @@
-// Fonction pour définir une image aléatoire sur #tripleurs
 function setRandomImage() {
   const randomNumber = Math.floor(Math.random() * 3) + 1;
   const url = `url('/assets/images/tripleurs${randomNumber}.png')`;
@@ -7,21 +6,12 @@ function setRandomImage() {
     element.style.backgroundImage = url;
     console.log("✅ tripleur choisi = " + url);
   } else {
-    console.log("⚠️ Élément #tripleurs introuvable.");
+    console.log("⚠️ Élément #tripleurs non trouvé.");
   }
 }
 
-// Initialise Swup
-import Swup from 'https://unpkg.com/swup@4?module';
-const swup = new Swup();
+// Appelé au chargement initial
+document.addEventListener("DOMContentLoaded", setRandomImage);
 
-// Appelle la fonction au chargement initial
-document.addEventListener("DOMContentLoaded", () => {
-  setRandomImage();
-});
-
-// Appelle la fonction après chaque navigation Swup
-document.addEventListener("swup:contentReplaced", () => {
-  setRandomImage();
-});
-
+// Appelé après chaque transition Swup
+document.addEventListener("swup:contentReplaced", setRandomImage);
