@@ -6,12 +6,16 @@ function setRandomImage() {
     element.style.backgroundImage = url;
     console.log("✅ tripleur choisi = " + url);
   } else {
-    console.log("⚠️ Élément #tripleurs non trouvé.");
+    console.log("⚠️ #tripleurs introuvable");
   }
 }
 
-// Appelé au chargement initial
-document.addEventListener("DOMContentLoaded", setRandomImage);
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("📦 DOM loaded");
+  setRandomImage();
+});
 
-// Appelé après chaque transition Swup
-document.addEventListener("swup:contentReplaced", setRandomImage);
+document.addEventListener("swup:contentReplaced", () => {
+  console.log("🔁 swup:contentReplaced");
+  setRandomImage();
+});
