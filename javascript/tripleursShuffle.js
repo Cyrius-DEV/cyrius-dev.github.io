@@ -1,12 +1,12 @@
 function setRandomImage() {
   const randomNumber = Math.floor(Math.random() * 3) + 1;
   const url = `url('/assets/images/tripleurs${randomNumber}.png')`;
-  const element = document.getElementById("tripleurs");
-  if (element) {
-    element.style.backgroundImage = url;
-    console.log("✅ tripleur choisi = " + url);
+  const el = document.getElementById("tripleurs");
+  if (el) {
+    el.style.backgroundImage = url;
+    console.log("✅ Image mise à jour :", url);
   } else {
-    console.log("⚠️ Élément #tripleurs introuvable");
+    console.warn("⚠️ Élément #tripleurs introuvable");
   }
 }
 
