@@ -15,7 +15,8 @@ document.addEventListener("DOMContentLoaded", () => {
   setRandomImage();
 });
 
-document.addEventListener("swup:contentReplaced", () => {
-  console.log("🔁 swup:contentReplaced");
+// Swup 4.x = nouvelle API
+document.addEventListener("swup:pageView", () => {
+  console.log("📄 swup:pageView");
   setRandomImage();
 });
