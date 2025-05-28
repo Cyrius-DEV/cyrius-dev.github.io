@@ -24,11 +24,12 @@ classes: wide
   </div>
   <button class="carousel-button next">›</button>
 </div>
-</div>
   <p style="text-align: center; margin-top: 1em;">
     <a href="https://appetize.io/app/b_omk4fpnh3uh4og4vv5frkmyroi" target="_blank" 
        style="padding: 0.75em 1.5em; background: #4CAF50; color: white; text-decoration: none; border-radius: 8px;">
        Lancer la démo Android
     </a>
-  </p>
+  </p><br>
+  <p>Identifiant : test</p><br>
+  <p>Mot de passe : 123456789</p>
 </section>
