@@ -13,11 +13,13 @@ classes: wide
 
 
 
-
-<section>
-  <h2>Mon application Android</h2>
-  <p>Essayez l’application directement dans cet émulateur Android :</p>
-  <iframe src="https://appetize.io/embed/b_omk4fpnh3uh4og4vv5frkmyroi"
-          width="300" height="600" frameborder="0" scrolling="no"></iframe>
-  <p><a href="/assets/apk/MonApp.apk" download>📥 Télécharger l'APK</a></p>
+<section style="max-width: 400px; margin: auto;">
+  <h2>🎮 Démo Android interactive</h2>
+  <img src="/assets/images/apercu-app.png" alt="Aperçu de l'app" style="width: 100%; border-radius: 12px;" />
+  <p style="text-align: center; margin-top: 1em;">
+    <a href="https://appetize.io/app/b_omk4fpnh3uh4og4vv5frkmyroi" target="_blank" 
+       style="padding: 0.75em 1.5em; background: #4CAF50; color: white; text-decoration: none; border-radius: 8px;">
+       🚀 Lancer la démo Android
+    </a>
+  </p>
 </section>
