@@ -6,17 +6,25 @@ function setRandomImage() {
     element.style.backgroundImage = url;
     console.log("✅ tripleur choisi = " + url);
   } else {
-    console.log("⚠️ #tripleurs introuvable");
+    console.log("⚠️ Élément #tripleurs introuvable");
   }
 }
 
+// DOM chargé
 document.addEventListener("DOMContentLoaded", () => {
   console.log("📦 DOM loaded");
   setRandomImage();
 });
 
-// Swup 4.x = nouvelle API
-document.addEventListener("swup:pageView", () => {
-  console.log("📄 swup:pageView");
-  setRandomImage();
+// ⚠️ Swup avec <script src="..."> est global, donc il faut attendre qu’il soit initialisé
+window.addEventListener("load", () => {
+  if (window.swup) {
+    console.log("✅ Swup détecté");
+    window.swup.hooks.on('page:view', () => {
+      console.log("📄 swup page:view");
+      setRandomImage();
+    });
+  } else {
+    console.warn("❌ Swup non trouvé");
+  }
 });
