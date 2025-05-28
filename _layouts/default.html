@@ -293,9 +293,13 @@ scheduleCloudCycle();
 
     
 <script src="https://unpkg.com/swup@4"></script>
+<script src="https://unpkg.com/@swup/head-plugin@2"></script>
 <script>
-  const swup = new Swup();
+  const swup = new Swup({
+    plugins: [new SwupHeadPlugin()]
+  });
 </script>
+
 
     {% include scripts.html %}
   </body>
