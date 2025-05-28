@@ -120,7 +120,12 @@ swup.hooks.on('page:view', () => {
   tripleursShuffle();
   adjustMainHeight();
 });
+// Appel au chargement
+document.addEventListener('DOMContentLoaded', adjustMainHeight);
 
+
+// Et au redimensionnement
+window.addEventListener('resize', adjustMainHeight);
   console.log("✅ Swup initialisé :", swup);
 </script>
 
