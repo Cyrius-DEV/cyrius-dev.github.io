@@ -60,15 +60,7 @@ classes: wide
 
 </style>
 
-<script>
-	document.addEventListener("DOMContentLoaded", function (){
-
-      let randomNumber = Math.floor(Math.random() * 3) + 1;
-		let url = "url('/assets/images/tripleurs"+randomNumber+".png')";
-      document.getElementById("tripleurs").style.backgroundImage = url;
-		console.log("tripleur choisi = "+url);
-    });
-  </script>
+<script src="/javascript/tripleursShuffle.js"></script>
 
 <div style="width: 80%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;">Projets personnels</h1>
