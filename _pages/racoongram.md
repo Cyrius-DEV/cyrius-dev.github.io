@@ -30,6 +30,6 @@ classes: wide
        Lancer la démo Android
     </a>
   </p><br>
-  <p style="text-align: center;">Identifiant : test</p>
+  <p style="text-align: center;margin-bottom:0px;">Identifiant : test</p>
   <p style="text-align: center;">Mot de passe : 123456789</p>
 </section>
