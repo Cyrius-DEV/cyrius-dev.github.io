@@ -23,7 +23,8 @@ document.addEventListener("swup:pageView", () => {
 });
 
 document.addEventListener("swup:contentReplaced", () => {
-  console.log("🔁 swup:contentReplaced detected");
-    setRandomImage();
+  console.log("⏳ swup:contentReplaced (delayed)");
+  setTimeout(setRandomImage, 50); // délai pour laisser le DOM s'installer
 });
+
 
