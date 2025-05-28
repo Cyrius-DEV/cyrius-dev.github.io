@@ -27,11 +27,8 @@ classes: wide
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
-
-
-<section>
-  <h2 style="text-align: center; border-bottom:none;">Démo interactive de l'application</h2>
- <div class="carousel-container">
+<div class="carousel-container">
+  <h2 style="text-align: center; border-bottom:none;">Présentation</h2>
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
     <img src="/assets/images/cassebriques1.png" alt="Écran 1">
@@ -40,6 +37,12 @@ classes: wide
   </div>
   <button class="carousel-button next">›</button>
 </div>
+
+<hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
+
+<section>
+  <h2 style="text-align: center; border-bottom:none;">Démo interactive</h2>
+ 
   <p style="text-align: center; margin-top: 1em;">
     <a href="https://appetize.io/app/b_omk4fpnh3uh4og4vv5frkmyroi" target="_blank" 
        style="padding: 0.75em 1.5em; background: #4CAF50; color: white; text-decoration: none; border-radius: 8px;">
