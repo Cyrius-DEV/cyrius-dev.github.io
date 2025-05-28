@@ -59,6 +59,18 @@
 <script src="https://unpkg.com/swup@4"></script>
   <script>
   const swup = new Swup();
+    document.addEventListener("click", () => {
+  console.log("✅ Document clicked");
+});
+
+swup.hooks.on('visit:start', () => {
+  console.log("🚀 Swup: visit:start");
+});
+
+swup.hooks.on('page:view', () => {
+  console.log("📄 Swup: page:view");
+});
+
   console.log("✅ Swup initialisé :", swup);
 </script>
 
