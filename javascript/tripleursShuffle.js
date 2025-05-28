@@ -1,3 +1,6 @@
+alert("📢 randomImage.js chargé !");
+
+
 function setRandomImage() {
   const randomNumber = Math.floor(Math.random() * 3) + 1;
   const url = `url('/assets/images/tripleurs${randomNumber}.png')`;
