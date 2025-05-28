@@ -58,6 +58,60 @@
 
 <script src="https://unpkg.com/swup@4"></script>
   <script>
+
+function adjustPageHeight() {
+  const body = document.body;
+  const html = document.documentElement;
+
+  // Hauteur totale visible
+  const viewportHeight = window.innerHeight;
+
+  // Hauteur réelle du contenu
+  const contentHeight = Math.max(
+    body.scrollHeight, body.offsetHeight,
+    html.clientHeight, html.scrollHeight, html.offsetHeight
+  );
+
+  // Si le contenu est plus petit que le viewport
+  if (contentHeight < viewportHeight) {
+    // Ajoute un padding ou min-height au contenu principal
+    const main = document.querySelector("main") || document.querySelector("#swup") || document.body;
+
+    if (main) {
+      const footer = document.querySelector("footer");
+      const footerHeight = footer ? footer.offsetHeight : 0;
+      const neededSpace = viewportHeight - contentHeight;
+
+      main.style.minHeight = `calc(100vh - ${footerHeight}px)`;
+    }
+  }
+}
+
+function tripleursShuffle(){
+  const randomNumber = Math.floor(Math.random() * 3) + 1;
+  const url = `url('/assets/images/tripleurs${randomNumber}.png')`;
+  const el = document.getElementById("tripleurs");
+  if (el) {
+    el.style.backgroundImage = url;
+    console.log("✅ Image mise à jour :", url);
+  } else {
+    console.warn("⚠️ Élément #tripleurs introuvable");
+  }
+}
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+    
   const swup = new Swup();
     document.addEventListener("click", () => {
   console.log("✅ Document clicked");
@@ -69,15 +123,8 @@ swup.hooks.on('visit:start', () => {
 
 swup.hooks.on('page:view', () => {
   console.log("📄 Swup: page:view");
-  const randomNumber = Math.floor(Math.random() * 3) + 1;
-  const url = `url('/assets/images/tripleurs${randomNumber}.png')`;
-  const el = document.getElementById("tripleurs");
-  if (el) {
-    el.style.backgroundImage = url;
-    console.log("✅ Image mise à jour :", url);
-  } else {
-    console.warn("⚠️ Élément #tripleurs introuvable");
-  }
+  tripleurShuffle();
+  fixPageHeight();
 });
 
   console.log("✅ Swup initialisé :", swup);
