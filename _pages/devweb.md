@@ -72,7 +72,7 @@ classes: wide
 <div class="card-grid">
 
   <!-- Carte 1 -->
-  <a href="/unity/projet-1/" class="card-link">
+  <a href="/devweb/catalogue/" class="card-link">
     <div class="card" style="background-image: url('/assets/images/catalogue.png');">
       <div class="card-content">
         <div class="card-text">
@@ -82,7 +82,7 @@ classes: wide
   </a>
 
   <!-- Carte 2 -->
-  <a href="/unity/projet-2/" class="card-link">
+  <a href="/devweb/labcom/" class="card-link">
     <div class="card" style="background-image: url('/assets/images/iotae.png');">
       <div class="card-content">
         <div class="card-text">
@@ -92,7 +92,7 @@ classes: wide
   </a>
 
   <!-- Carte 3 -->
-  <a href="/unity/projet-3/" class="card-link">
+  <a href="/devweb/sae/" class="card-link">
     <div class="card" style="background-image: url('/assets/images/Memory_Leak_screenshot.png');">
       <div class="card-content">
         <div class="card-text">
