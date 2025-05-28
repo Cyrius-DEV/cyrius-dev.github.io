@@ -112,6 +112,7 @@ function tripleursShuffle(){
 
 swup.hooks.on('visit:start', () => {
   console.log("🚀 Swup: visit:start");
+  adjustMainHeight();
 });
 
 swup.hooks.on('page:view', () => {
