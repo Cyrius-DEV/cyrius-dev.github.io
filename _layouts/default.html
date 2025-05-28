@@ -64,7 +64,10 @@ function adjustMainHeight() {
   const main = document.getElementById('swup');
   const footer = document.getElementById('footer');
 
-  if (!main) return;
+  if (!main){
+    console.log(`de quel main tu me parles là frérot ?`);
+    return;
+  }
 
   const headerHeight = header ? header.offsetHeight : 0;
   const footerHeight = footer ? footer.offsetHeight : 0;
