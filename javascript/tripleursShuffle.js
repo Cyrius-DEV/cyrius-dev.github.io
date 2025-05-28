@@ -1,4 +1,4 @@
-<script>
+
   function setRandomImage() {
     let randomNumber = Math.floor(Math.random() * 3) + 1;
     let url = "url('/assets/images/tripleurs" + randomNumber + ".png')";
@@ -10,8 +10,7 @@
   }
 
   // Initial load
-  //document.addEventListener("DOMContentLoaded", setRandomImage);
+  document.addEventListener("DOMContentLoaded", setRandomImage);
 
   // Swup page transition
   document.addEventListener("swup:contentReplaced", setRandomImage);
-</script>
