@@ -10,21 +10,14 @@ function setRandomImage() {
   }
 }
 
-// DOM chargé
+// 1. Initial load
 document.addEventListener("DOMContentLoaded", () => {
   console.log("📦 DOM loaded");
   setRandomImage();
 });
 
-// ⚠️ Swup avec <script src="..."> est global, donc il faut attendre qu’il soit initialisé
-window.addEventListener("load", () => {
-  if (window.swup) {
-    console.log("✅ Swup détecté");
-    window.swup.hooks.on('page:view', () => {
-      console.log("📄 swup page:view");
-      setRandomImage();
-    });
-  } else {
-    console.warn("❌ Swup non trouvé");
-  }
+// 2. Swup navigation events
+document.addEventListener("swup:pageView", () => {
+  console.log("📄 swup:pageView");
+  setRandomImage();
 });
