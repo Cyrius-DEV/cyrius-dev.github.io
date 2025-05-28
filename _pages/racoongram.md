@@ -14,7 +14,7 @@ classes: wide
 
 
 <section>
-  <h2>Démo interactive de l'application</h2>
+  <h2 style="text-align: center; border-bottom:none;">Démo interactive de l'application</h2>
  <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
