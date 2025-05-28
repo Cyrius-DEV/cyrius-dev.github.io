@@ -72,7 +72,7 @@ classes: wide
 <div class="card-grid">
 
   <!-- Carte 1 -->
-  <a href="/unity/projet-1/" class="card-link">
+  <a href="/unity/rof/" class="card-link">
     <div class="card" style="background-image: url('/assets/images/rof.png');">
       <div class="card-content">
         <div class="card-text">
@@ -82,7 +82,7 @@ classes: wide
   </a>
 
   <!-- Carte 2 -->
-  <a href="/unity/projet-2/" class="card-link">
+  <a href="/unity/racoon/" class="card-link">
     <div class="card" style="background-image: url('/assets/images/racoonswide.png');">
       <div class="card-content">
         <div class="card-text">
@@ -92,7 +92,7 @@ classes: wide
   </a>
 
   <!-- Carte 3 -->
-  <a href="/unity/projet-3/" class="card-link">
+  <a href="/unity/clermont/" class="card-link">
     <div class="card" style="background-image: url('/assets/images/clermont.png');">
       <div class="card-content">
         <div class="card-text">
