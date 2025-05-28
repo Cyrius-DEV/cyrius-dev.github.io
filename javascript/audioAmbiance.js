@@ -1,10 +1,10 @@
-const btn = document.getElementById('toggle-sound');
+ const btn = document.getElementById('toggle-sound');
     const audio = document.getElementById('ambiance');
 
     let isMuted = true;
     let fadeInterval;
 
-    function setVolumeSmoothly(targetVolume, duration = 1000) {
+    function fadeIn(targetVolume = 1, duration = 1000) {
       clearInterval(fadeInterval);
       const steps = 20;
       const stepTime = duration / steps;
@@ -12,11 +12,10 @@ const btn = document.getElementById('toggle-sound');
 
       fadeInterval = setInterval(() => {
         let next = audio.volume + volumeStep;
-        next = Math.max(0, Math.min(1, next));
+        next = Math.min(1, Math.max(0, next));
         audio.volume = next;
 
-        if ((volumeStep > 0 && next >= targetVolume) ||
-            (volumeStep < 0 && next <= targetVolume)) {
+        if (next >= targetVolume) {
           audio.volume = targetVolume;
           clearInterval(fadeInterval);
         }
@@ -33,12 +32,19 @@ const btn = document.getElementById('toggle-sound');
     btn.addEventListener('click', () => {
       isMuted = !isMuted;
       btn.textContent = isMuted ? '🔇' : '🔈';
-      const targetVol = isMuted ? 0 : 1;
 
-      if (audio.paused) {
-        audio.currentTime = 0;
-        audio.play().catch(() => {});
+      if (isMuted) {
+        // Mute immédiat
+        clearInterval(fadeInterval);
+        audio.volume = 0;
+      } else {
+        // Si audio est en pause, on le (re)lance
+        if (audio.paused) {
+          audio.currentTime = 0;
+          audio.play().catch(() => {});
+        }
+
+        // Fade-in
+        fadeIn();
       }
-
-      setVolumeSmoothly(targetVol, 1000);
     });
