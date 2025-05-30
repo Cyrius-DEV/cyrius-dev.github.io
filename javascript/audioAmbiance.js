@@ -4,7 +4,7 @@
     let isMuted = true;
     let fadeInterval;
 
-    function fadeIn(targetVolume = 0.7, duration = 1000) {
+    function fadeIn(targetVolume = 1, duration = 1000) {
       clearInterval(fadeInterval);
       const steps = 20;
       const stepTime = duration / steps;
