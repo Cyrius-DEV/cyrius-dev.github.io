@@ -12,8 +12,8 @@
   <body class="layout--{{ page.layout | default: layout.layout }}{% if page.classes or layout.classes %}{{ page.classes | default: layout.classes | join: ' ' | prepend: ' ' }}{% endif %}" dir="{% if site.rtl %}rtl{% else %}ltr{% endif %}">
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
-<main id="swup" class="transition-fade" style="margin-top:88px">
-  <button id="toggle-sound" aria-label="Activer le son"
+
+    <button id="toggle-sound" aria-label="Activer le son"
           style="
             position: fixed;
             right: 5px;
@@ -25,6 +25,9 @@
           ">
     🔇
   </button>
+    
+<main id="swup" class="transition-fade" style="margin-top:88px">
+  
   {{ content }}
 
 
