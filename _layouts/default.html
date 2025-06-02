@@ -56,7 +56,15 @@
 <!-- Lecteurs audio invisibles -->
 <audio id="ambiance" src="/assets/audio/sonfini.mp3" loop></audio>
 
-
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const burgerMenu = document.querySelector('.hidden-links');
+      const masthead = document.querySelector('.masthead');
+      if (burgerMenu && masthead && masthead.contains(burgerMenu)) {
+        document.body.appendChild(burgerMenu);
+      }
+    });
+  </script>
 <script src="https://unpkg.com/swup@4"></script>
   <script>
 
