@@ -13,9 +13,6 @@
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
-   
-
-
     <button id="toggle-sound" aria-label="Activer le son"
           style="
             position: fixed;
@@ -69,7 +66,7 @@ function adjustMainHeight() {
   const footer = document.getElementById('footer');
 
   if (!main){
-    console.log(`de quel main tu me parles là frérot ?`);
+    console.log(de quel main tu me parles là frérot ?);
     return;
   }
 
@@ -80,13 +77,13 @@ function adjustMainHeight() {
   // Calcule la min-height nécessaire pour que tout fasse au moins 100vh
   const minMainHeight = viewportHeight - headerHeight - footerHeight;
 
-  main.style.minHeight = `${minMainHeight}px`;
-  console.log(`[↕️] #swup min-height ajustée à ${minMainHeight}px`);
+  main.style.minHeight = ${minMainHeight}px;
+  console.log([↕️] #swup min-height ajustée à ${minMainHeight}px);
 }
 
 function tripleursShuffle(){
   const randomNumber = Math.floor(Math.random() * 3) + 1;
-  const url = `url('/assets/images/tripleurs${randomNumber}.png')`;
+  const url = url('/assets/images/tripleurs${randomNumber}.png');
   const el = document.getElementById("tripleurs");
   if (el) {
     el.style.backgroundImage = url;
@@ -180,10 +177,10 @@ function animateCloud(cloudObj) {
   el.style.animation = 'none';
   el.offsetHeight; // forcer un reflow
   el.style.opacity=1;
-  el.style.left = `-150px`;
-  el.style.top = `${top}%`;
-  el.style.transform = `scale(${scale})`;
-  el.style.animation = `floatCloud ${duration}s linear forwards`;
+  el.style.left = -150px;
+  el.style.top = ${top}%;
+  el.style.transform = scale(${scale});
+  el.style.animation = floatCloud ${duration}s linear forwards;
 
   
   
@@ -272,15 +269,15 @@ scheduleCloudCycle();
     const delay = Math.random() * 5;
 
     // Choisir une animation parmi 3
-    const floatAnimation = `float${(i % 3) + 1}`;
+    const floatAnimation = float${(i % 3) + 1};
 
     // Applique styles en ligne
-    star.style.top = `${top}%`;
-    star.style.left = `${left}%`;
-    star.style.animation = `
+    star.style.top = ${top}%;
+    star.style.left = ${left}%;
+    star.style.animation = 
       twinkle ${3 + Math.random() * 2}s ease-in-out ${delay}s infinite alternate,
       ${floatAnimation} ${floatDuration}s ease-in-out ${delay}s infinite
-    `;
+    ;
 
     starsContainer.appendChild(star);
   }
@@ -373,10 +370,6 @@ scheduleCloudCycle();
     waitForMastheadHeight(() => adjustContentOffset());
   });
 </script>
-
-
-
-
 
 
     
