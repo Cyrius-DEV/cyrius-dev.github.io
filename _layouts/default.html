@@ -386,7 +386,13 @@ document.addEventListener("DOMContentLoaded", () => {
   const hiddenLinks = nav?.querySelector(".hidden-links");
   const toggle = nav?.querySelector(".greedy-nav__toggle");
 
-  if (!nav || !visibleLinks || !hiddenLinks || !toggle) return;
+  if (!nav || !visibleLinks || !hiddenLinks || !toggle) {
+    console.log(nav);
+    console.log(visibleLinks);
+    console.log(hiddenLinks);
+    console.log(toggle);
+    return;
+  }
 
   const moveAll = (from, to) => {
     while (from.children.length > 0) {
