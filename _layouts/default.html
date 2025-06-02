@@ -394,7 +394,7 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   const updateNavLayout = () => {
-    const isMobile = window.innerWidth < 768;
+    const isMobile = window.innerWidth <= 768;
     if (isMobile) {
       moveAllItems(visibleList, hiddenList);
     } else {
@@ -463,5 +463,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     {% include scripts.html %}
+    
+    <script src="/javascript/fix-nav.js"></script>
   </body>
 </html>
