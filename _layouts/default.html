@@ -382,47 +382,34 @@ scheduleCloudCycle();
   <script>
 document.addEventListener("DOMContentLoaded", () => {
   const nav = document.querySelector(".greedy-nav");
-  const visibleLinks = nav?.querySelector(".visible-links");
-  const hiddenLinks = nav?.querySelector(".hidden-links");
-  const toggle = nav?.querySelector(".greedy-nav__toggle");
+  const visibleList = nav?.querySelector(".visible-links ul");
+  const hiddenList = nav?.querySelector(".hidden-links ul");
 
-  if (!nav || !visibleLinks || !hiddenLinks || !toggle) {
-    console.log(nav);
-    console.log(visibleLinks);
-    console.log(hiddenLinks);
-    console.log(toggle);
-    return;
-  }
+  if (!nav || !visibleList || !hiddenList) return;
 
-  const moveAll = (from, to) => {
-    
-    while (from.children.length > 0) {
-      to.appendChild(from.children[0]);
-      console.log("MOVED");
+  const moveAllItems = (fromList, toList) => {
+    while (fromList.children.length > 0) {
+      toList.appendChild(fromList.children[0]);
     }
   };
 
-  const updateNavMode = () => {
+  const updateNavLayout = () => {
     const isMobile = window.innerWidth < 768;
-    console.log(window.innerWidth);
-    console.log(visibleLinks);
-    console.log(hiddenLinks);
     if (isMobile) {
-      // Sur mobile, déplacer tous les liens dans le menu burger
-      moveAll(visibleLinks, hiddenLinks);
+      moveAllItems(visibleList, hiddenList);
     } else {
-      // Sur desktop, tout remettre dans la navbar visible
-      moveAll(hiddenLinks, visibleLinks);
+      moveAllItems(hiddenList, visibleList);
     }
   };
 
-  // Sur chargement initial
-  updateNavMode();
+  // Initial load
+  updateNavLayout();
 
-  // Sur redimensionnement de la fenêtre
-  window.addEventListener("resize", updateNavMode);
+  // Update on resize
+  window.addEventListener("resize", updateNavLayout);
 });
 </script>
+
 
 
   
