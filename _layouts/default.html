@@ -394,28 +394,26 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  const updateNavLinks = () => {
-    const isMenuOpen = toggle.classList.contains("close");
+  const updateNavMode = () => {
+    const isMobile = window.innerWidth < 768;
 
-    if (isMenuOpen) {
-      // Menu burger ouvert → tout dans hidden
+    if (isMobile) {
+      // Sur mobile, déplacer tous les liens dans le menu burger
       moveAll(visibleLinks, hiddenLinks);
     } else {
-      // Menu burger fermé → tout dans visible
+      // Sur desktop, tout remettre dans la navbar visible
       moveAll(hiddenLinks, visibleLinks);
     }
   };
 
-  // Sur clic du bouton burger
-  toggle.addEventListener("click", () => {
-    // Attendre que la classe "close" soit bien appliquée (prochain frame)
-    requestAnimationFrame(updateNavLinks);
-  });
+  // Sur chargement initial
+  updateNavMode();
 
-  // Initialisation : forcer dans visible au départ
-  moveAll(hiddenLinks, visibleLinks);
+  // Sur redimensionnement de la fenêtre
+  window.addEventListener("resize", updateNavMode);
 });
 </script>
+
 
   
 
