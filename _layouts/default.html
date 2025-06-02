@@ -13,6 +13,14 @@
     {% include_cached skip-links.html %}
     {% include_cached masthead.html %}
 
+    <ul class="hidden-links">
+      <li class="masthead__menu-item"><a href="/unity/">Unity</a></li>
+      <li class="masthead__menu-item"><a href="/devweb/">Développement web</a></li>
+      <li class="masthead__menu-item"><a href="/apprentissage/">Apprentissage des langages</a></li>
+      <li class="masthead__menu-item"><a href="/perso/">Projets perso</a></li>
+    </ul>
+
+
     <button id="toggle-sound" aria-label="Activer le son"
           style="
             position: fixed;
@@ -370,18 +378,22 @@ scheduleCloudCycle();
     waitForMastheadHeight(() => adjustContentOffset());
   });
 </script>
-<script>
+
+
+
+    <script>
   document.addEventListener('DOMContentLoaded', function () {
-    const burger = document.querySelector('.greedy-nav__toggle'); // Ton bouton burger
-    const hiddenLinks = document.querySelector('.hidden-links');  // Ton menu custom
+    const burger = document.querySelector('.greedy-nav__toggle');
+    const hiddenLinks = document.querySelector('.hidden-links');
 
     if (burger && hiddenLinks) {
-      burger.addEventListener('click', function () {
+      burger.addEventListener('click', () => {
         hiddenLinks.classList.toggle('shown');
       });
     }
   });
 </script>
+
 
 
     
