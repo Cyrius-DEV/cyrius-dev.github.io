@@ -395,9 +395,10 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   const moveAll = (from, to) => {
-    console.log("MOVING");
+    
     while (from.children.length > 0) {
       to.appendChild(from.children[0]);
+      console.log("MOVED");
     }
   };
 
