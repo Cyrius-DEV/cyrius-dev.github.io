@@ -25,6 +25,7 @@ search: false
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+navigation: main
 
 
 # Outputting
