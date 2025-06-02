@@ -2,6 +2,295 @@
 ---
 
 <!doctype html>
+<style>
+  a:visited {
+  color: inherit;
+}
+:focus:not(:focus-visible) {
+  outline: none;
+}
+.scroll-target {
+  scroll-margin-top: 95px; /* adapte à la hauteur de ta barre */
+}
+
+
+.scrolling-button {
+  padding: 12px 24px;
+  margin: 0 10px;
+  font-size: 1em;
+  font-weight: bold;
+  color: white;
+  background-color: #007acc;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.scrolling-button:hover {
+  background-color: #005fa3;
+  transform: translateY(-2px);
+}
+
+
+.masthead__inner-wrap {
+  background-color: transparent; /* supprime le blanc qui masque le fond */
+  position: relative;
+  z-index: 5;
+}
+  
+
+#site-nav{
+  background-color: transparent;
+}
+
+
+
+body {
+  background-color: #FAF7E5;
+  animation: bodyCycle 120s ease-in-out infinite;
+}
+
+.masthead {
+  background-color: #cfe4fa;
+  animation: colorCycle 120s ease-in-out infinite;
+  overflow: hidden;
+  /*position:relative;*/
+  position: fixed;
+  width:100%;
+}
+
+
+.sun {
+  position: absolute;
+  border: 2px solid orange;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #FFD700, #FFA500);
+  bottom: -20px;
+  left: 0;
+  z-index: 3;
+  animation: sunPath 120s ease-in-out infinite;
+
+}
+
+/* Étoiles */
+.stars-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0;
+  animation: starsFade 120s ease-in-out infinite;
+  overflow: hidden;
+}
+
+.star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.6;
+}
+
+/* Apparition pendant la nuit */
+@keyframes starsFade {
+  0%, 66% {
+    opacity: 0;
+  }
+  66.66% {
+    opacity: 0.3;
+  }
+  75%, 91.66% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Scintillement */
+@keyframes twinkle {
+  0%   { opacity: 0.3; }
+  50%  { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+/* Flottement doux aléatoire */
+@keyframes float1 {
+  0%   { transform: translate(0px, 0px); }
+  50%  { transform: translate(2px, -1px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+@keyframes float2 {
+  0%   { transform: translate(0px, 0px); }
+  50%  { transform: translate(-1px, 2px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+@keyframes float3 {
+  0%   { transform: translate(0px, 0px); }
+  50%  { transform: translate(1px, 1px); }
+  100% { transform: translate(0px, 0px); }
+}
+
+
+
+@keyframes colorCycle {
+  0%     { background-color: #cfe4fa; }   /* Couleur 1 */
+  16.66% { background-color: #cfe4fa; }   /* 20s */
+
+  25%    { background-color: #a7d3f5; }   /* Transition → Couleur 2 */
+
+  41.66% { background-color: #a7d3f5; }   /* 20s */
+
+  50%    { background-color: #fbcbb5; }   /* Transition → Couleur 3 */
+
+  66.66% { background-color: #fbcbb5; }   /* 20s */
+
+  75%    { background-color: #bfc6e0; }   /* Transition → Couleur 4 */
+
+  91.66% { background-color: #bfc6e0; }   /* 20s */
+
+  100%   { background-color: #cfe4fa; }   /* Transition → Couleur 1 */
+}
+
+
+@keyframes bodyCycle {
+  0%     { background-color: #FBEFDA; }   /* Couleur 1 */
+  16.66% { background-color: #FBEFDA; }   /* 20s */
+
+  25%    { background-color: #FAFAFA; }   /* Transition → Couleur 2 */
+
+  41.66% { background-color: #FAFAFA; }   /* 20s */
+
+  50%    { background-color: #FBEFDA; }   /* Transition → Couleur 3 */
+
+  66.66% { background-color: #FBEFDA; }   /* 20s */
+
+  75%    { background-color: #D5D6E0; }   /* Transition → Couleur 4 */
+
+  91.66% { background-color: #D5D6E0; }   /* 20s */
+
+  100%   { background-color: #FBEFDA; }   /* Transition → Couleur 1 */
+}
+
+
+@keyframes sunPath {
+  0% {   /* Couleur 1 */
+    transform: translateX(0%) translateY(0px);
+    opacity: 1;
+  }
+  16.66% {   /* 20s */
+    transform: translateX(17vw) translateY(-20px);
+  }
+  33.33% {
+    transform: translateX(50vw) translateY(-60px);
+  }
+
+  50% {
+    transform: translateX(83vw) translateY(-10px);
+  }
+  75% {
+    transform: translateX(100vw) translateY(20px);
+  }
+  91.66% {
+    transform: translateX(-40px) translateY(20px);
+  }
+  100% {
+    transform: translateX(0%) translateY(0px);
+  }
+}
+
+
+
+
+
+
+
+
+
+  /* 🌥️ Nuage 1 — compact, équilibré */
+.cloud-1 {
+  width: 50px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow:
+    12px -4px 0 4px #fff,
+    22px 0px 0 5px #fff,
+    35px -3px 0 4px #fff,
+    20px 4px 0 3px #fff;
+}
+
+/* 🌤️ Nuage 2 — plus petit et arrondi */
+.cloud-2 {
+  width: 40px;
+  height: 18px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow:
+    10px -3px 0 4px #fff,
+    18px 1px 0 3px #fff,
+    24px -2px 0 3px #fff;
+}
+
+/* 🌩️ Nuage 3 — plus étalé horizontalement */
+.cloud-3 {
+  width: 60px;
+  height: 18px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow:
+    15px -2px 0 4px #fff,
+    30px 2px 0 5px #fff,
+    45px -3px 0 4px #fff;
+}
+
+/* 🌫️ Nuage 4 — bas et long */
+.cloud-4 {
+  width: 55px;
+  height: 14px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow:
+    10px 0px 0 3px #fff,
+    20px -2px 0 3px #fff,
+    30px 1px 0 3px #fff,
+    40px 0px 0 2px #fff;
+}
+
+/* 🌧️ Nuage 5 — rond, dense et peu large */
+.cloud-5 {
+  width: 35px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow:
+    8px -2px 0 3px #fff,
+    16px 0px 0 3px #fff,
+    12px 3px 0 2px #fff;
+}
+
+
+/* Animation commune */
+.cloud {
+  position: absolute;
+  opacity: 1;
+  animation-name: floatCloud;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  top: 0;
+  left: -150px;
+}
+</style>
 {% include copyright.html %}
 <html lang="{{ site.locale | replace: "_", "-" | default: "en" }}" class="no-js">
   <head>
