@@ -379,7 +379,28 @@ scheduleCloudCycle();
 
 
 
-    
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const nav = document.querySelector(".greedy-nav");
+  const visibleLinks = nav?.querySelector(".visible-links");
+  const hiddenLinks = nav?.querySelector(".hidden-links");
+
+  if (!visibleLinks || !hiddenLinks) return;
+
+  // Déplace tous les liens visibles dans hidden-links
+  while (visibleLinks.children.length > 0) {
+    hiddenLinks.appendChild(visibleLinks.children[0]);
+  }
+
+  // Masque la liste visible
+  visibleLinks.style.display = "none";
+
+  // Assure que le bouton burger est visible
+  const toggle = nav.querySelector(".greedy-nav__toggle");
+  if (toggle) toggle.style.display = "inline-block";
+});
+</script>
+  
 
     <!-- Overlay contenant les liens cachés du menu burger -->
 <div id="burger-overlay"
