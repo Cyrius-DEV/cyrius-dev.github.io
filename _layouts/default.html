@@ -381,28 +381,51 @@ scheduleCloudCycle();
 
     
 
-    <div id="burger-overlay" style="display:none; position:fixed; top:60px; right:0; background:white; z-index:9999; box-shadow: 0 2px 10px rgba(0,0,0,0.2); padding: 1em;">
-  <button onclick="document.getElementById('burger-overlay').style.display='none'">Fermer</button>
+    <!-- Overlay contenant les liens cachés du menu burger -->
+<div id="burger-overlay"
+     style="display: none; position: fixed; top: 60px; right: 0; background: white; z-index: 9999; box-shadow: 0 2px 10px rgba(0,0,0,0.2); padding: 1em;">
   <nav id="cloned-links"></nav>
 </div>
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-  const burgerTrigger = document.querySelector(".greedy-nav button");
+  const burgerButton = document.querySelector(".greedy-nav__toggle");
   const hiddenLinks = document.querySelector(".greedy-nav .hidden-links");
   const overlay = document.getElementById("burger-overlay");
   const cloneTarget = document.getElementById("cloned-links");
 
-  if (burgerTrigger && hiddenLinks && overlay && cloneTarget) {
-    burgerTrigger.addEventListener("click", (e) => {
-      e.preventDefault();
-      // Clone le contenu réel à chaque ouverture
+  if (!burgerButton || !hiddenLinks || !overlay || !cloneTarget) return;
+
+  function updateOverlay() {
+    const isOpen = burgerButton.classList.contains("close");
+
+    if (isOpen) {
       cloneTarget.innerHTML = hiddenLinks.innerHTML;
       overlay.style.display = "block";
-    });
+    } else {
+      overlay.style.display = "none";
+    }
   }
+
+  // Sur clic du bouton burger : attendre la fin du toggle (pour avoir la bonne classe)
+  burgerButton.addEventListener("click", () => {
+    setTimeout(updateOverlay, 10); // court délai pour laisser le DOM mettre à jour la classe "close"
+  });
+
+  // Facultatif : refermer le menu si on clique à l’extérieur
+  document.addEventListener("click", (e) => {
+    if (
+      overlay.style.display === "block" &&
+      !overlay.contains(e.target) &&
+      !burgerButton.contains(e.target)
+    ) {
+      burgerButton.classList.remove("close");
+      overlay.style.display = "none";
+    }
+  });
 });
 </script>
+
 
 
 
