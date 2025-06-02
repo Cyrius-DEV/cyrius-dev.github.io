@@ -370,6 +370,18 @@ scheduleCloudCycle();
     waitForMastheadHeight(() => adjustContentOffset());
   });
 </script>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const burger = document.querySelector('.greedy-nav__toggle'); // Ton bouton burger
+    const hiddenLinks = document.querySelector('.hidden-links');  // Ton menu custom
+
+    if (burger && hiddenLinks) {
+      burger.addEventListener('click', function () {
+        hiddenLinks.classList.toggle('shown');
+      });
+    }
+  });
+</script>
 
 
     
