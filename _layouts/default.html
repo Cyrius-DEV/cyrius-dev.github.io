@@ -56,15 +56,6 @@
 <!-- Lecteurs audio invisibles -->
 <audio id="ambiance" src="/assets/audio/sonfini.mp3" loop></audio>
 
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const burgerMenu = document.querySelector('.hidden-links');
-      const masthead = document.querySelector('.masthead');
-      if (burgerMenu && masthead && masthead.contains(burgerMenu)) {
-        document.body.appendChild(burgerMenu);
-      }
-    });
-  </script>
 <script src="https://unpkg.com/swup@4"></script>
   <script>
 
@@ -380,7 +371,39 @@ scheduleCloudCycle();
 </script>
 
 
+
+
+
+
+
+
+
+
     
+
+    <div id="burger-overlay" style="display:none; position:fixed; top:60px; right:0; background:white; z-index:9999; box-shadow: 0 2px 10px rgba(0,0,0,0.2); padding: 1em;">
+  <button onclick="document.getElementById('burger-overlay').style.display='none'">Fermer</button>
+  <nav id="cloned-links"></nav>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const burgerTrigger = document.querySelector(".greedy-nav button");
+  const hiddenLinks = document.querySelector(".greedy-nav .hidden-links");
+  const overlay = document.getElementById("burger-overlay");
+  const cloneTarget = document.getElementById("cloned-links");
+
+  if (burgerTrigger && hiddenLinks && overlay && cloneTarget) {
+    burgerTrigger.addEventListener("click", (e) => {
+      e.preventDefault();
+      // Clone le contenu réel à chaque ouverture
+      cloneTarget.innerHTML = hiddenLinks.innerHTML;
+      overlay.style.display = "block";
+    });
+  }
+});
+</script>
+
 
 
     {% include scripts.html %}
