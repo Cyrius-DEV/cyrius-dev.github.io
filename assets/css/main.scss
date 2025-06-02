@@ -3,6 +3,20 @@
 
 @import "minimal-mistakes";
 
+
+
+
+
+/* Forcer l'affichage des liens du menu principal dans le menu burger sur mobile */
+nav#mobile-nav ul.menu li {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  height: auto !important;
+  overflow: visible !important;
+}
+
+
 a:visited {
   color: inherit;
 }
