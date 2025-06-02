@@ -3,6 +3,14 @@
 
 @import "minimal-mistakes"; // garde les styles du thème
 
+
+
+.greedy-nav .hidden-links {
+
+  z-index: 10;
+}
+
+
 a:visited {
   color: inherit;
 }
