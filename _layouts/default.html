@@ -396,7 +396,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const updateNavMode = () => {
     const isMobile = window.innerWidth < 768;
-
+    console.log(window.innerWidth);
     if (isMobile) {
       // Sur mobile, déplacer tous les liens dans le menu burger
       moveAll(visibleLinks, hiddenLinks);
