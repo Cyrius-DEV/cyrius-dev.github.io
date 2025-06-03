@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function forceHiddenLinks() {
-    const isMobile = window.innerWidth < 768;
+    const isMobile = window.innerWidth <= 768;
     const visItems = visibleLinks.querySelectorAll("li");
     const hidItems = hiddenLinks.querySelectorAll("li");
 
