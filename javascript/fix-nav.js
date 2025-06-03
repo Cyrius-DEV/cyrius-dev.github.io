@@ -38,10 +38,12 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // Menu burger : toggle l'affichage de hidden-links
-  newToggleButton.addEventListener("click", () => {
-    newHiddenLinks.classList.toggle("hidden");
-    newToggleButton.classList.toggle("close");
-  });
+  newToggleButton.addEventListener("click", (e) => {
+  e.stopImmediatePropagation(); // ⛔ Stop le handler du template
+  newHiddenLinks.classList.toggle("hidden");
+  newToggleButton.classList.toggle("close");
+});
+
 
   // Initialisation
   setTimeout(forceHiddenLinks, 100);
