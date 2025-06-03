@@ -23,6 +23,7 @@ window.addEventListener("load", () => {
       } else {
         hidItems.forEach(li => visibleLinks.appendChild(li));
         hiddenLinks.classList.add("hidden");
+        toggleButton.classList.add("hidden");
         toggleButton.classList.remove("close");
       }
       console.log("new isMobile= "+isMobile+" visItems= "+visItems.length+" hidItems= "+hidItems.length);
