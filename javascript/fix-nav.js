@@ -70,6 +70,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       floatingMenu.classList.remove("hidden");
       toggleButton.classList.add("close");
+      clonedLinks.classList.remove("hidden");
+      toggleButton.classList.add("close");
     } else {
       floatingMenu.classList.add("hidden");
       toggleButton.classList.remove("close");
