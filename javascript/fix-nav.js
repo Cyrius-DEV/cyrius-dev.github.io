@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const newToggleButton = newNav.querySelector(".greedy-nav__toggle");
 
   function forceHiddenLinks() {
-    const isMobile = window.innerWidth < 768;
+    const isMobile = window.innerWidth < 864;
     const visItems = newVisibleLinks.querySelectorAll("li");
     const hidItems = newHiddenLinks.querySelectorAll("li");
 
