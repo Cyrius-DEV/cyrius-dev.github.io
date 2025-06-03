@@ -8,6 +8,8 @@ document.addEventListener("DOMContentLoaded", () => {
   floatingMenu.classList.add("floating-hidden-links");
   floatingMenu.classList.add("hidden");
   document.body.appendChild(floatingMenu); // on sort du masthead
+  hiddenLinks.style.display = "none";
+
 
   // Appliquer le bon style en CSS
   const style = document.createElement("style");
