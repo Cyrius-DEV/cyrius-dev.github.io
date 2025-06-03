@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Déplacer les li vers floating menu
   function syncMenuContent() {
     // Vider le menu flottant
-    floatingMenu.innerHTML = "";
+    clonedLinks.innerHTML = "";
     // Y injecter les éléments du vrai hiddenLinks
     hiddenLinks.querySelectorAll("li").forEach(li => {
       clonedLinks.appendChild(li.cloneNode(true));
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
   toggleButton.addEventListener("click", (e) => {
     e.stopImmediatePropagation();
 
-    if (floatingMenu.classList.contains("hidden")) {
+    if (clonedLinks.classList.contains("hidden")) {
       // Positionner sous le bouton
       const rect = toggleButton.getBoundingClientRect();
       clonedLinks.style.top = `${rect.bottom + window.scrollY}px`;
