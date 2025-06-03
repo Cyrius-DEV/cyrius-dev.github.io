@@ -86,10 +86,13 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 // Fermer le menu quand on clique sur un lien
-floatingMenu.addEventListener("click", (event) => {
-  if (event.target.tagName.toLowerCase() === "a") {
-    floatingMenu.classList.add("hidden");
+const clonedLinks = document.getElementById("cloned-links");
+clonedLinks.addEventListener("click", (event) => {
+  const clickedLink = event.target.closest(".masthead__menu-item a");
+  if (clickedLink) {
+    clonedLinks.classList.add("hidden");
     toggleButton.classList.remove("close");
   }
 });
+
 
