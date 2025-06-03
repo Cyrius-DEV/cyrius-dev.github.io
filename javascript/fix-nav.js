@@ -25,6 +25,7 @@ window.addEventListener("load", () => {
         hiddenLinks.classList.add("hidden");
         toggleButton.classList.remove("close");
       }
+      console.log("new isMobile= "+isMobile+" visItems= "+visItems.length+" hidItems= "+hidItems.length);
     }
 
     forceHiddenLinks();
