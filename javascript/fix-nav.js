@@ -1,16 +1,16 @@
 window.addEventListener("load", () => {
-  // petit délai pour laisser le temps à Minimal Mistakes de bouger les liens
   setTimeout(() => {
-    const visibleLinks = document.querySelector(".greedy-nav .visible-links");
-    const hiddenLinks = document.querySelector(".greedy-nav .hidden-links");
-    const toggleButton = document.querySelector(".greedy-nav__toggle");
-
     // Neutraliser les scripts de reorder auto
     const nav = document.querySelector(".greedy-nav");
     const newNav = nav.cloneNode(true);
     nav.replaceWith(newNav);
 
-    // Mise à jour correcte
+    // 🔥 Met à jour les références APRÈS remplacement du DOM
+    const updatedNav = document.querySelector(".greedy-nav");
+    const visibleLinks = updatedNav.querySelector(".visible-links");
+    const hiddenLinks = updatedNav.querySelector(".hidden-links");
+    const toggleButton = updatedNav.querySelector(".greedy-nav__toggle");
+
     function forceHiddenLinks() {
       const isMobile = window.innerWidth < 768;
       const visItems = visibleLinks.querySelectorAll("li");
@@ -35,6 +35,5 @@ window.addEventListener("load", () => {
       hiddenLinks.classList.toggle("hidden");
       toggleButton.classList.toggle("close");
     });
-  }, 100); // délai à ajuster si besoin
+  }, 100); // ou 200 si besoin
 });
-
