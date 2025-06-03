@@ -51,10 +51,12 @@ document.addEventListener("DOMContentLoaded", () => {
       toggleButton.classList.remove("hidden");
     } else {
       hidItems.forEach((li) => visibleLinks.appendChild(li));
+      toggleButton.classList.add("hidden");
       toggleButton.classList.remove("close");
       clonedLinks.classList.add("hidden");
     }
     console.log("new visItems= "+visItems.length+" hidItems= "+hidItems.length);
+    toggleButton.removeAttribute("count");
     syncMenuContent();
   }
 
@@ -98,4 +100,19 @@ clonedLinks.addEventListener("click", (event) => {
   }
 });
 
+const observer = new MutationObserver(() => {
+  // Si des <li> reviennent dans visible-links alors qu'on est en mobile, on les vire
+  if (window.innerWidth <= 768) {
+    const rogueItems = visibleLinks.querySelectorAll("li");
+    rogueItems.forEach(li => hiddenLinks.appendChild(li));
+  }
+});
+observer.observe(visibleLinks, { childList: true });
+
+window.addEventListener("scroll", () => {
+  if (window.innerWidth <= 768) {
+    const rogueItems = visibleLinks.querySelectorAll("li");
+    rogueItems.forEach(li => hiddenLinks.appendChild(li));
+  }
+});
 
