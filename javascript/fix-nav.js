@@ -13,14 +13,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const style = document.createElement("style");
   style.innerHTML = `
     .floating-hidden-links {
-      position: absolute;
-      background: white;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      
+      position: fixed;
+      top: 60px; /* Ajuste selon ta navbar */
+      right: 0;
+      width: 200px; /* ou selon besoin */
       z-index: 9999;
-      min-width: 200px;
-    }
-    .floating-hidden-links.hidden {
-      display: none;
+      background: white; /* ou autre couleur */
+      box-shadow: 0 2px 10px rgba(0,0,0,0.15);
     }
   `;
   document.head.appendChild(style);
