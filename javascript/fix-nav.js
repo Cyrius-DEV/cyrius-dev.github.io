@@ -84,3 +84,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 });
+
+// Fermer le menu quand on clique sur un lien
+floatingMenu.addEventListener("click", (event) => {
+  if (event.target.tagName.toLowerCase() === "a") {
+    floatingMenu.classList.add("hidden");
+    toggleButton.classList.remove("close");
+  }
+});
+
