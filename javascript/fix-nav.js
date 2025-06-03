@@ -3,48 +3,82 @@ document.addEventListener("DOMContentLoaded", () => {
   const hiddenLinks = document.querySelector(".greedy-nav .hidden-links");
   const toggleButton = document.querySelector(".greedy-nav__toggle");
 
-  // Supprimer le comportement JS automatique du template
-  const nav = document.querySelector(".greedy-nav");
-  const newNav = nav.cloneNode(true);
-  nav.replaceWith(newNav);
+  // Clone et détacher le menu pour contourner overflow hidden
+  const floatingMenu = hiddenLinks.cloneNode(true);
+  floatingMenu.classList.add("floating-hidden-links");
+  floatingMenu.classList.add("hidden");
+  document.body.appendChild(floatingMenu); // on sort du masthead
 
-  // Définir les nouveaux sélecteurs après remplacement
-  const newVisibleLinks = newNav.querySelector(".visible-links");
-  const newHiddenLinks = newNav.querySelector(".hidden-links");
-  const newToggleButton = newNav.querySelector(".greedy-nav__toggle");
-
-  function forceHiddenLinks() {
-    const isMobile = window.innerWidth < 864;
-    const visItems = newVisibleLinks.querySelectorAll("li");
-    const hidItems = newHiddenLinks.querySelectorAll("li");
-
-    if (isMobile) {
-      // Tout dans hidden
-      visItems.forEach(li => newHiddenLinks.appendChild(li));
-      newHiddenLinks.classList.add("hidden"); // Masqué au début
-      newToggleButton.classList.remove("hidden");
-    } else {
-      // Tout dans visible
-      hidItems.forEach(li => newVisibleLinks.appendChild(li));
-      newHiddenLinks.classList.add("hidden");
-      newToggleButton.classList.add("hidden");
-      newToggleButton.classList.remove("close");
+  // Appliquer le bon style en CSS
+  const style = document.createElement("style");
+  style.innerHTML = `
+    .floating-hidden-links {
+      position: absolute;
+      background: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 9999;
+      min-width: 200px;
     }
+    .floating-hidden-links.hidden {
+      display: none;
+    }
+  `;
+  document.head.appendChild(style);
+
+  // Déplacer les li vers floating menu
+  function syncMenuContent() {
+    // Vider le menu flottant
+    floatingMenu.innerHTML = "";
+    // Y injecter les éléments du vrai hiddenLinks
+    hiddenLinks.querySelectorAll("li").forEach(li => {
+      floatingMenu.appendChild(li.cloneNode(true));
+    });
   }
 
-  // Réagir au redimensionnement
-  window.addEventListener("resize", () => {
-    setTimeout(forceHiddenLinks, 100); // Timeout pour laisser le resize finir
+  function forceHiddenLinks() {
+    const isMobile = window.innerWidth < 768;
+    const visItems = visibleLinks.querySelectorAll("li");
+    const hidItems = hiddenLinks.querySelectorAll("li");
+
+    if (isMobile) {
+      visItems.forEach((li) => hiddenLinks.appendChild(li));
+      toggleButton.classList.remove("hidden");
+    } else {
+      hidItems.forEach((li) => visibleLinks.appendChild(li));
+      toggleButton.classList.remove("close");
+      floatingMenu.classList.add("hidden");
+    }
+
+    syncMenuContent();
+  }
+
+  // Initialisation avec délai pour attendre le layout
+  setTimeout(forceHiddenLinks, 100);
+  window.addEventListener("resize", forceHiddenLinks);
+
+  // Gestion du menu flottant au clic
+  toggleButton.addEventListener("click", (e) => {
+    e.stopImmediatePropagation();
+
+    if (floatingMenu.classList.contains("hidden")) {
+      // Positionner sous le bouton
+      const rect = toggleButton.getBoundingClientRect();
+      floatingMenu.style.top = `${rect.bottom + window.scrollY}px`;
+      floatingMenu.style.left = `${rect.left + window.scrollX}px`;
+
+      floatingMenu.classList.remove("hidden");
+      toggleButton.classList.add("close");
+    } else {
+      floatingMenu.classList.add("hidden");
+      toggleButton.classList.remove("close");
+    }
   });
 
-  // Menu burger : toggle l'affichage de hidden-links
-  newToggleButton.addEventListener("click", (e) => {
-  e.stopImmediatePropagation(); // ⛔ Stop le handler du template
-  newHiddenLinks.classList.toggle("hidden");
-  newToggleButton.classList.toggle("close");
-});
-
-
-  // Initialisation
-  setTimeout(forceHiddenLinks, 100);
+  // Fermer en cliquant ailleurs
+  document.addEventListener("click", (e) => {
+    if (!floatingMenu.contains(e.target) && !toggleButton.contains(e.target)) {
+      floatingMenu.classList.add("hidden");
+      toggleButton.classList.remove("close");
+    }
+  });
 });
