@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const style = document.createElement("style");
   style.innerHTML = `
     .floating-hidden-links {
-      
+      display:none;
       position: fixed;
       top: 60px; /* Ajuste selon ta navbar */
       right: 0;
