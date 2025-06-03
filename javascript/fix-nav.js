@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
   floatingMenu.classList.add("hidden");
   document.body.appendChild(floatingMenu); // on sort du masthead
   hiddenLinks.style.display = "none";
+  const clonedLinks = document.getElementById("cloned-links");
 
 
   // Appliquer le bon style en CSS
@@ -33,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     floatingMenu.innerHTML = "";
     // Y injecter les éléments du vrai hiddenLinks
     hiddenLinks.querySelectorAll("li").forEach(li => {
-      floatingMenu.appendChild(li.cloneNode(true));
+      clonedLinks.appendChild(li.cloneNode(true));
     });
   }
 
@@ -48,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
     } else {
       hidItems.forEach((li) => visibleLinks.appendChild(li));
       toggleButton.classList.remove("close");
-      floatingMenu.classList.add("hidden");
+      clonedLinks.classList.add("hidden");
     }
 
     syncMenuContent();
@@ -65,30 +66,27 @@ document.addEventListener("DOMContentLoaded", () => {
     if (floatingMenu.classList.contains("hidden")) {
       // Positionner sous le bouton
       const rect = toggleButton.getBoundingClientRect();
-      floatingMenu.style.top = `${rect.bottom + window.scrollY}px`;
-      floatingMenu.style.left = `${rect.left + window.scrollX}px`;
+      clonedLinks.style.top = `${rect.bottom + window.scrollY}px`;
+      clonedLinks.style.left = `${rect.left + window.scrollX}px`;
 
-      floatingMenu.classList.remove("hidden");
-      toggleButton.classList.add("close");
       clonedLinks.classList.remove("hidden");
       toggleButton.classList.add("close");
     } else {
-      floatingMenu.classList.add("hidden");
+      clonedLinks.classList.add("hidden");
       toggleButton.classList.remove("close");
     }
   });
 
   // Fermer en cliquant ailleurs
   document.addEventListener("click", (e) => {
-    if (!floatingMenu.contains(e.target) && !toggleButton.contains(e.target)) {
-      floatingMenu.classList.add("hidden");
+    if (!clonedLinks.contains(e.target) && !toggleButton.contains(e.target)) {
+      clonedLinks.classList.add("hidden");
       toggleButton.classList.remove("close");
     }
   });
 });
 
 // Fermer le menu quand on clique sur un lien
-const clonedLinks = document.getElementById("cloned-links");
 clonedLinks.addEventListener("click", (event) => {
   const clickedLink = event.target.closest(".masthead__menu-item a");
   if (clickedLink) {
