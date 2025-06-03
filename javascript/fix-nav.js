@@ -13,7 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const isMobile = window.innerWidth < 768;
     const visItems = visibleLinks.querySelectorAll("li");
     const hidItems = hiddenLinks.querySelectorAll("li");
-
+    console.log("isMobile= "+isMobile+" visItems= "+visItems+" hidItems= "+hidItems);
+    
     if (isMobile) {
       // Déplacer tout vers hidden
       visItems.forEach((li) => hiddenLinks.appendChild(li));
