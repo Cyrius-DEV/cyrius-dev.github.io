@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   document.body.appendChild(floatingMenu); // on sort du masthead
   hiddenLinks.style.display = "none";
   const clonedLinks = document.getElementById("cloned-links");
+  clonedLinks.style.maxWidth="50%";
 
 
   // Appliquer le bon style en CSS
