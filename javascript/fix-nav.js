@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
   hiddenLinks.style.display = "none";
   const clonedLinks = document.getElementById("cloned-links");
   const burgerOverlay = document.getElementById("burger-overlay");
-  burgerOverlay.style.maxWidth="50%";
+  burgerOverlay.style.maxHeight="50%";
 
 
   // Appliquer le bon style en CSS
