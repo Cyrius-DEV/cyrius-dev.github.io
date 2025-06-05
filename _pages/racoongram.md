@@ -29,6 +29,10 @@ classes: wide
 
 <h2 id="presentation" class="scroll-target" style="text-align: center; border-bottom:none;">Présentation</h2>
 
+<div class="project-section">
+  <div class="project-text">
+<p>Recréation du célèbre jeu Pac-Man, ce mini-jeu prend place dans un labyrinthe dans lequel le joueur doit récolter les pastilles puis filer vers la sortie en prenant soin d'esquiver les fantômes qui y rôdent.</p>
+  </div>
 <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
@@ -37,6 +41,7 @@ classes: wide
     <img src="/assets/images/racoongram3.png" alt="Écran 3">
   </div>
   <button class="carousel-button next">›</button>
+</div>
 </div>
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
