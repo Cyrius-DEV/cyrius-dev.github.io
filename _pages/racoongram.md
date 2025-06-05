@@ -31,7 +31,7 @@ classes: wide
 
 <div class="project-section">
   <div class="project-text">
-<p>Recréation du célèbre jeu Pac-Man, ce mini-jeu prend place dans un labyrinthe dans lequel le joueur doit récolter les pastilles puis filer vers la sortie en prenant soin d'esquiver les fantômes qui y rôdent.</p>
+<p>Partie intégrante d'un projet universitaire de création d'un jeu vidéo, Racoongram est une application mobile type Instagram qui permet aux joueurs de publier et partager leurs images de jeu en ligne. Celle-ci a vu le jour pendant la phase d'idéation du projet : "Et si nos ratons laveurs cleptomanes publiaient des selfies avec les téléphones volés autour d'eux ?"</p>
   </div>
 <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
