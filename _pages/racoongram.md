@@ -9,7 +9,7 @@ classes: wide
 <div style="width: 100%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;font-size:2em;">Racoongram</h1>
 
-<p style="text-align: center;">Présentation plus en détails d'un des aspects du projet Racoons ? Where ?</p>
+<p style="text-align: center;">Présentation plus en détail d'un des aspects du projet Racoons ? Where ?</p>
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#presentation" style="text-decoration: none;">
@@ -32,9 +32,9 @@ classes: wide
 <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/newlabyrinthe1.png" alt="Écran 1">
-    <img src="/assets/images/newlabyrinthe2.png" alt="Écran 2">
-    <img src="/assets/images/newlabyrinthe3.png" alt="Écran 3">
+    <img src="/assets/images/racoongram1.png" alt="Écran 1">
+    <img src="/assets/images/racoongram2.png" alt="Écran 2">
+    <img src="/assets/images/racoongram3.png" alt="Écran 3">
   </div>
   <button class="carousel-button next">›</button>
 </div>
