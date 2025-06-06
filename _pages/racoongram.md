@@ -31,7 +31,7 @@ classes: wide
 
 <div class="project-section">
   <div class="project-text">
-<p>Partie intégrante d'un projet universitaire de création d'un jeu vidéo, Racoongram est une application mobile type Instagram qui permet aux joueurs de publier et partager leurs images de jeu en ligne. Celle-ci a vu le jour pendant la phase d'idéation du projet : "Et si nos ratons laveurs cleptomanes publiaient des selfies avec les téléphones volés autour d'eux ?"</p>
+<p>Partie intégrante d'un projet universitaire de création d'un jeu vidéo, Racoongram est une application mobile type Instagram qui permet aux joueurs de publier et partager leurs images de jeu en ligne. </p><br><p>Celle-ci a vu le jour pendant la phase d'idéation du projet : "Et si nos ratons laveurs cleptomanes publiaient des selfies avec les téléphones volés autour d'eux ?"</p>
   </div>
 <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
