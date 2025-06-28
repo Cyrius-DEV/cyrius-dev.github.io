@@ -24,8 +24,17 @@ function fadeIn(targetVolume = 1, duration = 1000) {
 
 window.addEventListener('load', () => {
   audio.volume = 0;
-  audio.play().catch(() => {
-    console.warn("Lecture bloquée jusqu'à interaction.");
+  audio.muted = true;
+  audio.play().then(() => {
+    // Hack : démuter brièvement pour forcer le "vrai" play, puis remuter
+    setTimeout(() => {
+      audio.muted = false;
+      setTimeout(() => {
+        audio.muted = true;
+      }, 10);
+    }, 50);
+  }).catch(() => {
+    console.warn("Lecture bloquée jusqu'à interaction utilisateur.");
   });
 });
 
@@ -42,6 +51,7 @@ btn.addEventListener('click', () => {
       audio.currentTime = 0;
       audio.play().catch(() => {});
     }
+
     audio.muted = false;
     fadeIn();
   }
