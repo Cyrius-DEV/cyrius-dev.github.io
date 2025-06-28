@@ -137,6 +137,7 @@ function carouselButtons(){
 swup.hooks.on('visit:start', () => {
   console.log("🚀 Swup: visit:start");
   adjustMainHeight();
+  carouselButtons();
 });
 
 swup.hooks.on('page:view', () => {
