@@ -59,13 +59,11 @@ classes: wide
   </div>
   <div style="width:60%;">
     <div class="paragraph-box-racoongram">
-    <p>➤ Utilise un token d’authentification pour la connexion</p>
+    <p>➤ Utilise un token d’authentification créé par notre API pour la connexion</p>
 
-<p>➤ Main activity, check de présence/validité du token et redirection</p>
+<p>➤ Main activity (page de démarrage de l'application), check de présence/validité du token et redirection vers page de connexion ou d'accueil en fonction</p>
 
-<p>➤ Création de token grâce à l'API</p>
-
- <p>➤ Sauvegarde des info</p>
+ <p>➤ Sauvegarde des infos dans les SharedPreferences (token d’authentification, id et login de l'utilisation)</p>
   </div>
   </div>
 </div>
@@ -89,7 +87,7 @@ classes: wide
 </div>
 
 <div style="width:100%; display:flex; align-items:center; justify-content:center;">
-  <div style="width:40%;text-align:right;">
+  <div style="width:40%;">
     <img src="/assets/images/racoongram4.png" >
   </div>
   <div style="width:60%;">
