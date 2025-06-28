@@ -59,11 +59,11 @@ classes: wide
   </div>
   <div style="width:60%;">
     <div class="paragraph-box">
-    <p>➤ Utilise un token d’authentification pour la connexion</p><br>
+    <p>➤ Utilise un token d’authentification pour la connexion</p>
 
-<p>➤ Main activity, check de présence/validité du token et redirection</p><br>
+<p>➤ Main activity, check de présence/validité du token et redirection</p>
 
-<p>➤ Création de token grâce à l'API</p><br>
+<p>➤ Création de token grâce à l'API</p>
 
  <p>➤ Sauvegarde des info</p>
   </div>
