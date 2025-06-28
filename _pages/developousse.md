@@ -9,4 +9,112 @@ classes: wide
 <div style="width: 100%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;font-size:2em;">Dévelopousse</h1>
 
-<p style="text-align: center;">Présentation rapide de quelques exercices en langage TypeScript que j'ai menés en cours prenant la forme de mini-jeux très connus</p>
+<p style="text-align: center;">Présentation plus en détail d'un advergame développé en TypeScript dans le cadre d'une SAE</p>
+
+<div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
+  <a href="#presentation" style="text-decoration: none;">
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Présentation  ▼</button>
+  </a>
+  <a href="#fonctionnalites" style="text-decoration: none;">
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Fonctionnement  ▼</button>
+  </a>
+  <a href="#demo" style="text-decoration: none;">
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Jouer  ▼</button>
+  </a>
+</div>
+
+
+
+<hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
+
+<h2 id="presentation" class="scroll-target" style="text-align: center; border-bottom:none;margin-top: 30px; text-decoration:underline;font-size: 1.563em;">Présentation</h2>
+
+<div class="project-section">
+  <div class="project-text">
+    <div class="paragraph-box-fantasy">
+<p>Partie intégrante d'un projet universitaire de création d'un jeu vidéo, Racoongram est une application mobile type Instagram qui permet aux joueurs de publier et partager leurs images de jeu en ligne. </p><br><p>Celle-ci a vu le jour pendant la phase d'idéation du projet : "Et si nos ratons laveurs kleptomanes publiaient des selfies avec les téléphones volés autour d'eux ?"</p></div>
+  </div>
+<div class="carousel-container">
+  <button class="carousel-button prev">‹</button>
+  <div class="carousel-slide">
+    <img src="/assets/images/racoongram1.png" alt="Écran 1">
+    <img src="/assets/images/racoongram2.png" alt="Écran 2">
+    <img src="/assets/images/racoongram3.png" alt="Écran 3">
+  </div>
+  <button class="carousel-button next">›</button>
+</div>
+</div>
+<br>
+<div class="paragraph-box-fantasy">
+<p>Son principe est simple : les joueurs du jeu vidéo <a href="https://cyrius-dev.github.io/unity/racoon/"><strong>Racoons ? Where ?</strong></a> ont la possibilité grâce à une touche de passer en mode "selfie", contrôlant un drone qu'ils utilisent pour faire une capture d'écran de leur choix (exemple photo 2 au-dessus). Les photos prises sont ensuite sauvegardées dans les fichiers du jeu et, si les joueurs sont connectés à leur profil, celles-ci sont transmises et sauvegardées dans notre base de données grâce à une API.</p><br>
+<p>Ces photos sont récupérées pour être affichées dans le hub du jeu (exemple photo 3 au-dessus), et sont également consultables à travers l'application Racoongram : ici, l'utilisateur peut voir les dernières photos prises par les joueurs, les liker s'il en apprécie une, et retrouver ces propres photos liées à son profil.</p></div><br>
+
+<hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
+
+<h2 id="fonctionnalites" class="scroll-target" style="text-align: center; border-bottom:none;margin-top: 30px; text-decoration:underline;font-size: 1.563em;">Fonctionnalités</h2>
+
+
+
+<div style="width:100%; display:flex; align-items:center; justify-content:center;">
+  <div style="width:40%;">
+    <img src="/assets/images/racoongram4.png" >
+  </div>
+  <div style="width:60%;">
+    <div class="paragraph-box-racoongram">
+    <p>➤ Utilise un token d’authentification créé par notre API pour la connexion</p>
+
+<p>➤ Main activity (page de démarrage de l'application), check de présence/validité du token et redirection vers page principale ou de connexion en fonction du token valide ou non</p>
+
+ <p>➤ Sauvegarde des infos dans les SharedPreferences (token d’authentification, id et login de l'utilisateur)</p>
+  </div>
+  </div>
+</div>
+
+<div style="width:100%; display:flex; align-items:center; justify-content:center;">
+  <div style="width:60%;">
+    <div class="paragraph-box-racoongram">
+    <p>➤ Page principale : fil d'actualité similaire à Instagram, permet de consulter et de liker les captures d'écran des joueurs de Racoons ? Where ?</p>
+      <p>➤ Récupération des images grâce à l'API et organisation en Posts avec image, infos et bouton Like fonctionnel</p>
+      <p>➤ Scroll infini à travers la page grâce à un chargement automatique de nouveaux posts quand bas de page atteint</p>
+    <p>➤ Attribution d'une profilepic automatique de racoon coloré pour un fil d'actualité plus vivant</p>
+  </div>
+  </div>
+  <div style="width:40%;text-align:right;">
+    <img src="/assets/images/racoongram5.png" >
+  </div>
+  
+</div>
+
+<div style="width:100%; display:flex; align-items:center; justify-content:center;">
+  <div style="width:40%;">
+    <img src="/assets/images/racoongram6.png" >
+  </div>
+  <div style="width:60%;">
+    <div class="paragraph-box-racoongram">
+    <p>
+      ➤ Présente les différentes informations du compte</p>
+      <p>➤ Récupération des informations et des screenshots selon le compte avec l'API</p>
+      <p>➤ Organisation en 2 fragments, Publications (fil d'actualité composé des photos du compte uniquement) et Skins (simple concept si volonté de pousser le projet plus loin, choix de skins depuis l'application)</p>
+    <p>➤ Menu des fragments Publications et Skins fixe pendant le scroll
+    </p>
+  </div>
+  </div>
+</div>
+
+<hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
+
+<section>
+  <h2 id="demo" class="scroll-target" style="text-align: center; border-bottom:none;margin-top: 30px; text-decoration:underline;font-size: 1.563em;">Démo interactive</h2>
+ <br>
+  <p style="text-align: center; margin-top: 1em;">
+    <a href="https://appetize.io/app/b_omk4fpnh3uh4og4vv5frkmyroi" target="_blank" 
+       style="padding: 0.75em 1.5em; background: #4CAF50; color: white; text-decoration: none; border-radius: 8px;">
+       Lancer la démo Android
+    </a>
+  </p><br>
+  <p style="text-align: center;margin-bottom:0px;">Identifiant : test</p>
+  <p style="text-align: center;">Mot de passe : 123456789</p>
+</section>
+
+
+<script src="/javascript/carouselButtons.js"></script>
