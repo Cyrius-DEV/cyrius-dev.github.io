@@ -32,7 +32,7 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-fantasy">
-<p>Partie intégrante d'un projet universitaire de création d'un jeu vidéo, Racoongram est une application mobile type Instagram qui permet aux joueurs de publier et partager leurs images de jeu en ligne. </p><br><p>Celle-ci a vu le jour pendant la phase d'idéation du projet : "Et si nos ratons laveurs cleptomanes publiaient des selfies avec les téléphones volés autour d'eux ?"</p></div>
+<p>Partie intégrante d'un projet universitaire de création d'un jeu vidéo, Racoongram est une application mobile type Instagram qui permet aux joueurs de publier et partager leurs images de jeu en ligne. </p><br><p>Celle-ci a vu le jour pendant la phase d'idéation du projet : "Et si nos ratons laveurs kleptomanes publiaient des selfies avec les téléphones volés autour d'eux ?"</p></div>
   </div>
 <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
@@ -46,8 +46,8 @@ classes: wide
 </div>
 <br>
 <div class="paragraph-box-fantasy">
-<p>Son principe est simple : les joueurs du jeu vidéo <a href="https://cyrius-dev.github.io/unity/racoon/"><strong>Racoons ? Where ?</strong></a> ont la possibilité grâce à une touche de passer en mode "selfie", contrôlant un drone qu'ils utilisent pour faire une capture d'écran de leur choix (exemple photo 2 au-dessus). Les photos prises sont ensuite sauvegardé dans les fichiers du jeu et, si les joueurs sont connectés à leur profil, celles-ci sont transmises et sauvegardées dans notre base de données grâce à une API.</p><br>
-<p>Ces photos sont récupérées pour être affichées dans le hub du jeu (exemple photo 3 au-dessus), et sont également consultables à travers l'application Racoongram : ici, l'utilisateur peut consulter les dernières photos prises par les joueurs, les liker s'il en apprécie une, et consulter ces propres photos liées à son profil.</p></div><br>
+<p>Son principe est simple : les joueurs du jeu vidéo <a href="https://cyrius-dev.github.io/unity/racoon/"><strong>Racoons ? Where ?</strong></a> ont la possibilité grâce à une touche de passer en mode "selfie", contrôlant un drone qu'ils utilisent pour faire une capture d'écran de leur choix (exemple photo 2 au-dessus). Les photos prises sont ensuite sauvegardées dans les fichiers du jeu et, si les joueurs sont connectés à leur profil, celles-ci sont transmises et sauvegardées dans notre base de données grâce à une API.</p><br>
+<p>Ces photos sont récupérées pour être affichées dans le hub du jeu (exemple photo 3 au-dessus), et sont également consultables à travers l'application Racoongram : ici, l'utilisateur peut voir les dernières photos prises par les joueurs, les liker s'il en apprécie une, et retrouver ces propres photos liées à son profil.</p></div><br>
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
