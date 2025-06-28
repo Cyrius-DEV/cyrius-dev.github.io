@@ -61,9 +61,9 @@ classes: wide
     <div class="paragraph-box-racoongram">
     <p>➤ Utilise un token d’authentification créé par notre API pour la connexion</p>
 
-<p>➤ Main activity (page de démarrage de l'application), check de présence/validité du token et redirection vers page de connexion ou d'accueil en fonction</p>
+<p>➤ Main activity (page de démarrage de l'application), check de présence/validité du token et redirection vers page de connexion ou page principale en fonction de celui-ci</p>
 
- <p>➤ Sauvegarde des infos dans les SharedPreferences (token d’authentification, id et login de l'utilisation)</p>
+ <p>➤ Sauvegarde des infos dans les SharedPreferences (token d’authentification, id et login de l'utilisateur)</p>
   </div>
   </div>
 </div>
