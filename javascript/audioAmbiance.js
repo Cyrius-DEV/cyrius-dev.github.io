@@ -3,6 +3,8 @@ const audio = document.getElementById('ambiance');
 
 let isMuted = true;
 let fadeInterval;
+let visitStart = Date.now();
+let firstUnmute = false;
 
 function fadeIn(targetVolume = 1, duration = 1000) {
   clearInterval(fadeInterval);
@@ -25,15 +27,7 @@ function fadeIn(targetVolume = 1, duration = 1000) {
 window.addEventListener('load', () => {
   audio.volume = 0;
   audio.muted = true;
-  audio.play().then(() => {
-    // Hack : démuter brièvement pour forcer le "vrai" play, puis remuter
-    setTimeout(() => {
-      audio.muted = false;
-      setTimeout(() => {
-        audio.muted = true;
-      }, 10);
-    }, 50);
-  }).catch(() => {
+  audio.play().catch(() => {
     console.warn("Lecture bloquée jusqu'à interaction utilisateur.");
   });
 });
@@ -47,8 +41,14 @@ btn.addEventListener('click', () => {
     audio.volume = 0;
     audio.muted = true;
   } else {
+    // Première fois qu'on unmute ?
+    if (!firstUnmute) {
+      const elapsed = Math.floor((Date.now() - visitStart) / 1000);
+      audio.currentTime = elapsed % audio.duration;
+      firstUnmute = true;
+    }
+
     if (audio.paused) {
-      audio.currentTime = 0;
       audio.play().catch(() => {});
     }
 
