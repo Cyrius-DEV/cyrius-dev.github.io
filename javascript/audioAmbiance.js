@@ -24,7 +24,6 @@ function fadeIn(targetVolume = 1, duration = 1000) {
 
 window.addEventListener('load', () => {
   audio.volume = 0;
-  audio.muted = true; // Important : mute réel pour autoriser autoplay
   audio.play().catch(() => {
     console.warn("Lecture bloquée jusqu'à interaction.");
   });
@@ -43,8 +42,7 @@ btn.addEventListener('click', () => {
       audio.currentTime = 0;
       audio.play().catch(() => {});
     }
-
-    audio.muted = false; // Important : unmute réel
+    audio.muted = false;
     fadeIn();
   }
 });
