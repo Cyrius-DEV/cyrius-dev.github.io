@@ -78,14 +78,14 @@ classes: wide
   </div>
   </div>
   <div style="width:40%;text-align:right;">
-    <img src="/assets/images/racoongram4.png" >
+    <img src="/assets/images/racoongram5.png" >
   </div>
   
 </div>
 
 <div style="width:100%; display:flex; align-items:center; justify-content:center;">
   <div style="width:40%;">
-    <img src="/assets/images/racoongram4.png" >
+    <img src="/assets/images/racoongram6.png" >
   </div>
   <div style="width:60%;">
     <div class="paragraph-box-racoongram">
