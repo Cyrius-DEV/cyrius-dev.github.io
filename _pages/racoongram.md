@@ -71,10 +71,10 @@ classes: wide
 <div style="width:100%; display:flex; align-items:center; justify-content:center;">
   <div style="width:60%;">
     <div class="paragraph-box-racoongram">
-    ➤ Page principale : fil d'actualité similaire à Instagram, permet de consulter et de liker les captures d'écran des joueurs de Racoons ? Where ?
-      ➤ Récupération des images grâce à l'API et organisation en Posts avec image, infos et bouton Like fonctionnel
-      ➤ Scroll infini à travers la page grâce à un chargement automatique de nouveaux posts quand bas de page atteint
-    ➤ Attribution d'une profilepic automatique de racoon coloré pour un fil d'actualité plus vivant
+    <p>➤ Page principale : fil d'actualité similaire à Instagram, permet de consulter et de liker les captures d'écran des joueurs de Racoons ? Where ?</p>
+      <p>➤ Récupération des images grâce à l'API et organisation en Posts avec image, infos et bouton Like fonctionnel</p>
+      <p>➤ Scroll infini à travers la page grâce à un chargement automatique de nouveaux posts quand bas de page atteint</p>
+    <p>➤ Attribution d'une profilepic automatique de racoon coloré pour un fil d'actualité plus vivant</p>
   </div>
   </div>
   <div style="width:40%;text-align:right;">
@@ -90,10 +90,10 @@ classes: wide
   <div style="width:60%;">
     <div class="paragraph-box-racoongram">
     <p>
-      ➤ Présente les différentes informations du compte
-      ➤ Récupération des informations et des screenshots selon le compte avec l'API
-      ➤ Organisation en 2 fragments, Publications (fil d'actualité composé des photos du compte uniquement) et Skins (simple concept si volonté de pousser le projet plus loin, choix de skins depuis l'application)
-    ➤ Menu des fragments Publications et Skins fixe pendant le scroll
+      ➤ Présente les différentes informations du compte</p>
+      <p>➤ Récupération des informations et des screenshots selon le compte avec l'API</p>
+      <p>➤ Organisation en 2 fragments, Publications (fil d'actualité composé des photos du compte uniquement) et Skins (simple concept si volonté de pousser le projet plus loin, choix de skins depuis l'application)</p>
+    <p>➤ Menu des fragments Publications et Skins fixe pendant le scroll
     </p>
   </div>
   </div>
