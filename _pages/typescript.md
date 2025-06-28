@@ -90,8 +90,9 @@ classes: wide
   </iframe>
 </div>
 
+<div class="paragraph-box">
 <p>Dans le code, le labyrinthe prend en réalité la forme d'une matrice en 10x10 de chiffres qui sera mise à jour au cours de la partie (1=mur, 2=pastille, 8=joueur, 9=arrivée, 10=fantôme), et qui servira de modèle à la construction du labyrinthe au début de chaque partie. Ce fonctionnement pourrait permettre un lien avec une base de données pour proposer différents niveaux de difficultés par exemple.<br><br>Les fantômes ont un comportement à la fois prévisible mais parfois surprenant, ceux-ci peuvent décider de se déplacer en direction du joueur ou dans une direction aléatoire. Le joueur lui peut se déplacer sur une case libre et manger la pastille qui peut s'y trouver mais meurt s'il touche une case occupée par un fantôme et reste immobile s'il se essaie de traverser un mur.<br><br>Si le joueur entre en collision avec un fantôme ou atteins la fin sans toutes les pastilles, c'est perdu ! S'il parvient à toutes les récupérer et foncer à l'arrivée, c'est gagner ! J'ai réutilisé le fonctionnement de gestion de partie du projet précédent pour annoncer le résultat et recommencer une partie facilement.</p>
-
+</div>
 
 
 
