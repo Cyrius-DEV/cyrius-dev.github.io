@@ -28,7 +28,7 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-glace">
-    <p>Ce casse-briques est la première vraie application du langage Typescript que j'ai eu l'occasion de faire ; il s'agit d'une recréation du vieux jeu d'arcade, on contrôle ici la barre du bas avec la souris afin de projeter et faire rebondir la balle sur chacune des briques pour les détruire.</p>
+    <p>Ce casse-briques est la première vraie application du langage Typescript que j'ai eu l'occasion de faire ; il s'agit d'une recréation d'un vieux jeu type arcade, on contrôle ici la barre du bas avec la souris afin de projeter et faire rebondir la balle sur chacune des briques pour les détruire.</p>
     </div>
   </div>
   <div class="carousel-container">
@@ -55,7 +55,7 @@ classes: wide
 </div>
 
 <div class="paragraph-box-glace">
-<p>Au cours de la réalisation de ce mini-jeu, j'ai pu découvrir le fonctionnement et l'organisation d'un projet en Typescript : comment créer une scène, où assigner les différents paramètres souhaités pour chacun des éléments du jeu, etc... <br><br>J'ai notamment passer pas mal de temps sur le comportement de la balle, en s'assurant d'un calcul des rebonds contre brique, mur et barre du bas aussi réalistes que possible, mais j'ai également pris l'initiative d'ajouter de quoi gérer le déroulement d'une partie, par exemple un compteur de briques détruites constamment mis à jour et un simple message de victoire/défaite permettant de redémarrer une partie.</p>
+<p>Au cours de la réalisation de ce mini-jeu, j'ai pu découvrir le fonctionnement et l'organisation d'un projet en Typescript : comment créer une scène, où assigner les différents paramètres souhaités pour chacun des éléments du jeu, etc... <br><br>J'ai notamment passé pas mal de temps sur le comportement de la balle, à la recherche d'un calcul des rebonds contre briques, murs et barre du bas aussi réaliste que possible. J'ai également pris l'initiative d'ajouter de quoi gérer le déroulement d'une partie, par exemple un compteur de briques détruites constamment mis à jour et un simple message de victoire/défaite permettant de redémarrer une partie.</p>
 </div>
 <br>
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
@@ -96,7 +96,7 @@ classes: wide
 </div>
 
 <div class="paragraph-box-rustique">
-<p>Dans le code, le labyrinthe prend en réalité la forme d'une matrice en 10x10 de chiffres qui sera mise à jour au cours de la partie (1=mur, 2=pastille, 8=joueur, 9=arrivée, 10=fantôme), et qui servira de modèle à la construction du labyrinthe au début de chaque partie. Ce fonctionnement pourrait permettre un lien avec une base de données pour proposer différents niveaux de difficultés par exemple.<br><br>Les fantômes ont un comportement à la fois prévisible mais parfois surprenant, ceux-ci peuvent décider de se déplacer en direction du joueur ou dans une direction aléatoire. Le joueur lui peut se déplacer sur une case libre et manger la pastille qui peut s'y trouver mais meurt s'il touche une case occupée par un fantôme et reste immobile s'il se essaie de traverser un mur.<br><br>Si le joueur entre en collision avec un fantôme ou atteins la fin sans toutes les pastilles, c'est perdu ! S'il parvient à toutes les récupérer et foncer à l'arrivée, c'est gagner ! J'ai réutilisé le fonctionnement de gestion de partie du projet précédent pour annoncer le résultat et recommencer une partie facilement.</p>
+<p>Dans le code, le labyrinthe prend en réalité la forme d'une matrice en 10x10 de chiffres qui sera mise à jour au cours de la partie (1=mur, 2=pastille, 8=joueur, 9=arrivée, 10=fantôme), et qui servira de modèle à la construction du labyrinthe au début de chaque partie. Ce fonctionnement pourrait permettre un lien avec une base de données pour proposer différents niveaux de difficulté par exemple.<br><br>Les fantômes ont un comportement à la fois prévisible mais aussi parfois surprenant ; ceux-ci peuvent décider de se déplacer en direction du joueur ou dans une direction aléatoire. Le joueur lui peut se déplacer sur une case libre et manger la pastille qui peut s'y trouver mais meurt s'il touche une case occupée par un fantôme et reste immobile s'il essaie de traverser un mur.<br><br>Si le joueur entre en collision avec un fantôme ou atteint la fin sans toutes les pastilles, c'est perdu ! S'il parvient à toutes les récupérer et foncer à l'arrivée, c'est gagné ! J'ai réutilisé le fonctionnement de gestion de partie du projet précédent pour annoncer le résultat et recommencer une partie facilement.</p>
 </div>
 
 
