@@ -24,18 +24,9 @@ const btn = document.getElementById('toggle-sound');
     }, stepTime);
   }
 
-  window.addEventListener('load', () => {
-    audio.volume = 0;
-    audio.muted = true;
+  // Plus de tentative de play au load → bloquée par les navigateurs
 
-    audio.play().then(() => {
-      console.log("Lecture audio lancée en sourdine.");
-    }).catch(() => {
-      console.warn("Lecture bloquée jusqu'à interaction utilisateur.");
-    });
-  });
-
-  btn.addEventListener('click', () => {
+  btn.addEventListener('click', async () => {
     isMuted = !isMuted;
     btn.textContent = isMuted ? '🔇' : '🔈';
 
@@ -44,22 +35,23 @@ const btn = document.getElementById('toggle-sound');
       audio.volume = 0;
       audio.muted = true;
     } else {
-      // Première fois qu'on démuted ?
       if (!firstUnmute) {
         const elapsed = Math.floor((Date.now() - visitStart) / 1000);
         const minutes = Math.floor(elapsed / 60);
         const seconds = elapsed % 60;
         console.log(`⏱ Temps écoulé : ${minutes} minute(s) et ${seconds} seconde(s)`);
-        
-        // Évite de dépasser la durée totale de l'audio
-        const targetTime = audio.duration ? Math.min(elapsed, audio.duration) : elapsed;
-        audio.currentTime = targetTime;
 
-        console.log(`🎵 Lecture du son à ${audio.currentTime.toFixed(2)} secondes`);
-        firstUnmute = true;
-      }
-
-      if (audio.paused) {
+        try {
+          // Attend que l'audio soit prêt (important sur mobile)
+          await audio.play();
+          // Positionner après play (pour Safari)
+          audio.currentTime = Math.min(elapsed, audio.duration || elapsed);
+          console.log(`🎵 Lecture du son à ${audio.currentTime.toFixed(2)} secondes`);
+          firstUnmute = true;
+        } catch (err) {
+          console.warn('❌ Impossible de lancer la lecture après interaction :', err);
+        }
+      } else {
         audio.play().catch(() => {});
       }
 
