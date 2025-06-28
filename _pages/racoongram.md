@@ -27,7 +27,7 @@ classes: wide
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
-<h2 id="presentation" class="scroll-target" style="text-align: center; border-bottom:none;margin-top: 30px; text-decoration:underline;">Présentation</h2>
+<h2 id="presentation" class="scroll-target" style="text-align: center; border-bottom:none;margin-top: 30px; text-decoration:underline;font-size: 1.563em;">Présentation</h2>
 
 <div class="project-section">
   <div class="project-text">
@@ -51,7 +51,7 @@ classes: wide
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
-<h2 id="fonctionnalites" class="scroll-target" style="text-align: center; border-bottom:none;margin-top: 30px; text-decoration:underline;">Fonctionnalités</h2>
+<h2 id="fonctionnalites" class="scroll-target" style="text-align: center; border-bottom:none;margin-top: 30px; text-decoration:underline;font-size: 1.563em;">Fonctionnalités</h2>
 
 
 
@@ -104,8 +104,8 @@ classes: wide
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
 <section>
-  <h2 id="demo" class="scroll-target" style="text-align: center; border-bottom:none;margin-top: 30px; text-decoration:underline;">Démo interactive</h2>
- 
+  <h2 id="demo" class="scroll-target" style="text-align: center; border-bottom:none;margin-top: 30px; text-decoration:underline;font-size: 1.563em;">Démo interactive</h2>
+ <br>
   <p style="text-align: center; margin-top: 1em;">
     <a href="https://appetize.io/app/b_omk4fpnh3uh4og4vv5frkmyroi" target="_blank" 
        style="padding: 0.75em 1.5em; background: #4CAF50; color: white; text-decoration: none; border-radius: 8px;">
