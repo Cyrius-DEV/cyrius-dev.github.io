@@ -171,7 +171,9 @@ class Perso extends Anime {
         this.futurx_ += this.vx_;
     }
     directionMouvement(evt, test) {
-        if (evt.key == "ArrowRight") {
+        const key = evt.key.toLowerCase();
+
+        if (evt.key === "ArrowRight" || key === "d") {
             if (test == 1) {
                 this.directionDroite_ = true;
             }
@@ -179,7 +181,7 @@ class Perso extends Anime {
                 this.directionDroite_ = false;
             }
         }
-        if (evt.key == "ArrowLeft") {
+        if (evt.key === "ArrowLeft" || key === "q") {
             if (test == 1) {
                 this.directionGauche_ = true;
             }
@@ -187,7 +189,7 @@ class Perso extends Anime {
                 this.directionGauche_ = false;
             }
         }
-        if (evt.key == "ArrowUp") {
+        if (evt.key === "ArrowUp" || key === "z") {
             if (test == 1) {
                 this.directionHaut_ = true;
             }
