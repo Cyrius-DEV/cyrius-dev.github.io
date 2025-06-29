@@ -32,8 +32,8 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-fantasy">
-<p>Réalisation principale d'un projet universitaire, Dévelopousse est une boutique en ligne réalisé en partenariat avec des élè_ves du cursus Marketing et Stratégies de Communications. L'exercice était centré sur le thème des jardins d'intérieur connectés, nous devions imaginer, réaliser et mettre en ligne temporairement une boutique de vente d'équipement pour l'entretien de ces.</p>
-<p>Ma consigne principale était donc de développer un advergame, soit un jeu publicitaire sur le thème de nos produits vendus mettant ainsi en avant l'image de la marque, et de l'intégrer dans une page du site.
+<p>Réalisation principale d'un projet universitaire, Dévelopousse est un advergame intégré à une boutique en ligne réalisée en partenariat avec des élèves du cursus Marketing et Stratégies de Communications.</p>
+<p>Notre thème était les jardins d'intérieur connectés, j'ai donc imaginé un jeu de plateforme où le joueur utilise les fonctionnalités d'un jardin connecté pour atteindre la fin de chaque niveau.</p>
   
 </p></div>
   </div>
@@ -49,8 +49,8 @@ classes: wide
 </div>
 <br>
 <div class="paragraph-box-fantasy">
-<p>Son principe est simple : les joueurs du jeu vidéo <a href="https://cyrius-dev.github.io/unity/racoon/"><strong>Racoons ? Where ?</strong></a> ont la possibilité grâce à une touche de passer en mode "selfie", contrôlant un drone qu'ils utilisent pour faire une capture d'écran de leur choix (exemple photo 2 au-dessus). Les photos prises sont ensuite sauvegardées dans les fichiers du jeu et, si les joueurs sont connectés à leur profil, celles-ci sont transmises et sauvegardées dans notre base de données grâce à une API.</p><br>
-<p>Ces photos sont récupérées pour être affichées dans le hub du jeu (exemple photo 3 au-dessus), et sont également consultables à travers l'application Racoongram : ici, l'utilisateur peut voir les dernières photos prises par les joueurs, les liker s'il en apprécie une, et retrouver ces propres photos liées à son profil.</p></div><br>
+<p>Réalisation principale d'un projet universitaire, Dévelopousse est un jeu flash type advergame, soit un jeu publicitaire sur le thème des produits vendus d'une boutique mettant ainsi en avant l'image de la marque. L'exercice était centré sur le thème des jardins d'intérieur connectés, nous devions imaginer, réaliser et mettre en ligne temporairement une boutique de vente d'équipement pour l'entretien de ces jardins</p>
+<p>Ma consigne principale était donc de développer un advergame et de l'intégrer dans une page du site. J'ai donc imaginé</p></div><br>
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
