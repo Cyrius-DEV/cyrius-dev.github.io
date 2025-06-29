@@ -148,35 +148,35 @@ class Jeu extends Scene {
         this.checkcollperso_.hide();
         this.soleil1_ = new Sprite(document.createElement("img"));
         this.appendChild(this.soleil1_);
-        this.soleil1_.setImage("Soleil1.png", 94, 89);
+        this.soleil1_.setImage("soleil1.png", 94, 89);
         this.soleil1_.getElement().style.zIndex = "10";
         this.soleil1_.setXY(this.getWidth() / 2 - this.soleil1_.getWidth() / 2, 0);
         this.plateformes_.push(this.soleil1_);
         this.plateformes2_.push(this.soleil1_);
         this.soleil2_ = new Sprite(document.createElement("img"));
         this.appendChild(this.soleil2_);
-        this.soleil2_.setImage("Soleil2.png", 156, 73);
+        this.soleil2_.setImage("soleil2.png", 156, 73);
         this.soleil2_.getElement().style.zIndex = "9";
         this.soleil2_.setXY(this.getWidth() / 2 - this.soleil2_.getWidth() / 2, 0);
         this.plateformes_.push(this.soleil2_);
         this.plateformes2_.push(this.soleil2_);
         this.soleil3_ = new Sprite(document.createElement("img"));
         this.appendChild(this.soleil3_);
-        this.soleil3_.setImage("Soleil3.png", 188, 57);
+        this.soleil3_.setImage("soleil3.png", 188, 57);
         this.soleil3_.getElement().style.zIndex = "8";
         this.soleil3_.setXY(this.getWidth() / 2 - this.soleil3_.getWidth() / 2 - 1, 0);
         this.plateformes_.push(this.soleil3_);
         this.plateformes2_.push(this.soleil3_);
         this.soleil4_ = new Sprite(document.createElement("img"));
         this.appendChild(this.soleil4_);
-        this.soleil4_.setImage("Soleil4.png", 220, 42);
+        this.soleil4_.setImage("soleil4.png", 220, 42);
         this.soleil4_.getElement().style.zIndex = "7";
         this.soleil4_.setXY(this.getWidth() / 2 - this.soleil4_.getWidth() / 2 - 1, 0);
         this.plateformes_.push(this.soleil4_);
         this.plateformes2_.push(this.soleil4_);
         this.soleil5_ = new Sprite(document.createElement("img"));
         this.appendChild(this.soleil5_);
-        this.soleil5_.setImage("Soleil5.png", 248, 26);
+        this.soleil5_.setImage("soleil5.png", 248, 26);
         this.soleil5_.getElement().style.zIndex = "6";
         this.soleil5_.setXY(this.getWidth() / 2 - this.soleil5_.getWidth() / 2, 0);
         this.plateformes_.push(this.soleil5_);
@@ -458,20 +458,20 @@ class Jeu extends Scene {
         if (this.soleilallume_ == true) {
             this.lumiere_.show();
             this.messageSoleil_.hide();
-            this.soleil1_.setImage("Soleil1.png", 94, 89);
-            this.soleil2_.setImage("Soleil2.png", 156, 73);
-            this.soleil3_.setImage("Soleil3.png", 188, 57);
-            this.soleil4_.setImage("Soleil4.png", 220, 42);
-            this.soleil5_.setImage("Soleil5.png", 248, 26);
+            this.soleil1_.setImage("soleil1.png", 94, 89);
+            this.soleil2_.setImage("soleil2.png", 156, 73);
+            this.soleil3_.setImage("soleil3.png", 188, 57);
+            this.soleil4_.setImage("soleil4.png", 220, 42);
+            this.soleil5_.setImage("soleil5.png", 248, 26);
         }
         else {
             this.lumiere_.hide();
             this.messageSoleil_.show();
-            this.soleil1_.setImage("Soleil1vide.png", 94, 89);
-            this.soleil2_.setImage("Soleil2vide.png", 156, 73);
-            this.soleil3_.setImage("Soleil3vide.png", 188, 57);
-            this.soleil4_.setImage("Soleil4vide.png", 220, 42);
-            this.soleil5_.setImage("Soleil5vide.png", 248, 26);
+            this.soleil1_.setImage("soleil1vide.png", 94, 89);
+            this.soleil2_.setImage("soleil2vide.png", 156, 73);
+            this.soleil3_.setImage("soleil3vide.png", 188, 57);
+            this.soleil4_.setImage("soleil4vide.png", 220, 42);
+            this.soleil5_.setImage("soleil5vide.png", 248, 26);
         }
     }
     telechargerNiveau(numero) {
@@ -536,7 +536,7 @@ class Jeu extends Scene {
     }
     mortreset() {
         console.log("mortreset");
-        this.perso_.setImage("Perso.png", 40, 55);
+        this.perso_.setImage("perso.png", 40, 55);
         this.perso_.setXY(this.persoxstart_, this.getHeight() - this.perso_.getHeight() - 20);
         this.perso_.futurx_ = this.persoxstart_;
         this.perso_.futury_ = this.getHeight() - this.perso_.getHeight() - 20;
