@@ -113,8 +113,8 @@ classes: wide
   <div style="display: flex; justify-content: center; margin: 40px 0;">
   <iframe 
     src="/assets/jeux/Developousse/index.htm"
-    width="700"
-    height="500"
+    width="1280"
+    height="720"
     style="border: 1px solid #ccc; border-radius: 10px;"
     title="Jeu Labyrinthe"
     allowfullscreen>
