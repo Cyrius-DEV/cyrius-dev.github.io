@@ -90,10 +90,10 @@ classes: wide
 
 <br>
 <div style="width:100%; display:flex; align-items:center; justify-content:center;">
-  <div style="width:45%;padding:5%;">
+  <div style="width:45%;padding-top:5%;padding-left:5%;padding-right:5%;">
     <img src="/assets/images/developousse7.png"  style="border-radius: 10px;">
   </div>
-  <div style="width:45%;padding:5%;">
+  <div style="width:45%;padding-top:5%;padding-left:5%;padding-right:5%;">
     <img src="/assets/images/developousse8.png"  style="border-radius: 10px;">
   </div>
 </div>
