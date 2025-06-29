@@ -37,9 +37,9 @@ classes: wide
 <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/racoongram1.png" alt="Écran 1">
-    <img src="/assets/images/racoongram2.png" alt="Écran 2">
-    <img src="/assets/images/racoongram3.png" alt="Écran 3">
+    <img src="/assets/images/developousse1.png" alt="Écran 1">
+    <img src="/assets/images/developousse2.png" alt="Écran 2">
+    <img src="/assets/images/developousse3.png" alt="Écran 3">
   </div>
   <button class="carousel-button next">›</button>
 </div>
