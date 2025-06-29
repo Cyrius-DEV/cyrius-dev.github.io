@@ -108,7 +108,7 @@ classes: wide
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
 <section>
-  <h2 id="demo" class="scroll-target" style="text-align: center; border-bottom:none;margin-top: 30px; text-decoration:underline;font-size: 1.563em;">Jouer</h2>
+  <h2 id="demo" class="scroll-target" style="text-align: center; border-bottom:none;margin-top: 30px; text-decoration:underline;font-size: 1.563em;">Jouer à Dévelopousse</h2>
  <br>
   <div style="display: flex; justify-content: center; margin: 40px 0;">
   <iframe 
