@@ -108,16 +108,18 @@ classes: wide
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
 <section>
-  <h2 id="demo" class="scroll-target" style="text-align: center; border-bottom:none;margin-top: 30px; text-decoration:underline;font-size: 1.563em;">Démo interactive</h2>
+  <h2 id="demo" class="scroll-target" style="text-align: center; border-bottom:none;margin-top: 30px; text-decoration:underline;font-size: 1.563em;">Jouer</h2>
  <br>
-  <p style="text-align: center; margin-top: 1em;">
-    <a href="https://appetize.io/app/b_omk4fpnh3uh4og4vv5frkmyroi" target="_blank" 
-       style="padding: 0.75em 1.5em; background: #4CAF50; color: white; text-decoration: none; border-radius: 8px;">
-       Lancer la démo Android
-    </a>
-  </p><br>
-  <p style="text-align: center;margin-bottom:0px;">Identifiant : test</p>
-  <p style="text-align: center;">Mot de passe : 123456789</p>
+  <div style="display: flex; justify-content: center; margin: 40px 0;">
+  <iframe 
+    src="/assets/jeux/Labyrinthe/index.htm"
+    width="700"
+    height="500"
+    style="border: 1px solid #ccc; border-radius: 10px;"
+    title="Jeu Labyrinthe"
+    allowfullscreen>
+  </iframe>
+</div>
 </section>
 
 
