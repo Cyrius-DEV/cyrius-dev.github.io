@@ -88,11 +88,19 @@ classes: wide
   
 </div>
 
-
+<br>
+<div style="width:100%; display:flex; align-items:center; justify-content:center;">
+  <div style="width:45%;padding:5%;">
+    <img src="/assets/images/developousse7.png"  style="border-radius: 10px;">
+  </div>
+  <div style="width:45%;padding:5%;">
+    <img src="/assets/images/developousse8.png"  style="border-radius: 10px;">
+  </div>
+</div>
     <div class="paragraph-box-indigo">
     <p>Ce projet a été mon premier jeu vidéo pensé et réalisé 100% par moi-même ! En plus de devoir imaginer un contexte de jeu transmettant une image de marque positive (advergame oblige), j'ai dû pour la première fois me lancer dans un projet en TypeScript sans directives ou étapes définies.</p>
       <p>Au cours du développement, j'ai pu pleinement comprendre les éléments et pratiques des précédents exercices vu en cours, car il m'a fallu les réutiliser en les adaptant au contexte de ce projet.
-Par exemple, le concept de sauvegarde des niveaux sous forme de tableaux de données vu pendant le projet du <a href="https://cyrius-dev.github.io/apprentissage/typescript/#labyrinthe"><strong>Labyrinthe</strong></a> a été ici réutilisé, permettant grâce aux données des tableaux de composer l'écran des éléments correspondants au niveau en cours.
+Par exemple, le concept de sauvegarde des niveaux sous forme de tableaux de données vu pendant le projet du <a href="https://cyrius-dev.github.io/apprentissage/typescript/#labyrinthe"><strong>Labyrinthe</strong></a> a été ici réutilisé, permettant grâce aux données des tableaux de composer l'écran des éléments correspondants au niveau en cours. Enfin, le principe de classe-mère permettant d'attribuer les mêmes comportements et calculs à toutes les classes-filles abordé durant l'exercice du <a href="https://cyrius-dev.github.io/apprentissage/typescript/#casse-briques"><strong>Casse-Briques</strong></a> a grandement simplifié le développement du comportement des plantes du jardin sous l'effet de la lumière de la lampe.
         </p>
       <p>Je suis plutôt fier de ce petit projet, car j'ai le sentiment d'avoir réussi à réaliser le jeu de manière fidèle à la manière dont je l'imaginais, et ce malgré des enseignements en code et game design à peine démarrés !</p>
 
