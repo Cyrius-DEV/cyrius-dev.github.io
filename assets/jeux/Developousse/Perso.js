@@ -2,7 +2,7 @@
 class Perso extends Anime {
     constructor(element, scene) {
         super(element);
-        this.setImage("Perso.png", 40, 55);
+        this.setImage("perso.png", 40, 55);
         this.scène_ = scene;
         this.vmax_ = 3;
         this.vx_ = 0;
