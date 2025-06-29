@@ -61,15 +61,15 @@ classes: wide
 
 <div style="width:100%; display:flex; align-items:center; justify-content:center;">
   <div style="width:40%;">
-    <img src="/assets/images/racoongram4.png" >
+    <img src="/assets/images/developousse5.png" >
   </div>
   <div style="width:60%;">
     <div class="paragraph-box-racoongram">
-    <p>➤ Utilise un token d’authentification créé par notre API pour la connexion</p>
+    <p>➤ Le joueur contrôle le personnage (logo du site Dévelopousse) avec ZQSD ou les flèches directionnelles</p>
 
-<p>➤ Main activity (page de démarrage de l'application), check de présence/validité du token et redirection vers page principale ou de connexion en fonction du token valide ou non</p>
+<p>➤ Il peut sauter et marcher sur les feuilles des plantes du jardin pour s'en servir de plateformes</p>
 
- <p>➤ Sauvegarde des infos dans les SharedPreferences (token d’authentification, id et login de l'utilisateur)</p>
+ <p>➤ Son but ? Parcourir l'écran afin d'atteindre le sachet de magnifiques graines Dévelopousse™️ !</p>
   </div>
   </div>
 </div>
