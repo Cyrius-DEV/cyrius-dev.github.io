@@ -97,8 +97,6 @@ class Jeu extends Scene {
     start_suite() {
         let audio = new Audio("testelec2.mp3");
         this.ecouteurSoleil_ = (evt) => {
-            const audio = new Audio('clic.mp3');
-            audio.volume = 0.1;
             audio.play();
 
             if (this.soleilallume_ == false) {
@@ -502,7 +500,9 @@ class Jeu extends Scene {
     }
     gagner() {
         this.pause();
-        new Audio("claps.mp3").play();
+        const audio = new Audio('claps.mp3');
+        audio.volume = 0.5;
+        audio.play();
         if (this.niveauactuel_ < 3) {
             this.popupnext_.show();
             this.niveauactuel_ += 1;
