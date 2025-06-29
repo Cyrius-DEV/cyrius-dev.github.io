@@ -32,7 +32,7 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-menthe">
-<p>Réalisation principale d'un projet universitaire, Dévelopousse est un advergame intégré à une boutique en ligne réalisée en partenariat avec des élèves du cursus Marketing et Stratégies de Communications.</p>
+<p>Réalisation principale d'un projet universitaire, Dévelopousse est un advergame intégré à une boutique en ligne réalisée en partenariat avec des élèves du cursus Marketing.</p>
 <p>Notre thème était les jardins d'intérieur connectés, j'ai donc imaginé un jeu de plateforme où le joueur utilise les fonctionnalités d'un jardin connecté pour atteindre la fin de chaque niveau.
   
 </p></div>
