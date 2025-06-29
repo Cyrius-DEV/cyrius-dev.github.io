@@ -32,7 +32,10 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-fantasy">
-<p>Partie intégrante d'un projet universitaire de création d'un jeu vidéo, Racoongram est une application mobile type Instagram qui permet aux joueurs de publier et partager leurs images de jeu en ligne. </p><br><p>Celle-ci a vu le jour pendant la phase d'idéation du projet : "Et si nos ratons laveurs kleptomanes publiaient des selfies avec les téléphones volés autour d'eux ?"</p></div>
+<p>Réalisation principale d'un projet universitaire, Dévelopousse est une boutique en ligne réalisé en partenariat avec des élè_ves du cursus Marketing et Stratégies de Communications. L'exercice était centré sur le thème des jardins d'intérieur connectés, nous devions imaginer, réaliser et mettre en ligne temporairement une boutique de vente d'équipement pour l'entretien de ces.</p>
+<p>Ma consigne principale était donc de développer un advergame, soit un jeu publicitaire sur le thème de nos produits vendus mettant ainsi en avant l'image de la marque, et de l'intégrer dans une page du site.
+  
+</p></div>
   </div>
 <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
