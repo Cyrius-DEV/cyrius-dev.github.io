@@ -76,11 +76,10 @@ classes: wide
 
 <div style="width:100%; display:flex; align-items:center; justify-content:center;">
   <div style="width:60%;">
-    <div class="paragraph-box-racoongram">
-    <p>➤ Page principale : fil d'actualité similaire à Instagram, permet de consulter et de liker les captures d'écran des joueurs de Racoons ? Where ?</p>
-      <p>➤ Récupération des images grâce à l'API et organisation en Posts avec image, infos et bouton Like fonctionnel</p>
-      <p>➤ Scroll infini à travers la page grâce à un chargement automatique de nouveaux posts quand bas de page atteint</p>
-    <p>➤ Attribution d'une profilepic automatique de racoon coloré pour un fil d'actualité plus vivant</p>
+    <div class="paragraph-box-developousse6">
+    <p>➤ La grande lampe en haut de l'écran, éteinte au lancement du niveau, peut être allumée et controlée par le joueur avec la souris</p>
+      <p>➤ En dirigeant le faisceau lumineux créé par la lampe, le joueur peut permettre aux plantes présentes dans la zone éclairée de profiter d'une poussée de croissance, modifiant alors la disposition des feuilles-plateformes</p>
+      <p>➤ Cependant, allumer la lampe rend cette dernière et le plafond dangereux à cause de l'électricité qui les parcourt, le joueur devra agir avec prudence et maîtrise</p>
   </div>
   </div>
   <div style="width:40%;text-align:right;">
