@@ -31,7 +31,7 @@ classes: wide
 
 <div class="project-section">
   <div class="project-text">
-    <div class="paragraph-box-fantasy">
+    <div class="paragraph-box-menthe">
 <p>Réalisation principale d'un projet universitaire, Dévelopousse est un advergame intégré à une boutique en ligne réalisée en partenariat avec des élèves du cursus Marketing et Stratégies de Communications.</p>
 <p>Notre thème était les jardins d'intérieur connectés, j'ai donc imaginé un jeu de plateforme où le joueur utilise les fonctionnalités d'un jardin connecté pour atteindre la fin de chaque niveau.
   
@@ -40,15 +40,16 @@ classes: wide
 <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/developousse2.png" alt="Écran 1">
-    <img src="/assets/images/developousse.png" alt="Écran 2">
-    <img src="/assets/images/developousse3.png" alt="Écran 3">
+    <img src="/assets/images/developousse4.png" alt="Écran 1">
+    <img src="/assets/images/developousse2.png" alt="Écran 2">
+    <img src="/assets/images/developousse.png" alt="Écran 3">
+    <img src="/assets/images/developousse3.png" alt="Écran 4">
   </div>
   <button class="carousel-button next">›</button>
 </div>
 </div>
 <br>
-<div class="paragraph-box-fantasy">
+<div class="paragraph-box-menthe">
 <p>Réalisation principale d'un projet universitaire, Dévelopousse est un jeu flash type advergame, soit un jeu publicitaire sur le thème des produits vendus d'une boutique mettant ainsi en avant l'image de la marque. L'exercice était centré sur le thème des jardins d'intérieur connectés, nous devions imaginer, réaliser et mettre en ligne temporairement une boutique de vente d'équipement pour l'entretien de ces jardins</p>
 <p>Ma consigne principale était donc de développer un advergame et de l'intégrer dans une page du site. Afin de bien mettre en valeur les produits et le thème de notre boutique, j'ai imaginé un jeu se déroulant à l'intérieur d'un jardin connecté, où le joueur contrôle à la fois une plante mais aussi le jardin lui-même. Ce dernier permet de modifier son environnement en dirigeant une lampe vers les plantes grimpantes du jardin, leur permettant de pousser grâce à la lumière et ainsi créer un nouveau chemin que le joueur peut emprunter !</p></div><br>
 
