@@ -64,7 +64,7 @@ classes: wide
     <img src="/assets/images/developousse5.png"  style="border-radius: 10px;">
   </div>
   <div style="width:60%;">
-    <div class="paragraph-box-racoongram">
+    <div class="paragraph-box-indigo">
     <p>➤ Le joueur contrôle le personnage (logo du site Dévelopousse) avec ZQSD ou les flèches directionnelles</p>
 
 <p>➤ Il peut sauter et marcher sur les feuilles des plantes du jardin pour s'en servir de plateformes</p>
@@ -76,14 +76,14 @@ classes: wide
 
 <div style="width:100%; display:flex; align-items:center; justify-content:center;">
   <div style="width:60%;">
-    <div class="paragraph-box-developousse6">
+    <div class="paragraph-box-indigo">
     <p>➤ La grande lampe en haut de l'écran, éteinte au lancement du niveau, peut être allumée et controlée par le joueur avec la souris</p>
       <p>➤ En dirigeant le faisceau lumineux créé par la lampe, le joueur peut permettre aux plantes présentes dans la zone éclairée de profiter d'une poussée de croissance, modifiant alors la disposition des feuilles-plateformes</p>
       <p>➤ Cependant, allumer la lampe rend cette dernière et le plafond dangereux à cause de l'électricité qui les parcourt, le joueur devra agir avec prudence et maîtrise</p>
   </div>
   </div>
   <div style="width:40%;text-align:right;">
-    <img src="/assets/images/racoongram5.png" >
+    <img src="/assets/images/developousse6.png"  style="border-radius: 10px;">
   </div>
   
 </div>
@@ -93,7 +93,7 @@ classes: wide
     <img src="/assets/images/racoongram6.png" >
   </div>
   <div style="width:60%;">
-    <div class="paragraph-box-racoongram">
+    <div class="paragraph-box-indigo">
     <p>
       ➤ Présente les différentes informations du compte</p>
       <p>➤ Récupération des informations et des screenshots selon le compte avec l'API</p>
