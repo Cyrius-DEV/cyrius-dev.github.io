@@ -500,9 +500,9 @@ class Jeu extends Scene {
     }
     gagner() {
         this.pause();
-        const audio = new Audio('claps.mp3');
-        audio.volume = 0.5;
-        audio.play();
+        const audioclaps = new Audio('claps.mp3');
+        audioclaps.volume = 0.2;
+        audioclaps.play();
         if (this.niveauactuel_ < 3) {
             this.popupnext_.show();
             this.niveauactuel_ += 1;
