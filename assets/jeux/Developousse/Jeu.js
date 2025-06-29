@@ -97,7 +97,10 @@ class Jeu extends Scene {
     start_suite() {
         let audio = new Audio("testelec2.mp3");
         this.ecouteurSoleil_ = (evt) => {
-            new Audio('clic.mp3').play();
+            const audio = new Audio('clic.mp3');
+            audio.volume = 0.5; // moitié volume
+            audio.play();
+
             if (this.soleilallume_ == false) {
                 this.soleilallume_ = true;
                 this.plafond_.setImage("electest13.png", this.getWidth(), 21);
