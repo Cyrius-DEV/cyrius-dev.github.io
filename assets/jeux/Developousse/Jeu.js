@@ -98,7 +98,7 @@ class Jeu extends Scene {
         let audio = new Audio("testelec2.mp3");
         this.ecouteurSoleil_ = (evt) => {
             const audio = new Audio('clic.mp3');
-            audio.volume = 0.5; // moitié volume
+            audio.volume = 0.1;
             audio.play();
 
             if (this.soleilallume_ == false) {
