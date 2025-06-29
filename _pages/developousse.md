@@ -16,7 +16,7 @@ classes: wide
     <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Présentation  ▼</button>
   </a>
   <a href="#fonctionnalites" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Fonctionnement  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Détails  ▼</button>
   </a>
   <a href="#demo" style="text-decoration: none;">
     <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Jouer  ▼</button>
@@ -55,7 +55,7 @@ classes: wide
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
-<h2 id="fonctionnalites" class="scroll-target" style="text-align: center; border-bottom:none;margin-top: 30px; text-decoration:underline;font-size: 1.563em;">Fonctionnalités</h2>
+<h2 id="fonctionnalites" class="scroll-target" style="text-align: center; border-bottom:none;margin-top: 30px; text-decoration:underline;font-size: 1.563em;">Détails du jeu</h2>
 
 
 
@@ -90,8 +90,7 @@ classes: wide
 
 
     <div class="paragraph-box-indigo">
-    <p>Ce projet a été mon premier jeu vidéo pensé et réalisé 100% par moi-même ! En plus de devoir imaginer un contexte de jeu transmettant une image de marque positive (advergame oblige),
-j'ai dû pour la première fois me lancer dans un projet en TypeScript sans directives ou étapes définies.</p>
+    <p>Ce projet a été mon premier jeu vidéo pensé et réalisé 100% par moi-même ! En plus de devoir imaginer un contexte de jeu transmettant une image de marque positive (advergame oblige), j'ai dû pour la première fois me lancer dans un projet en TypeScript sans directives ou étapes définies.</p>
       <p>Au cours du développement, j'ai
         </p>
       <p>Je suis plutôt fier de ce petit projet, car j'ai le sentiment d'avoir réussi à réaliser le jeu de manière fidèle à la manière dont je l'imaginais, et ce malgré des enseignements en code et game design à peine démarrés !</p>
