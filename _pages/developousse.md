@@ -88,20 +88,14 @@ classes: wide
   
 </div>
 
-<div style="width:100%; display:flex; align-items:center; justify-content:center;">
-  <div style="width:40%;">
-    <img src="/assets/images/racoongram6.png" >
-  </div>
-  <div style="width:60%;">
+
     <div class="paragraph-box-indigo">
-    <p>
-      ➤ Présente les différentes informations du compte</p>
-      <p>➤ Récupération des informations et des screenshots selon le compte avec l'API</p>
-      <p>➤ Organisation en 2 fragments, Publications (fil d'actualité composé des photos du compte uniquement) et Skins (simple concept si volonté de pousser le projet plus loin, choix de skins depuis l'application)</p>
-    <p>➤ Menu des fragments Publications et Skins fixe pendant le scroll
-    </p>
-  </div>
-  </div>
+    <p>Ce projet a été mon premier jeu vidéo pensé et réalisé 100% par moi-même ! En plus de devoir imaginer un contexte de jeu transmettant une image de marque positive (advergame oblige),
+j'ai dû pour la première fois me lancer dans un projet en TypeScript sans directives ou étapes définies.</p>
+      <p>Au cours du développement, j'ai
+        </p>
+      <p>Je suis plutôt fier de ce petit projet, car j'ai le sentiment d'avoir réussi à réaliser le jeu de manière fidèle à la manière dont je l'imaginais, et ce malgré des enseignements en code et game design à peine démarrés !</p>
+
 </div>
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
