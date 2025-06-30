@@ -11,14 +11,13 @@ document.addEventListener("DOMContentLoaded", () => {
   hiddenLinks.style.display = "none";
   const clonedLinks = document.getElementById("cloned-links");
   const burgerOverlay = document.getElementById("burger-overlay");
-  burgerOverlay.style.maxHeight="50%";
-
+  burgerOverlay.style.maxHeight = "50%";
 
   // Appliquer le bon style en CSS
   const style = document.createElement("style");
   style.innerHTML = `
     .floating-hidden-links {
-      display:none;
+      display: none;
       position: fixed;
       top: 60px; /* Ajuste selon ta navbar */
       right: 0;
@@ -44,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const isMobile = window.innerWidth <= 768;
     const visItems = visibleLinks.querySelectorAll("li");
     const hidItems = hiddenLinks.querySelectorAll("li");
-    console.log("visItems= "+visItems.length+" hidItems= "+hidItems.length);
+    console.log("visItems= " + visItems.length + " hidItems= " + hidItems.length);
 
     if (isMobile) {
       visItems.forEach((li) => hiddenLinks.appendChild(li));
@@ -55,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
       toggleButton.classList.remove("close");
       clonedLinks.classList.add("hidden");
     }
-    console.log("new visItems= "+visItems.length+" hidItems= "+hidItems.length);
+    console.log("new visItems= " + visItems.length + " hidItems= " + hidItems.length);
     toggleButton.removeAttribute("count");
     syncMenuContent();
   }
@@ -89,30 +88,29 @@ document.addEventListener("DOMContentLoaded", () => {
       toggleButton.classList.remove("close");
     }
   });
-});
 
-// Fermer le menu quand on clique sur un lien
-clonedLinks.addEventListener("click", (event) => {
-  const clickedLink = event.target.closest(".masthead__menu-item a");
-  if (clickedLink) {
-    clonedLinks.classList.add("hidden");
-    toggleButton.classList.remove("close");
-  }
-});
+  // ✅ FERMETURE DU MENU LORS D'UN CLIC SUR UN LIEN
+  clonedLinks.addEventListener("click", (event) => {
+    const clickedLink = event.target.closest(".masthead__menu-item a");
+    if (clickedLink) {
+      clonedLinks.classList.add("hidden");
+      toggleButton.classList.remove("close");
+    }
+  });
 
-const observer = new MutationObserver(() => {
-  // Si des <li> reviennent dans visible-links alors qu'on est en mobile, on les vire
-  if (window.innerWidth <= 768) {
-    const rogueItems = visibleLinks.querySelectorAll("li");
-    rogueItems.forEach(li => hiddenLinks.appendChild(li));
-  }
-});
-observer.observe(visibleLinks, { childList: true });
+  // Observer pour corriger les éléments mal placés en mobile
+  const observer = new MutationObserver(() => {
+    if (window.innerWidth <= 768) {
+      const rogueItems = visibleLinks.querySelectorAll("li");
+      rogueItems.forEach(li => hiddenLinks.appendChild(li));
+    }
+  });
+  observer.observe(visibleLinks, { childList: true });
 
-window.addEventListener("scroll", () => {
-  if (window.innerWidth <= 768) {
-    const rogueItems = visibleLinks.querySelectorAll("li");
-    rogueItems.forEach(li => hiddenLinks.appendChild(li));
-  }
+  window.addEventListener("scroll", () => {
+    if (window.innerWidth <= 768) {
+      const rogueItems = visibleLinks.querySelectorAll("li");
+      rogueItems.forEach(li => hiddenLinks.appendChild(li));
+    }
+  });
 });
-
