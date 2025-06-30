@@ -105,7 +105,7 @@ classes: wide
       <div class="card" style="background-image: url('/assets/images/java.png');">
       <div class="card-content">
         <div class="card-text">
-        <h3>Mini-exos Java</h3>
+        <h3>🚧Mini-exos Java🚧</h3>
         <p>Présentation rapide de quelques exercices autour de Java que j'ai pu abordés en cours prenant la forme d'applications mobile et autres</p>
       </div></div></div>
     </a>
