@@ -69,7 +69,7 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-rustique">
-<p>S'apparentant à un Paint sur mobile, cette application  et permet à l'utilisateur de dessiner en personnalisant la couleur et forme de son tracé.</p>
+<p>S'apparentant à un Paint sur mobile, cette application permet à l'utilisateur de dessiner avec son doigt (ou en l'occurence ici la souris pour les tests sur PC) tout en offrant des choix de personnalisation pour la couleur et forme de son tracé.</p>
     </div>
     </div>
   <div class="carousel-container">
@@ -85,8 +85,7 @@ classes: wide
 <br>
 
 
-<h2 id="demo" class="scroll-target" style="text-align: center; border-bottom:none;margin-top: 30px; text-decoration:underline;font-size: 1.563em;">Démo interactive</h2>
- <br>
+
   <p style="text-align: center; margin-top: 1em;">
     <a href="https://appetize.io/app/b_omk4fpnh3uh4og4vv5frkmyroi" target="_blank" 
        style="padding: 0.75em 1.5em; background: #4CAF50; color: white; text-decoration: none; border-radius: 8px;">
