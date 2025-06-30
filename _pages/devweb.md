@@ -76,7 +76,7 @@ classes: wide
     <div class="card" style="background-image: url('/assets/images/catalogue.png');">
       <div class="card-content">
         <div class="card-text">
-      <h3>Catalogue Albert Londres</h3>
+      <h3>🚧Catalogue Albert Londres🚧</h3>
       <p>Dans le cadre d'un stage, j'ai dû concevoir et mettre en ligne un outil de cataloguage afin de trier et consulter des archives</p>
     </div></div></div>
   </a>
@@ -86,7 +86,7 @@ classes: wide
     <div class="card" style="background-image: url('/assets/images/iotae.png');">
       <div class="card-content">
         <div class="card-text">
-      <h3>Sites IoTAE-Lab et LabCom</h3>
+      <h3>🚧Sites IoTAE-Lab et LabCom🚧</h3>
       <p>Dans le cadre d'un stage, j'ai dû revisiter et poursuivre le site de l'IoTAE-Lab avec K-SUP et concevoir un site WordPress dédié au partage des actualité et recherches du LabCom</p>
     </div></div></div>
   </a>
@@ -96,7 +96,7 @@ classes: wide
     <div class="card" style="background-image: url('/assets/images/Memory_Leak_screenshot.png');">
       <div class="card-content">
         <div class="card-text">
-      <h3>Exercices de cours</h3>
+      <h3>🚧Exercices de cours🚧</h3>
       <p>Résumé des divers exercices et projets qui m'ont été demandé pendant mes études</p>
     </div></div></div>
   </a>
