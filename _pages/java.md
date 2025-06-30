@@ -68,7 +68,7 @@ classes: wide
 <h1 id="dessin" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Dessin</h1>
 <div class="project-section">
   <div class="project-text">
-    <div class="paragraph-box-rustique">
+    <div class="paragraph-box-fantasy">
 <p>S'apparentant à un Paint sur mobile, cette application permet à l'utilisateur de dessiner avec son doigt (ou en l'occurence ici la souris pour les tests sur PC) tout en offrant des choix de personnalisation pour la couleur et forme de son tracé.</p>
     </div>
     </div>
@@ -93,8 +93,11 @@ classes: wide
     </a>
   </p><br>
 
-<div class="paragraph-box-rustique">
-<p>Dans le code, le labyrinthe prend en réalité la forme d'une matrice en 10x10 de chiffres qui sera mise à jour au cours de la partie (1=mur, 2=pastille, 8=joueur, 9=arrivée, 10=fantôme), et qui servira de modèle à la construction du labyrinthe au début de chaque partie. Ce fonctionnement pourrait permettre un lien avec une base de données pour proposer différents niveaux de difficulté par exemple.<br><br>Les fantômes ont un comportement à la fois prévisible mais aussi parfois surprenant ; ceux-ci peuvent décider de se déplacer en direction du joueur ou dans une direction aléatoire. Le joueur lui peut se déplacer sur une case libre et manger la pastille qui peut s'y trouver mais meurt s'il touche une case occupée par un fantôme et reste immobile s'il essaie de traverser un mur.<br><br>Si le joueur entre en collision avec un fantôme ou atteint la fin sans toutes les pastilles, c'est perdu ! S'il parvient à toutes les récupérer et foncer à l'arrivée, c'est gagné ! J'ai réutilisé le fonctionnement de gestion de partie du projet précédent pour annoncer le résultat et recommencer une partie facilement.</p>
+<div class="paragraph-box-fantasy">
+<p>Le développement de cette application a représenté un bon exercice dans la gestion des classes filles et l'héritage d'une méthode mère commune en la personnalisant selon la classe. En effet j'ai regroupé les différentes formes que peut prendre le tracé de l'utilisateur sous une classe mère Forme, tout en la déclinant en classes filles Courbe, Ligne et Rectangle pour préciser dans chacune le contour du motif dessiné.</p>
+  <p>
+    C'était également le premier exercice de gestion de multiples pages sur Android Studio. J'ai découvert la gestion des Intent et des Activity pour mettre en place une navigation entre plusieurs sites de l'application mobile.
+  </p>
 </div>
 
 
