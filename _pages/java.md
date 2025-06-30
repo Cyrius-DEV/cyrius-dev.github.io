@@ -87,7 +87,7 @@ classes: wide
 
 
   <p style="text-align: center; margin-top: 1em;">
-    <a href="https://appetize.io/app/b_omk4fpnh3uh4og4vv5frkmyroi" target="_blank" 
+    <a href="https://appetize.io/app/b_bz3fbgzt45ndvxt4tkz6ughafu" target="_blank" 
        style="padding: 0.75em 1.5em; background: #4CAF50; color: white; text-decoration: none; border-radius: 8px;">
        Lancer une démo sur Android
     </a>
@@ -96,7 +96,7 @@ classes: wide
 <div class="paragraph-box-fantasy">
 <p>Le développement de cette application a représenté un bon exercice dans la gestion des classes filles et l'héritage d'une méthode mère commune en la personnalisant selon la classe. En effet j'ai regroupé les différentes formes que peut prendre le tracé de l'utilisateur sous une classe mère Forme, tout en la déclinant en classes filles Courbe, Ligne et Rectangle pour préciser dans chacune le contour du motif dessiné.</p>
   <p>
-    C'était également le premier exercice de gestion de multiples pages sur Android Studio. J'ai découvert la gestion des Intent et des Activity pour mettre en place une navigation entre plusieurs sites de l'application mobile.
+    C'était également le premier exercice de gestion de multiples pages sur Android Studio. J'ai découvert la gestion des Intent et des Activity pour mettre en place une navigation entre les pages de l'application mobile.
   </p>
 </div>
 
