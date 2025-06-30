@@ -76,7 +76,7 @@ classes: wide
     <div class="card" style="background-image: url('/assets/images/rof2.png');">
       <div class="card-content">
         <div class="card-text">
-      <h3>Rise of Freedom 2</h3>
+      <h3>🚧Rise of Freedom 2🚧</h3>
       <p>Le grand retour de mon premier jeu vidéo sur Unity, sauf que là tout change, on repart de 0 et on se laisse porter par notre créativité</p>
     </div>
       </div>
@@ -88,7 +88,7 @@ classes: wide
     <div class="card" id="tripleurs">
       <div class="card-content">
         <div class="card-text">
-      <h3>Les Tripleurs</h3>
+      <h3>🚧Les Tripleurs🚧</h3>
       <p>Chaine Youtube fondée avec 2 amis, nous faisons nos premiers pas dans le domaine du doublage (très) amateur et diffusons de temps en temps nos fous rires et voix cassées sur les réseaux</p>
     </div>
       </div>
@@ -100,7 +100,7 @@ classes: wide
     <div class="card" style="background-image: url('/assets/images/owen.png');">
       <div class="card-content">
         <div class="card-text">
-      <h3>Les Racines Fraternelles</h3>
+      <h3>🚧Les Racines Fraternelles🚧</h3>
       <p>Projet de SAE de camarades de classe, ceux-ci souhaitent tirer parti du potentiel du projet et le poursuivre, et ils m'ont invité à m'y investir à leur côté</p>
     </div>
       </div>
@@ -112,7 +112,7 @@ classes: wide
     <div class="card" style="background-image: url('/assets/images/takeyourtime.jpg');">
       <div class="card-content">
         <div class="card-text">
-      <h3>Mes passions</h3>
+      <h3>🚧Mes passions🚧</h3>
       <p>Présentation rapide des différents médias et passe-temps qui m'ont construit et accompagné au fur et à mesure des années</p>
         </div>
       </div>
