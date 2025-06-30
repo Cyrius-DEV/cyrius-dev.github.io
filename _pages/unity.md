@@ -76,7 +76,7 @@ classes: wide
     <div class="card" style="background-image: url('/assets/images/rof.png');">
       <div class="card-content">
         <div class="card-text">
-      <h3>Rise of Freedom</h3>
+      <h3>🚧Rise of Freedom🚧</h3>
       <p>Dans le cadre d'une SAE, j'ai pu participer à la conception d'un jeu platformer style pixel art en vue 2D où l'on incarne Martin Luther King en plein mouvement des droits civiques </p>
     </div></div></div>
   </a>
@@ -86,7 +86,7 @@ classes: wide
     <div class="card" style="background-image: url('/assets/images/racoonswide.png');">
       <div class="card-content">
         <div class="card-text">
-      <h3>Racoons ? Where ?</h3>
+      <h3>🚧Racoons ? Where ?🚧</h3>
       <p>Dans le cadre d'une SAE, j'ai pu participer à la création d'un jeu d'infiltration en 3D low poly, où l'on incarne des ratons laveurs qui se faufilent à bord d'un bateau de luxe</p>
     </div></div></div>
   </a>
@@ -96,7 +96,7 @@ classes: wide
     <div class="card" style="background-image: url('/assets/images/clermont.png');">
       <div class="card-content">
         <div class="card-text">
-      <h3>Mini-jeux faits en cours</h3>
+      <h3>🚧Mini-jeux faits en cours🚧</h3>
       <p>Présentation rapide de quelques projets et notions sur Unity que j'ai pu aborder en cours sous formes de petits jeux et simulations</p>
     </div></div></div>
   </a>
