@@ -28,7 +28,7 @@ C'est donc dans les domaines du développement web, de la gestion de base de don
 <p style="text-align: center;">Vous pouvez accéder à mon CV papier en cliquant sur le bouton ci-dessous :</p>
 
 <div style="text-align: center; margin: 20px 0;">
-  <a href="https://drive.google.com/file/d/16zprORJaqxq_jjnTv4QYIByI-LzX50jY/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn" style="padding: 10px 20px; background-color: #007acc; color: white; text-decoration: none; border-radius: 5px;">
+  <a href="https://drive.google.com/file/d/14St5YPezU2XL7oXT2FF6zG3ZxysJDx_C/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="btn" style="padding: 10px 20px; background-color: #007acc; color: white; text-decoration: none; border-radius: 5px;">
     Accéder au CV papier
   </a>
 </div>
