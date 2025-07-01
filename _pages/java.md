@@ -47,7 +47,7 @@ classes: wide
 
 
   <p style="text-align: center; margin-top: 1em;">
-    <a href="https://appetize.io/app/b_bz3fbgzt45ndvxt4tkz6ughafu" target="_blank" 
+    <a href="https://appetize.io/app/b_7u3tls2qiz6jw2erxwucrpwga4" target="_blank" 
        style="padding: 0.75em 1.5em; background: #4CAF50; color: white; text-decoration: none; border-radius: 8px;">
        Lancer une démo sur Android
     </a>
