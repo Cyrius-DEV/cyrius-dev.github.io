@@ -29,7 +29,7 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-fantasy">
-<p>S'apparentant à un Paint sur mobile, cette application permet à l'utilisateur de dessiner avec son doigt (ou en l'occurence ici la souris pour les tests sur PC) tout en offrant des choix de personnalisation pour la couleur et forme de son tracé.</p>
+<p>Première exercice d'application sur Android Studio effectué en cours, il s'agit d'une calculatrice classique à laquelle j'ai essayé d'ajouter un maximum de fonctionnalités et optimisations (dans la mesure du raisonnable pour une calculatrice sur mobile bien sur).</p>
     </div>
     </div>
   <div class="carousel-container">
@@ -54,9 +54,10 @@ classes: wide
   </p><br>
 
 <div class="paragraph-box-fantasy">
-<p>Le développement de cette application a représenté un bon exercice dans la gestion des classes filles et l'héritage d'une méthode mère commune en la personnalisant selon la classe. En effet j'ai regroupé les différentes formes que peut prendre le tracé de l'utilisateur sous une classe mère Forme, tout en la déclinant en classes filles Courbe, Ligne et Rectangle pour préciser dans chacune le contour du motif dessiné.</p>
-  <p>
-    C'était également le premier exercice de gestion de multiples pages sur Android Studio. J'ai découvert la gestion des Intent et des Activity pour mettre en place une navigation entre les pages de l'application mobile.
+<p>Au travers de cet exercice, j'ai pu comprendre le fonctionnement d'Android Studio et mettre en pratique le langage Java pour la première fois dans un exercice. J'ai découvert une nouvelle forme de Programmation Orientée Objet (avec ma classe Calculatrice utilisée ensuite dans la MainActivity) et j'ai construit mon interface via un fichier .xml (en disposant des Layout pour composer une calculatrice).
+  </p>
+  <p>Afin de rendre ma calculatrice pratique à utiliser, j'ai mis en place quelques petites améliorations telles qu'un affichage optimisé des calculs lors de la saisie, une mémoire des calculs précédents qui sont rendus visibles via un historique qui se déploit quand le téléphone est tourné à l'horizontal mais aussi une représentation des calculs dans l'historique avec des parenthèses pour rappeler leur ordre.
+    
   </p>
 </div>
 
