@@ -29,7 +29,7 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-fantasy">
-<p>Première exercice d'application sur Android Studio effectué en cours, il s'agit d'une calculatrice classique à laquelle j'ai essayé d'ajouter un maximum de fonctionnalités et optimisations (dans la mesure du raisonnable pour une calculatrice sur mobile bien sur).</p>
+<p>Première exercice d'application sur Android Studio effectué en cours, il s'agit d'une calculatrice classique à laquelle j'ai essayé d'ajouter un maximum de fonctionnalités et d'optimisations.</p>
     </div>
     </div>
   <div class="carousel-container">
