@@ -28,7 +28,7 @@ classes: wide
 
 <div class="project-section">
   <div class="project-text">
-    <div class="paragraph-box-fantasy">
+    <div class="paragraph-box-charbon">
 <p>Première exercice d'application sur Android Studio effectué en cours, il s'agit d'une calculatrice classique à laquelle j'ai essayé d'ajouter un maximum de fonctionnalités et d'optimisations.</p>
     </div>
     </div>
@@ -53,7 +53,7 @@ classes: wide
     </a>
   </p><br>
 
-<div class="paragraph-box-fantasy">
+<div class="paragraph-box-charbon">
 <p>Au travers de cet exercice, j'ai pu comprendre le fonctionnement d'Android Studio et mettre en pratique le langage Java pour la première fois dans un exercice. J'ai découvert un nouveau langage prenant en charge la Programmation Orientée Objet (avec ma classe Calculatrice utilisée ensuite dans la MainActivity) et j'ai construit mon interface via un fichier .xml (en disposant des Layout pour composer une calculatrice).
   </p>
   <p>Afin de rendre ma calculatrice pratique à utiliser, j'ai mis en place quelques petites améliorations telles qu'un affichage optimisé des calculs lors de la saisie, une mémoire des calculs précédents qui sont rendus visibles via un historique qui se déploit quand le téléphone est tourné à l'horizontal mais aussi une représentation des calculs dans l'historique avec des parenthèses pour rappeler leur ordre.
