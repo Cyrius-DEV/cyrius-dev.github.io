@@ -118,8 +118,8 @@ classes: wide
 
 <div class="project-section">
   <div class="project-text">
-    <div class="paragraph-box-charbon">
-<p>Première exercice d'application sur Android Studio effectué en cours, il s'agit d'une calculatrice classique à laquelle j'ai essayé d'ajouter un maximum de fonctionnalités et d'optimisations.</p>
+    <div class="paragraph-box-rustique">
+<p>Découverte de l'Inverse Kinematic à travers un prototype d’animation procédurale où le placement des 4 pattes d'un monstre s’adapte indépendamment et dynamiquement au terrain qui l'entoure</p>
     </div>
     </div>
   <div class="carousel-container">
@@ -143,10 +143,9 @@ classes: wide
     </a>
   </p><br>
 
-<div class="paragraph-box-charbon">
-<p>Au travers de cet exercice, j'ai pu comprendre le fonctionnement d'Android Studio et mettre en pratique le langage Java pour la première fois dans un exercice. J'ai découvert un nouveau langage prenant en charge la Programmation Orientée Objet (avec ma classe Calculatrice utilisée ensuite dans la MainActivity) et j'ai construit mon interface via un fichier .xml (en disposant des Layout pour composer une calculatrice).
-  </p>
-  <p>Afin de rendre ma calculatrice pratique à utiliser, j'ai mis en place quelques petites améliorations telles qu'un affichage optimisé des calculs lors de la saisie, une mémoire des calculs précédents qui sont rendus visibles via un historique qui se déploit quand le téléphone est tourné à l'horizontal mais aussi une représentation des calculs dans l'historique avec des parenthèses pour rappeler leur ordre.
+<div class="paragraph-box-rustique">
+<p>Avec un modèle quadrupède et une armature déjà en place, j’ai conçu un système de déplacement basé sur l’Inverse Kinematics. L’objectif était de calculer en temps réel la position idéale de chaque IK Target (cible du déplacement pour chacune des pattes) en fonction du terrain et des obstacles, pour simuler une marche crédible de la créature. Afin de rajouter de la fluidité au déplacement des pattes, j'ai utilisé des couroutines pour éviter au mieux une téléportation abrupte d'un IK Target à l'autre</p>
+  <p>Ce projet m’a permis de mieux comprendre la gestion des IK dans Unity, ainsi que la logique de placement et d’équilibrage de membres en animation procédurale. J’ai aussi pu expérimenter un peu avec du Raycasting pour détecter les points de contact au sol et optimiser les trajectoires de mouvement.
     
   </p>
 </div>
