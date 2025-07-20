@@ -162,7 +162,7 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-fantasy">
-<p>S'apparentant à un Paint sur mobile, cette application permet à l'utilisateur de dessiner avec son doigt (ou en l'occurence ici la souris pour les tests sur PC) tout en offrant des choix de personnalisation pour la couleur et forme de son tracé.</p>
+<p>Une simulation de population de lapins autonomes avec reproduction, vieillissement et mort</p>
     </div>
     </div>
   <div class="carousel-container">
@@ -187,9 +187,8 @@ classes: wide
   </p><br>
 
 <div class="paragraph-box-fantasy">
-<p>Le développement de cette application a représenté un bon exercice dans la gestion des classes filles et l'héritage d'une méthode mère commune en la personnalisant selon la classe. En effet j'ai regroupé les différentes formes que peut prendre le tracé de l'utilisateur sous une classe mère Forme, tout en la déclinant en classes filles Courbe, Ligne et Rectangle pour préciser dans chacune le contour du motif dessiné.</p>
-  <p>
-    C'était également le premier exercice de gestion de multiples pages sur Android Studio. J'ai découvert la gestion des Intent et des Activity pour mettre en place une navigation entre les pages de l'application mobile.
+<p>Partant d’un terrain et de modèles fournis, j’ai codé un système complet de gestion de population : spawner de départ, cycle de vie avec vieillissement, reproduction au contact de 2 lapins (ADULTES), et disparition après un certain temps. Pour enrichir la simulation, j’ai ajouté des noms générés aléatoirement, une animation de reproduction utilisant un FragmentShader pour créer un effet de pixellisation (pour un peu d'intimité pour nos lapins), et une mort spectaculaire par explosion d’assets corporels accompagnée d’un effet visuel d’âme s’envolant.</p>
+  <p>J’ai aussi développé un système d’ADN simple, où la couleur des lapins (blanc ou noir) est héritée des parents.  une variation de taille grandissante au fur et à mesure de la vie via manipulation de materials, pour rendre mes lapins pluss vivants à travers leur apparence changeatne au courss de leur vie Ce projet m’a permis d’approfondir la gestion d’agents autonomes, les VFX, la manipulation des shaders et l’héritage de propriétés.
   </p>
 </div>
 
