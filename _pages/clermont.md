@@ -114,7 +114,7 @@ classes: wide
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
-<h1 id="=monstre" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Animation du monstre</h1>
+<h1 id="monstre" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Animation du monstre</h1>
 
 <div class="project-section">
   <div class="project-text">
@@ -202,7 +202,7 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-charbon">
-<p>Première exercice d'application sur Android Studio effectué en cours, il s'agit d'une calculatrice classique à laquelle j'ai essayé d'ajouter un maximum de fonctionnalités et d'optimisations.</p>
+<p>Découverte du fonctionnement de Netcode avec la création d'un mini-jeu compétitif multijoueur où chaque joueur pousse une balle dans sa zone pour marquer des points</p>
     </div>
     </div>
   <div class="carousel-container">
@@ -227,9 +227,9 @@ classes: wide
   </p><br>
 
 <div class="paragraph-box-charbon">
-<p>Au travers de cet exercice, j'ai pu comprendre le fonctionnement d'Android Studio et mettre en pratique le langage Java pour la première fois dans un exercice. J'ai découvert un nouveau langage prenant en charge la Programmation Orientée Objet (avec ma classe Calculatrice utilisée ensuite dans la MainActivity) et j'ai construit mon interface via un fichier .xml (en disposant des Layout pour composer une calculatrice).
-  </p>
-  <p>Afin de rendre ma calculatrice pratique à utiliser, j'ai mis en place quelques petites améliorations telles qu'un affichage optimisé des calculs lors de la saisie, une mémoire des calculs précédents qui sont rendus visibles via un historique qui se déploit quand le téléphone est tourné à l'horizontal mais aussi une représentation des calculs dans l'historique avec des parenthèses pour rappeler leur ordre.
+<p>Ce projet avait pour but de nous initier à la gestion du multijoueur avec Unity Netcode, en nous fournissant un environnement de base puis en nous laissant imaginer et mettre en place un petit jeu de notre choix. À partir d’une scène de base déjà préparée (avec deux joueurs, une arène et un objet physique), j’ai imaginé une mécanique de score basée sur des zones colorées propres à chaque joueur où l'objet, ici un dé, doit être emmené pour marquer des points. 
+</p>
+  <p>Pour que le jeu soit fonctionnel, il m'a fallu gérer l'application d'une physique correcte ou encore une synchronisation des données et une actualisation du score instantanées pour les 2 joueurs. Cela m’a permis de manipuler la synchronisation réseau des objets, la gestion d’état partagé (score), ainsi que l’identification des joueurs et de leurs interactions. Cet exercice m’a donné une première application concrète de la logique serveur/client dans Unity.
     
   </p>
 </div>
