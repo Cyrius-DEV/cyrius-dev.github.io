@@ -12,7 +12,7 @@ classes: wide
 <p style="text-align: center;">Présentation rapide de quelques exercices en langage Java que j'ai menés en cours prenant la forme de mini-jeux très connus</p>
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#simon" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  SimonSays  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Simon Says  ▼</button>
   </a>
   <a href="#vague" style="text-decoration: none;">
     <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Vagues  ▼</button>
@@ -32,7 +32,7 @@ classes: wide
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
-<h1 id="calculatrice" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Calculatrice</h1>
+<h1 id="simon" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Simon Says</h1>
 
 <div class="project-section">
   <div class="project-text">
@@ -76,7 +76,7 @@ classes: wide
 
 
 
-<h1 id="dessin" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Dessin</h1>
+<h1 id="vague" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Vagues</h1>
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-fantasy">
@@ -114,7 +114,7 @@ classes: wide
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
-<h1 id="calculatrice" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Calculatrice</h1>
+<h1 id="=monstre" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Animation du monstre</h1>
 
 <div class="project-section">
   <div class="project-text">
@@ -158,7 +158,7 @@ classes: wide
 
 
 
-<h1 id="dessin" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Dessin</h1>
+<h1 id="lapin" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Simulation de lapins</h1>
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-fantasy">
@@ -197,7 +197,7 @@ classes: wide
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
-<h1 id="calculatrice" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Calculatrice</h1>
+<h1 id="multijoueur" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Jeu multijoueur</h1>
 
 <div class="project-section">
   <div class="project-text">
