@@ -161,8 +161,8 @@ classes: wide
 <h1 id="lapin" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Simulation de lapins</h1>
 <div class="project-section">
   <div class="project-text">
-    <div class="paragraph-box-fantasy">
-<p>Une simulation de population de lapins autonomes avec reproduction, vieillissement et mort</p>
+    <div class="paragraph-box-menthe">
+<p>Développement d'une simulation de population de lapins autonomes dans un petit terrain avec système de reproduction, vieillissement et mort pour chacun d'entre eux</p>
     </div>
     </div>
   <div class="carousel-container">
@@ -186,9 +186,9 @@ classes: wide
     </a>
   </p><br>
 
-<div class="paragraph-box-fantasy">
-<p>Partant d’un terrain et de modèles fournis, j’ai codé un système complet de gestion de population : spawner de départ, cycle de vie avec vieillissement, reproduction au contact de 2 lapins (ADULTES), et disparition après un certain temps. Pour enrichir la simulation, j’ai ajouté des noms générés aléatoirement, une animation de reproduction utilisant un FragmentShader pour créer un effet de pixellisation (pour un peu d'intimité pour nos lapins), et une mort spectaculaire par explosion d’assets corporels accompagnée d’un effet visuel d’âme s’envolant.</p>
-  <p>J’ai aussi développé un système d’ADN simple, où la couleur des lapins (blanc ou noir) est héritée des parents.  une variation de taille grandissante au fur et à mesure de la vie via manipulation de materials, pour rendre mes lapins pluss vivants à travers leur apparence changeatne au courss de leur vie Ce projet m’a permis d’approfondir la gestion d’agents autonomes, les VFX, la manipulation des shaders et l’héritage de propriétés.
+<div class="paragraph-box-menthe">
+<p>Partant d’un terrain et de modèles fournis, j’ai codé un système complet de gestion de population : spawner de départ, cycle de vie avec vieillissement, reproduction au contact de 2 lapins (ADULTES), et disparition après un certain temps. Pour enrichir la simulation, j’ai ajouté des noms générés aléatoirement, une animation de reproduction utilisant un FragmentShader pour créer un effet de pixellisation (pour un peu d'intimité pour mes lapins), et une mort spectaculaire par explosion d’assets corporels accompagnée d’un effet visuel d’âme s’envolant.</p>
+  <p>J’ai aussi développé un système d’ADN simple, où la couleur des lapins est héritée des parents avec 2 gènes noir ou blanc ayant chacun 1 chance sur 2 d'être transmis et dominant. J'ai aussi mis en place une variation de taille au fur et à mesure de la vie (croissante à l'enfance) via manipulation de materials, pour rendre mes lapins plus vivants au travers d'une apparence changeante au cours de leur vie. Ce projet a servi de bonne mise en pratique concernant la gestion d’agents autonomes, les VFX, la manipulation des shaders et l’héritage de propriétés.
   </p>
 </div>
 
