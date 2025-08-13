@@ -43,9 +43,9 @@ classes: wide
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/calculatrice1.png" alt="Écran 1">
-    <img src="/assets/images/calculatrice2.png" alt="Écran 2">
-    <img src="/assets/images/calculatrice3.png" alt="Écran 3">
+    <img src="/assets/images/simonsays1.png" alt="Écran 1">
+    <img src="/assets/images/simonsays2.png" alt="Écran 2">
+    <img src="/assets/images/simonsays3.png" alt="Écran 3">
   </div>
   <button class="carousel-button next">›</button>
 </div>
@@ -54,12 +54,7 @@ classes: wide
 
 
 
-  <p style="text-align: center; margin-top: 1em;">
-    <a href="https://appetize.io/app/b_7u3tls2qiz6jw2erxwucrpwga4" target="_blank" 
-       style="padding: 0.75em 1.5em; background: #4CAF50; color: white; text-decoration: none; border-radius: 8px;">
-       Lancer une démo sur Android
-    </a>
-  </p><br>
+  
 
 <div class="paragraph-box-charbon">
 <p>Sur la base d’un Simon Says basique, j’ai ajouté plusieurs éléments pour en faire un vrai mini-jeu interactif. J’ai intégré des sons enregistrés moi-même, utilisé la manipulation de materials lumineux pour signaler les combinaisons jouées, les erreurs et les succès, et j’ai mis en place un système de vies ainsi qu’un score dynamique affiché à l’écran afin de mieux encadrer l'expérience de joueur et rendre les élément sdu jeu plus cohérents entre eux.
