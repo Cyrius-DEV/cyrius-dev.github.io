@@ -176,7 +176,7 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-charbon">
-<p>Découverte du fonctionnement de Netcode avec la création d'un mini-jeu compétitif multijoueur où chaque joueur pousse une balle dans sa zone pour marquer des points</p>
+<p>Découverte du fonctionnement de Netcode avec la création d'un mini-jeu compétitif multijoueur où chaque joueur pousse un dé dans sa zone pour marquer des points</p>
     </div>
     </div>
   <div class="carousel-container">
