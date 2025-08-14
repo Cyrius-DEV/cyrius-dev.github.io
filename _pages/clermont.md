@@ -81,9 +81,9 @@ classes: wide
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/dessin1.png" alt="Écran 1">
-    <img src="/assets/images/dessin2.png" alt="Écran 2">
-    <img src="/assets/images/dessin3.png" alt="Écran 3">
+    <img src="/assets/images/vagues1.png" alt="Écran 1">
+    <img src="/assets/images/vagues2.png" alt="Écran 2">
+    <img src="/assets/images/vagues3.png" alt="Écran 3">
   </div>
   <button class="carousel-button next">›</button>
 </div>
@@ -91,13 +91,6 @@ classes: wide
 <br>
 
 
-
-  <p style="text-align: center; margin-top: 1em;">
-    <a href="https://appetize.io/app/b_bz3fbgzt45ndvxt4tkz6ughafu" target="_blank" 
-       style="padding: 0.75em 1.5em; background: #4CAF50; color: white; text-decoration: none; border-radius: 8px;">
-       Lancer une démo sur Android
-    </a>
-  </p><br>
 
 <div class="paragraph-box-fantasy">
 <p>Ce projet nous a permis de comparer trois approches différentes d’exécution de code asynchrone ou parallèle dans Unity : Coroutine, Task, et IJob. L’objectif était de simuler une propagation de vague en réponse à un clic de souris sur une surface d’eau, puis d’observer les différences de performances entre chaque méthode.
@@ -120,9 +113,9 @@ classes: wide
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/calculatrice1.png" alt="Écran 1">
-    <img src="/assets/images/calculatrice2.png" alt="Écran 2">
-    <img src="/assets/images/calculatrice3.png" alt="Écran 3">
+    <img src="/assets/images/ik1.png" alt="Écran 1">
+    <img src="/assets/images/ik2.png" alt="Écran 2">
+    <img src="/assets/images/ik3.png" alt="Écran 3">
   </div>
   <button class="carousel-button next">›</button>
 </div>
@@ -131,12 +124,7 @@ classes: wide
 
 
 
-  <p style="text-align: center; margin-top: 1em;">
-    <a href="https://appetize.io/app/b_7u3tls2qiz6jw2erxwucrpwga4" target="_blank" 
-       style="padding: 0.75em 1.5em; background: #4CAF50; color: white; text-decoration: none; border-radius: 8px;">
-       Lancer une démo sur Android
-    </a>
-  </p><br>
+
 
 <div class="paragraph-box-rustique">
 <p>Avec un modèle quadrupède et une armature déjà en place, j’ai conçu un système de déplacement basé sur l’Inverse Kinematics. L’objectif était de calculer en temps réel la position idéale de chaque IK Target (cible du déplacement pour chacune des pattes) en fonction du terrain et des obstacles, pour simuler une marche crédible de la créature. Afin de rajouter de la fluidité au déplacement des pattes, j'ai utilisé des couroutines pour éviter au mieux une téléportation abrupte d'un IK Target à l'autre</p>
@@ -162,9 +150,9 @@ classes: wide
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/dessin1.png" alt="Écran 1">
-    <img src="/assets/images/dessin2.png" alt="Écran 2">
-    <img src="/assets/images/dessin3.png" alt="Écran 3">
+    <img src="/assets/images/lapins1.png" alt="Écran 1">
+    <img src="/assets/images/lapins2.png" alt="Écran 2">
+    <img src="/assets/images/lapins3.png" alt="Écran 3">
   </div>
   <button class="carousel-button next">›</button>
 </div>
@@ -172,13 +160,6 @@ classes: wide
 <br>
 
 
-
-  <p style="text-align: center; margin-top: 1em;">
-    <a href="https://appetize.io/app/b_bz3fbgzt45ndvxt4tkz6ughafu" target="_blank" 
-       style="padding: 0.75em 1.5em; background: #4CAF50; color: white; text-decoration: none; border-radius: 8px;">
-       Lancer une démo sur Android
-    </a>
-  </p><br>
 
 <div class="paragraph-box-menthe">
 <p>Partant d’un terrain et de modèles fournis, j’ai codé un système complet de gestion de population : spawner de départ, cycle de vie avec vieillissement, reproduction au contact de 2 lapins (ADULTES), et disparition après un certain temps. Pour enrichir la simulation, j’ai ajouté des noms générés aléatoirement, une animation de reproduction utilisant un FragmentShader pour créer un effet de pixellisation (pour un peu d'intimité pour mes lapins), et une mort spectaculaire par explosion d’assets corporels accompagnée d’un effet visuel d’âme s’envolant.</p>
@@ -201,9 +182,9 @@ classes: wide
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/calculatrice1.png" alt="Écran 1">
-    <img src="/assets/images/calculatrice2.png" alt="Écran 2">
-    <img src="/assets/images/calculatrice3.png" alt="Écran 3">
+    <img src="/assets/images/multi1.png" alt="Écran 1">
+    <img src="/assets/images/multi2.png" alt="Écran 2">
+    <img src="/assets/images/multi3.png" alt="Écran 3">
   </div>
   <button class="carousel-button next">›</button>
 </div>
@@ -212,12 +193,6 @@ classes: wide
 
 
 
-  <p style="text-align: center; margin-top: 1em;">
-    <a href="https://appetize.io/app/b_7u3tls2qiz6jw2erxwucrpwga4" target="_blank" 
-       style="padding: 0.75em 1.5em; background: #4CAF50; color: white; text-decoration: none; border-radius: 8px;">
-       Lancer une démo sur Android
-    </a>
-  </p><br>
 
 <div class="paragraph-box-charbon">
 <p>Ce projet avait pour but de nous initier à la gestion du multijoueur avec Unity Netcode, en nous fournissant un environnement de base puis en nous laissant imaginer et mettre en place un petit jeu de notre choix. À partir d’une scène de base déjà préparée (avec deux joueurs, une arène et un objet physique), j’ai imaginé une mécanique de score basée sur des zones colorées propres à chaque joueur où l'objet, ici un dé, doit être emmené pour marquer des points. 
