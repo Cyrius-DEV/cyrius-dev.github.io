@@ -93,7 +93,7 @@ classes: wide
 
 <div class="project-section">
   <div class="project-text">
-    <div class="paragraph-box-rustique">
+    <div class="paragraph-box-pastel">
 <p>Mise en place d'un Scrabble en ligne jouable avec système de création de partie privée à code avec chat en ligne</p>
     </div>
     </div>
@@ -109,7 +109,7 @@ classes: wide
 <br>
 
 
-<div class="paragraph-box-rustique">
+<div class="paragraph-box-pastel">
 <p>Ce projet consistait à développer un Scrabble jouable en ligne, avec un système de création de partie privée protégée par code et un chat intégré pour permettre aux joueurs d’échanger pendant la partie. Il s’agissait de mon premier projet structuré autour du modèle MVC (Model-View-Controller), ce qui m’a permis de mieux comprendre la séparation des responsabilités dans une application. Le plateau de jeu ainsi que la messagerie ont été conçus pour se rafraîchir automatiquement, assurant une expérience fluide et réactive sans intervention manuelle de l’utilisateur.</p>
   <p>Ce projet m’a permis d’explorer la gestion du temps réel, la synchronisation des données entre plusieurs joueurs et la mise en place d’une architecture logicielle claire et extensible, ce qui m'a servis de première expérience dans la mise en place d'un service "live" et devant prendre en compte les actions et feedbacks de plusieurs utilisateurs simultanément, des compétences essentielles pour tout développement d’application en réseau. De plus un travail supplémentaire en UX Design m'a donné l'occasion de retravailler l'interface d'abord très simpliste et peu optimisée de mon Scrabble afin de cibler les principaux axes d'amélioration de celle-ci et de proposer une version avancée (passage de l'image 1 à l'image 2).
     
