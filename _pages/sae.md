@@ -30,7 +30,7 @@ classes: wide
 
 <div class="project-section">
   <div class="project-text">
-    <div class="paragraph-box-paragraph">
+    <div class="paragraph-box">
 <p>Développement et hébergement d'un catalogue de formations et cours en ligne, premier projet de site web de mes études.</p>
     </div>
     </div>
@@ -41,7 +41,7 @@ classes: wide
 <br>
 
 
-<div class="paragraph-box-paragraph">
+<div class="paragraph-box">
 <p>Ce projet a été le premier exercice en condition que j'ai pu mener auu cours de mes études avec du développement en front-end et back-end en simultané. Il nous a été demandé de mettre en place un catalogue de formations permettant la consultation de cours, avec une page d'accueil affichant la liste des cours disponibles, une page de cours complète afin de montrer à quoi ressemble un cours classique mais aussi une page de connexion/inscription à son compte utilisateur.
 </p>
   <p>Ce travail étant en groupe de 4 je me suis principalement occupé de mon côté de la partie "serveur" du site ; j'ai mis en place une base de données contenant les informations des cours, des enseignants et des comptes utilisateur. J'ai enfin relié cette base de données à notre site en utilisant du PHP, mettant en pratique mes cours sur les requêtes SQL.
