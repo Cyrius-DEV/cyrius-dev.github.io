@@ -31,18 +31,12 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-charbon">
-<p>Développement et hébergement d'n cataloge de formations et cours en ligne, premier projet de site web de mes études.</p>
+<p>Développement et hébergement d'un catalogue de formations et cours en ligne, premier projet de site web de mes études.</p>
     </div>
     </div>
-  <div class="carousel-container">
-  <button class="carousel-button prev">‹</button>
-  <div class="carousel-slide">
-    <img src="/assets/images/calculatrice1.png" alt="Écran 1">
-    <img src="/assets/images/calculatrice2.png" alt="Écran 2">
-    <img src="/assets/images/calculatrice3.png" alt="Écran 3">
-  </div>
-  <button class="carousel-button next">›</button>
-</div>
+ 
+    <img src="/assets/images/Learning_Space_screenshot.png" alt="Écran 1">
+  
 </div>
 <br>
 
