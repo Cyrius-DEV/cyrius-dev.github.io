@@ -9,7 +9,7 @@ classes: wide
 <div style="width: 100%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;font-size:2em;">Exercices faits en cours</h1>
 
-<p style="text-align: center;">Présentation rapide de quelques exercices sur Unity que j'ai menés en cours prenant la forme de mini-jeux à compléter par nous-même pour approfondir nos connaissances</p>
+<p style="text-align: center;">Présentation rapide de quelques sites web que j'ai pu créer lors de projets notés pendant mes études</p>
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#learning" style="text-decoration: none;">
     <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Learning Space  ▼</button>
@@ -84,7 +84,7 @@ classes: wide
   <p>Ce site, réalisé à partir d'un template sur WordPress, explique de manière colorée et imagée le thème du parcours et donne les informations de contact de l'Office de tourisme. Perndant sa réalisation, j'ai essayé au mieux de conserver et utiliser des images et des palettes de couleur en accordance avec notre projet, en choisissant notamment des teintes bleues (liées au thème de l'eau de Vichy pour notre jeu) et en incluant la mascotte de notre jeu. Je me suis également occupé de la mise en ligne et de l'hébergement du site sur un webhost gratuit. Pour mieux comprendre le thème et l'ambiance générale de notre jeu, je mets ci-dessous le trailer du projet que j'ai réalisé.
   </p>
 </div>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; text-align: center;">
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; text-align: center; margin: 20px 0;">
 <iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" src="https://www.youtube.com/embed/bAfxPodhhpQ?si=DjBXZLI20tHGIU2_" title="Trailer Memory Leak" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"> </iframe>
 </div>
 
