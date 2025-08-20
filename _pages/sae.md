@@ -31,7 +31,7 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-charbon">
-<p>Une version personnalisée de Simon Says avec sons maison, effets lumineux et système de score.</p>
+<p>Développement et hébergement d'n cataloge de formations et cours en ligne, premier projet de site web de mes études.</p>
     </div>
     </div>
   <div class="carousel-container">
@@ -48,9 +48,9 @@ classes: wide
 
 
 <div class="paragraph-box-charbon">
-<p>Sur la base d’un Simon Says basique, j’ai ajouté plusieurs éléments pour en faire un vrai mini-jeu interactif. J’ai intégré des sons enregistrés moi-même, utilisé la manipulation de materials lumineux pour signaler les combinaisons jouées, les erreurs et les succès, et j’ai mis en place un système de vies ainsi qu’un score dynamique affiché à l’écran afin de mieux encadrer l'expérience de joueur et rendre les élément sdu jeu plus cohérents entre eux.
+<p>Ce projet a été le premier exercice en condition que j'ai pu mener auu cours de mes études avec du développement en front-end et back-end en simultané. Il nous a été demandé de mettre en place un catalogue de formations permettant la consultation de cours, avec une page d'accueil affichant la liste des cours disponibles, une page de cours complète afin de montrer à quoi ressemble un cours classique mais aussi une page de connexion/inscription à son compte utilisateur.
 </p>
-  <p>Ce projet m’a permis de travailler sur la réactivité d’une interface de jeu, la gestion des états, les feedbacks visuels et sonores, et l’amélioration de l’expérience utilisateur globale. C'était le premier exercice de ce genre, sans consignes précises autre que "finir le jeu", il m'a laissé libre de réfléchir à ce qui me paraissait le plus pertinent comme ajout, et libre de les mettre en place comme je le veux.
+  <p>Ce travail étant en groupe de 4 je me suis principalement occupé de mon côté de la partie "serveur" du site ; j'ai mis en place une base de données contenant les informations des cours, des enseignants et des comptes utilisateur. J'ai enfin relié cette base de données à notre site en utilisant du PHP, mettant en pratique mes cours sur les requêtes SQL.
     
   </p>
 </div>
