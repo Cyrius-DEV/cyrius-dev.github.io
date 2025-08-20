@@ -35,8 +35,8 @@ C'est donc dans les domaines du développement web, de la gestion de base de don
 
 <p style="text-align: center;margin-top: 60px;">Et voici un CV vidéo réalisé dans le cadre de mes études :</p>
 
-<div style="text-align: center; margin-top: 20px;">
-  <iframe style="width:inherit;" 
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; text-align: center; margin: 20px 0;">
+  <iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" 
           src="https://www.youtube.com/embed/A-hpII5PcKk" 
           title="CV Vidéo" 
           frameborder="0" 
