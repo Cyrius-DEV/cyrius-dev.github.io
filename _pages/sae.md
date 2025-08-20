@@ -26,7 +26,7 @@ classes: wide
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
-<h1 id="simon" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Learning Space</h1>
+<h1 id="learning" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Learning Space</h1>
 
 <div class="project-section">
   <div class="project-text">
@@ -56,7 +56,7 @@ classes: wide
 
 
 
-<h1 id="vague" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Memory Leak</h1>
+<h1 id="memory" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Memory Leak</h1>
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-glace">
@@ -89,7 +89,7 @@ classes: wide
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
-<h1 id="monstre" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Scrabble en ligne</h1>
+<h1 id="scrabble" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Scrabble en ligne</h1>
 
 <div class="project-section">
   <div class="project-text">
@@ -100,9 +100,8 @@ classes: wide
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/calculatrice1.png" alt="Écran 1">
-    <img src="/assets/images/calculatrice2.png" alt="Écran 2">
-    <img src="/assets/images/calculatrice3.png" alt="Écran 3">
+    <img src="/assets/images/scrabble1.png" alt="Écran 1">
+    <img src="/assets/images/scrabble2.png" alt="Écran 2">
   </div>
   <button class="carousel-button next">›</button>
 </div>
