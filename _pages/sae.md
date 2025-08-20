@@ -84,8 +84,8 @@ classes: wide
   <p>Ce site, réalisé à partir d'un template sur WordPress, explique de manière colorée et imagée le thème du parcours et donne les informations de contact de l'Office de tourisme. Perndant sa réalisation, j'ai essayé au mieux de conserver et utiliser des images et des palettes de couleur en accordance avec notre projet, en choisissant notamment des teintes bleues (liées au thème de l'eau de Vichy pour notre jeu) et en incluant la mascotte de notre jeu. Je me suis également occupé de la mise en ligne et de l'hébergement du site sur un webhost gratuit. Pour mieux comprendre le thème et l'ambiance générale de notre jeu, je mets ci-dessous le trailer du projet que j'ai réalisé.
   </p>
 </div>
-<div style="text-align: center;">
-<iframe style="width:90%;height:auto;" src="https://www.youtube.com/embed/bAfxPodhhpQ?si=DjBXZLI20tHGIU2_" title="Trailer Memory Leak" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"> </iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; text-align: center;">
+<iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" src="https://www.youtube.com/embed/bAfxPodhhpQ?si=DjBXZLI20tHGIU2_" title="Trailer Memory Leak" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"> </iframe>
 </div>
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
