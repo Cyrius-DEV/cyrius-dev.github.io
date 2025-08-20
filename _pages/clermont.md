@@ -78,14 +78,19 @@ classes: wide
 <p>Une étude technique sur la propagation de vagues simulée via 3 méthodes pour en comparer les résultats : les Coroutines, les Tasks et les IJobs.</p>
     </div>
     </div>
-  <div class="carousel-container">
-  <button class="carousel-button prev">‹</button>
-  <div class="carousel-slide">
-    <img src="/assets/images/vagues1.png" alt="Écran 1">
-    <img src="/assets/images/vagues2.png" alt="Écran 2">
-    <img src="/assets/images/vagues3.png" alt="Écran 3">
-  </div>
-  <button class="carousel-button next">›</button>
+  <div style="position: relative;
+    padding-bottom: 56.25%; height: 0;
+    width: 150%;
+    max-width: 800px;
+    margin: 60px auto;
+    overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" 
+          src="/assets/images/multithread.mp4" 
+          title="CV Vidéo" 
+          frameborder="0" 
+          allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+  </iframe>
 </div>
 </div>
 <br>
