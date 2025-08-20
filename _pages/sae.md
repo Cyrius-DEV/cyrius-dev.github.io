@@ -42,9 +42,9 @@ classes: wide
 
 
 <div class="paragraph-box">
-<p>Ce projet a été le premier exercice en condition que j'ai pu mener auu cours de mes études avec du développement en front-end et back-end en simultané. Il nous a été demandé de mettre en place un catalogue de formations permettant la consultation de cours, avec une page d'accueil affichant la liste des cours disponibles, une page de cours complète afin de montrer à quoi ressemble un cours classique mais aussi une page de connexion/inscription à son compte utilisateur.
+<p>Ce projet a été le premier exercice en condition que j'ai pu mener au cours de mes études avec du développement en front-end et back-end en simultané. Il nous a été demandé de mettre en place un catalogue de formations permettant la consultation de cours, avec une page d'accueil affichant la liste des cours disponibles, une page de cours complète afin de montrer à quoi ressemble un cours classique mais aussi une page de connexion/inscription à son compte utilisateur.
 </p>
-  <p>Ce travail étant en groupe de 4 je me suis principalement occupé de mon côté de la partie "serveur" du site ; j'ai mis en place une base de données contenant les informations des cours, des enseignants et des comptes utilisateur. J'ai enfin relié cette base de données à notre site en utilisant du PHP, mettant en pratique mes cours sur les requêtes SQL.
+  <p>Ce travail étant en groupe de 4 je me suis principalement occupé de mon côté de la partie "serveur" du site ; j'ai mis en place une base de données contenant les informations des cours, des enseignants et des comptes utilisateur. J'ai enfin relié cette base de données à notre site en utilisant du PHP, mettant en pratique mes leçons sur les requêtes SQL.
     
   </p>
 </div>
@@ -110,8 +110,8 @@ classes: wide
 
 
 <div class="paragraph-box-rustique">
-<p>Avec un modèle quadrupède et une armature déjà en place, j’ai conçu un système de déplacement basé sur l’Inverse Kinematics. L’objectif était de calculer en temps réel la position idéale de chaque IK Target (cible du déplacement pour chacune des pattes) en fonction du terrain et des obstacles, pour simuler une marche crédible de la créature. Afin de rajouter de la fluidité au déplacement des pattes, j'ai utilisé des couroutines pour éviter au mieux une téléportation abrupte d'un IK Target à l'autre</p>
-  <p>Ce projet m’a permis de mieux comprendre la gestion des IK dans Unity, ainsi que la logique de placement et d’équilibrage de membres en animation procédurale. J’ai aussi pu expérimenter un peu avec du Raycasting pour détecter les points de contact au sol et optimiser les trajectoires de mouvement.
+<p>Ce projet consistait à développer un Scrabble jouable en ligne, avec un système de création de partie privée protégée par code et un chat intégré pour permettre aux joueurs d’échanger pendant la partie. Il s’agissait de mon premier projet structuré autour du modèle MVC (Model-View-Controller), ce qui m’a permis de mieux comprendre la séparation des responsabilités dans une application. Le plateau de jeu ainsi que la messagerie ont été conçus pour se rafraîchir automatiquement, assurant une expérience fluide et réactive sans intervention manuelle de l’utilisateur.</p>
+  <p>Ce projet m’a permis d’explorer la gestion du temps réel, la synchronisation des données entre plusieurs joueurs et la mise en place d’une architecture logicielle claire et extensible, ce qui m'a servis de première expérience dans la mise en place d'un service "live" et devant prendre en compte les actions et feedbacks de plusieurs utilisateurs simultanément, des compétences essentielles pour tout développement d’application en réseau. De plus un travail supplémentaire en UX Design m'a donné l'occasion de retravailler l'interface d'abord très simpliste et peu optimisée de mon Scrabble afin de cibler les principaux axes d'amélioration de celle-ci et de proposer une version avancée (passage de l'image 1 à l'image 2).
     
   </p>
 </div>
