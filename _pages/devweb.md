@@ -96,7 +96,7 @@ classes: wide
     <div class="card" style="background-image: url('/assets/images/Memory_Leak_screenshot.png');">
       <div class="card-content">
         <div class="card-text">
-      <h3>🚧Exercices de cours🚧</h3>
+      <h3>Exercices de cours</h3>
       <p>Résumé des divers exercices et projets qui m'ont été demandé pendant mes études</p>
     </div></div></div>
   </a>
