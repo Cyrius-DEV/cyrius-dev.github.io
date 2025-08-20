@@ -59,7 +59,7 @@ classes: wide
 <h1 id="vague" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Memory Leak</h1>
 <div class="project-section">
   <div class="project-text">
-    <div class="paragraph-box-fantasy">
+    <div class="paragraph-box-glace">
 <p>Création d'un site web vitrine dans le cadre d'une capagne de promotion d'un nouveau jeu de piste.</p>
     </div>
     </div>
@@ -78,13 +78,14 @@ classes: wide
 
   
 
-<div class="paragraph-box-fantasy">
-<p>Ce projet nous a permis de comparer trois approches différentes d’exécution de code asynchrone ou parallèle dans Unity : Coroutine, Task, et IJob. L’objectif était de simuler une propagation de vague en réponse à un clic de souris sur une surface d’eau, puis d’observer les différences de performances entre chaque méthode.
+<div class="paragraph-box-glace">
+<p>Dans le cadre d'une de nos SAE (projets évalués), il nous a fallu mon groupe et moi concevoir un jeu de piste en plein air pour la période estivale destiné à l'Office de tourisme de Vichy. Parmi les nombreuses tâches liées à ce projet, j'ai pris notamment en charge la création d'un site vitrine, en version française ou anglaise, qui présente notre jeu.
 </p>
-  <p>Cette expérimentation m’a permis de comprendre les avantages et limites de chaque système : simplicité des coroutines mais tout reste bloqué sur le thread principal et mal adaptées sur du calcul lourd, efficacité relative des tasks moins intégrées au cycle de vie Unity qu’une coroutine mais permettent des traitements lourds sans bloquer la frame, et puissance brute des jobs dans des scénarios fortement parallélisables mais plus spécialisés sur un code orienté "donnée" plutôt que "objet".
+  <p>Ce site, réalisé à partir d'un template sur WordPress, explique de manière colorée et imagée le thème du parcours et donne les informations de contact de l'Office de tourisme. Perndant sa réalisation, j'ai essayé au mieux de conserver et utiliser des images et des palettes de couleur en accordance avec notre projet, en choisissant notamment des teintes bleues (liées au thème de l'eau de Vichy pour notre jeu) et en incluant la mascotte de notre jeu. Je me suis également occupé de la mise en ligne et de l'hébergement du site sur un webhost gratuit. Pour mieux comprendre le thème et l'ambiance générale de notre jeu, je mets ci-dessous le trailer du projet que j'ai réalisé.
   </p>
 </div>
 
+<iframe style="width:inherit;" src="[https://www.youtube.com/embed/A-hpII5PcKk](https://youtu.be/bAfxPodhhpQ)" title="Trailer Memory Leak" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"> </iframe>
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
@@ -93,7 +94,7 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-rustique">
-<p>Découverte de l'Inverse Kinematic à travers un prototype d’animation procédurale où le placement des 4 pattes d'un monstre s’adapte indépendamment et dynamiquement au terrain qui l'entoure</p>
+<p>Mise en place d'un Scrabble en ligne jouable avec système de création de partie privée à code avec chat en ligne</p>
     </div>
     </div>
   <div class="carousel-container">
