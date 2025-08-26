@@ -39,42 +39,45 @@ classes: wide
   <!-- Vidéo 1 -->
   <div style="position: relative; width: 30%; padding-bottom: 16.875%; height: 0; overflow: hidden;">
     <iframe 
-      src="https://www.youtube.com/shorts/vdw32BeTd8E" 
+      src="/assets/videos/littlej.mp4" 
       title="Présentation LittleJ"
       frameborder="0"
       allowfullscreen
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
     </iframe>
+    <p>Présentation LittleJ</p>
   </div>
 
   <!-- Vidéo 2 -->
   <div style="position: relative; width: 30%; padding-bottom: 16.875%; height: 0; overflow: hidden;">
     <iframe 
-      src="https://www.youtube.com/shorts/bhpnaBm1Ssg" 
+      src="/assets/videos/wanted.mp4" 
       title="Présentation Wanted"
       frameborder="0"
       allowfullscreen
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
     </iframe>
+    <p>Présentation Wanted</p>
   </div>
 
   <!-- Vidéo 3 -->
   <div style="position: relative; width: 30%; padding-bottom: 16.875%; height: 0; overflow: hidden;">
     <iframe 
-      src="https://www.youtube.com/shorts/R1cyG-QjFzU" 
+      src="/assets/videos/cyrius.mp4" 
       title="Présentation Cyrius"
       frameborder="0"
       allowfullscreen
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
     </iframe>
+    <p>Présentation Cyrius</p>
   </div>
 
 </div>
 
-
+<br>
 <div class="paragraph-box">
 <p>Lors de la préparation d'une session d'enregistrement, on commence par choisir plusieurs extraits avec des scènes qui nous paraissent intéressantes à doubler (ou qui nous plaisent tout simplement). Ensuite, on prépare nous-mêmes les bandes rythmo à l’avance en traduisant parfois de l'anglais, tout en s'assurant de bien caler le texte sur les mouvements des lèvres et le rythme des répliques. Une fois prêts, on passe à l’enregistrement en studio. On enregistre les parties de chacun, parfois séparément et parfois tous sur la même prise, en essayant d’être le plus juste possible dans le ton, le timing et les mimiques du personnage à l'écran.    
   </p>
