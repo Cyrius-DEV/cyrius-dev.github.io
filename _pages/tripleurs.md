@@ -58,9 +58,10 @@ classes: wide
   <!-- Vidéo 2 -->
   <div style="position: relative; width: 25%; padding-bottom: 44.444%; height: 0; overflow: hidden;">
     <iframe 
-      src="/assets/videos/wanted.mp4" 
+      src="https://www.youtube.com/embed/bhpnaBm1Ssg" 
       title="Présentation Wanted"
       frameborder="0"
+      referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
@@ -71,9 +72,10 @@ classes: wide
   <!-- Vidéo 3 -->
   <div style="position: relative; width: 25%; padding-bottom: 44.444%; height: 0; overflow: hidden;">
     <iframe 
-      src="/assets/videos/cyrius.mp4" 
+      src="https://www.youtube.com/embed/R1cyG-QjFzU" 
       title="Présentation Cyrius"
       frameborder="0"
+      referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
@@ -107,6 +109,7 @@ classes: wide
           src="/assets/videos/adc.mp4" 
           title="CV Vidéo" 
           frameborder="0" 
+          referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
   </iframe>
