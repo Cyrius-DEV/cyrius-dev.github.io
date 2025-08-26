@@ -37,7 +37,7 @@ classes: wide
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
 
   <!-- Vidéo 1 -->
-  <div style="position: relative; width: 30%; padding-bottom: 53.334%; height: 0; overflow: hidden;">
+  <div style="position: relative; width: 25%; padding-bottom: 44.444%; height: 0; overflow: hidden;">
     <iframe 
       src="/assets/videos/littlej.mp4" 
       title="Présentation LittleJ"
@@ -50,7 +50,7 @@ classes: wide
   </div>
 
   <!-- Vidéo 2 -->
-  <div style="position: relative; width: 30%; padding-bottom: 53.334%; height: 0; overflow: hidden;">
+  <div style="position: relative; width: 25%; padding-bottom: 44.444%; height: 0; overflow: hidden;">
     <iframe 
       src="/assets/videos/wanted.mp4" 
       title="Présentation Wanted"
@@ -63,7 +63,7 @@ classes: wide
   </div>
 
   <!-- Vidéo 3 -->
-  <div style="position: relative; width: 30%; padding-bottom: 53.334%; height: 0; overflow: hidden;">
+  <div style="position: relative; width: 25%; padding-bottom: 44.444%; height: 0; overflow: hidden;">
     <iframe 
       src="/assets/videos/cyrius.mp4" 
       title="Présentation Cyrius"
