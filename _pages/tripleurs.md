@@ -108,8 +108,6 @@ classes: wide
  
    <div style="position: relative;
     padding-bottom: 56.25%; height: 0;
-    width: 150%;
-    max-width: 800px;
     margin: 60px auto;
     overflow: hidden;">
   <iframe style="position: absolute; top: 0; left: 5%; width: 100%; height: 266%;" 
