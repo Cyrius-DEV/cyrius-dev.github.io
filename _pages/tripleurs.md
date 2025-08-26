@@ -113,8 +113,8 @@ classes: wide
     margin: 60px auto;
     overflow: hidden;">
   <iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" 
-          src="/assets/videos/adc.mp4" 
-          title="CV Vidéo" 
+          src="https://www.youtube.com/embed/_keyjPejcDE" 
+          title="The Amazing Digital Circus" 
           frameborder="0" 
           referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen
