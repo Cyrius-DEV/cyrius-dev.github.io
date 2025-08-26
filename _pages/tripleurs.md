@@ -48,7 +48,7 @@ classes: wide
       referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 266%;">
     </iframe>
     </div>
     <p style="margin-top:8px;">Présentation LittleJ</p>
@@ -66,7 +66,7 @@ classes: wide
       referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 266%;">
     </iframe>
     </div>
     <p>Présentation Wanted</p>
@@ -84,7 +84,7 @@ classes: wide
       referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 266%;">
     </iframe>
     </div>
     <p>Présentation Cyrius</p>
@@ -112,7 +112,7 @@ classes: wide
     max-width: 800px;
     margin: 60px auto;
     overflow: hidden;">
-  <iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" 
+  <iframe style="position: absolute; top: 0; left: 5%; width: 100%; height: 266%;" 
           src="https://www.youtube.com/embed/_keyjPejcDE" 
           title="The Amazing Digital Circus" 
           frameborder="0" 
