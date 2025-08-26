@@ -141,36 +141,43 @@ classes: wide
 
 
 <h1 id="participation" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Ma participation personelle</h1>
+
+<div class="paragraph-box-glace">
+<p>En plus de contribuer à l’effort collectif lors de chaque session – depuis la découverte des outils jusqu’à la mise en place de Pro Tools à la régie pour organiser nos enregistrements – j’ai régulièrement proposé des scènes intéressantes à doubler afin de diversifier nos exercices. Je me suis aussi investi dans la partie technique en prenant en charge la création de nouvelles bandes rythmos pour les scènes choisies, en utilisant l’outil en ligne Voxdub, ce qui nous a permis de travailler sur un matériel adapté et personnalisé.</p>
+<p>Avec l’évolution du projet, je me suis progressivement impliqué dans la sélection des scènes originales en anglais et dans leur traduction en français, pour ensuite les adapter au mieux au jeu d’acteur et aux contraintes du doublage. Cette responsabilité m’a non seulement permis d’approfondir mes compétences en traduction et en adaptation de dialogues, mais aussi de contribuer activement à la qualité et à la diversité du contenu de nos sessions-doublage ensemble.
+  </p>
+</div>
+
+<br>
+
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-glace">
-<p>Création d'un site web vitrine dans le cadre d'une capagne de promotion d'un nouveau jeu de piste.</p>
+<p>Lors de ces dernières j'ai notamment pu incarner Mr Snake (Bad Guys), le Chat Potté (Shrek), Kinger (The Amazing Digital Circus), Fizzarolli (Helluva Boss), Morty (Rick & Morty) et pleins d'autres encore !</p>
     </div>
     </div>
-  <div class="carousel-container">
-  <button class="carousel-button prev">‹</button>
-  <div class="carousel-slide">
-    <img src="/assets/images/Memory_Leak_screenshot.png" alt="Écran 1">
-    <img src="/assets/images/memoryleak2.png" alt="Écran 2">
+  
+<div style="position: relative; padding-bottom: 155%; margin-left:5%;height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+    <iframe 
+      src="https://www.youtube.com/embed/XD44Pmopwy8" 
+      title="Gravity Falls"
+      frameborder="0"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px;">
+    </iframe>
   </div>
-  <button class="carousel-button next">›</button>
+  
 </div>
-</div>
-<br>
+
 
 
 
   
 
-<div class="paragraph-box-glace">
-<p>Dans le cadre d'une de nos SAE (projets évalués), il nous a fallu mon groupe et moi concevoir un jeu de piste en plein air pour la période estivale destiné à l'Office de tourisme de Vichy. Parmi les nombreuses tâches liées à ce projet, j'ai pris notamment en charge la création d'un site vitrine, en version française ou anglaise, qui présente notre jeu.
-</p>
-  <p>Ce site, réalisé à partir d'un template sur WordPress, explique de manière colorée et imagée le thème du parcours et donne les informations de contact de l'Office de tourisme. Perndant sa réalisation, j'ai essayé au mieux de conserver et utiliser des images et des palettes de couleur en accordance avec notre projet, en choisissant notamment des teintes bleues (liées au thème de l'eau de Vichy pour notre jeu) et en incluant la mascotte de notre jeu. Je me suis également occupé de la mise en ligne et de l'hébergement du site sur un webhost gratuit. Pour mieux comprendre le thème et l'ambiance générale de notre jeu, je mets ci-dessous le trailer du projet que j'ai réalisé.
-  </p>
-</div>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; text-align: center; margin: 20px 0;">
-<iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" src="https://www.youtube.com/embed/bAfxPodhhpQ?si=DjBXZLI20tHGIU2_" title="Trailer Memory Leak" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"> </iframe>
-</div>
+
+
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
