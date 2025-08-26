@@ -119,7 +119,7 @@ classes: wide
     </div>
  
 
-<div style="position: relative; padding-bottom: 155%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+<div style="position: relative; padding-bottom: 155%; margin-left:5%;height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
     <iframe 
       src="https://www.youtube.com/embed/_keyjPejcDE" 
       title="The Amazing Digital Circus"
@@ -127,7 +127,7 @@ classes: wide
       referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      style="position: absolute; top: 0; left: 5%; width: 100%; height: 100%; border-radius: 12px;">
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px;">
     </iframe>
   </div>
   
