@@ -38,9 +38,9 @@ classes: wide
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/calculatrice1.png" alt="Écran 1">
-    <img src="/assets/images/calculatrice2.png" alt="Écran 2">
-    <img src="/assets/images/calculatrice3.png" alt="Écran 3">
+    <img src="/assets/images/racine5.png" alt="Écran 1">
+    <img src="/assets/images/racine3.png" alt="Écran 2">
+    <img src="/assets/images/racine4.png" alt="Écran 3">
   </div>
   <button class="carousel-button next">›</button>
 </div>
@@ -72,8 +72,8 @@ classes: wide
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/Memory_Leak_screenshot.png" alt="Écran 1">
-    <img src="/assets/images/memoryleak2.png" alt="Écran 2">
+    <img src="/assets/images/racine6.png" alt="Écran 1">
+    <img src="/assets/images/racine7.png" alt="Écran 2">
   </div>
   <button class="carousel-button next">›</button>
 </div>
@@ -106,8 +106,8 @@ classes: wide
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/scrabble1.png" alt="Écran 1">
-    <img src="/assets/images/scrabble2.png" alt="Écran 2">
+    <img src="/assets/images/racine2.png" alt="Écran 1">
+    <img src="/assets/images/racine1.png" alt="Écran 2">
   </div>
   <button class="carousel-button next">›</button>
 </div>
