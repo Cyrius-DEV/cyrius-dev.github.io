@@ -118,19 +118,18 @@ classes: wide
     </div>
     </div>
  
-   <div style="position: relative;
-    padding-bottom: 56.25%; height: 0;
-    margin: 60px auto;
-    overflow: hidden;">
-  <iframe style="position: absolute; top: 0; left: 5%; width: 100%; height: 266%;" 
-          src="https://www.youtube.com/embed/_keyjPejcDE" 
-          title="The Amazing Digital Circus" 
-          frameborder="0" 
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-  </iframe>
-</div>
+
+<div style="position: relative; padding-bottom: 155%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+    <iframe 
+      src="https://www.youtube.com/embed/_keyjPejcDE" 
+      title="The Amazing Digital Circus"
+      frameborder="0"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      style="position: absolute; top: 0; left: 5%; width: 100%; height: 100%; border-radius: 12px;">
+    </iframe>
+  </div>
   
 </div>
 <br>
