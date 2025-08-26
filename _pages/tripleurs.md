@@ -55,10 +55,10 @@ classes: wide
   </div>
 
   <!-- Vidéo 2 -->
-  <div style="width:25%; text-align:center;position: relative;">
+  <div style="width:25%; text-align:center;">
 
   <!-- conteneur pour le ratio -->
-  <div style="padding-bottom: 44.444%;  width: 100%; height: 266%; overflow: hidden; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+  <div style="position: relative; padding-bottom: 44.444%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
     <iframe 
       src="https://www.youtube.com/embed/bhpnaBm1Ssg" 
       title="Présentation Wanted"
@@ -66,11 +66,15 @@ classes: wide
       referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 266%;">
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 12px;">
     </iframe>
-    </div>
-    <p>Présentation Wanted</p>
   </div>
+
+  <!-- ton texte -->
+  <p style="margin-top:8px;">Présentation Wanted</p>
+
+</div>
+
 
   <!-- Vidéo 3 -->
   <div style="width:25%; text-align:center;position: relative;">
