@@ -89,9 +89,7 @@ classes: wide
 <p>À l’avenir, je serai amené à contribuer davantage au level design ainsi qu’à la création d’énigmes, deux éléments centraux du projet. Je souhaite aussi participer à la rédaction du lore et à la mise en place de différentes formes de storytelling, afin d’enrichir l’univers narratif et renforcer l’immersion du joueur. C'est un aspect qui me motive tout particulièrement à l'avancée de ce projet, il me permet de combiner l’aspect technique et la dimension créative, deux domaines que je prends plaisir à explorer.
   </p>
 </div>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; text-align: center; margin: 20px 0;">
-<iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" src="https://www.youtube.com/embed/bAfxPodhhpQ?si=DjBXZLI20tHGIU2_" title="Trailer Memory Leak" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"> </iframe>
-</div>
+
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
