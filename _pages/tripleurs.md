@@ -63,9 +63,9 @@ classes: wide
   </div>
 
   <!-- Vidéo 3 -->
-  <div style="position: relative; width: 30%; padding-bottom: 16.875%; height: 0; overflow: hidden;">
+  <div style="position: relative; width: 30%; padding-bottom: 177.78%; height: 0; overflow: hidden;">
     <iframe 
-      src="/assets/videos/cyrius.mp4" 
+      src="https://www.youtube.com/shorts/R1cyG-QjFzU" 
       title="Présentation Cyrius"
       frameborder="0"
       allowfullscreen
