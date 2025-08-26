@@ -68,6 +68,7 @@ classes: wide
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
     </iframe>
+    </div>
     <p>Présentation Wanted</p>
   </div>
 
@@ -85,6 +86,7 @@ classes: wide
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
     </iframe>
+    </div>
     <p>Présentation Cyrius</p>
   </div>
 
