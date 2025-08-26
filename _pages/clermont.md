@@ -86,7 +86,7 @@ classes: wide
     overflow: hidden;">
   <iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" 
           src="/assets/images/multithread.mp4" 
-          title="CV Vidéo" 
+          title="Multi-threading" 
           frameborder="0" 
           allowfullscreen
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
