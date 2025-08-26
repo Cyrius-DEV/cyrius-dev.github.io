@@ -34,13 +34,13 @@ classes: wide
   </p>
 </div>
 <br>
-<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+<div style="display: flex; justify-content: center; gap: 35px; flex-wrap: wrap;">
 
   <!-- Vidéo 1 -->
-  <div style="width:25%; text-align:center;">
+  <div style="width:25%; text-align:center;position: relative;">
 
   <!-- conteneur pour le ratio -->
-  <div style="position: relative; padding-bottom: 44.444%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
+  <div style="padding-bottom: 44.444%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
     <iframe 
     <iframe 
       src="https://www.youtube.com/embed/vdw32BeTd8E" 
