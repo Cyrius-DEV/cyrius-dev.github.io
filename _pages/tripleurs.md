@@ -41,8 +41,7 @@ classes: wide
 
   <!-- conteneur pour le ratio -->
   <div style="padding-bottom: 44.444%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
-    <iframe 
-    <iframe 
+    <iframe
       src="https://www.youtube.com/embed/vdw32BeTd8E" 
       title="Présentation LittleJ"
       frameborder="0"
@@ -56,7 +55,10 @@ classes: wide
   </div>
 
   <!-- Vidéo 2 -->
-  <div style="position: relative; width: 25%; padding-bottom: 44.444%; height: 0; overflow: hidden;">
+  <div style="width:25%; text-align:center;position: relative;">
+
+  <!-- conteneur pour le ratio -->
+  <div style="padding-bottom: 44.444%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
     <iframe 
       src="https://www.youtube.com/embed/bhpnaBm1Ssg" 
       title="Présentation Wanted"
@@ -70,7 +72,10 @@ classes: wide
   </div>
 
   <!-- Vidéo 3 -->
-  <div style="position: relative; width: 25%; padding-bottom: 44.444%; height: 0; overflow: hidden;">
+  <div style="width:25%; text-align:center;position: relative;">
+
+  <!-- conteneur pour le ratio -->
+  <div style="padding-bottom: 44.444%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
     <iframe 
       src="https://www.youtube.com/embed/R1cyG-QjFzU" 
       title="Présentation Cyrius"
