@@ -37,16 +37,22 @@ classes: wide
 <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
 
   <!-- Vidéo 1 -->
-  <div style="position: relative; width: 25%; padding-bottom: 44.444%; height: 0; overflow: hidden;">
+  <div style="width:25%; text-align:center;">
+
+  <!-- conteneur pour le ratio -->
+  <div style="position: relative; padding-bottom: 44.444%; height: 0; overflow: hidden; border-radius: 12px; box-shadow: 0 2px 6px rgba(0,0,0,0.2);">
     <iframe 
-      src="/assets/videos/littlej.mp4" 
+    <iframe 
+      src="https://www.youtube.com/embed/vdw32BeTd8E" 
       title="Présentation LittleJ"
       frameborder="0"
+      referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
     </iframe>
-    <p>Présentation LittleJ</p>
+    </div>
+    <p style="margin-top:8px;">Présentation LittleJ</p>
   </div>
 
   <!-- Vidéo 2 -->
@@ -98,7 +104,7 @@ classes: wide
     margin: 60px auto;
     overflow: hidden;">
   <iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" 
-          src="https://www.youtube.com/watch?v=_keyjPejcDE" 
+          src="/assets/videos/adc.mp4" 
           title="CV Vidéo" 
           frameborder="0" 
           allowfullscreen
