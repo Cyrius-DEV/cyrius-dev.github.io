@@ -9,7 +9,7 @@ classes: wide
 <div style="width: 100%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;font-size:2em;">Les Racines Fraternelles</h1>
 
-<p style="text-align: center;">Présentation rapide de quelques exercices en langage Java que j'ai menés en cours prenant la forme de mini-jeux très connus</p>
+<p style="text-align: center;">Présentation rapide du projet de jeu vidéo "Les Racines Fraternelles" auquel je participe</p>
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#presentation" style="text-decoration: none;">
     <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Présentation  ▼</button>
@@ -31,21 +31,27 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box">
-<p>Développement et hébergement d'un catalogue de formations et cours en ligne, premier projet de site web de mes études.</p>
+<p>Projet de puzzle game 3D né d’une SAE finale, poursuivi en dehors du cadre scolaire. J’ai été invité à rejoindre l’équipe pour participer à son évolution et à son enrichissement</p>
     </div>
     </div>
  
-    <img src="/assets/images/Learning_Space_screenshot.png" alt="Écran 1">
+  <div class="carousel-container">
+  <button class="carousel-button prev">‹</button>
+  <div class="carousel-slide">
+    <img src="/assets/images/calculatrice1.png" alt="Écran 1">
+    <img src="/assets/images/calculatrice2.png" alt="Écran 2">
+    <img src="/assets/images/calculatrice3.png" alt="Écran 3">
+  </div>
+  <button class="carousel-button next">›</button>
+</div>
   
 </div>
 <br>
 
 
 <div class="paragraph-box">
-<p>Ce projet a été le premier exercice en condition que j'ai pu mener au cours de mes études avec du développement en front-end et back-end en simultané. Il nous a été demandé de mettre en place un catalogue de formations permettant la consultation de cours, avec une page d'accueil affichant la liste des cours disponibles, une page de cours complète afin de montrer à quoi ressemble un cours classique mais aussi une page de connexion/inscription à son compte utilisateur.
-</p>
-  <p>Ce travail étant en groupe de 4 je me suis principalement occupé de mon côté de la partie "serveur" du site ; j'ai mis en place une base de données contenant les informations des cours, des enseignants et des comptes utilisateur. J'ai enfin relié cette base de données à notre site en utilisant du PHP, mettant en pratique mes leçons sur les requêtes SQL.
-    
+<p>Le jeu met en scène Owen, un jeune écureuil, parti à la recherche de son frère Liam, gardien d’un jardin magique à la flore mystérieuse et fantastique. Le joueur traverse différents biomes variés, chacun proposant une série de plateaux remplis d’énigmes à résoudre pour progresser. En parallèle, Owen complète un journal de voyage appelé LiamBook, qui accompagne la narration et enrichit l’immersion dans l’univers, et récupère des outils de jardinier qui l'assisteront dans son exploration.</p>
+<p>À l’origine conçu comme un projet de fin d’année de 3 de mes camarades de classe dans le cadre de notre SAE de game development sur Unity, le jeu a su éveiller leur intérêt et leur motivation au point de les décider à le poursuivre bien après la remise. C’est dans cette continuité que j’ai rejoint l’équipe, trouvant aussi son concept très prometteur. Je pouvais ainsi assister au processus créatif de manière plus directe et accumuler toujours plus d'expérience et d'entraînement en matière de développement sur Unity.
   </p>
 </div>
 
@@ -60,7 +66,7 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-glace">
-<p>Création d'un site web vitrine dans le cadre d'une capagne de promotion d'un nouveau jeu de piste.</p>
+<p>Mon rôle au sein du projet s’étend déjà sur plusieurs aspects techniques et créatifs, qui évolueront sûrement au fil du développement</p>
     </div>
     </div>
   <div class="carousel-container">
@@ -79,9 +85,8 @@ classes: wide
   
 
 <div class="paragraph-box-glace">
-<p>Dans le cadre d'une de nos SAE (projets évalués), il nous a fallu mon groupe et moi concevoir un jeu de piste en plein air pour la période estivale destiné à l'Office de tourisme de Vichy. Parmi les nombreuses tâches liées à ce projet, j'ai pris notamment en charge la création d'un site vitrine, en version française ou anglaise, qui présente notre jeu.
-</p>
-  <p>Ce site, réalisé à partir d'un template sur WordPress, explique de manière colorée et imagée le thème du parcours et donne les informations de contact de l'Office de tourisme. Perndant sa réalisation, j'ai essayé au mieux de conserver et utiliser des images et des palettes de couleur en accordance avec notre projet, en choisissant notamment des teintes bleues (liées au thème de l'eau de Vichy pour notre jeu) et en incluant la mascotte de notre jeu. Je me suis également occupé de la mise en ligne et de l'hébergement du site sur un webhost gratuit. Pour mieux comprendre le thème et l'ambiance générale de notre jeu, je mets ci-dessous le trailer du projet que j'ai réalisé.
+<p>Actuellement, je participe directement au développement du code, notamment avec la mise en place d’un système de sauvegarde qui servira de base pour la progression du joueur. Je prends également part aux discussions de game design, où chacun apporte ses idées et avis sur certaines mécaniques clés telles que les outils, le LiamBook, les mécanismes de puzzle et autres afin d’améliorer l’expérience de jeu et la cohérence du gameplay.</p>
+<p>À l’avenir, je serai amené à contribuer davantage au level design ainsi qu’à la création d’énigmes, deux éléments centraux du projet. Je souhaite aussi participer à la rédaction du lore et à la mise en place de différentes formes de storytelling, afin d’enrichir l’univers narratif et renforcer l’immersion du joueur. C'est un aspect qui me motive tout particulièrement à l'avancée de ce projet, il me permet de combiner l’aspect technique et la dimension créative, deux domaines que je prends plaisir à explorer.
   </p>
 </div>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; text-align: center; margin: 20px 0;">
@@ -95,7 +100,7 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-pastel">
-<p>Mise en place d'un Scrabble en ligne jouable avec système de création de partie privée à code avec chat en ligne</p>
+<p>Un projet encore à ses débuts, mais déjà structuré pour aller au-delà du simple rendu universitaire</p>
     </div>
     </div>
   <div class="carousel-container">
@@ -111,8 +116,9 @@ classes: wide
 
 
 <div class="paragraph-box-pastel">
-<p>Ce projet consistait à développer un Scrabble jouable en ligne, avec un système de création de partie privée protégée par code et un chat intégré pour permettre aux joueurs d’échanger pendant la partie. Il s’agissait de mon premier projet structuré autour du modèle MVC (Model-View-Controller), ce qui m’a permis de mieux comprendre la séparation des responsabilités dans une application. Le plateau de jeu ainsi que la messagerie ont été conçus pour se rafraîchir automatiquement, assurant une expérience fluide et réactive sans intervention manuelle de l’utilisateur.</p>
-  <p>Ce projet m’a permis d’explorer la gestion du temps réel, la synchronisation des données entre plusieurs joueurs et la mise en place d’une architecture logicielle claire et extensible, ce qui m'a servis de première expérience dans la mise en place d'un service "live" et devant prendre en compte les actions et feedbacks de plusieurs utilisateurs simultanément, des compétences essentielles pour tout développement d’application en réseau. De plus un travail supplémentaire en UX Design m'a donné l'occasion de retravailler l'interface d'abord très simpliste et peu optimisée de mon Scrabble afin de cibler les principaux axes d'amélioration de celle-ci et de proposer une version avancée (passage de l'image 1 à l'image 2).
+<p>Si le jeu n’en est encore qu’à ses premiers jalons, les fondations d’un développement plus ambitieux commencent à se dessiner. L’équipe met en place une organisation claire des tâches via Nifty, tout en maintenant une communication régulière grâce à des réunions hebdomadaires. Cette structure donne une vraie dynamique de travail collaboratif et permet d’avancer pas à pas vers une version plus complète du projet.</p>
+<p>Qu’il aboutisse à une sortie jouable ou non, ce projet constitue déjà pour moi une expérience formatrice et enrichissante. Il m’offre l’occasion de m’entraîner dans un cadre proche des conditions réelles de production, de mieux comprendre les enjeux d’un travail d’équipe sur la durée, et de contribuer directement à un processus créatif en constante évolution.
+
     
   </p>
 </div>
