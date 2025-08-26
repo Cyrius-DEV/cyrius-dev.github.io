@@ -28,27 +28,83 @@ classes: wide
 
 <h1 id="presentation" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Présentation du concept</h1>
 
-<div class="project-section">
-  <div class="project-text">
-    <div class="paragraph-box">
-<p>Développement et hébergement d'un catalogue de formations et cours en ligne, premier projet de site web de mes études.</p>
-    </div>
-    </div>
- 
-    <img src="/assets/images/Learning_Space_screenshot.png" alt="Écran 1">
-  
-</div>
-<br>
-
-
 <div class="paragraph-box">
-<p>Ce projet a été le premier exercice en condition que j'ai pu mener au cours de mes études avec du développement en front-end et back-end en simultané. Il nous a été demandé de mettre en place un catalogue de formations permettant la consultation de cours, avec une page d'accueil affichant la liste des cours disponibles, une page de cours complète afin de montrer à quoi ressemble un cours classique mais aussi une page de connexion/inscription à son compte utilisateur.
-</p>
-  <p>Ce travail étant en groupe de 4 je me suis principalement occupé de mon côté de la partie "serveur" du site ; j'ai mis en place une base de données contenant les informations des cours, des enseignants et des comptes utilisateur. J'ai enfin relié cette base de données à notre site en utilisant du PHP, mettant en pratique mes leçons sur les requêtes SQL.
+<p>Avec deux amis partageant la même passion pour le doublage, nous avons lancé Les Tripleurs, un projet amateur né d’une simple découverte sur notre campus : une salle de régie et d’enregistrement inutilisées. Ce lieu nous a donné l'occasion parfaite pour sélectionner et doubler  des extraits doublés de films, séries ou animés. Ce projet, autant créatif que technique, nous permet d’explorer les coulisses du doublage vocal tout en développant nos compétences en interprétation, montage son, direction artistique, traduction et gestion de contenu. Pour partager notre travail, nous avons lancé une chaîne YouTube pour y publier nos extraits, avec l’objectif de relater nos expérimentations et apprentissages dans le monde du doublage amateur et de pouvoir observer nos progrès.
     
   </p>
 </div>
+<br>
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
 
+  <!-- Vidéo 1 -->
+  <div style="position: relative; width: 30%; padding-bottom: 16.875%; height: 0; overflow: hidden;">
+    <iframe 
+      src="https://www.youtube.com/shorts/vdw32BeTd8E" 
+      title="Présentation LittleJ"
+      frameborder="0"
+      allowfullscreen
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </iframe>
+  </div>
+
+  <!-- Vidéo 2 -->
+  <div style="position: relative; width: 30%; padding-bottom: 16.875%; height: 0; overflow: hidden;">
+    <iframe 
+      src="https://www.youtube.com/shorts/bhpnaBm1Ssg" 
+      title="Présentation Wanted"
+      frameborder="0"
+      allowfullscreen
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </iframe>
+  </div>
+
+  <!-- Vidéo 3 -->
+  <div style="position: relative; width: 30%; padding-bottom: 16.875%; height: 0; overflow: hidden;">
+    <iframe 
+      src="https://www.youtube.com/shorts/R1cyG-QjFzU" 
+      title="Présentation Cyrius"
+      frameborder="0"
+      allowfullscreen
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+    </iframe>
+  </div>
+
+</div>
+
+
+<div class="paragraph-box">
+<p>Lors de la préparation d'une session d'enregistrement, on commence par choisir plusieurs extraits avec des scènes qui nous paraissent intéressantes à doubler (ou qui nous plaisent tout simplement). Ensuite, on prépare nous-mêmes les bandes rythmo à l’avance en traduisant parfois de l'anglais, tout en s'assurant de bien caler le texte sur les mouvements des lèvres et le rythme des répliques. Une fois prêts, on passe à l’enregistrement en studio. On enregistre les parties de chacun, parfois séparément et parfois tous sur la même prise, en essayant d’être le plus juste possible dans le ton, le timing et les mimiques du personnage à l'écran.    
+  </p>
+</div>
+
+<div class="project-section">
+  <div class="project-text">
+    <div class="paragraph-box">
+<p>Pour finir, on assemble les meilleures prises, puis on monte l’audio avec la vidéo pour créer la version finale prête à être uploadée sur Youtube !
+</p>
+    </div>
+    </div>
+ 
+   <div style="position: relative;
+    padding-bottom: 56.25%; height: 0;
+    width: 150%;
+    max-width: 800px;
+    margin: 60px auto;
+    overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" 
+          src="https://www.youtube.com/watch?v=_keyjPejcDE" 
+          title="CV Vidéo" 
+          frameborder="0" 
+          allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+  </iframe>
+</div>
+  
+</div>
+<br>
 <br>
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
