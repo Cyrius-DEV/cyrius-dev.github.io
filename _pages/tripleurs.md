@@ -94,7 +94,7 @@ classes: wide
 
 <br>
 <div class="paragraph-box">
-<p>Lors de la préparation d'une session d'enregistrement, on commence par choisir plusieurs extraits avec des scènes qui nous paraissent intéressantes à doubler (ou qui nous plaisent tout simplement). Ensuite, on prépare nous-mêmes les bandes rythmo à l’avance en traduisant parfois de l'anglais, tout en s'assurant de bien caler le texte sur les mouvements des lèvres et le rythme des répliques. Une fois prêts, on passe à l’enregistrement en studio. On enregistre les parties de chacun, parfois séparément et parfois tous sur la même prise, en essayant d’être le plus juste possible dans le ton, le timing et les mimiques du personnage à l'écran.    
+<p>Lors de la préparation d'une session d'enregistrement, on commence par choisir plusieurs extraits avec des scènes qui nous paraissent intéressantes à doubler (ou qui nous plaisent tout simplement). Ensuite, on prépare nous-mêmes les bandes rythmo à l’avance en traduisant parfois de l'anglais, tout en s'assurant de bien caler le texte sur les mouvements des lèvres et le rythme des répliques. Une fois prêts, on passe à l’enregistrement en studio. On enregistre les parties de chacun, séparément ou parfois tous sur la même prise, en essayant d’être le plus juste possible dans le ton, le timing et les mimiques du personnage à l'écran.    
   </p>
 </div>
 
