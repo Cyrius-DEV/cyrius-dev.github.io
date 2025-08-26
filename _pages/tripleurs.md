@@ -183,27 +183,12 @@ classes: wide
 
 <h1 id="evolution" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Évolution du projet</h1>
 
-<div class="project-section">
-  <div class="project-text">
-    <div class="paragraph-box-pastel">
-<p>Mise en place d'un Scrabble en ligne jouable avec système de création de partie privée à code avec chat en ligne</p>
-    </div>
-    </div>
-  <div class="carousel-container">
-  <button class="carousel-button prev">‹</button>
-  <div class="carousel-slide">
-    <img src="/assets/images/scrabble1.png" alt="Écran 1">
-    <img src="/assets/images/scrabble2.png" alt="Écran 2">
-  </div>
-  <button class="carousel-button next">›</button>
-</div>
-</div>
-<br>
 
 
 <div class="paragraph-box-pastel">
-<p>Ce projet consistait à développer un Scrabble jouable en ligne, avec un système de création de partie privée protégée par code et un chat intégré pour permettre aux joueurs d’échanger pendant la partie. Il s’agissait de mon premier projet structuré autour du modèle MVC (Model-View-Controller), ce qui m’a permis de mieux comprendre la séparation des responsabilités dans une application. Le plateau de jeu ainsi que la messagerie ont été conçus pour se rafraîchir automatiquement, assurant une expérience fluide et réactive sans intervention manuelle de l’utilisateur.</p>
-  <p>Ce projet m’a permis d’explorer la gestion du temps réel, la synchronisation des données entre plusieurs joueurs et la mise en place d’une architecture logicielle claire et extensible, ce qui m'a servis de première expérience dans la mise en place d'un service "live" et devant prendre en compte les actions et feedbacks de plusieurs utilisateurs simultanément, des compétences essentielles pour tout développement d’application en réseau. De plus un travail supplémentaire en UX Design m'a donné l'occasion de retravailler l'interface d'abord très simpliste et peu optimisée de mon Scrabble afin de cibler les principaux axes d'amélioration de celle-ci et de proposer une version avancée (passage de l'image 1 à l'image 2).
+<p>Au cours de ces 3 dernières années d'études à Vichy, j'ai pu constater une évolution certaine au fur et à mesure que nous prenions nos marques. Au départ, nous nous exercions sur des bandes rythmos disponibles en ligne, en découvrant progressivement le fonctionnement du studio et de Pro Tools, tout en réalisant nos premières expériences de doublage. Avec le temps, le projet a pris de l’ampleur : nous avons commencé à créer nos propres bandes rythmos, à traduire des scènes depuis l’anglais, et à mieux maîtriser les outils techniques, notamment Pro Tools. Cette progression nous a permis de gagner en aisance vocale, de développer nos interprétations, et d’instaurer un véritable esprit collaboratif, chacun apportant des retours et des conseils pour aider les autres à améliorer leur performance.</p>
+  <p>Au départ, nous nous exercions sur des bandes rythmos disponibles en ligne, en découvrant progressivement le fonctionnement du studio et de Pro Tools, tout en réalisant nos premières expériences de doublage. Avec le temps, le projet a pris de l’ampleur : nous avons commencé à créer nos propres bandes rythmos, à traduire des scènes depuis l’anglais, et à mieux maîtriser les outils techniques présents sur le studio, notamment Pro Tools. Cette progression nous a permis de gagner en aisance vocale, de développer nos interprétations, et d’instaurer un véritable esprit collaboratif, chacun apportant des retours et des conseils pour aider les autres à améliorer leur performance et accompagner la compréhension des scènes.
+
     
   </p>
 </div>
