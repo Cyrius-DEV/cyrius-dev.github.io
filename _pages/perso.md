@@ -76,7 +76,7 @@ classes: wide
     <div class="card" style="background-image: url('/assets/images/rof2.png');">
       <div class="card-content">
         <div class="card-text">
-      <h3>🚧Rise of Freedom 2🚧</h3>
+      <h3>Rise of Freedom 2</h3>
       <p>Le grand retour de mon premier jeu vidéo sur Unity, sauf que là tout change, on repart de 0 et on se laisse porter par notre créativité</p>
     </div>
       </div>
