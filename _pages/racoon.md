@@ -31,16 +31,16 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-rose">
-<p>Projet de puzzle game 3D né d’une SAE finale, poursuivi en dehors du cadre scolaire. J’ai été invité à rejoindre l’équipe pour participer à son évolution et à son enrichissement</p>
+<p>Projet universitaire en 3D low poly autour du thème de la fraternité : un jeu coopératif d’infiltration mettant en scène deux ratons laveurs malicieux</p>
     </div>
     </div>
  
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/racine5.png" alt="Écran 1">
-    <img src="/assets/images/racine3.png" alt="Écran 2">
-    <img src="/assets/images/racine4.png" alt="Écran 3">
+    <img src="/assets/images/racoon2.png" alt="Écran 1">
+    <img src="/assets/images/racoon5.png" alt="Écran 2">
+    <img src="/assets/images/racoon3.png" alt="Écran 3">
   </div>
   <button class="carousel-button next">›</button>
 </div>
@@ -50,8 +50,8 @@ classes: wide
 
 
 <div class="paragraph-box-rose">
-<p>Le jeu met en scène Owen, un jeune écureuil, parti à la recherche de son frère Liam, gardien d’un jardin magique à la flore mystérieuse et fantastique. Le joueur traverse différents biomes variés, chacun proposant une série de plateaux remplis d’énigmes à résoudre pour progresser. En parallèle, Owen complète un journal de voyage appelé LiamBook, qui accompagne la narration et enrichit l’immersion dans l’univers, et récupère des outils de jardinier qui l'assisteront dans son exploration.</p>
-<p>À l’origine conçu comme un projet de fin d’année de 3 de mes camarades de classe dans le cadre de notre SAE de game development sur Unity, le jeu a su éveiller leur intérêt et leur motivation au point de les décider à le poursuivre bien après la remise. C’est dans cette continuité que j’ai rejoint l’équipe, trouvant aussi son concept très prometteur. Je pouvais ainsi assister au processus créatif de manière plus directe et accumuler toujours plus d'expérience et d'entraînement en matière de développement sur Unity.
+<p>Le jeu s’inspire de l’expression anglaise “three raccoons in a trenchcoat” et repose sur une idée originale : deux ratons laveurs embarqués sur un bateau de croisière tentent de voler divers objets afin de préparer une fête pour leur famille. Les joueurs contrôlent chacun un raton laveur en split screen, et doivent s’entraider pour explorer les environnements, éviter les passagers humains et subtiliser leur butin sans se faire repérer.</p>
+<p>L’originalité du gameplay réside dans la possibilité pour les deux personnages de se réunir sous un long manteau, formant une silhouette humaine bancale mais crédible aux yeux des PNJ. Cette mécanique renforce la dimension coopérative : les joueurs doivent communiquer, se synchroniser et alterner entre infiltration discrète et ruse collective pour progresser. Le projet, entièrement réalisé en low poly, explore de manière ludique et humoristique la notion de fraternité à travers la complicité entre les deux ratons laveurs et leur dévotion envers leur famille.
   </p>
 </div>
 
@@ -66,16 +66,23 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-menthe">
-<p>Mon rôle au sein du projet s’étend déjà sur plusieurs aspects techniques et créatifs, qui évolueront sûrement au fil du développement</p>
+<p>Pour ce projet, je me suis principalement concentré sur la création du niveau jouable et sur la mise en place des ses mécaniques, ainsi que l'application Racoongram</p>
     </div>
     </div>
-  <div class="carousel-container">
-  <button class="carousel-button prev">‹</button>
-  <div class="carousel-slide">
-    <img src="/assets/images/racine6.png" alt="Écran 1">
-    <img src="/assets/images/racine7.png" alt="Écran 2">
-  </div>
-  <button class="carousel-button next">›</button>
+  <div style="position: relative;
+    padding-bottom: 56.25%; height: 0;
+    width: 150%;
+    max-width: 800px;
+    margin: 60px auto;
+    overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" 
+          src="https://www.youtube.com/embed/VIFsL-gtYCE" 
+          title="Vidéo gameplay" 
+          frameborder="0" 
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+  </iframe>
 </div>
 </div>
 <br>
@@ -85,9 +92,26 @@ classes: wide
   
 
 <div class="paragraph-box-menthe">
-<p>Actuellement, je participe directement au développement du code, notamment avec la mise en place d’un système de sauvegarde qui servira de base pour la progression du joueur. Je prends également part aux discussions de game design, où chacun apporte ses idées et avis sur certaines mécaniques clés telles que les outils, le LiamBook, les mécanismes de puzzle et autres afin d’améliorer l’expérience de jeu et la cohérence du gameplay.</p>
-<p>À l’avenir, je serai amené à contribuer davantage au level design ainsi qu’à la création d’énigmes, deux éléments centraux du projet. Je souhaite aussi participer à la rédaction du lore et à la mise en place de différentes formes de storytelling, afin d’enrichir l’univers narratif et renforcer l’immersion du joueur. C'est un aspect qui me motive tout particulièrement à l'avancée de ce projet, il me permet de combiner l’aspect technique et la dimension créative, deux domaines que je prends plaisir à explorer.
+<p>Dans le cadre du rendu universitaire, nous avons choisi de développer un niveau complet accompagné d’un hub évolutif où le joueur peut admirer les butins dérobés au fil de l’aventure. Le niveau retenu était une discothèque où l’objectif consistait à dérober la boule disco afin de préparer la fête familiale. Je me suis chargé du level design ainsi que de la construction du niveau à partir de différents modèles 3D fournis ou récupérés, en veillant à donner l'impréssion d'une discothèque animée tout en laissant au joueur la place de naviguer. Pour donner vie à cet environnement, j’ai également travaillé sur plusieurs animations, transformant le décor en un espace dans lequel le joueur ressent l’ambiance festive mais sous surveillance.</p>
+<p>En parallèle de la conception du décor, j’ai pris en charge la création des PNJ et de leurs comportements spécifiques. J’ai imaginé des humains qui réagissent à la musique en se mettant à danser, afin de renforcer l’atmosphère de discothèque, mais aussi des gardes patrouillant entre les pistes et surveillant la salle, introduisant ainsi un enjeu d’infiltration. Mon rôle a également été de mettre en place les mécaniques de gameplay permettant de rendre ce niveau véritablement jouable, grâce à des éléments interactifs et de petits puzzles à résoudre pour progresser sans se faire repérer. Enfin, en parallèle du jeu principal, j’ai développé Racoongram, une application mobile annexe permettant de consulter les captures d’écran partagées par les joueurs afin de leur donner un moyen amusant de prolonger leur expérience en dehors du jeu. J'ai également participé à la mise en place d'une API pour assurer le bon fonctionnement de l'application, du jeu et de leur communication nécessaire à la mise en ligne des screenshots.
   </p>
+</div>
+<br> 
+<div class="project-section">
+  <div class="project-text">
+    <div class="paragraph-box-menthe">
+<p>Ce projet m’a beaucoup appris et m’a permis de m’épanouir autant dans la création du niveau que dans l’expérimentation d’idées originales comme Racoongram</p>
+    </div>
+    </div>
+  <div class="carousel-container">
+  <button class="carousel-button prev">‹</button>
+  <div class="carousel-slide">
+    <img src="/assets/images/racoon4.png" alt="Écran 1">
+    <img src="/assets/images/racoon6.png" alt="Écran 2">
+    <img src="/assets/images/racoon1.png" alt="Écran 3">
+  </div>
+  <button class="carousel-button next">›</button>
+</div>
 </div>
 
 
@@ -98,24 +122,31 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-indigo">
-<p>Un projet encore à ses débuts, mais déjà structuré pour aller au-delà du simple rendu universitaire</p>
+<p>Un résultat non seulement satisfaisant mais également fidèle à la vision du projet tel qu'il a vu le jour</p>
     </div>
     </div>
-  <div class="carousel-container">
-  <button class="carousel-button prev">‹</button>
-  <div class="carousel-slide">
-    <img src="/assets/images/racine2.png" alt="Écran 1">
-    <img src="/assets/images/racine1.png" alt="Écran 2">
-  </div>
-  <button class="carousel-button next">›</button>
+   <div style="position: relative;
+    padding-bottom: 56.25%; height: 0;
+    width: 150%;
+    max-width: 800px;
+    margin: 60px auto;
+    overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" 
+          src="https://www.youtube.com/embed/VIFsL-gtYCE" 
+          title="Trailer Racoons ? Where ?" 
+          frameborder="0" 
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+  </iframe>
 </div>
 </div>
 <br>
 
 
 <div class="paragraph-box-indigo">
-<p>Si le jeu n’en est encore qu’à ses premiers jalons, les fondations d’un développement plus ambitieux commencent à se dessiner. L’équipe met en place une organisation claire des tâches via Nifty, tout en maintenant une communication régulière grâce à des réunions hebdomadaires. Cette structure donne une vraie dynamique de travail collaboratif et permet d’avancer pas à pas vers une version plus complète du projet.</p>
-<p>Qu’il aboutisse à une sortie jouable ou non, ce projet constitue déjà pour moi une expérience formatrice et enrichissante. Il m’offre l’occasion de m’entraîner dans un cadre proche des conditions réelles de production, de mieux comprendre les enjeux d’un travail d’équipe sur la durée, et de contribuer directement à un processus créatif en constante évolution.
+<p>Je suis très heureux d’avoir eu l’occasion de participer à un travail universitaire de plus grande envergure, qui nous a permis d’aller plus loin qu’un simple exercice technique. Le rendu final m’a particulièrement satisfait, car il nous a donné l’opportunité d’explorer de nombreuses matières et approches différentes : level design, gameplay, narration, techniques de rendu ou encore expérimentation créative. Cela a contribué à donner au projet une vraie richesse et une identité propre.</p>
+<p>Je suis également très fier du jeu que nous avons livré. Bien que son potentiel reste encore loin d’être exploité, nous avons su proposer une expérience cohérente, jouable et fidèle à la vision initiale que nous nous étions fixée. Au-delà du résultat concret, ce projet a surtout représenté une expérience marquante dans mon parcours, en me confrontant à la gestion d’un projet plus ambitieux et en renforçant mon envie de continuer à créer.
 
     
   </p>
