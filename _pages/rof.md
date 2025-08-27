@@ -38,9 +38,9 @@ classes: wide
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/racine5.png" alt="Écran 1">
-    <img src="/assets/images/racine3.png" alt="Écran 2">
-    <img src="/assets/images/racine4.png" alt="Écran 3">
+    <img src="/assets/images/rof1.png" alt="Écran 1">
+    <img src="/assets/images/rof6.png" alt="Écran 2">
+    <img src="/assets/images/rof8.png" alt="Écran 3">
   </div>
   <button class="carousel-button next">›</button>
 </div>
@@ -71,8 +71,10 @@ classes: wide
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/racine6.png" alt="Écran 1">
-    <img src="/assets/images/racine7.png" alt="Écran 2">
+    <img src="/assets/images/rof2.png" alt="Écran 1">
+    <img src="/assets/images/rof5.png" alt="Écran 2">
+    <img src="/assets/images/rof3.png" alt="Écran 3">
+    <img src="/assets/images/rof4.png" alt="Écran 4">
   </div>
   <button class="carousel-button next">›</button>
 </div>
@@ -85,7 +87,7 @@ classes: wide
 
 <div class="paragraph-box-menthe">
 <p>Dès le départ, j’ai pris part aux discussions visant à retranscrire les trois facettes du combat de Martin Luther King en mécaniques de jeu. Cela nous a conduit à définir trois types de gameplay distincts : un mode plateformer 2D où MLK apaise les émeutes en récoltant et utilisant ses discours, un mode d’exploration en ville centré sur la recherche et le rassemblement de sympathisants, et enfin un mode de résistance face à l’oppression, où le joueur doit convaincre un maximum de passants de boycotter les bus. Bien que nous pensions initialement nous limiter à un seul type de niveau, nous avons finalement réussi à développer non seulement un niveau du premier type, mais également un niveau complet du troisième, ce qui a enrichi considérablement le projet.</p>
-<p>Pour ces deux niveaux, j’ai été responsable du level design : placement des ennemis et construction de l’environnement de platforming pour le type 1, mais aussi conception des vagues de passants pour le type 3. Tandis que mon camarade prenait en charge la direction artistique et la création graphique de chaque élément, j’ai pu me concentrer pleinement sur la programmation du gameplay. Cela incluait, par exemple, la gestion des discours collectés et utilisés dans le premier niveau, ou encore le comportement et les déplacements des ennemis. Ce partage des rôles nous a permis d’avancer efficacement et d’obtenir un rendu complet et fidèle à notre vision, en nous accordant assez de temps pour poursuivre le projet plus loin que l'on ne l'espérait.
+<p>Pour ces deux niveaux, j’ai été responsable du level design : placement des ennemis et construction de l’environnement de platforming pour le type 1, mais aussi conception des vagues de passants pour le type 3. Tandis que mon camarade prenait en charge la direction artistique et la création graphique de chaque élément, j’ai pu me concentrer pleinement sur la programmation du gameplay. Cela incluait, par exemple, la gestion des discours collectés et utilisés dans le premier niveau, ou encore le comportement et les déplacements des différents types d'ennemis (normaux, armés de couteaux ou bien de cocktails molotov). Ce partage des rôles nous a permis d’avancer efficacement et d’obtenir un rendu complet et fidèle à notre vision, en nous accordant assez de temps pour poursuivre le projet plus loin que l'on ne l'espérait.
   </p>
 </div>
 
@@ -103,8 +105,8 @@ classes: wide
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/racine2.png" alt="Écran 1">
-    <img src="/assets/images/racine1.png" alt="Écran 2">
+    <img src="/assets/images/rof7.png" alt="Écran 1">
+    <img src="/assets/images/rof9.png" alt="Écran 2">
   </div>
   <button class="carousel-button next">›</button>
 </div>
