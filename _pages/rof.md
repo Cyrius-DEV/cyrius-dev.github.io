@@ -120,6 +120,29 @@ classes: wide
     
   </p>
 </div>
+<br> 
+<div class="project-section">
+  <div class="project-text">
+    <div class="paragraph-box-charbon">
+<p>En somme, ce fut un premier projet de jeu réussi et une expérience très positive, qui m’a donné envie de poursuivre dans cette voie</p>
+    </div>
+    </div>
+   <div style="position: relative;
+    padding-bottom: 76%; height: 0;
+    width: 150%;
+    max-width: 800px;
+    margin: 60px auto;
+    overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" 
+          src="https://www.youtube.com/embed/9IHBNjpAhQw" 
+          title="Vidéo explicative Rise of Freedom" 
+          frameborder="0" 
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
+  </iframe>
+</div>
+</div>
 
 
 
