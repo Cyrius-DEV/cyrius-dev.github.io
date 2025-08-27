@@ -100,7 +100,7 @@ classes: wide
     <div class="card" style="background-image: url('/assets/images/owen.png');">
       <div class="card-content">
         <div class="card-text">
-      <h3>🚧Les Racines Fraternelles🚧</h3>
+      <h3>Les Racines Fraternelles</h3>
       <p>Projet de SAE de camarades de classe, ceux-ci souhaitent tirer parti du potentiel du projet et le poursuivre, et ils m'ont invité à m'y investir à leur côté</p>
     </div>
       </div>
