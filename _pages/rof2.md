@@ -9,7 +9,7 @@ classes: wide
 <div style="width: 100%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;font-size:2em;">Rise of Freedom 2</h1>
 
-<p style="text-align: center;">Présentation rapide de quelques exercices en langage Java que j'ai menés en cours prenant la forme de mini-jeux très connus</p>
+<p style="text-align: center;">Le grand retour de mon premier jeu vidéo sur Unity, sauf que là tout change, on repart de 0 et on se laisse porter par notre créativité</p>
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#presentation" style="text-decoration: none;">
     <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Présentation  ▼</button>
@@ -31,20 +31,27 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box">
-<p>Développement et hébergement d'un catalogue de formations et cours en ligne, premier projet de site web de mes études.</p>
+<p>Nouveau projet lancé avec un ami : Rise of Freedom 2, un dungeon crawler délirant inspiré de Enter the Gungeon et Soul Knight</p>
     </div>
     </div>
  
-    <img src="/assets/images/Learning_Space_screenshot.png" alt="Écran 1">
+  <div class="carousel-container">
+  <button class="carousel-button prev">‹</button>
+  <div class="carousel-slide">
+    <img src="/assets/images/rof21.png" alt="Écran 1">
+    <img src="/assets/images/rof22.png" alt="Écran 2">
+    <img src="/assets/images/rof23.png" alt="Écran 3">
+  </div>
+  <button class="carousel-button next">›</button>
+</div>
   
 </div>
 <br>
 
 
 <div class="paragraph-box">
-<p>Ce projet a été le premier exercice en condition que j'ai pu mener au cours de mes études avec du développement en front-end et back-end en simultané. Il nous a été demandé de mettre en place un catalogue de formations permettant la consultation de cours, avec une page d'accueil affichant la liste des cours disponibles, une page de cours complète afin de montrer à quoi ressemble un cours classique mais aussi une page de connexion/inscription à son compte utilisateur.
-</p>
-  <p>Ce travail étant en groupe de 4 je me suis principalement occupé de mon côté de la partie "serveur" du site ; j'ai mis en place une base de données contenant les informations des cours, des enseignants et des comptes utilisateur. J'ai enfin relié cette base de données à notre site en utilisant du PHP, mettant en pratique mes leçons sur les requêtes SQL.
+<p>Suite à un travail de groupe qui nous a laissés sur une très bonne dynamique, nous avons décidé de repartir ensemble sur un nouveau projet commun. Pour la blague, nous avons choisi de garder le nom de l’ancien jeu (Rise of Freedom) et d’y accoler un « 2 », alors que ce nouveau titre n’a en réalité rien à voir avec le premier. Disons que ce choix reflète bien l’esprit créatif et l'état d'esprit "se faire plaisir avant tout" dans lequel nous lançons ce projet.</p>
+<p>Le concept imaginé est celui d’un dungeon crawler nerveux, où le joueur incarne un personnage parmi beaucoup et traverse des salles successives remplies d’ennemis à affronter. L’arsenal disponible sera composé de nombreuses armes loufoques et variées, allant d'un clavier d'ordinateur à une boite d'allumettes en passant par une pastèque et ses pépins. Tout ce qui n'est pas censé être une arme peut le devenir, et les ennemis seront tout aussi absurdes les uns que les autres en dégoupillant des grenades tout ça pour foncer sur le joueur par exemple. Rise of Freedom 2 ambitionne de combiner l’action rapide à une atmosphère décalée et fun qui nous permetta d'être aussi créatifs et inventifs que possible pendant le développement.
     
   </p>
 </div>
@@ -57,62 +64,22 @@ classes: wide
 
 
 <h1 id="participation" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Ma participation personelle</h1>
-<div class="project-section">
-  <div class="project-text">
-    <div class="paragraph-box-glace">
-<p>Création d'un site web vitrine dans le cadre d'une capagne de promotion d'un nouveau jeu de piste.</p>
-    </div>
-    </div>
-  <div class="carousel-container">
-  <button class="carousel-button prev">‹</button>
-  <div class="carousel-slide">
-    <img src="/assets/images/Memory_Leak_screenshot.png" alt="Écran 1">
-    <img src="/assets/images/memoryleak2.png" alt="Écran 2">
-  </div>
-  <button class="carousel-button next">›</button>
-</div>
-</div>
-<br>
-
 
 
   
 
 <div class="paragraph-box-glace">
-<p>Dans le cadre d'une de nos SAE (projets évalués), il nous a fallu mon groupe et moi concevoir un jeu de piste en plein air pour la période estivale destiné à l'Office de tourisme de Vichy. Parmi les nombreuses tâches liées à ce projet, j'ai pris notamment en charge la création d'un site vitrine, en version française ou anglaise, qui présente notre jeu.
-</p>
-  <p>Ce site, réalisé à partir d'un template sur WordPress, explique de manière colorée et imagée le thème du parcours et donne les informations de contact de l'Office de tourisme. Perndant sa réalisation, j'ai essayé au mieux de conserver et utiliser des images et des palettes de couleur en accordance avec notre projet, en choisissant notamment des teintes bleues (liées au thème de l'eau de Vichy pour notre jeu) et en incluant la mascotte de notre jeu. Je me suis également occupé de la mise en ligne et de l'hébergement du site sur un webhost gratuit. Pour mieux comprendre le thème et l'ambiance générale de notre jeu, je mets ci-dessous le trailer du projet que j'ai réalisé.
+<p>Au même titre que mon camarade, je participe activement à la phase d’idéation, en imaginant de nouveaux ennemis, des boss et un arsenal d’armes originales à intégrer au jeu. Je travaille d’ores et déjà sur le fonctionnement des armes et sur les différents comportements de leurs projectiles (rebondissants, restant plantés dans les murs ou encore explosifs !), afin de poser les bases du système de combat. J’ai aussi particulièrement hâte de passer à la mise en développement des ennemis et de leurs comportements, pour les intégrer à notre scène de test actuelle et commencer à donner vie concrètement à nos idées.
   </p>
-</div>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; text-align: center; margin: 20px 0;">
-<iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" src="https://www.youtube.com/embed/bAfxPodhhpQ?si=DjBXZLI20tHGIU2_" title="Trailer Memory Leak" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"> </iframe>
 </div>
 
 <hr style="border: none; border-top: 1px solid #ccc; margin: 60px auto; width: 90%;" />
 
 <h1 id="evolution" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Évolution du projet</h1>
 
-<div class="project-section">
-  <div class="project-text">
-    <div class="paragraph-box-pastel">
-<p>Mise en place d'un Scrabble en ligne jouable avec système de création de partie privée à code avec chat en ligne</p>
-    </div>
-    </div>
-  <div class="carousel-container">
-  <button class="carousel-button prev">‹</button>
-  <div class="carousel-slide">
-    <img src="/assets/images/scrabble1.png" alt="Écran 1">
-    <img src="/assets/images/scrabble2.png" alt="Écran 2">
-  </div>
-  <button class="carousel-button next">›</button>
-</div>
-</div>
-<br>
-
-
 <div class="paragraph-box-pastel">
-<p>Ce projet consistait à développer un Scrabble jouable en ligne, avec un système de création de partie privée protégée par code et un chat intégré pour permettre aux joueurs d’échanger pendant la partie. Il s’agissait de mon premier projet structuré autour du modèle MVC (Model-View-Controller), ce qui m’a permis de mieux comprendre la séparation des responsabilités dans une application. Le plateau de jeu ainsi que la messagerie ont été conçus pour se rafraîchir automatiquement, assurant une expérience fluide et réactive sans intervention manuelle de l’utilisateur.</p>
-  <p>Ce projet m’a permis d’explorer la gestion du temps réel, la synchronisation des données entre plusieurs joueurs et la mise en place d’une architecture logicielle claire et extensible, ce qui m'a servis de première expérience dans la mise en place d'un service "live" et devant prendre en compte les actions et feedbacks de plusieurs utilisateurs simultanément, des compétences essentielles pour tout développement d’application en réseau. De plus un travail supplémentaire en UX Design m'a donné l'occasion de retravailler l'interface d'abord très simpliste et peu optimisée de mon Scrabble afin de cibler les principaux axes d'amélioration de celle-ci et de proposer une version avancée (passage de l'image 1 à l'image 2).
+<p>Rise of Freedom 2 est encore à un stade très jeune, en pleine phase d’idéation. Les idées partent dans tous les sens et se transforment sans cesse, ce qui rend le projet totalement imprévisible actuellement. Pour l’instant, nous ne nous imposons aucune contrainte particulière : l’objectif est de laisser libre cours à la créativité et de tester différents concepts de gameplay, d’armes et de mécaniques.</p>
+<p>Il est difficile de dire si le projet aboutira un jour sous une forme finalisée, mais ce n’est pas là sa seule finalité. Pour nous, il constitue surtout une opportunité précieuse de pratiquer et de découvrir de nouvelles approches de développement Unity, tout en expérimentant librement. Cette liberté totale fait de ce projet un terrain d’entraînement idéal, à la fois technique et créatif, et nous apprendra à la dure le nécessaire au développement d'un jeu vidéo.
     
   </p>
 </div>
