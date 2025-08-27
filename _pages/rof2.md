@@ -9,7 +9,7 @@ classes: wide
 <div style="width: 100%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;font-size:2em;">Rise of Freedom 2</h1>
 
-<p style="text-align: center;">Le grand retour de mon premier jeu vidéo sur Unity, sauf que là tout change, on repart de 0 et on se laisse porter par notre créativité</p>
+<p style="text-align: center;font-size:0.95em;">Le grand retour de mon premier jeu vidéo sur Unity, sauf que là tout change, on repart de 0 et on se laisse porter par notre créativité</p>
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#presentation" style="text-decoration: none;">
     <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Présentation  ▼</button>
