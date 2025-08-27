@@ -9,7 +9,7 @@ classes: wide
 <div style="width: 100%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;font-size:2em;">Rise of Freedom</h1>
 
-<p style="text-align: center;">Présentation rapide de quelques exercices en langage Java que j'ai menés en cours prenant la forme de mini-jeux très connus</p>
+<p style="text-align: center;">Dans le cadre d'une SAE, j'ai pu participer à la conception d'un jeu platformer style pixel art en vue 2D où l'on incarne Martin Luther King en plein mouvement des droits civiques</p>
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#presentation" style="text-decoration: none;">
     <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Présentation  ▼</button>
@@ -31,7 +31,7 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-rose">
-<p>Projet de puzzle game 3D né d’une SAE finale, poursuivi en dehors du cadre scolaire. J’ai été invité à rejoindre l’équipe pour participer à son évolution et à son enrichissement</p>
+<p>Projet universitaire en 2D pixel art explorant le combat de Martin Luther King à travers différents aspects de sa lutte sociale</p>
     </div>
     </div>
  
@@ -50,8 +50,7 @@ classes: wide
 
 
 <div class="paragraph-box-rose">
-<p>Le jeu met en scène Owen, un jeune écureuil, parti à la recherche de son frère Liam, gardien d’un jardin magique à la flore mystérieuse et fantastique. Le joueur traverse différents biomes variés, chacun proposant une série de plateaux remplis d’énigmes à résoudre pour progresser. En parallèle, Owen complète un journal de voyage appelé LiamBook, qui accompagne la narration et enrichit l’immersion dans l’univers, et récupère des outils de jardinier qui l'assisteront dans son exploration.</p>
-<p>À l’origine conçu comme un projet de fin d’année de 3 de mes camarades de classe dans le cadre de notre SAE de game development sur Unity, le jeu a su éveiller leur intérêt et leur motivation au point de les décider à le poursuivre bien après la remise. C’est dans cette continuité que j’ai rejoint l’équipe, trouvant aussi son concept très prometteur. Je pouvais ainsi assister au processus créatif de manière plus directe et accumuler toujours plus d'expérience et d'entraînement en matière de développement sur Unity.
+<p>Dans le cadre d'un projet universitaire, il nous a été demandé de faire un jeu vidéo sur Unity avec pour thème le combat de Martin Luther King contre les inégalités de traitement vis-à vis des personnes de couleur et du racisme perdurant aux Etats-Unis à travers le XXème siècle. Nous avons donc réalise le jeu Rise of Freedom, qui se concentre sur trois facettes centrales de son combat : apaiser les cœurs, réunir les sympathisants à sa cause et faire preuve de détermination face à l’injustice, illustrée ici par le boycott des bus. </p><p>Chacune de ces facettes est associée à un objectif spécifique et propose un style de gameplay distinct. Ainsi, le jeu combine des éléments de plateformer et de réflexion, chaque type de niveau offrant une expérience unique tout en restant cohérent avec le message et les valeurs portés par Martin Luther King, et permet de retranscrire les actions de MLK et ses partisans de manière ludique.
   </p>
 </div>
 
@@ -66,7 +65,7 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-menthe">
-<p>Mon rôle au sein du projet s’étend déjà sur plusieurs aspects techniques et créatifs, qui évolueront sûrement au fil du développement</p>
+<p>Dans ce projet, j’ai participé aussi bien aux réflexions conceptuelles qu’au développement concret des différents types de niveaux</p>
     </div>
     </div>
   <div class="carousel-container">
@@ -85,8 +84,8 @@ classes: wide
   
 
 <div class="paragraph-box-menthe">
-<p>Actuellement, je participe directement au développement du code, notamment avec la mise en place d’un système de sauvegarde qui servira de base pour la progression du joueur. Je prends également part aux discussions de game design, où chacun apporte ses idées et avis sur certaines mécaniques clés telles que les outils, le LiamBook, les mécanismes de puzzle et autres afin d’améliorer l’expérience de jeu et la cohérence du gameplay.</p>
-<p>À l’avenir, je serai amené à contribuer davantage au level design ainsi qu’à la création d’énigmes, deux éléments centraux du projet. Je souhaite aussi participer à la rédaction du lore et à la mise en place de différentes formes de storytelling, afin d’enrichir l’univers narratif et renforcer l’immersion du joueur. C'est un aspect qui me motive tout particulièrement à l'avancée de ce projet, il me permet de combiner l’aspect technique et la dimension créative, deux domaines que je prends plaisir à explorer.
+<p>Dès le départ, j’ai pris part aux discussions visant à retranscrire les trois facettes du combat de Martin Luther King en mécaniques de jeu. Cela nous a conduit à définir trois types de gameplay distincts : un mode plateformer 2D où MLK apaise les émeutes en récoltant et utilisant ses discours, un mode d’exploration en ville centré sur la recherche et le rassemblement de sympathisants, et enfin un mode de résistance face à l’oppression, où le joueur doit convaincre un maximum de passants de boycotter les bus. Bien que nous pensions initialement nous limiter à un seul type de niveau, nous avons finalement réussi à développer non seulement un niveau du premier type, mais également un niveau complet du troisième, ce qui a enrichi considérablement le projet.</p>
+<p>Pour ces deux niveaux, j’ai été responsable du level design : placement des ennemis et construction de l’environnement de platforming pour le type 1, mais aussi conception des vagues de passants pour le type 3. Tandis que mon camarade prenait en charge la direction artistique et la création graphique de chaque élément, j’ai pu me concentrer pleinement sur la programmation du gameplay. Cela incluait, par exemple, la gestion des discours collectés et utilisés dans le premier niveau, ou encore le comportement et les déplacements des ennemis. Ce partage des rôles nous a permis d’avancer efficacement et d’obtenir un rendu complet et fidèle à notre vision, en nous accordant assez de temps pour poursuivre le projet plus loin que l'on ne l'espérait.
   </p>
 </div>
 
@@ -98,7 +97,7 @@ classes: wide
 <div class="project-section">
   <div class="project-text">
     <div class="paragraph-box-indigo">
-<p>Un projet encore à ses débuts, mais déjà structuré pour aller au-delà du simple rendu universitaire</p>
+<p>Ce projet a marqué ma première véritable expérience de création de jeu concret en équipe, avec une synergie très agréable avec mon équipier</p>
     </div>
     </div>
   <div class="carousel-container">
@@ -114,8 +113,9 @@ classes: wide
 
 
 <div class="paragraph-box-indigo">
-<p>Si le jeu n’en est encore qu’à ses premiers jalons, les fondations d’un développement plus ambitieux commencent à se dessiner. L’équipe met en place une organisation claire des tâches via Nifty, tout en maintenant une communication régulière grâce à des réunions hebdomadaires. Cette structure donne une vraie dynamique de travail collaboratif et permet d’avancer pas à pas vers une version plus complète du projet.</p>
-<p>Qu’il aboutisse à une sortie jouable ou non, ce projet constitue déjà pour moi une expérience formatrice et enrichissante. Il m’offre l’occasion de m’entraîner dans un cadre proche des conditions réelles de production, de mieux comprendre les enjeux d’un travail d’équipe sur la durée, et de contribuer directement à un processus créatif en constante évolution.
+<p>Travailler en collaboration a été une très bonne surprise : la synergie entre nos domaines de prédilection a rendu le travail fluide et motivant. Chacun pouvait apporter sa pierre à l’édifice, et la communication constante nous a permis d’avancer efficacement sans perdre de temps. Cette atmosphère de confiance et de créativité a donné au projet une dimension encore plus agréable, au-delà de l’aspect purement technique, ce qui nous a d'ailleurs motivé à poursuivre notre collaboration avec <a href="https://cyrius-dev.github.io/perso/rof2"><strong>Rise of Freedom 2</strong></a>.
+</p>
+<p>Je suis aussi très satisfait de tous les petits ajouts de finition que nous avons pu intégrer au fil du développement. Parmi eux, une courte cinématique d’introduction pour accueillir le joueur, ainsi que de nombreux détails d’animation pensés pour accompagner les chutes et les sauts dans les niveaux de platforming. Ces améliorations, bien que modestes, ont contribué à donner plus de vie et de cohérence à l’expérience, en rendant le jeu plus agréable manette en main.
 
     
   </p>
