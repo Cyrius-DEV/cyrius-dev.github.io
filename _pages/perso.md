@@ -107,7 +107,7 @@ classes: wide
     </div>
   </a>
 
-  <!-- Carte 4 -->
+  <!-- Carte 4 
   <a href="/perso/passions/" class="card-link">
     <div class="card" style="background-image: url('/assets/images/takeyourtime.jpg');">
       <div class="card-content">
@@ -118,7 +118,7 @@ classes: wide
       </div>
     </div>
   </a>
-
+-->
 </div>
 
 </div>
