@@ -96,7 +96,7 @@ classes: wide
     <div class="card" style="background-image: url('/assets/images/clermont.png');">
       <div class="card-content">
         <div class="card-text">
-      <h3>🚧Mini-jeux faits en cours🚧</h3>
+      <h3>Mini-jeux faits en cours</h3>
       <p>Présentation rapide de quelques projets et notions sur Unity que j'ai pu aborder en cours sous formes de petits jeux et simulations</p>
     </div></div></div>
   </a>
