@@ -126,7 +126,7 @@ classes: wide
     </div>
     </div>
    <div style="position: relative;
-    padding-bottom: 76.25%; height: 0;
+    padding-bottom: 76%; height: 0;
     width: 150%;
     max-width: 800px;
     margin: 60px auto;
