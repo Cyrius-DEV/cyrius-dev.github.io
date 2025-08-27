@@ -76,7 +76,7 @@ classes: wide
     <div class="card" style="background-image: url('/assets/images/rof.png');">
       <div class="card-content">
         <div class="card-text">
-      <h3>🚧Rise of Freedom🚧</h3>
+      <h3>Rise of Freedom</h3>
       <p>Dans le cadre d'une SAE, j'ai pu participer à la conception d'un jeu platformer style pixel art en vue 2D où l'on incarne Martin Luther King en plein mouvement des droits civiques </p>
     </div></div></div>
   </a>
