@@ -38,9 +38,9 @@ classes: wide
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/racoon2.png" alt="Écran 1">
-    <img src="/assets/images/racoon5.png" alt="Écran 2">
-    <img src="/assets/images/racoon3.png" alt="Écran 3">
+    <img src="/assets/images/catalogue5.png" alt="Écran 1">
+    <img src="/assets/images/catalogue3.png" alt="Écran 2">
+    <img src="/assets/images/catalogue1.png" alt="Écran 3">
   </div>
   <button class="carousel-button next">›</button>
 </div>
@@ -69,20 +69,14 @@ classes: wide
 <p>Le catalogue en ligne que j’ai développé propose un ensemble de fonctionnalités permettant non seulement de consulter les archives, mais aussi de les organiser, les enrichir et les gérer facilement</p>
     </div>
     </div>
-  <div style="position: relative;
-    padding-bottom: 76.25%; height: 0;
-    width: 150%;
-    max-width: 800px;
-    margin: 60px auto;
-    overflow: hidden;">
-  <iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" 
-          src="https://www.youtube.com/embed/VIFsL-gtYCE" 
-          title="Vidéo gameplay" 
-          frameborder="0" 
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-  </iframe>
+  <div class="carousel-container">
+  <button class="carousel-button prev">‹</button>
+  <div class="carousel-slide">
+    <img src="/assets/images/catalogue7.png" alt="Écran 1">
+    <img src="/assets/images/catalogue8.png" alt="Écran 2">
+    <img src="/assets/images/catalogue9.png" alt="Écran 3">
+  </div>
+  <button class="carousel-button next">›</button>
 </div>
 </div>
 <br>
@@ -109,20 +103,14 @@ classes: wide
 <p>Ce stage à la Maison Albert Londres m’a permis de consolider mes compétences en développement web et de m’entraîner à travailler sur un projet concret avec des contraintes réelles, techniques comme humaines</p>
     </div>
     </div>
-   <div style="position: relative;
-    padding-bottom: 76%; height: 0;
-    width: 150%;
-    max-width: 800px;
-    margin: 60px auto;
-    overflow: hidden;">
-  <iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" 
-          src="https://www.youtube.com/embed/wL_R5F3MWTk" 
-          title="Trailer Racoons ? Where ?" 
-          frameborder="0" 
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-  </iframe>
+   <div class="carousel-container">
+  <button class="carousel-button prev">‹</button>
+  <div class="carousel-slide">
+    <img src="/assets/images/catalogue2.png" alt="Écran 1">
+    <img src="/assets/images/catalogue4.png" alt="Écran 2">
+    <img src="/assets/images/catalogue6.png" alt="Écran 3">
+  </div>
+  <button class="carousel-button next">›</button>
 </div>
 </div>
 <br>
