@@ -91,7 +91,13 @@ classes: wide
   </p>
 </div>
 <br>
-<div><p>Visitez le site : </p><a><strong>https://mtfront01.iut.uca.fr/iotae?page_id=10</strong></a></div>
+<div style="text-align: center;">
+  <p style="display: inline; margin: 0;">Visitez le site : </p>
+  <a href="https://mtfront01.iut.uca.fr/iotae?page_id=10" target="_blank">
+    <strong>https://mtfront01.iut.uca.fr/iotae?page_id=10</strong>
+  </a>
+</div>
+
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; text-align: center; margin: 20px 0;">
   
 <iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;border: solid;box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);" src="https://mtfront01.iut.uca.fr/iotae?page_id=10" title="Site Wordpress" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"> </iframe>
