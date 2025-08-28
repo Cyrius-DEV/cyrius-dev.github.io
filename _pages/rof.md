@@ -15,10 +15,10 @@ classes: wide
     <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #fdf6e3;background-color: #cba34b;">▼  Présentation  ▼</button>
   </a>
   <a href="#participation" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;background-color: #007acc;">▼  Ma participation  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #e6e5e5;background-color: #2e2e2e;">▼  Ma participation  ▼</button>
   </a>
   <a href="#resultat" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;background-color: #007acc;">▼  Résultat  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f8f9fa;background-color: #0077cc;">▼  Résultat  ▼</button>
   </a>
 </div>
 
