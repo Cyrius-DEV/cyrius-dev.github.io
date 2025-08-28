@@ -38,9 +38,9 @@ classes: wide
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/catalogue5.png" alt="Écran 1">
-    <img src="/assets/images/catalogue3.png" alt="Écran 2">
-    <img src="/assets/images/catalogue1.png" alt="Écran 3">
+    <img src="/assets/images/iotae1.png" alt="Écran 1">
+    <img src="/assets/images/iotae2.png" alt="Écran 2">
+    <img src="/assets/images/iotae3.png" alt="Écran 3">
   </div>
   <button class="carousel-button next">›</button>
 </div>
@@ -72,9 +72,9 @@ classes: wide
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/catalogue7.png" alt="Écran 1">
-    <img src="/assets/images/catalogue8.png" alt="Écran 2">
-    <img src="/assets/images/catalogue9.png" alt="Écran 3">
+    <img src="/assets/images/iotae4.png" alt="Écran 1">
+    <img src="/assets/images/iotae5.png" alt="Écran 2">
+    <img src="/assets/images/iotae6.png" alt="Écran 3">
   </div>
   <button class="carousel-button next">›</button>
 </div>
@@ -124,9 +124,9 @@ classes: wide
    <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/catalogue2.png" alt="Écran 1">
-    <img src="/assets/images/catalogue4.png" alt="Écran 2">
-    <img src="/assets/images/catalogue6.png" alt="Écran 3">
+    <img src="/assets/images/iotae9.png" alt="Écran 1">
+    <img src="/assets/images/iotae7.png" alt="Écran 2">
+    <img src="/assets/images/iotae8.png" alt="Écran 3">
   </div>
   <button class="carousel-button next">›</button>
 </div>
