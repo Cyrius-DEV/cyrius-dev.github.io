@@ -91,6 +91,10 @@ classes: wide
   </p>
 </div>
 <br>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; text-align: center; margin: 20px 0;">
+<iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" src="https://mtfront01.iut.uca.fr/iotae?page_id=10" title="Trailer Memory Leak" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"> </iframe>
+</div>
+<br>
 <div class="paragraph-box-fantasy">
 <p>En parallèle, j’ai développé tout un système de gestion des utilisateurs et des contenus. Une interface de connexion et de déconnexion a été intégrée à la barre de navigation, avec différents niveaux de droits en fonction du rôle des comptes. Les utilisateurs de rôle Éditeur peuvent ajouter un capteur, créer de nouveaux types de données ou encore saisir des mesures, tandis que les comptes Admin disposent de droits élargis : création et gestion des utilisateurs, gestion des groupes de capteurs, ajout et modification des capteurs et de leurs données. Chaque formulaire et chaque filtre s’adapte automatiquement au contenu de la base de données : si un nouveau type de données est ajouté, il apparaît immédiatement dans toutes les interfaces du site sans intervention supplémentaire.</p>
 <p>L’accès à certains filtres ou fonctionnalités est réservé aux utilisateurs connectés, ce qui permet de différencier clairement l’usage public de l’outil de l’usage réservé aux membres internes. Enfin, chaque marqueur de capteur ouvre une page dédiée qui présente ses dernières données, sous forme de tableau ou de représentations visuelles. Selon la nature des données, l’affichage s’adapte automatiquement : graphiques dynamiques générés avec Grafana pour les données chiffrées, ou carrousel chronologique pour les données visuelles (comme des heatmaps). Lorsque les deux types de données coexistent, l’utilisateur peut basculer manuellement de l’un à l’autre grâce à un bouton switch en haut de la carte, renforçant la souplesse de consultation.
