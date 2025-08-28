@@ -12,7 +12,7 @@ classes: wide
 <p style="text-align: center;">Dans le cadre d'une SAE, j'ai pu participer à la conception d'un jeu platformer style pixel art en vue 2D où l'on incarne Martin Luther King en plein mouvement des droits civiques</p>
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#presentation" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;background-color: #cba34b;">▼  Présentation  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #fdf6e3;background-color: #cba34b;">▼  Présentation  ▼</button>
   </a>
   <a href="#participation" style="text-decoration: none;">
     <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;background-color: #007acc;">▼  Ma participation  ▼</button>
