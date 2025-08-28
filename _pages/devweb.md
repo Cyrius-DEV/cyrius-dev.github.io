@@ -76,7 +76,7 @@ classes: wide
     <div class="card" style="background-image: url('/assets/images/catalogue.png');">
       <div class="card-content">
         <div class="card-text">
-      <h3>🚧Catalogue Albert Londres🚧</h3>
+      <h3>Catalogue Albert Londres</h3>
       <p>Dans le cadre d'un stage, j'ai dû concevoir et mettre en ligne un outil de cataloguage afin de trier et consulter des archives</p>
     </div></div></div>
   </a>
