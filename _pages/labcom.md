@@ -38,9 +38,9 @@ classes: wide
   <div class="carousel-container">
   <button class="carousel-button prev">‹</button>
   <div class="carousel-slide">
-    <img src="/assets/images/iotae1.png" alt="Écran 1">
-    <img src="/assets/images/iotae2.png" alt="Écran 2">
-    <img src="/assets/images/iotae3.png" alt="Écran 3">
+    <img src="/assets/images/iotae3.png" alt="Écran 1">
+    <img src="/assets/images/iotae1.png" alt="Écran 2">
+    <img src="/assets/images/iotae2.png" alt="Écran 3">
   </div>
   <button class="carousel-button next">›</button>
 </div>
@@ -65,7 +65,7 @@ classes: wide
 <h1 id="fonctionalites" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Fonctionnalités mises en place</h1>
 <div class="project-section">
   <div class="project-text">
-    <div class="paragraph-box-fantasy">
+    <div class="paragraph-box-indigo">
 <p>Le stage m’a permis de travailler sur deux volets complémentaires : l’amélioration du site existant du LabCom, développé sur KSUP, puis la mise en place d’une version reproduite et enrichie sous Wordpress</p>
     </div>
     </div>
@@ -85,7 +85,7 @@ classes: wide
 
   
 
-<div class="paragraph-box-fantasy">
+<div class="paragraph-box-indigo">
 <p>Sur le site KSUP, mon rôle a d’abord consisté à corriger et à enrichir ce qui existait déjà. J’ai ajouté de nouvelles pages qui avaient été prévues mais laissées vides, afin d’étoffer le site et de le rendre plus complet. Je me suis également attelé à retravailler le fil d’actualité, jusque-là alimenté par des articles sans lien avec le LabCom, pour qu’il reflète désormais correctement les événements et actualités de l’organisation. Une page dédiée au fil d’actualité a aussi été créée, offrant ainsi une meilleure lisibilité et un accès direct aux publications. Enfin, j’ai corrigé plusieurs problèmes de mise en page et de disposition des éléments, afin d’améliorer la cohérence visuelle et l’ergonomie globale du site.</p>
 <p>La version Wordpress, quant à elle, a été pensée comme une reproduction fidèle de la structure et du contenu du site KSUP, en intégrant au passage toutes les améliorations que j’avais apportées. Mais elle allait bien au-delà : j’y ai mis en place une interface cartographique connectée à une base de données, permettant de consulter et de filtrer les capteurs environnementaux du LabCom. Les filtres, développés en JavaScript, permettent de masquer ou d’afficher les capteurs en fonction de différents critères (nom, groupe, type de données, accès public ou privé), rendant la carte beaucoup plus exploitable.
   </p>
@@ -103,7 +103,7 @@ classes: wide
 <iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;border: solid;box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);" src="https://mtfront01.iut.uca.fr/iotae?page_id=10" title="Site Wordpress" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"> </iframe>
 </div>
 <br>
-<div class="paragraph-box-fantasy">
+<div class="paragraph-box-indigo">
 <p>En parallèle, j’ai développé tout un système de gestion des utilisateurs et des contenus. Une interface de connexion et de déconnexion a été intégrée à la barre de navigation, avec différents niveaux de droits en fonction du rôle des comptes. Les utilisateurs de rôle Éditeur peuvent ajouter un capteur, créer de nouveaux types de données ou encore saisir des mesures, tandis que les comptes Admin disposent de droits élargis : création et gestion des utilisateurs, gestion des groupes de capteurs, ajout et modification des capteurs et de leurs données. Chaque formulaire et chaque filtre s’adapte automatiquement au contenu de la base de données : si un nouveau type de données est ajouté, il apparaît immédiatement dans toutes les interfaces du site sans intervention supplémentaire.</p>
 <p>L’accès à certains filtres ou fonctionnalités est réservé aux utilisateurs connectés, ce qui permet de différencier clairement l’usage public de l’outil de l’usage réservé aux membres internes. Enfin, chaque marqueur de capteur ouvre une page dédiée qui présente ses dernières données, sous forme de tableau ou de représentations visuelles. Selon la nature des données, l’affichage s’adapte automatiquement : graphiques dynamiques générés avec Grafana pour les données chiffrées, ou carrousel chronologique pour les données visuelles (comme des heatmaps). Lorsque les deux types de données coexistent, l’utilisateur peut basculer manuellement de l’un à l’autre grâce à un bouton switch en haut de la carte, renforçant la souplesse de consultation.
   </p>
