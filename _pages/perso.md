@@ -88,7 +88,7 @@ classes: wide
     <div class="card" id="tripleurs">
       <div class="card-content">
         <div class="card-text">
-      <h3>🚧Les Tripleurs🚧</h3>
+      <h3>Les Tripleurs</h3>
       <p>Chaine Youtube fondée avec 2 amis, nous faisons nos premiers pas dans le domaine du doublage (très) amateur et diffusons de temps en temps nos fous rires et voix cassées sur les réseaux</p>
     </div>
       </div>
