@@ -73,7 +73,7 @@ classes: wide
 
   <!-- Carte 1 -->
   <a href="/perso/rof2/" class="card-link">
-    <div class="card" style="background-image: url('/assets/images/rof2.png');">
+    <div class="card" style="background-image: url('/assets/images/rof20.png');">
       <div class="card-content">
         <div class="card-text">
       <h3>Rise of Freedom 2</h3>
