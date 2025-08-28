@@ -86,7 +86,7 @@ classes: wide
     <div class="card" style="background-image: url('/assets/images/iotae.png');">
       <div class="card-content">
         <div class="card-text">
-      <h3>🚧Sites IoTAE-Lab et LabCom🚧</h3>
+      <h3>Sites IoTAE-Lab et LabCom</h3>
       <p>Dans le cadre d'un stage, j'ai dû revisiter et poursuivre le site de l'IoTAE-Lab avec K-SUP et concevoir un site WordPress dédié au partage des actualité et recherches du LabCom</p>
     </div></div></div>
   </a>
