@@ -91,8 +91,9 @@ classes: wide
   </p>
 </div>
 <br>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; text-align: center; margin: 20px 0;">
-<iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" src="https://mtfront01.iut.uca.fr/iotae?page_id=10" title="Trailer Memory Leak" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"> </iframe>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; text-align: center; margin: 20px 0;border: solid;box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);">
+  <p>Visitez le site : </p><a><strong>https://mtfront01.iut.uca.fr/iotae?page_id=10</strong></a>
+<iframe style="position: absolute; top: 0; left: 5%; width: 90%; height: 100%;" src="https://mtfront01.iut.uca.fr/iotae?page_id=10" title="Site Wordpress" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"> </iframe>
 </div>
 <br>
 <div class="paragraph-box-fantasy">
