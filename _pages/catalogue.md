@@ -30,7 +30,7 @@ classes: wide
 
 <div class="project-section">
   <div class="project-text">
-    <div class="paragraph-box-pastel">
+    <div class="paragraph-box-menthe">
 <p>Dans le cadre d’un stage de 7 semaines pour la Maison Albert Londres à Vichy, j’ai eu l’occasion de travailler sur un projet directement lié à la gestion de leurs archives historiques</p>
     </div>
     </div>
@@ -49,7 +49,7 @@ classes: wide
 <br>
 
 
-<div class="paragraph-box-pastel">
+<div class="paragraph-box-menthe">
 <p>L’association possède en effet une très grande quantité de documents originaux, allant de lettres à des cartes postales, en passant par divers écrits personnels du célèbre reporter Albert Londres. La richesse de ce fonds en fait une ressource culturelle et historique précieuse, mais aussi complexe à organiser et à consulter. L’objectif du projet était donc de concevoir un outil capable de visualiser ces archives, de faciliter leur recherche et de permettre l’ajout progressif de nouveaux documents au fil de leur traitement.</p>
 <p>Mon rôle a été de développer un outil en ligne de cataloguage conçu pour répondre à ce besoin, entièrement codé à la main en HTML/CSS avec l’aide de Bootstrap pour la structure et le responsive, enrichi de JavaScript pour l’interactivité et relié à une base de données construite en PHP à partir d’un simple fichier Excel. Cet outil permet non seulement de parcourir et retrouver facilement les documents existants grâce à des filtres et un moteur de recherche, mais aussi d’en ajouter de nouveaux au fur et à mesure de leur traitement. Cet outil a été pensé dans la perspective de l’arrivée prochaine d’une documentaliste, afin de lui offrir une interface claire et fonctionnelle pour parcourir, retrouver et trier les archives. Ce projet m’a permis de mettre en pratique mes compétences en développement web tout en apportant une réelle valeur ajoutée à l’association.
   </p>
