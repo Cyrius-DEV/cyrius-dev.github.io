@@ -13,10 +13,10 @@ classes: wide
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#calculatrice" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Calculatrice  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #e6e5e5;background-color: #2e2e2e;">▼  Calculatrice  ▼</button>
   </a>
   <a href="#dessin" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Dessin  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f9f5fe;background-color: #9b5de5;">▼  Dessin  ▼</button>
   </a>
 </div>
 
