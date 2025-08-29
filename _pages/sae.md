@@ -12,13 +12,13 @@ classes: wide
 <p style="text-align: center;">Présentation rapide de quelques sites web que j'ai pu créer lors de projets notés pendant mes études</p>
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#learning" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f7fefa;background-color: #38b2ac;">▼  Learning Space  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f8f9fa;background-color: #0077cc;">▼  Learning Space  ▼</button>
   </a>
   <a href="#memory" style="text-decoration: none;">
     <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #e8f4f8;background-color: #00bcd4;">▼  Memory Leak  ▼</button>
   </a>
   <a href="#scrabble" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f7fefa;background-color: #38b2ac;">▼  Scrabble  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #fdf6e3;background-color: #cba34b;">▼  Scrabble  ▼</button>
   </a>
 </div>
 
