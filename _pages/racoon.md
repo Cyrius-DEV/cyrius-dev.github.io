@@ -12,13 +12,13 @@ classes: wide
 <p style="text-align: center;">Dans le cadre d'une SAE, j'ai pu participer à la création d'un jeu d'infiltration en 3D low poly, où l'on incarne des ratons laveurs qui se faufilent à bord d'un bateau de luxe</p>
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#presentation" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Présentation  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #fff0f6;background-color: #d63384;">▼  Présentation  ▼</button>
   </a>
   <a href="#participation" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Ma participation  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f5f8fb;background-color: #a4caf1;">▼  Ma participation  ▼</button>
   </a>
   <a href="#resultat" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Résultat  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #e6e5e5;background-color: #2e2e2e;">▼  Résultat  ▼</button>
   </a>
 </div>
 
