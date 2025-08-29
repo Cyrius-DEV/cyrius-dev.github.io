@@ -12,19 +12,19 @@ classes: wide
 <p style="text-align: center;">Présentation rapide de quelques exercices sur Unity que j'ai menés en cours prenant la forme de mini-jeux à compléter par nous-même pour approfondir nos connaissances</p>
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#simon" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Simon Says  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #e6e5e5;background-color: #2e2e2e;">▼  Simon Says  ▼</button>
   </a>
   <a href="#vague" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Vagues  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f9f5fe;background-color: #9b5de5;">▼  Vagues  ▼</button>
   </a>
   <a href="#monstre" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Monstre  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #fbe9e7;background-color: #f47750;">▼  Monstre  ▼</button>
   </a>
   <a href="#lapin" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Lapins  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f7fefa;background-color: #38b2ac;">▼  Lapins  ▼</button>
   </a>
   <a href="#multijoueur" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Multijoueur  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #e6e5e5;background-color: #2e2e2e;">▼  Multijoueur  ▼</button>
   </a>
 </div>
 
