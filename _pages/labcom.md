@@ -12,13 +12,13 @@ classes: wide
 <p style="text-align: center;">Dans le cadre d'un stage, j'ai dû revisiter et poursuivre le site de l'IoTAE-Lab avec K-SUP et concevoir un site WordPress dédié au partage des actualité et recherches du LabCom</p>
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#presentation" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Présentation  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f7fefa;background-color: #38b2ac;">▼  Présentation  ▼</button>
   </a>
   <a href="#fonctionalites" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Fonctionnalités  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f5f8fb;background-color: #a4caf1;">▼  Fonctionnalités  ▼</button>
   </a>
   <a href="#bilan" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Bilan  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f8f9fa;background-color: #0077cc;">▼  Bilan  ▼</button>
   </a>
 </div>
 
