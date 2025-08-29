@@ -12,13 +12,13 @@ classes: wide
 <p style="text-align: center;">Présentation plus en détail d'un advergame développé en TypeScript dans le cadre d'une SAE</p>
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#presentation" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Présentation  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f7fefa;background-color: #38b2ac;">▼  Présentation  ▼</button>
   </a>
   <a href="#fonctionnalites" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Détails  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f5f8fb;background-color: #a4caf1;">▼  Détails  ▼</button>
   </a>
   <a href="#demo" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Jouer  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #e6e5e5;background-color: #2e2e2e;">▼  Jouer  ▼</button>
   </a>
 </div>
 
