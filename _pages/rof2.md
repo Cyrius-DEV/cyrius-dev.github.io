@@ -12,13 +12,13 @@ classes: wide
 <p style="text-align: center;font-size:0.95em;">Le grand retour de mon premier jeu vidéo sur Unity, sauf que là tout change, on repart de 0 et on se laisse porter par notre créativité</p>
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#presentation" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Présentation  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f8f9fa;background-color: #0077cc;">▼  Présentation  ▼</button>
   </a>
   <a href="#participation" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Ma participation  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #fff0f6;background-color: #d63384;">▼  Ma participation  ▼</button>
   </a>
   <a href="#evolution" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Évolution  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f9f5fe;background-color: #9b5de5;">▼  Évolution  ▼</button>
   </a>
 </div>
 
