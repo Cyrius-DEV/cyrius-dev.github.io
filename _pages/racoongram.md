@@ -13,13 +13,13 @@ classes: wide
 
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#presentation" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Présentation  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f9f5fe;background-color: #9b5de5;">▼  Présentation  ▼</button>
   </a>
   <a href="#fonctionnalites" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Fonctionnalités  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f8f9fa;background-color: #9b5de5;">▼  Fonctionnalités  ▼</button>
   </a>
   <a href="#demo" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Démo  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f7fefa;background-color: #38b2ac;">▼  Démo  ▼</button>
   </a>
 </div>
 
