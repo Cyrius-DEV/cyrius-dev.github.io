@@ -15,7 +15,7 @@ classes: wide
     <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #e6e5e5;background-color: #2e2e2e;">▼  Simon Says  ▼</button>
   </a>
   <a href="#vague" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f9f5fe;background-color: #9b5de5;">▼  Vagues  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f5f8fb;background-color: #a4caf1;">▼  Vagues  ▼</button>
   </a>
   <a href="#monstre" style="text-decoration: none;">
     <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #fbe9e7;background-color: #f47750;">▼  Monstre  ▼</button>
@@ -24,7 +24,7 @@ classes: wide
     <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f7fefa;background-color: #38b2ac;">▼  Lapins  ▼</button>
   </a>
   <a href="#multijoueur" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #e6e5e5;background-color: #2e2e2e;">▼  Multijoueur  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f9f5fe;background-color: #9b5de5;">▼  Multijoueur  ▼</button>
   </a>
 </div>
 
@@ -74,7 +74,7 @@ classes: wide
 <h1 id="vague" class="scroll-target" style="text-align: center;margin-top: 30px; text-decoration:underline;">Vagues</h1>
 <div class="project-section">
   <div class="project-text">
-    <div class="paragraph-box-fantasy">
+    <div class="paragraph-box-indigo">
 <p>Une étude technique sur la propagation de vagues simulée via 3 méthodes pour en comparer les résultats : les Coroutines, les Tasks et les IJobs.</p>
     </div>
     </div>
@@ -97,7 +97,7 @@ classes: wide
 
 
 
-<div class="paragraph-box-fantasy">
+<div class="paragraph-box-indigo">
 <p>Ce projet nous a permis de comparer trois approches différentes d’exécution de code asynchrone ou parallèle dans Unity : Coroutine, Task, et IJob. L’objectif était de simuler une propagation de vague en réponse à un clic de souris sur une surface d’eau, puis d’observer les différences de performances entre chaque méthode.
 </p>
   <p>Cette expérimentation m’a permis de comprendre les avantages et limites de chaque système : simplicité des coroutines mais tout reste bloqué sur le thread principal et mal adaptées sur du calcul lourd, efficacité relative des tasks moins intégrées au cycle de vie Unity qu’une coroutine mais permettent des traitements lourds sans bloquer la frame, et puissance brute des jobs dans des scénarios fortement parallélisables mais plus spécialisés sur un code orienté "donnée" plutôt que "objet".
@@ -180,7 +180,7 @@ classes: wide
 
 <div class="project-section">
   <div class="project-text">
-    <div class="paragraph-box-charbon">
+    <div class="paragraph-box-fantasy">
 <p>Découverte du fonctionnement de Netcode avec la création d'un mini-jeu compétitif multijoueur où chaque joueur pousse un dé dans sa zone pour marquer des points</p>
     </div>
     </div>
@@ -199,7 +199,7 @@ classes: wide
 
 
 
-<div class="paragraph-box-charbon">
+<div class="paragraph-box-fantasy">
 <p>Ce projet avait pour but de nous initier à la gestion du multijoueur avec Unity Netcode, en nous fournissant un environnement de base puis en nous laissant imaginer et mettre en place un petit jeu de notre choix. À partir d’une scène de base déjà préparée (avec deux joueurs, une arène et un objet physique), j’ai imaginé une mécanique de score basée sur des zones colorées propres à chaque joueur où l'objet, ici un dé, doit être emmené pour marquer des points. 
 </p>
   <p>Pour que le jeu soit fonctionnel, il m'a fallu gérer l'application d'une physique correcte ou encore une synchronisation des données et une actualisation du score instantanées pour les 2 joueurs. Cela m’a permis de manipuler la synchronisation réseau des objets, la gestion d’état partagé (score), ainsi que l’identification des joueurs et de leurs interactions. Cet exercice m’a donné une première application concrète de la logique serveur/client dans Unity.
