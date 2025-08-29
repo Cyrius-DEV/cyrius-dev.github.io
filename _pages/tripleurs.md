@@ -12,13 +12,13 @@ classes: wide
 <p style="text-align: center;">Chaine Youtube fondée avec 2 amis, nous faisons nos premiers pas dans le domaine du doublage (très) amateur et diffusons de temps en temps nos fous rires et voix cassées sur les réseaux</p>
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#presentation" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Présentation  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #fbe9e7;background-color: #f47750;">▼  Présentation  ▼</button>
   </a>
   <a href="#participation" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Ma participation  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #fdf6e3;background-color: #cba34b;">▼  Ma participation  ▼</button>
   </a>
   <a href="#evolution" style="text-decoration: none;">
-    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;">▼  Évolution  ▼</button>
+    <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f5f8fb;background-color: #a4caf1;">▼  Évolution  ▼</button>
   </a>
 </div>
 
