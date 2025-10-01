@@ -66,7 +66,7 @@ classes: wide
     <div class="paragraph-box-indigo">
     <p>➤ Le joueur contrôle le personnage (logo du site Dévelopousse) avec ZQSD ou les flèches directionnelles</p>
 
-<p>➤ Il peut sauter et marcher sur les feuilles des plantes du jardin pour s'en servir de plateformes</p>
+<p>➤ Il peut sauter et marcher sur les feuilles des plantes du jardin en s'en servant de plateformes</p>
 
  <p>➤ Son but ? Parcourir l'écran afin d'atteindre le sachet de magnifiques graines Dévelopousse™️ !</p>
   </div>
