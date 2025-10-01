@@ -57,7 +57,7 @@ classes: wide
   
 
 <div class="paragraph-box-charbon">
-<p>Sur la base d’un Simon Says basique, j’ai ajouté plusieurs éléments pour en faire un vrai mini-jeu interactif. J’ai intégré des sons enregistrés moi-même, utilisé la manipulation de materials lumineux pour signaler les combinaisons jouées, les erreurs et les succès, et j’ai mis en place un système de vies ainsi qu’un score dynamique affiché à l’écran afin de mieux encadrer l'expérience de joueur et rendre les élément sdu jeu plus cohérents entre eux.
+<p>Sur la base d’un Simon Says basique, j’ai ajouté plusieurs éléments pour en faire un vrai mini-jeu interactif. J’ai intégré des sons enregistrés moi-même, utilisé la manipulation de materials lumineux pour signaler les combinaisons jouées, les erreurs et les succès, et j’ai mis en place un système de vies ainsi qu’un score dynamique affiché à l’écran afin de mieux encadrer l'expérience de joueur et rendre les éléments du jeu plus cohérents entre eux.
 </p>
   <p>Ce projet m’a permis de travailler sur la réactivité d’une interface de jeu, la gestion des états, les feedbacks visuels et sonores, et l’amélioration de l’expérience utilisateur globale. C'était le premier exercice de ce genre, sans consignes précises autre que "finir le jeu", il m'a laissé libre de réfléchir à ce qui me paraissait le plus pertinent comme ajout, et libre de les mettre en place comme je le veux.
     
@@ -98,7 +98,7 @@ classes: wide
 
 
 <div class="paragraph-box-indigo">
-<p>Ce projet nous a permis de comparer trois approches différentes d’exécution de code asynchrone ou parallèle dans Unity : Coroutine, Task, et IJob. L’objectif était de simuler une propagation de vague en réponse à un clic de souris sur une surface d’eau, puis d’observer les différences de performances entre chaque méthode.
+<p>Ce projet nous a permis de comparer trois approches différentes d’exécution de code asynchrone ou parallèle dans Unity : Coroutine, Task, et IJob. L’objectif était de simuler une propagation de vagues en réponse à un clic de souris sur une surface d’eau, puis d’observer les différences de performances entre chaque méthode.
 </p>
   <p>Cette expérimentation m’a permis de comprendre les avantages et limites de chaque système : simplicité des coroutines mais tout reste bloqué sur le thread principal et mal adaptées sur du calcul lourd, efficacité relative des tasks moins intégrées au cycle de vie Unity qu’une coroutine mais permettent des traitements lourds sans bloquer la frame, et puissance brute des jobs dans des scénarios fortement parallélisables mais plus spécialisés sur un code orienté "donnée" plutôt que "objet".
   </p>
