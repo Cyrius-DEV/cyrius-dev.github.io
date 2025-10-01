@@ -9,7 +9,7 @@ classes: wide
 <div style="width: 100%; margin: 0 auto;">
 <h1 style="text-align: center;margin-top: 30px;font-size:2em;">Catalogue Albert Londres</h1>
 
-<p style="text-align: center;">Dans le cadre d'un stage, j'ai dû concevoir et mettre en ligne un outil de cataloguage afin de trier et consulter des archives</p>
+<p style="text-align: center;">Dans le cadre d'un stage, j'ai dû concevoir et mettre en ligne un outil de catalogage afin de trier et consulter des archives</p>
 <div style="text-align: center; margin-top: 20px; margin-bottom: 40px;">
   <a href="#presentation" style="text-decoration: none;">
     <button class="scrolling-button" style="padding: 10px 20px; margin: 0 10px; font-size: 1em;color: #f7fefa;background-color: #38b2ac;">▼  Présentation  ▼</button>
@@ -51,7 +51,7 @@ classes: wide
 
 <div class="paragraph-box-menthe">
 <p>L’association possède en effet une très grande quantité de documents originaux, allant de lettres à des cartes postales, en passant par divers écrits personnels du célèbre reporter Albert Londres. La richesse de ce fonds en fait une ressource culturelle et historique précieuse, mais aussi complexe à organiser et à consulter. L’objectif du projet était donc de concevoir un outil capable de visualiser ces archives, de faciliter leur recherche et de permettre l’ajout progressif de nouveaux documents au fil de leur traitement.</p>
-<p>Mon rôle a été de développer un outil en ligne de cataloguage conçu pour répondre à ce besoin, entièrement codé à la main en HTML/CSS avec l’aide de Bootstrap pour la structure et le responsive, enrichi de JavaScript pour l’interactivité et relié à une base de données construite en PHP à partir d’un simple fichier Excel. Cet outil permet non seulement de parcourir et retrouver facilement les documents existants grâce à des filtres et un moteur de recherche, mais aussi d’en ajouter de nouveaux au fur et à mesure de leur traitement. Cet outil a été pensé dans la perspective de l’arrivée prochaine d’une documentaliste, afin de lui offrir une interface claire et fonctionnelle pour parcourir, retrouver et trier les archives. Ce projet m’a permis de mettre en pratique mes compétences en développement web tout en apportant une réelle valeur ajoutée à l’association.
+<p>Mon rôle a été de développer un outil en ligne de catalogage conçu pour répondre à ce besoin, entièrement codé à la main en HTML/CSS avec l’aide de Bootstrap pour la structure et le responsive, enrichi de JavaScript pour l’interactivité et relié à une base de données construite en PHP à partir d’un simple fichier Excel. Cet outil permet non seulement de parcourir et retrouver facilement les documents existants grâce à des filtres et un moteur de recherche, mais aussi d’en ajouter de nouveaux au fur et à mesure de leur traitement. Cet outil a été pensé dans la perspective de l’arrivée prochaine d’une documentaliste, afin de lui offrir une interface claire et fonctionnelle pour parcourir, retrouver et trier les archives. Ce projet m’a permis de mettre en pratique mes compétences en développement web tout en apportant une réelle valeur ajoutée à l’association.
   </p>
 </div>
 
